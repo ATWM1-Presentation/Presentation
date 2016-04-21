@@ -13,7 +13,7 @@ function test();
     % add new files and directories
     %eval(sprintf('! git add /data/projects/ATWM1/Presentation/test.m'))
     %! git add /data/projects/ATWM1/Presentation/test.m
-    ! git add test.m
+    ! git add *
     
     % commit changes
     %eval(sprintf('! git commit -m "This is a test"'));

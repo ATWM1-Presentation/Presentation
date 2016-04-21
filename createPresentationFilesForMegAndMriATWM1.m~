@@ -19,11 +19,22 @@ addpath(strScriptFolderWM);
 addpath(strLocalStudyParametersFolder);
 addpath(strScriptFolderLocalizer);
 
-bAbort = copyStudyParameterFilesToLocalStudyParametersFolderATWM1(strStudy, strGlobalStudyParametersFolder, strLocalStudyParametersFolder);
-if bAbort == true
-    return
+%% Copy parameter files from global study parameters folder to local study parameters folder
+aStrStudyParametersFiles = {
+    sprintf('aSubject%s_IMAGING.m', strStudy)
+    sprintf('parametersGroups%s.m', strStudy)
+    sprintf('parametersParadigm_WM_IMAGING_%s.m', strStudy)
+    sprintf('parametersStudy%s.m', strStudy)
+    };
+
+for cf = 1:numel(aStrStudyParametersFiles)
+    strParameterFile = aStrStudyParametersFiles{cf};
+    pathFileGlobalStudyParametersFolder = fullfile(strGlobalStudyParametersFolder, strParameterFile)
+    pathFileLocalStudyParametersFolder  = fullfile(strLocalStudyParametersFolder, strParameterFile)
+    status(cf) = copyfile(pathFileGlobalStudyParametersFolder, pathFileLocalStudyParametersFolder, 'f');
 end
 
+return
 %% Load parameters
 aSubject            = aSubjectATWM1_IMAGING;
 parametersGroups    = parametersGroupsATWM1;
@@ -54,70 +65,7 @@ aStrSubjectPresentationFileSubFolder{iSubFolder} = strSubjectFolder;
 movePresentationScenarioFilesToSubjectFolderATWM1(aStrSubjectPresentationFileSubFolder, strSubjectPresentationFilesFolder);
 zipSubjectPresentationScenarioFileFolderATWM1(strSubjectID, strStudy, strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder);
 
-%{
 %%% Add function to move zip file to github account
-
-    %function pushZip();
-       
-        
-
-    cd '/Users/mmb/MEG/ATWM1/Presentation/MATLAB_CreatePresentationFiles_WorkingMemory';
-
-    ! git status
-    
-    % get changes from GitHub
-    ! git pull
-    
-    % add new files and directories
-    ! git add *
-    
-    % commit changes
-    ! git commit -m "Add new presentation files"
-    
-    % push to GitHub
-    ! git push
-    
-    ! git status
-
-
-        
-    %end
-%}
-end
-
-
-function bAbort = copyStudyParameterFilesToLocalStudyParametersFolderATWM1(strStudy, strGlobalStudyParametersFolder, strLocalStudyParametersFolder);
-% Copy parameter files from global study parameters folder to local study parameters folder
-aStrStudyParametersFiles = {
-    sprintf('aSubject%s_IMAGING.m', strStudy)
-    sprintf('parametersGroups%s.m', strStudy)
-    sprintf('parametersParadigm_WM_IMAGING_%s.m', strStudy)
-    sprintf('parametersStudy%s.m', strStudy)
-    };
-
-for cf = 1:numel(aStrStudyParametersFiles)
-    strParameterFile = aStrStudyParametersFiles{cf};
-    pathFileGlobalStudyParametersFolder = fullfile(strGlobalStudyParametersFolder, strParameterFile);
-    pathFileLocalStudyParametersFolder  = fullfile(strLocalStudyParametersFolder, strParameterFile);
-    if exist(pathFileGlobalStudyParametersFolder, 'file')
-        status(cf) = copyfile(pathFileGlobalStudyParametersFolder, pathFileLocalStudyParametersFolder, 'f');
-        if status == true
-            strMessage = sprintf('Study parameter file %s copied successfully!\n', pathFileGlobalStudyParametersFolder);
-            disp(strMessage);
-        end
-    end
-end
-
-
-if sum(status) ~= numel(aStrStudyParametersFiles)
-    nrOfFilesNotCopied = numel(aStrStudyParametersFiles) - sum(status);
-    strMessage = sprintf('Error! %i study parameter file(s) could not be copied!', nrOfFilesNotCopied);
-    disp(strMessage);
-    bAbort = true;
-else
-    bAbort = false;
-end
-
 
 end
 
