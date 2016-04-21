@@ -11,10 +11,13 @@ function test();
     ! git pull
     
     % add new files and directories
-    eval(sprintf('! git add /data/projects/ATWM1/Presentation/test.m'))
+    %eval(sprintf('! git add /data/projects/ATWM1/Presentation/test.m'))
+    %! git add /data/projects/ATWM1/Presentation/test.m
+    ! git add test.m
     
     % commit changes
-    eval(sprintf('! git commit -m "This is a test"'));
+    %eval(sprintf('! git commit -m "This is a test"'));
+    ! git commit -m "This is a test"
     
     % push to GitHub
     ! git push
