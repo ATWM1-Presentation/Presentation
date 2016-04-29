@@ -23,7 +23,7 @@ bAbort = copyStudyParameterFilesToLocalStudyParametersFolderATWM1(strStudy, strG
 if bAbort == true
     return
 end
-
+%{
 %% Load parameters
 aSubject            = aSubjectATWM1_IMAGING;
 parametersGroups    = parametersGroupsATWM1;
@@ -53,18 +53,19 @@ aStrSubjectPresentationFileSubFolder{iSubFolder} = strSubjectFolder;
 %% Move and zip presentation files
 movePresentationScenarioFilesToSubjectFolderATWM1(aStrSubjectPresentationFileSubFolder, strSubjectPresentationFilesFolder);
 zipSubjectPresentationScenarioFileFolderATWM1(strSubjectID, strStudy, strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder);
-
-%{
+%}
+%%{
 %%% Add function to move zip file to github account
-
+pushSubjectPresentationScenarioFilesToGithubATWM1(strRootFolder)
+%{
     %function pushZip();
        
         
 
-    cd '/Users/mmb/MEG/ATWM1/Presentation/MATLAB_CreatePresentationFiles_WorkingMemory';
+    cd(strRootFolder);
 
     ! git status
-    
+
     % get changes from GitHub
     ! git pull
     
@@ -72,7 +73,7 @@ zipSubjectPresentationScenarioFileFolderATWM1(strSubjectID, strStudy, strGroupPr
     ! git add *
     
     % commit changes
-    ! git commit -m "Add new presentation files"
+    ! git commit -m "Add new presentation scenario files"
     
     % push to GitHub
     ! git push
@@ -241,4 +242,28 @@ strZipFile = sprintf('%s_%s_Presentation_Scenario_Files.zip', strSubjectID, strS
 pathZipFile = fullfile(strGroupPresentationFilesFolder, strZipFile);
 zip(pathZipFile, strSubjectPresentationFilesFolder);
 
+end
+
+
+function pushSubjectPresentationScenarioFilesToGithubATWM1(strRootFolder)
+
+cd(strRootFolder);
+
+! git status
+
+% get changes from GitHub
+! git pull
+
+% add new files and directories
+! git add *
+
+% commit changes
+! git commit -m "Add new presentation scenario files"
+
+% push to GitHub
+! git push
+
+! git status
+
+    
 end

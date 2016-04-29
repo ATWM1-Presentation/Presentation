@@ -9,7 +9,9 @@ aSubject.ATWM1_IMAGING.Groups.CONT	= {
 	'MG36HRX'
 	'PD15MRC'
 	'RA72WYU'
+	'UR87ZAL'
 	'VW42LKU'
+	'WT10VUJ'
 	};
 aSubject.ATWM1_IMAGING.Groups.CONT = sort(aSubject.ATWM1_IMAGING.Groups.CONT);
 
