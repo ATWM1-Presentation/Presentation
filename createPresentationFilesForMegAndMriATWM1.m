@@ -1,4 +1,4 @@
-function createPresentationFilesForMegAndMriATWM1();
+function createPresentationFilesForMegAndMriATWM1()
 
 clear all
 clc
@@ -54,8 +54,8 @@ aStrSubjectPresentationFileSubFolder{iSubFolder} = strSubjectFolder;
 movePresentationScenarioFilesToSubjectFolderATWM1(aStrSubjectPresentationFileSubFolder, strSubjectPresentationFilesFolder);
 zipSubjectPresentationScenarioFileFolderATWM1(strSubjectID, strStudy, strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder);
 
-%% Push zip file to study github account
-pushSubjectPresentationScenarioFilesToGithubATWM1(strRootFolder)
+%% Push new files to study github account
+pushSubjectPresentationScenarioFilesToGithubATWM1(strRootFolder);
 
 end
 
@@ -218,7 +218,7 @@ zip(pathZipFile, strSubjectPresentationFilesFolder);
 
 end
 
-
+%{
 function pushSubjectPresentationScenarioFilesToGithubATWM1(strRootFolder)
 
 cd(strRootFolder);
@@ -241,3 +241,4 @@ cd(strRootFolder);
 
     
 end
+%}
