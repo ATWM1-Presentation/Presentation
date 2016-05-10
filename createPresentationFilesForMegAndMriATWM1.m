@@ -23,7 +23,7 @@ bAbort = copyStudyParameterFilesToLocalStudyParametersFolderATWM1(strStudy, strG
 if bAbort == true
     return
 end
-%%{
+
 %% Load parameters
 aSubject            = aSubjectATWM1_IMAGING;
 parametersGroups    = parametersGroupsATWM1;
@@ -53,7 +53,7 @@ aStrSubjectPresentationFileSubFolder{iSubFolder} = strSubjectFolder;
 %% Move and zip presentation files
 movePresentationScenarioFilesToSubjectFolderATWM1(aStrSubjectPresentationFileSubFolder, strSubjectPresentationFilesFolder);
 zipSubjectPresentationScenarioFileFolderATWM1(strSubjectID, strStudy, strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder);
-%}
+
 %% Push zip file to study github account
 pushSubjectPresentationScenarioFilesToGithubATWM1(strRootFolder)
 
@@ -153,6 +153,7 @@ if isempty(iResponseButtonConfiguration)
     error(strMessage);
 end
 strLeftRight = parametersParadigm.aStrResponseButtonConfiguration{iResponseButtonConfiguration};
+
 
 end
 
