@@ -29,7 +29,7 @@ aSubject            = aSubjectATWM1_IMAGING;
 parametersGroups    = parametersGroupsATWM1;
 parametersParadigm  = parametersParadigm_WM_IMAGING_ATWM1;
 parametersStudy     = parametersStudyATWM1;
-
+%{
 %% Select/prepare parameters and folder 
 [strGroup, strSubjectID, strPermutationType, strLeftRight] = selectParametersForPresentationScenarioFileCreationATWM1(parametersGroups, aSubject, parametersParadigm);
 [strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder] = prepareSubjectFolderForPresentationScenarioFilesATMW1(strRootFolder, strGroup, strSubjectID);
@@ -53,7 +53,7 @@ aStrSubjectPresentationFileSubFolder{iSubFolder} = strSubjectFolder;
 %% Move and zip presentation files
 movePresentationScenarioFilesToSubjectFolderATWM1(aStrSubjectPresentationFileSubFolder, strSubjectPresentationFilesFolder);
 zipSubjectPresentationScenarioFileFolderATWM1(strSubjectID, strStudy, strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder);
-
+%}
 %% Push new files to study github account
 pushSubjectPresentationScenarioFilesToGithubATWM1(strRootFolder);
 
@@ -218,7 +218,7 @@ zip(pathZipFile, strSubjectPresentationFilesFolder);
 
 end
 
-%{
+
 function pushSubjectPresentationScenarioFilesToGithubATWM1(strRootFolder)
 
 cd(strRootFolder);
@@ -241,4 +241,3 @@ cd(strRootFolder);
 
     
 end
-%}

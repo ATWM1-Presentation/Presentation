@@ -2,6 +2,7 @@ function aSubject = aSubjectATWM1_IMAGING()
 
 aSubject.ATWM1_IMAGING.Groups.CONT	= {
 	'AV98LHJ'
+	'EX44QAH'
 	'FC30HVJ'
 	'GK41XTU'
 	'HK61CTP'
@@ -9,10 +10,14 @@ aSubject.ATWM1_IMAGING.Groups.CONT	= {
 	'LG82ZTE'
 	'MG36HRX'
 	'PD15MRC'
+	'QM84LHX'
 	'RA72WYU'
+	'TD78LPW'
 	'UR87ZAL'
 	'VW42LKU'
 	'WT10VUJ'
+	'YK95HMC'
+	'ZK53LGM'
 	};
 aSubject.ATWM1_IMAGING.Groups.CONT = sort(aSubject.ATWM1_IMAGING.Groups.CONT);
 
