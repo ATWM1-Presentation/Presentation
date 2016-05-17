@@ -10,7 +10,7 @@ strRootFolderBeoserv = sprintf('/data/projects/%s/', strStudy);
 strRootFolderServer = strRootFolderBeoserv;
 strRootFolder = sprintf('%sPresentation/', strRootFolderServer); 
 
-%% Push Files
+%%
 cd(strRootFolder);
 
 ! git status
