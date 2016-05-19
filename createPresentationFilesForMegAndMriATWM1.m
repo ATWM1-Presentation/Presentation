@@ -32,8 +32,11 @@ parametersStudy     = parametersStudyATWM1;
 
 %% Select/prepare parameters and folder 
 [strGroup, strSubjectID, strPermutationType, strLeftRight] = selectParametersForPresentationScenarioFileCreationATWM1(parametersGroups, aSubject, parametersParadigm);
-[strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder] = prepareSubjectFolderForPresentationScenarioFilesATMW1(strRootFolder, strGroup, strSubjectID);
+[strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder, bAbort] = prepareSubjectFolderForPresentationScenarioFilesATMW1(strRootFolder, strGroup, strSubjectID);
 
+if bAbort == true
+    return
+end
 %% Create presentation files for MEG and MRI version of the working memory experiment
 aStrSubjectPresentationFileSubFolder = {};
 for ced = 1:numel(parametersStudy.aStrExpDevice)
@@ -107,12 +110,12 @@ vListSize = [300, 100];
 
 [iGroup] = listdlg('ListString', parametersGroups.aStrShortGroups, 'PromptString', strPrompt, 'Name', strTitle, 'ListSize', vListSize, 'SelectionMode', strDialogSelectionMode);
 if isempty(iGroup)
-    strMessage = sprintf('\n\nNo group selected!');
+    strMessage = sprintf('\n\nNo group selected!\n');
     error(strMessage);
 end
 strGroup = parametersGroups.aStrShortGroups{iGroup};
 if isempty(aSubject.ATWM1_IMAGING.Groups.(genvarname(strGroup)))
-    strMessage = sprintf('\n\nNo subject entries found for group %s!', upper(parametersGroups.aStrLongGroups{iGroup}));
+    strMessage = sprintf('\n\nNo subject entries found for group %s!\n', upper(parametersGroups.aStrLongGroups{iGroup}));
     error(strMessage);
 end
 
@@ -121,9 +124,15 @@ strPrompt = 'Please select the subject code';
 strTitle = 'Subject code';
 vListSize = [300, 600];
 aStrSubjectsGroup = aSubject.ATWM1_IMAGING.Groups.(genvarname(strGroup));
+
+% REMOVE
+aStrSubjectsGroup = [aStrSubjectsGroup
+                    '__SUBJECT_TEST'];
+% REMOVE
+
 [iSubject] = listdlg('ListString', aStrSubjectsGroup, 'PromptString', strPrompt, 'Name', strTitle, 'ListSize', vListSize, 'SelectionMode', strDialogSelectionMode);
 if isempty(iSubject)
-    strMessage = sprintf('\n\nNo subject selected!');
+    strMessage = sprintf('\n\nNo subject selected!\n');
     error(strMessage);
 end
 strSubjectID = aSubject.ATWM1_IMAGING.Groups.(genvarname(strGroup)){iSubject};
@@ -138,7 +147,7 @@ for cp = 1:parametersParadigm.nrOfPermutations
 end
 [iPermutation] = listdlg('ListString', parametersParadigm.aStrPermutations, 'PromptString', strPrompt, 'Name', strTitle, 'ListSize', vListSize, 'SelectionMode', strDialogSelectionMode);
 if isempty(iPermutation)
-    strMessage = sprintf('\n\nNo permutation selected!');
+    strMessage = sprintf('\n\nNo permutation selected!\n');
     error(strMessage);
 end
 strPermutationType = parametersParadigm.aStrPermutations{iPermutation};
@@ -149,7 +158,7 @@ strTitle = 'Response button configuration';
 vListSize = [300, 100];
 [iResponseButtonConfiguration ] = listdlg('ListString', parametersParadigm.aStrResponseButtonConfiguration, 'PromptString', strPrompt, 'Name', strTitle, 'ListSize', vListSize, 'SelectionMode', strDialogSelectionMode);
 if isempty(iResponseButtonConfiguration)
-    strMessage = sprintf('\n\nNo response button configuration selected!');
+    strMessage = sprintf('\n\nNo response button configuration selected!\n');
     error(strMessage);
 end
 strLeftRight = parametersParadigm.aStrResponseButtonConfiguration{iResponseButtonConfiguration};
@@ -158,8 +167,8 @@ strLeftRight = parametersParadigm.aStrResponseButtonConfiguration{iResponseButto
 end
 
 
-function [strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder] = prepareSubjectFolderForPresentationScenarioFilesATMW1(strRootFolder, strGroup, strSubjectID);
-
+function [strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder, bAbort] = prepareSubjectFolderForPresentationScenarioFilesATMW1(strRootFolder, strGroup, strSubjectID);
+bAbort = false; 
 %%% Check, whether Presentation scenario files have already been created
 strPresentationFilesFolder = strcat(strRootFolder, 'PresentationFiles_Subjects', '/');
 strGroupPresentationFilesFolder = strcat(strPresentationFilesFolder,  strGroup, '/');
@@ -184,6 +193,7 @@ if exist(strSubjectPresentationFilesFolder, 'dir')
         case strChoice2
             strMessage = sprintf('Presentation scencario files for subject %s not overwritten!\nAborting function!\n', strSubjectID);
             disp(strMessage);
+            bAbort = true; 
             return
     end
 end
@@ -217,28 +227,3 @@ pathZipFile = fullfile(strGroupPresentationFilesFolder, strZipFile);
 zip(pathZipFile, strSubjectPresentationFilesFolder);
 
 end
-
-%{
-function pushSubjectPresentationScenarioFilesToGithubATWM1(strRootFolder)
-
-cd(strRootFolder);
-
-! git status
-
-% get changes from GitHub
-! git pull
-
-% add new files and directories
-! git add *
-
-% commit changes
-! git commit -m "Add new presentation scenario files"
-
-% push to GitHub
-! git push
-
-! git status
-
-    
-end
-%}
