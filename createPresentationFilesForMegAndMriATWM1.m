@@ -64,38 +64,47 @@ end
 
 
 function bAbort = copyStudyParameterFilesToLocalStudyParametersFolderATWM1(strStudy, strGlobalStudyParametersFolder, strLocalStudyParametersFolder);
-% Copy parameter files from global study parameters folder to local study parameters folder
-aStrStudyParametersFiles = {
-    sprintf('aSubject%s_IMAGING.m', strStudy)
-    sprintf('parametersGroups%s.m', strStudy)
-    sprintf('parametersParadigm_WM_IMAGING_%s.m', strStudy)
-    sprintf('parametersStudy%s.m', strStudy)
-    };
+    % Copy parameter files from global study parameters folder to local study parameters folder
+    aStrStudyParametersFiles = {
+        sprintf('aSubject%s_IMAGING.m', strStudy)
+        sprintf('parametersGroups%s.m', strStudy)
+        sprintf('parametersParadigm_WM_IMAGING_%s.m', strStudy)
+        sprintf('parametersStudy%s.m', strStudy)
+        };
 
-for cf = 1:numel(aStrStudyParametersFiles)
-    strParameterFile = aStrStudyParametersFiles{cf};
-    pathFileGlobalStudyParametersFolder = fullfile(strGlobalStudyParametersFolder, strParameterFile);
-    pathFileLocalStudyParametersFolder  = fullfile(strLocalStudyParametersFolder, strParameterFile);
-    if exist(pathFileGlobalStudyParametersFolder, 'file')
-        status(cf) = copyfile(pathFileGlobalStudyParametersFolder, pathFileLocalStudyParametersFolder, 'f');
-        if status == true
-            strMessage = sprintf('Study parameter file %s copied successfully!\n', pathFileGlobalStudyParametersFolder);
-            disp(strMessage);
+    for cf = 1:numel(aStrStudyParametersFiles)
+        strParameterFile = aStrStudyParametersFiles{cf};
+        pathFileGlobalStudyParametersFolder = fullfile(strGlobalStudyParametersFolder, strParameterFile);
+        pathFileLocalStudyParametersFolder  = fullfile(strLocalStudyParametersFolder, strParameterFile);
+        if exist(pathFileGlobalStudyParametersFolder, 'file')
+            %status(cf) = copyfile(pathFileGlobalStudyParametersFolder, pathFileLocalStudyParametersFolder, 'f');
+            %if status == true
+            %    strMessage = sprintf('Study parameter file %s copied successfully!\n', pathFileGlobalStudyParametersFolder);
+            %    disp(strMessage);
+            %end
+            try
+                copyfile(pathFileGlobalStudyParametersFolder, pathFileLocalStudyParametersFolder, 'f');
+            catch ME
+                if (isempty (strfind (ME.message, 'Operation not permitted')))
+                    rethrow (ME) ;
+                    bAbort = true; 
+                end
+            end
         end
     end
-end
 
-
-if sum(status) ~= numel(aStrStudyParametersFiles)
-    nrOfFilesNotCopied = numel(aStrStudyParametersFiles) - sum(status);
-    strMessage = sprintf('Error! %i study parameter file(s) could not be copied!', nrOfFilesNotCopied);
-    disp(strMessage);
-    bAbort = true;
-else
+    %{
+    if sum(status) ~= numel(aStrStudyParametersFiles)
+        nrOfFilesNotCopied = numel(aStrStudyParametersFiles) - sum(status);
+        strMessage = sprintf('Error! %i study parameter file(s) could not be copied!', nrOfFilesNotCopied);
+        disp(strMessage);
+        bAbort = true;
+    else
+        bAbort = false;
+    end
+    %}
+    
     bAbort = false;
-end
-
-
 end
 
 
