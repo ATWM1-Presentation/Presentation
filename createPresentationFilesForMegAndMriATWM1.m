@@ -86,8 +86,8 @@ function bAbort = copyStudyParameterFilesToLocalStudyParametersFolderATWM1(strSt
                 copyfile(pathFileGlobalStudyParametersFolder, pathFileLocalStudyParametersFolder, 'f');
             catch ME
                 if (isempty (strfind (ME.message, 'Operation not permitted')))
+                    bAbort = true;
                     rethrow (ME) ;
-                    bAbort = true; 
                 end
             end
         end
@@ -123,6 +123,11 @@ if isempty(iGroup)
     error(strMessage);
 end
 strGroup = parametersGroups.aStrShortGroups{iGroup};
+
+%% Add dummy subject name for testing purposes
+strDummySubject = sprintf('__SUBJECT_TEST_%s', strGroup);
+aSubject.ATWM1_IMAGING.Groups.(genvarname(strGroup)) = [aSubject.ATWM1_IMAGING.Groups.(genvarname(strGroup))
+                                                        strDummySubject];
 if isempty(aSubject.ATWM1_IMAGING.Groups.(genvarname(strGroup)))
     strMessage = sprintf('\n\nNo subject entries found for group %s!\n', upper(parametersGroups.aStrLongGroups{iGroup}));
     error(strMessage);
@@ -133,12 +138,6 @@ strPrompt = 'Please select the subject code';
 strTitle = 'Subject code';
 vListSize = [300, 600];
 aStrSubjectsGroup = aSubject.ATWM1_IMAGING.Groups.(genvarname(strGroup));
-
-% REMOVE
-aStrSubjectsGroup = [aStrSubjectsGroup
-                    '__SUBJECT_TEST'];
-% REMOVE
-
 [iSubject] = listdlg('ListString', aStrSubjectsGroup, 'PromptString', strPrompt, 'Name', strTitle, 'ListSize', vListSize, 'SelectionMode', strDialogSelectionMode);
 if isempty(iSubject)
     strMessage = sprintf('\n\nNo subject selected!\n');
