@@ -10,8 +10,14 @@ parametersStudy.strImaging                          = 'IMAGING';
 parametersStudy.strWorkingMemoryTask                = 'WM';
 parametersStudy.strLocalizer                        = 'LOC';
 parametersStudy.strPrfMapping                       = 'PRFM';
+parametersStudy.strEpi                              = 'EPI';
 parametersStudy.strMethodEpiDistortionCorrection    = 'COPE';
 parametersStudy.strMethodCoregistration             = 'COREG';
+
+parametersStudy.strFullWorkingMemoryTask            = 'Working_Memory_Task';
+parametersStudy.strFullLocalizerTask                = 'Localizer_Task';
+parametersStudy.strFullAnatomicalLocalizer          = 'Anatomical_Localizer';
+
 
 parametersStudy.aStrExpDevice                       = {
                                                         parametersStudy.strMEG
@@ -30,6 +36,7 @@ parametersStudy.strCondition                        = 'cond';
 parametersStudy.strRun                              = 'run';
 parametersStudy.strSession                          = 'session';
 
+parametersStudy.defaultGroupName                 = 'controls';
 
 end
 
