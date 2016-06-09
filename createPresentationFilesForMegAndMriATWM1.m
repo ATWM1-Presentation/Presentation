@@ -145,6 +145,17 @@ if isempty(iSubject)
 end
 strSubjectID = aSubject.ATWM1_IMAGING.Groups.(genvarname(strGroup)){iSubject};
 
+%% Select response button configuration (left/right or right/left)
+strPrompt = 'Please select the response button configuration for the subject';
+strTitle = 'Response button configuration';
+vListSize = [300, 100];
+[iResponseButtonConfiguration ] = listdlg('ListString', parametersParadigm.aStrResponseButtonConfiguration, 'PromptString', strPrompt, 'Name', strTitle, 'ListSize', vListSize, 'SelectionMode', strDialogSelectionMode);
+if isempty(iResponseButtonConfiguration)
+    strMessage = sprintf('\n\nNo response button configuration selected!\n');
+    error(strMessage);
+end
+strLeftRight = parametersParadigm.aStrResponseButtonConfiguration{iResponseButtonConfiguration};
+
 %% Select permutation
 strPrompt = 'Please select the permutation order';
 strTitle = 'Permutation order';
@@ -159,17 +170,6 @@ if isempty(iPermutation)
     error(strMessage);
 end
 strPermutationType = parametersParadigm.aStrPermutations{iPermutation};
-
-%% Select response button configuration (left/right or right/left)
-strPrompt = 'Please select the response button configuration for the subject';
-strTitle = 'Response button configuration';
-vListSize = [300, 100];
-[iResponseButtonConfiguration ] = listdlg('ListString', parametersParadigm.aStrResponseButtonConfiguration, 'PromptString', strPrompt, 'Name', strTitle, 'ListSize', vListSize, 'SelectionMode', strDialogSelectionMode);
-if isempty(iResponseButtonConfiguration)
-    strMessage = sprintf('\n\nNo response button configuration selected!\n');
-    error(strMessage);
-end
-strLeftRight = parametersParadigm.aStrResponseButtonConfiguration{iResponseButtonConfiguration};
 
 
 end
