@@ -14,8 +14,8 @@ parametersStudy.strEpi                              = 'EPI';
 parametersStudy.strMethodEpiDistortionCorrection    = 'COPE';
 parametersStudy.strMethodCoregistration             = 'COREG';
 
-parametersStudy.strFullWorkingMemoryTask            = 'Working_Memory_Task';
-parametersStudy.strFullLocalizerTask                = 'Localizer_Task';
+parametersStudy.strFullWorkingMemoryTask            = 'Working_Memory';
+parametersStudy.strFullLocalizerTask                = 'Localizer';
 parametersStudy.strFullAnatomicalLocalizer          = 'Anatomical_Localizer';
 
 
