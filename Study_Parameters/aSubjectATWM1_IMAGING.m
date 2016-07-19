@@ -1,6 +1,7 @@
 function aSubject = aSubjectATWM1_IMAGING()
 
 aSubject.ATWM1_IMAGING.Groups.CONT	= {
+	'AE23XMP'
 	'AV98LHJ'
 	'CA11JPW'
 	'DJ32GUZ'
