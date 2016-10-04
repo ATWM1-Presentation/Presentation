@@ -40,6 +40,7 @@ aSubject.ATWM1_IMAGING.Groups.CONT	= {
 	'XG57FZY'
 	'XR65WZG'
 	'YK95HMC'
+	'YT54PQX'
 	'ZK53LGM'
 	'ZW28REA'
 	};
