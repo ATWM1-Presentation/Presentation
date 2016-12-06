@@ -1,6 +1,6 @@
 # ATWM1 MEG Experiment
                          
-scenario = "ATWM1_Working_Memory_MEG_salient_uncued_instruction";
+scenario = "ATWM1_Working_Memory_MEG_nonsalient_cued_instruction";
 #scenario_type = fMRI; # Fuer Scanner
 #scenario_type = fMRI_emulation; # Zum Testen
 scenario_type = trials;
@@ -27,7 +27,7 @@ box { height = 4; width = 30; color = 0, 0, 0;} fix2;
 box { height = 30; width = 4; color = 255, 0, 0;} fix3;    
 box { height = 4; width = 30; color = 255, 0, 0;} fix4;  
 box { height = 290; width = 290; color = 128, 128, 128;} background;
- 
+
 TEMPLATE "StimuliDeclaration.tem" {};
 
 trial {
@@ -70,21 +70,22 @@ trial {
 } miss;
 
 
+
 # Instruction Slide 1
 trial { 
    picture {
       text {
-         caption = "In dieser Aufgabe wird meistens \nein blinkendes Streifenmuster abgefragt.";
+         caption = "In dieser Aufgabe wird meistens \nein nicht blinkendes Streifenmuster abgefragt.";
       } txt1;
       x = 0; y = 150;
       text {
-          caption = "Es werden jedoch keine Positionen besonders markiert.";
+          caption = "Die Positionen dieser Streifenmuster \nwerden anhand des Fixationskreuzes markiert.";
       } txt2;
       x = 0; y = 0;
    } picIntro1;
    time = 0;  	
    duration = 10000;
-   code = "Instruction_S_UC"; 	 	 
+   code = "Instruction_NS_C"; 	 
 };
 
 # Instruction Slide 2
@@ -222,11 +223,11 @@ trial {
 trial { 
    picture {
       text {
-         caption = "In dieser Aufgabe wird meistens \nein blinkendes Streifenmuster abgefragt.";
+         caption = "In dieser Aufgabe wird meistens \nein nicht blinkendes Streifenmuster abgefragt.";
       } txt11;
       x = 0; y = 150;
       text {
-          caption = "Es werden jedoch keine Positionen besonders markiert.";
+          caption = "Die Positionen dieser Streifenmuster \nwerden anhand des Fixationskreuzes markiert.";
       } txt12;
       x = 0; y = 0;
       text {
@@ -236,7 +237,7 @@ trial {
    } picIntro9;
    time = 0;  	
    duration = 10000;
-   code = "Instruction_S_UC_TestTrials"; 	 	 
+   code = "Instruction_NS_C_TestTrials"; 	 	 
 };
 
 # baselinePre (before test trials)
@@ -257,10 +258,10 @@ trial {
                
 TEMPLATE "ATWM1_Working_Memory_MEG.tem" {
 trigger_encoding trigger_retrieval cue_time preparation_time encoding_time single_stimulus_presentation_time delay_time retrieval_time intertrial_interval alerting_cross   stim_enc1 stim_enc2 stim_enc3 stim_enc4 	stim_enc_alt1 stim_enc_alt2 stim_enc_alt3 stim_enc_alt4    trial_code   stim_retr1 stim_retr2 stim_retr3 stim_retr4   stim_cue1 stim_cue2 stim_cue3 stim_cue4 fixationcross_cued     retr_code    the_target_button   posX1 posY1 posX2 posY2 posX3 posY3 posX4 posY4;
-   42    62   292   292   399   125  1792  2992  2042      fixation_cross    gabor_037 gabor_078 gabor_061 gabor_019    gabor_037 gabor_078_alt gabor_061 gabor_019_alt      "2_1_Encoding_Working_Memory_MEG_P4_LR_Salient_NoChange_CuedRetrieval_300_300_399_1800_3000_2050_gabor_patch_orientation_037_078_061_019_target_position_2_4_retrieval_position_2"          gabor_circ gabor_078_framed gabor_circ gabor_circ    blank blank blank blank    fixation_cross_white     "2_1_Retrieval_Working_Memory_MEG_P4_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_078_retrieval_position_2"   1    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
-   42    61   292   292   399   125  1742  2992  1942      fixation_cross    gabor_165 gabor_033 gabor_100 gabor_010    gabor_165_alt gabor_033 gabor_100_alt gabor_010      "2_2_Encoding_Working_Memory_MEG_P4_LR_Salient_DoChange_CuedRetrieval_300_300_399_1750_3000_1950_gabor_patch_orientation_165_033_100_010_target_position_1_3_retrieval_position_1"          gabor_119_framed gabor_circ gabor_circ gabor_circ    blank blank blank blank    fixation_cross_white     "2_2_Retrieval_Working_Memory_MEG_P4_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_119_retrieval_position_1"   2    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
-   42    62   292   292   399   125  1842  2992  1892      fixation_cross    gabor_003 gabor_120 gabor_144 gabor_175    gabor_003_alt gabor_120 gabor_144 gabor_175_alt      "2_3_Encoding_Working_Memory_MEG_P4_LR_Salient_NoChange_CuedRetrieval_300_300_399_1850_3000_1900_gabor_patch_orientation_003_120_144_175_target_position_1_4_retrieval_position_4"          gabor_circ gabor_circ gabor_circ gabor_175_framed    blank blank blank blank    fixation_cross_white     "2_3_Retrieval_Working_Memory_MEG_P4_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_175_retrieval_position_4"   1    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
-   42    61   292   292   399   125  1892  2992  1992      fixation_cross    gabor_170 gabor_147 gabor_112 gabor_088    gabor_170_alt gabor_147_alt gabor_112 gabor_088      "2_4_Encoding_Working_Memory_MEG_P4_LR_Salient_DoChange_CuedRetrieval_300_300_399_1900_3000_2000_gabor_patch_orientation_170_147_112_088_target_position_1_2_retrieval_position_1"          gabor_032_framed gabor_circ gabor_circ gabor_circ    blank blank blank blank    fixation_cross_white     "2_4_Retrieval_Working_Memory_MEG_P4_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_032_retrieval_position_1"   2    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
+   43    61   292   292   399   125  1842  2992  1892      fixation_cross    gabor_126 gabor_097 gabor_178 gabor_068    gabor_126_alt gabor_097 gabor_178 gabor_068_alt      "1_1_Encoding_Working_Memory_MEG_P1_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1850_3000_1900_gabor_patch_orientation_126_097_178_068_target_position_2_3_retrieval_position_2"       gabor_circ gabor_051_framed gabor_circ gabor_circ    blank blank blank blank    fixation_cross_target_position_2_3     "1_1_Retrieval_Working_Memory_MEG_P1_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_051_retrieval_position_2"   2    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
+   43    62   292   292   399   125  1892  2992  1992      fixation_cross    gabor_051 gabor_006 gabor_180 gabor_026    gabor_051 gabor_006 gabor_180_alt gabor_026_alt      "1_2_Encoding_Working_Memory_MEG_P1_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1900_3000_2000_gabor_patch_orientation_051_006_180_026_target_position_1_2_retrieval_position_1"       gabor_051_framed gabor_circ gabor_circ gabor_circ    blank blank blank blank    fixation_cross_target_position_1_2     "1_2_Retrieval_Working_Memory_MEG_P1_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_051_retrieval_position_1"   1    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
+   43    61   292   292   399   125  1742  2992  2042      fixation_cross    gabor_036 gabor_173 gabor_108 gabor_088    gabor_036_alt gabor_173 gabor_108_alt gabor_088      "1_3_Encoding_Working_Memory_MEG_P1_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1750_3000_2050_gabor_patch_orientation_036_173_108_088_target_position_2_4_retrieval_position_2"       gabor_circ gabor_124_framed gabor_circ gabor_circ    blank blank blank blank    fixation_cross_target_position_2_4     "1_3_Retrieval_Working_Memory_MEG_P1_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_124_retrieval_position_2"   2    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
+   43    62   292   292   399   125  1792  2992  1942      fixation_cross    gabor_029 gabor_134 gabor_167 gabor_092    gabor_029_alt gabor_134_alt gabor_167 gabor_092      "1_4_Encoding_Working_Memory_MEG_P1_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1800_3000_1950_gabor_patch_orientation_029_134_167_092_target_position_3_4_retrieval_position_3"       gabor_circ gabor_circ gabor_167_framed gabor_circ    blank blank blank blank    fixation_cross_target_position_3_4     "1_4_Retrieval_Working_Memory_MEG_P1_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_167_retrieval_position_3"   1    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
 
 };
 
@@ -278,7 +279,6 @@ trial {
    port_code = 2;  
 }; 
 
-
 # Instruction Slide 10
 trial { 
    picture {
@@ -289,5 +289,6 @@ trial {
       } picIntro10;
    time = 0;  	
    duration=5000;
-   code = "Instruction_S_UC"; 	
+   code = "Instruction_NS_C"; 	
    };
+   
