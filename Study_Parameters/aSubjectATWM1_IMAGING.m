@@ -67,6 +67,8 @@ aSubject.ATWM1_IMAGING.Groups.CONT	= {
 aSubject.ATWM1_IMAGING.Groups.CONT = sort(aSubject.ATWM1_IMAGING.Groups.CONT);
 
 aSubject.ATWM1_IMAGING.Groups.SCHI	= {
+	'CG96FVZ'
+	'GA77XKH'
 	};
 aSubject.ATWM1_IMAGING.Groups.SCHI = sort(aSubject.ATWM1_IMAGING.Groups.SCHI);
 
