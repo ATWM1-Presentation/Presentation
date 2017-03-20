@@ -70,6 +70,7 @@ aSubject.ATWM1_IMAGING.Groups.SCHI	= {
 	'AY83JGV'
 	'CG96FVZ'
 	'GA77XKH'
+	'YN49DEQ'
 	};
 aSubject.ATWM1_IMAGING.Groups.SCHI = sort(aSubject.ATWM1_IMAGING.Groups.SCHI);
 
