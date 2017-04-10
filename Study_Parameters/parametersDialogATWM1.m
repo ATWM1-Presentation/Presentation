@@ -8,6 +8,7 @@ parametersDialog.textElements.strDateOfStudyEnrollment   = 'Enrollment date';
 
 parametersDialog.textElements.strStudy                   = 'Study';
 parametersDialog.textElements.strStudyCode               = 'Study Code';
+parametersDialog.textElements.strColorCode               = 'Color Code';
 parametersDialog.textElements.strPrincipalInvestigator   = 'Principal Investigator';
 parametersDialog.textElements.strSubjectInformation      = 'Subject Information';
 parametersDialog.textElements.strSubjectNumber           = 'Subject Number';

@@ -9,10 +9,13 @@ parametersStudy.strImaging                          = 'IMAGING';
 
 parametersStudy.strWorkingMemoryTask                = 'WM';
 parametersStudy.strLocalizer                        = 'LOC';
-parametersStudy.strPrfMapping                       = 'PRFM';
+parametersStudy.strPrfMapping                       = 'PRFM';       %Not included in the current study
 parametersStudy.strEpi                              = 'EPI';
 parametersStudy.strMethodEpiDistortionCorrection    = 'COPE';
 parametersStudy.strMethodCoregistration             = 'COREG';
+
+parametersStudy.strMegCoregistration                = strcat(parametersStudy.strMEG, '_', parametersStudy.strMethodCoregistration);
+
 
 parametersStudy.strFullWorkingMemoryTask            = 'Working_Memory';
 parametersStudy.strFullLocalizerTask                = 'Localizer';
@@ -36,7 +39,11 @@ parametersStudy.strCondition                        = 'cond';
 parametersStudy.strRun                              = 'run';
 parametersStudy.strSession                          = 'session';
 
-parametersStudy.defaultGroupName                 = 'controls';
+parametersStudy.defaultGroupName                    = 'controls';
+
+parametersStudy.strParadigm                         = 'PARADIGM';
+parametersStudy.strSubjectId                        = 'SUBJECT-ID';
+parametersStudy.strPath                             = 'PATH';
 
 end
 
