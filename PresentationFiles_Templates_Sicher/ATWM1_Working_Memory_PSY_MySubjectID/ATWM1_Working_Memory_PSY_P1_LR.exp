@@ -1,5 +1,5 @@
-<ver>18</ver>
-<efn>D:\presentation\Bittner\ATWM1\ATWM1_Localizer_MRI_MySubjectID\ATWM1_Localizer_MRI.exp</efn>
+<ver>17</ver>
+<efn>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\##EXP_FILE_NAME##.exp</efn>
 <author></author>
 <con>
 <pause>P</pause>
@@ -24,20 +24,31 @@
 <depchg>1</depchg>
 <discard_windows_messages>0</discard_windows_messages>
 <display_status_window>1</display_status_window>
-<dmd>0</dmd>
-<dmh>0</dmh>
-<dmr>1</dmr>
-<dmw>0</dmw>
+<dmd>32</dmd>
+<dmh>768</dmh>
+<dmr>60</dmr>
+<dmw>1024</dmw>
 <docs>
 <args></args>
 <exfl></exfl>
 <lfn></lfn>
 </docs>
 <dp_list></dp_list>
-<dsd>D:\presentation\Bittner\ATWM1\Stimuli</dsd>
+<dsd>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\Stimuli</dsd>
 <dxv>8</dxv>
 <efs>
-<filename>D:\presentation\Bittner\ATWM1\ATWM1_Localizer_MRI_MySubjectID\ATWM1_Localizer_MRI.sce</filename>
+<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\ATWM1_Working_Memory_PSY_Salient_Cued_Instruction.sce</filename>
+<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\ATWM1_Working_Memory_PSY_Salient_Cued_Run1.sce</filename>
+<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\ATWM1_Working_Memory_PSY_Nonsalient_Cued_Instruction.sce</filename>
+<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\ATWM1_Working_Memory_PSY_Nonsalient_Cued_Run1.sce</filename>
+<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\ATWM1_Working_Memory_PSY_Salient_Uncued_Instruction.sce</filename>
+<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\ATWM1_Working_Memory_PSY_Salient_Uncued_Run1.sce</filename>
+<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\ATWM1_Working_Memory_PSY_Nonsalient_Uncued_Instruction.sce</filename>
+<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\ATWM1_Working_Memory_PSY_Nonsalient_Uncued_Run1.sce</filename>
+<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\StimuliDeclaration.tem</filename>
+<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\ATWM1_Working_Memory_PSY.tem</filename>
+<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\ATWM1_Working_Memory_PSY_Feedback.tem</filename>
+<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\ATWM1_Working_Memory_PSY_P1.exp</filename>
 </efs>
 <exclusive_mouse>1</exclusive_mouse>
 <exp_version></exp_version>
@@ -68,7 +79,28 @@
 <pass></pass>
 <ssa>
 <asn>
-<sid>-1</sid>
+<sid>-2</sid>
+</asn>
+<asn>
+<sid>-2</sid>
+</asn>
+<asn>
+<sid>-2</sid>
+</asn>
+<asn>
+<sid>-2</sid>
+</asn>
+<asn>
+<sid>-2</sid>
+</asn>
+<asn>
+<sid>-2</sid>
+</asn>
+<asn>
+<sid>-2</sid>
+</asn>
+<asn>
+<sid>-2</sid>
 </asn>
 </ssa>
 </man>
@@ -83,6 +115,13 @@
 <ftp>
 <ccc>0</ccc>
 <do_upload>
+<sce>1</sce>
+<sce>1</sce>
+<sce>1</sce>
+<sce>1</sce>
+<sce>1</sce>
+<sce>1</sce>
+<sce>1</sce>
 <sce>1</sce>
 </do_upload>
 <host></host>
@@ -105,42 +144,30 @@
 <idt>1000</idt>
 <ip_chans>
 <chan>
-<dsdi>0</dsdi>
-<dsi>2</dsi>
-<dsn>interrupt only</dsn>
-<dst>1</dst>
-<il>0</il>
-<iv>0</iv>
-<ivm>0</ivm>
-<mask></mask>
 <name>trigger channel</name>
-<piai>LPT1</piai>
-<pian>Parallel Port</pian>
-<pihpn>LPT1</pihpn>
-<pindex>3</pindex>
-<ui>1</ui>
+<pindex>4294967295</pindex>
 </chan>
 <chan>
 <dsdi>0</dsdi>
 <dsi>0</dsi>
 <dsn>Data port</dsn>
 <dst>0</dst>
-<il>1</il>
+<il>0</il>
 <iv>0</iv>
-<ivm>255</ivm>
+<ivm>0</ivm>
 <mask></mask>
 <name>parallel port</name>
 <piai>LPT1</piai>
 <pian>Parallel Port</pian>
 <pihpn>LPT1</pihpn>
-<pindex>3</pindex>
+<pindex>1</pindex>
 <ui>0</ui>
 </chan>
 </ip_chans>
 <isb>10000</isb>
-<lfd>D:\presentation\Bittner\ATWM1\Logfiles</lfd>
+<lfd>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\Logfiles</lfd>
 <lnb>0</lnb>
-<lno>3</lno>
+<lno>1</lno>
 <log>
 <append_counter>0</append_counter>
 <delimiter>9</delimiter>
@@ -148,7 +175,7 @@
 <pien>0</pien>
 <set_def_file></set_def_file>
 <stimulus_list>0</stimulus_list>
-<subject_id>MySubjectID</subject_id>
+<subject_id>CAR</subject_id>
 <subject_id_pol>2</subject_id_pol>
 <video_list>0</video_list>
 <warnings>1</warnings>
@@ -158,9 +185,28 @@
 <maxpv></maxpv>
 <minpv></minpv>
 <mss>4</mss>
-<nam>ATWM1_Localizer_MRI</nam>
+<nam>##EXP_FILE_NAME##</nam>
 <one_processor>2</one_processor>
-<oports></oports>
+<oports>
+<p>
+<ama>0</ama>
+<ami>0</ami>
+<at>0</at>
+<dpw>5</dpw>
+<dsdi>0</dsdi>
+<dsi>0</dsi>
+<dsn>Data port</dsn>
+<igm>0</igm>
+<il>0</il>
+<ivm>0</ivm>
+<piai>LPT1</piai>
+<pian>Parallel Port</pian>
+<pihpn>LPT1</pihpn>
+<pindex>1</pindex>
+<rs>1</rs>
+<rt>0</rt>
+</p>
+</oports>
 <out_encrypt_key></out_encrypt_key>
 <pi_list></pi_list>
 <port_devices>
@@ -180,40 +226,6 @@
 <piai>COM1</piai>
 <pian>Serial Port</pian>
 <pihpn>COM1</pihpn>
-</device>
-<device>
-<parameters>
-<cts>0</cts>
-<dsrin>0</dsrin>
-<dsrout>0</dsrout>
-<dtr>disable</dtr>
-<rts>disable</rts>
-<set_fifo>1</set_fifo>
-<spd></spd>
-<spp></spp>
-<spr></spr>
-<sps></sps>
-</parameters>
-<piai>COM3</piai>
-<pian>Serial Port</pian>
-<pihpn>COM3</pihpn>
-</device>
-<device>
-<parameters>
-<cts>0</cts>
-<dsrin>0</dsrin>
-<dsrout>0</dsrout>
-<dtr>disable</dtr>
-<rts>disable</rts>
-<set_fifo>1</set_fifo>
-<spd></spd>
-<spp></spp>
-<spr></spr>
-<sps></sps>
-</parameters>
-<piai>COM4</piai>
-<pian>Serial Port</pian>
-<pihpn>COM4</pihpn>
 </device>
 </port_devices>
 <rdl>
@@ -243,6 +255,13 @@
 <max>1000</max>
 <min>-1000</min>
 <name>Y-axis</name>
+<restricted>1</restricted>
+<scale>1</scale>
+</axis>
+<axis>
+<max>1000</max>
+<min>-1000</min>
+<name>Wheel</name>
 <restricted>1</restricted>
 <scale>1</scale>
 </axis>
@@ -302,24 +321,31 @@
 <dx_device_type>0</dx_device_type>
 <max_raw_pos>65535</max_raw_pos>
 <min_raw_pos>0</min_raw_pos>
-<name>Microsoft PS/2 Mouse</name>
+<name>HID-compliant mouse</name>
+</device>
+<device>
+<axis>
+<dead_zone>0</dead_zone>
+<max>1000</max>
+<min>-1000</min>
+<name>X Axis</name>
+<saturation>1</saturation>
+</axis>
+<axis>
+<dead_zone>0</dead_zone>
+<max>1000</max>
+<min>-1000</min>
+<name>Y Axis</name>
+<saturation>1</saturation>
+</axis>
+<device_type>1</device_type>
+<dx_device_type>21</dx_device_type>
+<name>4-button gamepad</name>
 </device>
 <device>
 <device_type>9</device_type>
 <dx_device_type>0</dx_device_type>
 <name>sound device</name>
-</device>
-<device>
-<device_type>13</device_type>
-<dx_device_type>0</dx_device_type>
-<name>Speech Recognition</name>
-<speech>
-<engine_class></engine_class>
-<mc>0</mc>
-<rw>0</rw>
-<uwd>0</uwd>
-<vocab></vocab>
-</speech>
 </device>
 <device>
 <axis>
@@ -338,11 +364,7 @@
 </axis>
 <device_type>5</device_type>
 <dx_device_type>0</dx_device_type>
-<inpc>1</inpc>
 <name>pointing device</name>
-<uoh>1</uoh>
-<upc>0</upc>
-<uvt>1</uvt>
 </device>
 <device>
 <axis>
@@ -382,27 +404,111 @@
 <sbs>100000</sbs>
 <sce>
 <idv>
-<device_type>11</device_type>
-<dx_device_type>0</dx_device_type>
-<ibn>1 (start)</ibn>
-<idn>parallel port device</idn>
-<index>0</index>
-<label></label>
-<offset>0</offset>
+<device_type>2</device_type>
+<dx_device_type>18</dx_device_type>
+<ibn>Button 0</ibn>
+<ibn>Button 1</ibn>
+<idn>Mouse</idn>
+<offset>12</offset>
+<offset>13</offset>
 </idv>
 <sfn>all_scenarios</sfn>
 </sce>
 <sce>
 <idv>
-<device_type>11</device_type>
-<dx_device_type>0</dx_device_type>
-<ibn>1 (start)</ibn>
-<idn>parallel port device</idn>
-<index>0</index>
-<label></label>
-<offset>0</offset>
+<device_type>2</device_type>
+<dx_device_type>18</dx_device_type>
+<ibn>Button 0</ibn>
+<ibn>Button 1</ibn>
+<idn>Mouse</idn>
+<offset>12</offset>
+<offset>13</offset>
 </idv>
-<sfn>D:\presentation\Bittner\ATWM1\ATWM1_Localizer_MRI_MySubjectID\ATWM1_Localizer_MRI.sce</sfn>
+<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\##SCE_FILE_COND_1_INSTRUCTION##.sce</sfn>
+</sce>
+<sce>
+<idv>
+<device_type>2</device_type>
+<dx_device_type>18</dx_device_type>
+<ibn>Button 0</ibn>
+<ibn>Button 1</ibn>
+<idn>Mouse</idn>
+<offset>12</offset>
+<offset>13</offset>
+</idv>
+<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\##SCE_FILE_COND_1_RUN_1##.sce</sfn>
+</sce>
+<sce>
+<idv>
+<device_type>2</device_type>
+<dx_device_type>18</dx_device_type>
+<ibn>Button 0</ibn>
+<ibn>Button 1</ibn>
+<idn>Mouse</idn>
+<offset>12</offset>
+<offset>13</offset>
+</idv>
+<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\##SCE_FILE_COND_2_INSTRUCTION##.sce</sfn>
+</sce>
+<sce>
+<idv>
+<device_type>2</device_type>
+<dx_device_type>18</dx_device_type>
+<ibn>Button 0</ibn>
+<ibn>Button 1</ibn>
+<idn>Mouse</idn>
+<offset>12</offset>
+<offset>13</offset>
+</idv>
+<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\##SCE_FILE_COND_2_RUN_1##.sce</sfn>
+</sce>
+<sce>
+<idv>
+<device_type>2</device_type>
+<dx_device_type>18</dx_device_type>
+<ibn>Button 0</ibn>
+<ibn>Button 1</ibn>
+<idn>Mouse</idn>
+<offset>12</offset>
+<offset>13</offset>
+</idv>
+<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\##SCE_FILE_COND_3_INSTRUCTION##.sce</sfn>
+</sce>
+<sce>
+<idv>
+<device_type>2</device_type>
+<dx_device_type>18</dx_device_type>
+<ibn>Button 0</ibn>
+<ibn>Button 1</ibn>
+<idn>Mouse</idn>
+<offset>12</offset>
+<offset>13</offset>
+</idv>
+<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\##SCE_FILE_COND_3_RUN_1##.sce</sfn>
+</sce>
+<sce>
+<idv>
+<device_type>2</device_type>
+<dx_device_type>18</dx_device_type>
+<ibn>Button 0</ibn>
+<ibn>Button 1</ibn>
+<idn>Mouse</idn>
+<offset>12</offset>
+<offset>13</offset>
+</idv>
+<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\##SCE_FILE_COND_4_INSTRUCTION##.sce</sfn>
+</sce>
+<sce>
+<idv>
+<device_type>2</device_type>
+<dx_device_type>18</dx_device_type>
+<ibn>Button 0</ibn>
+<ibn>Button 1</ibn>
+<idn>Mouse</idn>
+<offset>12</offset>
+<offset>13</offset>
+</idv>
+<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_PSY\##SCE_FILE_COND_4_RUN_1##.sce</sfn>
 </sce>
 <sct>
 <capture_device>
@@ -420,7 +526,6 @@
 <resp_dev>
 <combine>0</combine>
 <ignore>1000</ignore>
-<max_rec_dur>10</max_rec_dur>
 <off_inter>200</off_inter>
 <off_thresh>0.02</off_thresh>
 <onset_mode>0</onset_mode>
@@ -431,8 +536,7 @@
 </sct>
 <sde>
 <buffer_length>1000</buffer_length>
-<custom_buf>sec_sw</custom_buf>
-<dup_channels>0</dup_channels>
+<custom_buf>sec_hw</custom_buf>
 <halt_on_underrun>1</halt_on_underrun>
 <hw_buffer>0</hw_buffer>
 <max_mix_length>400</max_mix_length>
@@ -441,10 +545,7 @@
 <rewind_distance>10</rewind_distance>
 <side_speakers>1</side_speakers>
 </sde>
-<sdv>5 (High Definition Audio Device)</sdv>
-<show_dis>1</show_dis>
-<show_parm>1</show_parm>
-<show_term>1</show_term>
+<sdv>Primary Sound Driver</sdv>
 <smc>2</smc>
 <smd>16</smd>
 <smr>44100</smr>
@@ -467,9 +568,9 @@
 <swp>1</swp>
 <text_encoding>utf8</text_encoding>
 <trigger_mode>
-<cn>trigger channel</cn>
+<cn></cn>
 <m>0</m>
-<v>1</v>
+<v>0</v>
 <vt>0</vt>
 </trigger_mode>
 <udt>0</udt>

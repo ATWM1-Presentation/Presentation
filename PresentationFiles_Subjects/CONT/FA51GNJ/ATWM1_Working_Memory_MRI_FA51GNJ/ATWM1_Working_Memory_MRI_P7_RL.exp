@@ -1,5 +1,6 @@
 <ver>18</ver>
-<efn>D:\presentation\Bittner\ATWM1\ATWM1_Localizer_MRI_MySubjectID\ATWM1_Localizer_MRI.exp</efn>
+<ver>18</ver>
+<efn>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_P7_RL.exp</efn>
 <author></author>
 <con>
 <pause>P</pause>
@@ -24,10 +25,10 @@
 <depchg>1</depchg>
 <discard_windows_messages>0</discard_windows_messages>
 <display_status_window>1</display_status_window>
-<dmd>0</dmd>
-<dmh>0</dmh>
-<dmr>1</dmr>
-<dmw>0</dmw>
+<dmd>32</dmd>
+<dmh>768</dmh>
+<dmr>60</dmr>
+<dmw>1024</dmw>
 <docs>
 <args></args>
 <exfl></exfl>
@@ -37,7 +38,14 @@
 <dsd>D:\presentation\Bittner\ATWM1\Stimuli</dsd>
 <dxv>8</dxv>
 <efs>
-<filename>D:\presentation\Bittner\ATWM1\ATWM1_Localizer_MRI_MySubjectID\ATWM1_Localizer_MRI.sce</filename>
+<filename>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Salient_Uncued_Instruction.sce</filename>
+<filename>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Salient_Uncued_Run1.sce</filename>
+<filename>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Nonsalient_Cued_Instruction.sce</filename>
+<filename>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Nonsalient_Cued_Run1.sce</filename>
+<filename>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Nonsalient_Uncued_Instruction.sce</filename>
+<filename>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Nonsalient_Uncued_Run1.sce</filename>
+<filename>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Salient_Cued_Instruction.sce</filename>
+<filename>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Salient_Cued_Run1.sce</filename>
 </efs>
 <exclusive_mouse>1</exclusive_mouse>
 <exp_version></exp_version>
@@ -68,7 +76,28 @@
 <pass></pass>
 <ssa>
 <asn>
+<sid>-2</sid>
+</asn>
+<asn>
 <sid>-1</sid>
+</asn>
+<asn>
+<sid>-2</sid>
+</asn>
+<asn>
+<sid>-2</sid>
+</asn>
+<asn>
+<sid>-2</sid>
+</asn>
+<asn>
+<sid>-2</sid>
+</asn>
+<asn>
+<sid>-2</sid>
+</asn>
+<asn>
+<sid>-2</sid>
 </asn>
 </ssa>
 </man>
@@ -83,6 +112,13 @@
 <ftp>
 <ccc>0</ccc>
 <do_upload>
+<sce>1</sce>
+<sce>1</sce>
+<sce>1</sce>
+<sce>1</sce>
+<sce>1</sce>
+<sce>1</sce>
+<sce>1</sce>
 <sce>1</sce>
 </do_upload>
 <host></host>
@@ -148,21 +184,30 @@
 <pien>0</pien>
 <set_def_file></set_def_file>
 <stimulus_list>0</stimulus_list>
-<subject_id>MySubjectID</subject_id>
+<subject_id>FA51GNJ</subject_id>
 <subject_id_pol>2</subject_id_pol>
 <video_list>0</video_list>
 <warnings>1</warnings>
 </log>
 <lol>1</lol>
-<lpr>MySubjectID-</lpr>
+<lpr>FA51GNJ-</lpr>
 <maxpv></maxpv>
 <minpv></minpv>
 <mss>4</mss>
-<nam>ATWM1_Localizer_MRI</nam>
+<nam>ATWM1_Working_Memory_MRI_P7_RL</nam>
 <one_processor>2</one_processor>
 <oports></oports>
 <out_encrypt_key></out_encrypt_key>
-<pi_list></pi_list>
+<pi_list>
+<ip>
+<cn>trigger channel</cn>
+<lc>1</lc>
+</ip>
+<ip>
+<cn>parallel port</cn>
+<lc>1</lc>
+</ip>
+</pi_list>
 <port_devices>
 <device>
 <parameters>
@@ -385,10 +430,14 @@
 <device_type>11</device_type>
 <dx_device_type>0</dx_device_type>
 <ibn>1 (start)</ibn>
+<ibn>4 (start)</ibn>
 <idn>parallel port device</idn>
 <index>0</index>
+<index>1</index>
+<label></label>
 <label></label>
 <offset>0</offset>
+<offset>6</offset>
 </idv>
 <sfn>all_scenarios</sfn>
 </sce>
@@ -397,12 +446,128 @@
 <device_type>11</device_type>
 <dx_device_type>0</dx_device_type>
 <ibn>1 (start)</ibn>
+<ibn>4 (start)</ibn>
 <idn>parallel port device</idn>
 <index>0</index>
+<index>1</index>
+<label></label>
 <label></label>
 <offset>0</offset>
+<offset>6</offset>
 </idv>
-<sfn>D:\presentation\Bittner\ATWM1\ATWM1_Localizer_MRI_MySubjectID\ATWM1_Localizer_MRI.sce</sfn>
+<sfn>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Nonsalient_Uncued_Instruction.sce</sfn>
+</sce>
+<sce>
+<idv>
+<device_type>11</device_type>
+<dx_device_type>0</dx_device_type>
+<ibn>1 (start)</ibn>
+<ibn>4 (start)</ibn>
+<idn>parallel port device</idn>
+<index>0</index>
+<index>1</index>
+<label></label>
+<label></label>
+<offset>0</offset>
+<offset>6</offset>
+</idv>
+<sfn>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Nonsalient_Uncued_Run1.sce</sfn>
+</sce>
+<sce>
+<idv>
+<device_type>11</device_type>
+<dx_device_type>0</dx_device_type>
+<ibn>1 (start)</ibn>
+<ibn>4 (start)</ibn>
+<idn>parallel port device</idn>
+<index>0</index>
+<index>1</index>
+<label></label>
+<label></label>
+<offset>0</offset>
+<offset>6</offset>
+</idv>
+<sfn>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Nonsalient_Cued_Instruction.sce</sfn>
+</sce>
+<sce>
+<idv>
+<device_type>11</device_type>
+<dx_device_type>0</dx_device_type>
+<ibn>1 (start)</ibn>
+<ibn>4 (start)</ibn>
+<idn>parallel port device</idn>
+<index>0</index>
+<index>1</index>
+<label></label>
+<label></label>
+<offset>0</offset>
+<offset>6</offset>
+</idv>
+<sfn>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Nonsalient_Cued_Run1.sce</sfn>
+</sce>
+<sce>
+<idv>
+<device_type>11</device_type>
+<dx_device_type>0</dx_device_type>
+<ibn>1 (start)</ibn>
+<ibn>4 (start)</ibn>
+<idn>parallel port device</idn>
+<index>0</index>
+<index>1</index>
+<label></label>
+<label></label>
+<offset>0</offset>
+<offset>6</offset>
+</idv>
+<sfn>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Salient_Cued_Instruction.sce</sfn>
+</sce>
+<sce>
+<idv>
+<device_type>11</device_type>
+<dx_device_type>0</dx_device_type>
+<ibn>1 (start)</ibn>
+<ibn>4 (start)</ibn>
+<idn>parallel port device</idn>
+<index>0</index>
+<index>1</index>
+<label></label>
+<label></label>
+<offset>0</offset>
+<offset>6</offset>
+</idv>
+<sfn>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Salient_Cued_Run1.sce</sfn>
+</sce>
+<sce>
+<idv>
+<device_type>11</device_type>
+<dx_device_type>0</dx_device_type>
+<ibn>1 (start)</ibn>
+<ibn>4 (start)</ibn>
+<idn>parallel port device</idn>
+<index>0</index>
+<index>1</index>
+<label></label>
+<label></label>
+<offset>0</offset>
+<offset>6</offset>
+</idv>
+<sfn>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Salient_Uncued_Instruction.sce</sfn>
+</sce>
+<sce>
+<idv>
+<device_type>11</device_type>
+<dx_device_type>0</dx_device_type>
+<ibn>1 (start)</ibn>
+<ibn>4 (start)</ibn>
+<idn>parallel port device</idn>
+<index>0</index>
+<index>1</index>
+<label></label>
+<label></label>
+<offset>0</offset>
+<offset>6</offset>
+</idv>
+<sfn>D:\presentation\Bittner\ATWM1\ATWM1_Working_Memory_MRI_FA51GNJ\ATWM1_Working_Memory_MRI_Salient_Uncued_Run1.sce</sfn>
 </sce>
 <sct>
 <capture_device>
@@ -442,9 +607,9 @@
 <side_speakers>1</side_speakers>
 </sde>
 <sdv>5 (High Definition Audio Device)</sdv>
-<show_dis>1</show_dis>
-<show_parm>1</show_parm>
-<show_term>1</show_term>
+<show_dis>0</show_dis>
+<show_parm>0</show_parm>
+<show_term>0</show_term>
 <smc>2</smc>
 <smd>16</smd>
 <smr>44100</smr>
@@ -461,7 +626,7 @@
 <svl>
 <attenuation>0</attenuation>
 <do_attenuation>0</do_attenuation>
-<do_volume>0</do_volume>
+<do_volume>1</do_volume>
 <volume>1</volume>
 </svl>
 <swp>1</swp>

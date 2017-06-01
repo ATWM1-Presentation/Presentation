@@ -1,0 +1,145 @@
+# Template ATWM1_Working_Memory_PSY
+
+# Cueing Cross
+trial {   
+   picture { 
+      box frame1; x=0; y=0;
+      box frame2; x=0; y=0;
+	  box background; x=0; y=0;
+      bitmap $fixationcross_cued; x=0; y=0;
+      bitmap  $stim_cue1; x = $posX1; y = $posY1;
+      bitmap  $stim_cue2; x = $posX2; y = $posY2;
+      bitmap  $stim_cue3; x = $posX3; y = $posY3;
+      bitmap  $stim_cue4; x = $posX4; y = $posY4;   
+   };
+   time = 0;
+   duration = $cue_time; 	
+   code = "CueingCross"; 	
+   port_code = 31;
+};  
+
+# Preparation Time
+trial {     
+   picture {
+		box frame1; x=0; y=0;
+		box frame2; x=0; y=0;
+		box background; x=0; y=0;
+		bitmap fixation_cross_black; x=0; y=0;
+  };	    
+   time = 0;
+   duration = $preparation_time;	
+   code = "PrepTime"; 	
+   port_code = 32;
+}; 
+
+# Encoding
+trial {   
+   picture {       
+      box frame1; x=0; y=0;
+      box frame2; x=0; y=0;
+		box background; x=0; y=0;
+      bitmap fixation_cross_black; x=0; y=0;
+      bitmap  $stim_enc1; x = $posX1; y = $posY1;
+      bitmap  $stim_enc2; x = $posX2; y = $posY2;
+      bitmap  $stim_enc3; x = $posX3; y = $posY3;
+      bitmap  $stim_enc4; x = $posX4; y = $posY4;  
+   };
+   time = 0;
+   #mri_pulse = $trigger_volume_encoding;
+   duration = $single_stimulus_presentation_time; 	
+   code = $trial_code; 	
+   port_code = $trigger_encoding;   
+  
+   $numBlink = 0;
+   $numLoops = '($encoding_time-$single_stimulus_presentation_time) / ($single_stimulus_presentation_time*2)'; # already one cycle with length $single_stimulus_presentation_time done
+   $numLoops = 'floor($numLoops)'; 
+         
+   IF '$numLoops >= 1';
+		LOOP $i $numLoops;
+
+			 $numBlink = '$numBlink + 1';
+			 picture { 
+				 box frame1; x=0; y=0;
+				 box frame2; x=0; y=0;
+					box background; x=0; y=0;
+				 bitmap fixation_cross_black; x=0; y=0;
+				 bitmap  $stim_enc_alt1; x = $posX1; y = $posY1;
+				 bitmap  $stim_enc_alt2; x = $posX2; y = $posY2;
+				 bitmap  $stim_enc_alt3; x = $posX3; y = $posY3;
+				 bitmap  $stim_enc_alt4; x = $posX4; y = $posY4;  
+			 };
+			 time = '$numBlink*$single_stimulus_presentation_time';
+			 duration = $single_stimulus_presentation_time; 	
+			code = "Flicker2"; 
+			
+			 $numBlink = '$numBlink + 1';
+			 picture { 
+				 box frame1; x=0; y=0;
+				 box frame2; x=0; y=0;
+					box background; x=0; y=0;
+				 bitmap fixation_cross_black; x=0; y=0;
+				 bitmap  $stim_enc1; x = $posX1; y = $posY1;
+				 bitmap  $stim_enc2; x = $posX2; y = $posY2;
+				 bitmap  $stim_enc3; x = $posX3; y = $posY3;
+				 bitmap  $stim_enc4; x = $posX4; y = $posY4;  
+			 };
+			 time = '$numBlink*$single_stimulus_presentation_time';
+			 duration = $single_stimulus_presentation_time; 	
+				code = "Flicker3"; 
+		 ENDLOOP;
+	ENDIF;
+};
+  
+  
+# Delay / Maintenance
+trial	 {      
+   picture { 
+      box frame1; x=0; y=0;
+      box frame2; x=0; y=0;
+		box background; x=0; y=0;
+      bitmap fixation_cross_black; x=0; y=0;
+   };	
+   time = 0;  	
+   duration = $delay_time;
+   code = "Delay";
+   port_code = 50;
+ };        
+     
+     
+# Retrieval
+trial { 
+	
+   trial_type = fixed;
+   
+   picture {
+      box frame1; x=0; y=0;
+      box frame2; x=0; y=0;
+		box background; x=0; y=0;
+      bitmap fixation_cross_black; x=0; y=0;
+      bitmap  $stim_retr1; x = $posX1; y = $posY1;
+      bitmap  $stim_retr2; x = $posX2; y = $posY2;
+      bitmap  $stim_retr3; x = $posX3; y = $posY3;
+      bitmap  $stim_retr4; x = $posX4; y = $posY4;   
+	};
+   time = 0;  	
+   duration = $retrieval_time;   
+   #mri_pulse = $trigger_volume_retrieval;
+      
+	code = $retr_code; 
+    port_code = $trigger_retrieval;
+
+};
+
+# Intertrial Intervall (ITI)
+trial {   
+   picture {
+      box frame1; x=0; y=0;
+      box frame2; x=0; y=0;
+		box background; x=0; y=0;
+      bitmap fixation_cross_black; x=0; y=0;
+   };	
+   time = 0;  	
+   duration = $intertrial_interval;	
+   code = "ITI"; 
+   port_code = 70;
+}; 
