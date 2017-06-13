@@ -137,17 +137,7 @@ while ~bParametersCorrect
         error('\n\nNo subject selected!\n');
     end
     strSubjectID = aSubject.ATWM1_IMAGING.Groups.(genvarname(strGroup)){iSubject};
-    
-    %% Select response button configuration (left/right or right/left)
-    strPrompt = 'Please select the response button configuration for the subject';
-    strTitle = 'Response button configuration';
-    vListSize = [300, 100];
-    [iResponseButtonConfiguration ] = listdlg('ListString', parametersParadigm.aStrResponseButtonConfiguration, 'PromptString', strPrompt, 'Name', strTitle, 'ListSize', vListSize, 'SelectionMode', strDialogSelectionMode);
-    if isempty(iResponseButtonConfiguration)
-        error('\n\nNo response button configuration selected!\n');
-    end
-    strLeftRight = parametersParadigm.aStrResponseButtonConfiguration{iResponseButtonConfiguration};
-    
+  
     %% Select permutation
     strPrompt = 'Please select the permutation order';
     strTitle = 'Permutation order';
@@ -161,6 +151,17 @@ while ~bParametersCorrect
     end
     strPermutationType = parametersParadigm.aStrPermutations{iPermutation};
     
+    %% Select response button configuration (left/right or right/left)
+    strPrompt = 'Please select the response button configuration for the subject';
+    strTitle = 'Response button configuration';
+    vListSize = [300, 100];
+    [iResponseButtonConfiguration ] = listdlg('ListString', parametersParadigm.aStrResponseButtonConfiguration, 'PromptString', strPrompt, 'Name', strTitle, 'ListSize', vListSize, 'SelectionMode', strDialogSelectionMode);
+    if isempty(iResponseButtonConfiguration)
+        error('\n\nNo response button configuration selected!\n');
+    end
+    strLeftRight = parametersParadigm.aStrResponseButtonConfiguration{iResponseButtonConfiguration};
+ 
+    %% Verify
     [bParametersCorrect, bAbort] = verifyParametersForPresentationScenarioFileCreationATWM1(strGroup, strSubjectID, strPermutationType, strLeftRight);
     if bAbort
         sprintf('Parameter selection aborted by user!\n');
