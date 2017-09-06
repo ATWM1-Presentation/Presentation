@@ -101,6 +101,7 @@ aSubject.ATWM1_IMAGING.Groups.SCHI	= {
 	'RY37ZCL'
 	'TH80DKW'
 	'UH38WYR'
+	'VR60NTE'
 	'YE70NQR'
 	'YN49DEQ'
 	};
