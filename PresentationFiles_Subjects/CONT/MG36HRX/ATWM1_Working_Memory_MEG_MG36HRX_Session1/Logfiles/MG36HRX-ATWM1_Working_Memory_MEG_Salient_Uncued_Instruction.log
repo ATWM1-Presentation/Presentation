@@ -1,0 +1,59 @@
+Scenario - ATWM1_Working_Memory_MEG_salient_uncued_instruction
+Logfile written - 02/10/2016 16:33:53
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+MG36HRX	1	Picture	Instruction_S_UC	29	0	1	100131	2	0	100000
+MG36HRX	2	Picture	Instruction2	100327	0	1	100131	2	0	100000
+MG36HRX	3	Picture	Instruction3	200625	0	2	26078	3	0	resp
+MG36HRX	3	Response	10	226547	25922	3
+MG36HRX	4	Picture	Instruction4	246595	0	2	6185	4	0	resp
+MG36HRX	4	Response	20	252676	6081	4
+MG36HRX	5	Picture	Instruction5	272840	0	1	5349	2	0	resp
+MG36HRX	5	Response	10	278126	5286	4
+MG36HRX	6	Picture	Instruction4	298249	0	1	5516	2	0	resp
+MG36HRX	6	Response	20	303676	5427	3
+MG36HRX	7	Picture	Instruction3	323825	0	1	5516	3	0	resp
+MG36HRX	7	Response	10	329245	5420	4
+MG36HRX	8	Picture	Instruction4	349401	0	1	6018	2	0	resp
+MG36HRX	8	Response	20	355245	5844	4
+MG36HRX	9	Picture	Instruction_S_UC_TestTrials	375311	0	2	100131	4	0	100000
+MG36HRX	10	Picture	BaselinePre	475610	0	1	20059	2	0	20000
+MG36HRX	11	Picture	CueingCross	495836	0	2	3009	3	0	2920
+MG36HRX	12	Picture	PrepTime	499012	0	2	3009	4	0	2920
+MG36HRX	13	Picture	1_1_Encoding_Working_Memory_MEG_P4_LR_Salient_DoChange_CuedRetrieval_300_300_399_1900_3000_1900_gabor_patch_orientation_044_100_082_013_target_position_2_4_retrieval_position_4	502189	0	1	1337	2	0	1250
+MG36HRX	13	Picture	Flicker2	503526	1337	1	1337	2	1250	1250
+MG36HRX	13	Picture	Flicker3	504863	2674	1	1338	2	2500	1250
+MG36HRX	14	Picture	Delay	506368	0	1	19056	2	0	18920
+MG36HRX	15	Picture	1_1_Retrieval_Working_Memory_MEG_P4_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_151_retrieval_position_4	525592	0	1	30089	2	0	29920
+MG36HRX	15	Response	20	539343	13751	4
+MG36HRX	16	Picture	ITI	575741	0	1	19056	2	0	18920
+MG36HRX	17	Picture	CueingCross	594964	0	2	3009	3	0	2920
+MG36HRX	18	Picture	PrepTime	598141	0	1	3008	3	0	2920
+MG36HRX	19	Picture	1_2_Encoding_Working_Memory_MEG_P4_LR_Salient_NoChange_CuedRetrieval_300_300_399_1750_3000_1950_gabor_patch_orientation_171_062_002_147_target_position_1_2_retrieval_position_2	601317	0	1	1337	2	0	1250
+MG36HRX	19	Picture	Flicker2	602654	1337	1	1337	2	1250	1250
+MG36HRX	19	Picture	Flicker3	603991	2674	1	1337	3	2500	1250
+MG36HRX	20	Picture	Delay	605496	0	1	17552	2	0	17420
+MG36HRX	21	Picture	1_2_Retrieval_Working_Memory_MEG_P4_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_062_retrieval_position_2	623215	0	1	30089	3	0	29920
+MG36HRX	21	Response	10	631672	8457	4
+MG36HRX	22	Picture	ITI	673364	0	1	19558	2	0	19420
+MG36HRX	23	Picture	CueingCross	693089	0	2	3009	3	0	2920
+MG36HRX	24	Picture	PrepTime	696266	0	1	3008	3	0	2920
+MG36HRX	25	Picture	1_3_Encoding_Working_Memory_MEG_P4_LR_Salient_DoChange_CuedRetrieval_300_300_399_1800_3000_2000_gabor_patch_orientation_150_132_019_044_target_position_1_3_retrieval_position_3	699442	0	1	1337	2	0	1250
+MG36HRX	25	Picture	Flicker2	700779	1337	1	1337	2	1250	1250
+MG36HRX	25	Picture	Flicker3	702116	2674	1	1338	2	2500	1250
+MG36HRX	26	Picture	Delay	703621	0	1	18053	3	0	17920
+MG36HRX	27	Picture	1_3_Retrieval_Working_Memory_MEG_P4_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_068_retrieval_position_3	721842	0	1	30089	2	0	29920
+MG36HRX	27	Response	20	731471	9629	4
+MG36HRX	28	Picture	ITI	771991	0	1	20059	2	0	19920
+MG36HRX	29	Picture	CueingCross	792217	0	2	3009	3	0	2920
+MG36HRX	30	Picture	PrepTime	795394	0	1	3009	2	0	2920
+MG36HRX	31	Picture	1_4_Encoding_Working_Memory_MEG_P4_LR_Salient_NoChange_CuedRetrieval_300_300_399_1850_3000_2050_gabor_patch_orientation_169_060_031_137_target_position_3_4_retrieval_position_3	798570	0	1	1337	2	0	1250
+MG36HRX	31	Picture	Flicker2	799907	1337	1	1337	2	1250	1250
+MG36HRX	31	Picture	Flicker3	801244	2674	1	1338	2	2500	1250
+MG36HRX	32	Picture	Delay	802749	0	1	18555	2	0	18420
+MG36HRX	33	Picture	1_4_Retrieval_Working_Memory_MEG_P4_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_031_retrieval_position_3	821471	0	1	30090	2	0	29920
+MG36HRX	33	Response	10	835040	13569	4
+MG36HRX	34	Picture	ITI	871620	0	1	20561	2	0	20420
+MG36HRX	35	Picture	BaselinePost	892348	0	2	20060	3	0	20000
+MG36HRX	36	Picture	Instruction_S_UC	912575	0	1	50149	2	0	50000

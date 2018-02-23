@@ -1,0 +1,638 @@
+Scenario - ATWM1_Working_Memory_MEG_salient_cued_run1
+Logfile written - 02/09/2016 18:53:52
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+HK61CTP	1	Picture	ExpStart	29	0	1	10030	2	0	10000
+HK61CTP	2	Picture	BaselinePre	10226	0	1	100129	2	0	100000
+HK61CTP	3	Picture	CueingCross	110522	0	1	3009	2	0	2920
+HK61CTP	4	Picture	PrepTime	113698	0	1	3009	2	0	2920
+HK61CTP	5	Picture	1_1_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1750_3000_1950_gabor_patch_orientation_121_179_100_032_target_position_3_4_retrieval_position_3	116874	0	1	1337	2	0	1250
+HK61CTP	5	Picture	Flicker2	118211	1337	1	1338	2	1250	1250
+HK61CTP	5	Picture	Flicker3	119549	2675	1	1337	2	2500	1250
+HK61CTP	6	Picture	Delay	121053	0	1	17552	2	0	17420
+HK61CTP	7	Picture	1_1_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_150_retrieval_position_3	138772	0	1	30089	2	0	29920
+HK61CTP	7	Response	10	150886	12114	4
+HK61CTP	8	Picture	ITI	169028	0	1	19558	2	0	19420
+HK61CTP	9	Picture	CueingCross	188753	0	1	3009	2	0	2920
+HK61CTP	10	Picture	PrepTime	191929	0	1	3009	2	0	2920
+HK61CTP	11	Picture	1_2_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2200_3000_2250_gabor_patch_orientation_098_178_056_123_target_position_1_2_retrieval_position_2	195105	0	1	1337	2	0	1250
+HK61CTP	11	Picture	Flicker2	196442	1337	1	1338	2	1250	1250
+HK61CTP	11	Picture	Flicker3	197780	2675	1	1337	2	2500	1250
+HK61CTP	12	Picture	Delay	199284	0	1	22065	2	0	21920
+HK61CTP	13	Picture	1_2_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_178_retrieval_position_2	221516	0	2	30089	3	0	29920
+HK61CTP	13	Response	10	232424	10908	3
+HK61CTP	14	Picture	ITI	251772	0	2	22567	3	0	22420
+HK61CTP	15	Picture	CueingCross	274506	0	1	3009	2	0	2920
+HK61CTP	16	Picture	PrepTime	277682	0	2	3009	3	0	2920
+HK61CTP	17	Picture	1_3_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2050_3000_2150_gabor_patch_orientation_087_138_104_169_target_position_1_4_retrieval_position_4	280858	0	2	1338	3	0	1250
+HK61CTP	17	Picture	Flicker2	282196	1338	1	1337	2	1250	1250
+HK61CTP	17	Picture	Flicker3	283533	2675	1	1337	2	2500	1250
+HK61CTP	18	Picture	Delay	285037	0	2	20561	3	0	20420
+HK61CTP	19	Picture	1_3_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_169_retrieval_position_4	305765	0	1	30089	2	0	29920
+HK61CTP	19	Response	10	319911	14146	4
+HK61CTP	20	Picture	ITI	336021	0	2	21564	3	0	21420
+HK61CTP	21	Picture	CueingCross	357752	0	1	3009	2	0	2920
+HK61CTP	22	Picture	PrepTime	360928	0	1	3009	2	0	2920
+HK61CTP	23	Picture	1_4_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1950_3000_2550_gabor_patch_orientation_016_077_037_094_target_position_2_4_retrieval_position_2	364104	0	1	1337	3	0	1250
+HK61CTP	23	Picture	Flicker2	365441	1337	2	1338	3	1250	1250
+HK61CTP	23	Picture	Flicker3	366779	2675	1	1337	2	2500	1250
+HK61CTP	24	Picture	Delay	368283	0	1	19558	2	0	19420
+HK61CTP	25	Picture	1_4_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_122_retrieval_position_2	388008	0	1	30089	2	0	29920
+HK61CTP	25	Response	20	404429	16421	3
+HK61CTP	26	Picture	ITI	418264	0	1	25576	2	0	25420
+HK61CTP	27	Picture	CueingCross	444007	0	1	3009	2	0	2920
+HK61CTP	28	Picture	PrepTime	447183	0	1	3009	2	0	2920
+HK61CTP	29	Picture	1_5_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_2200_gabor_patch_orientation_131_001_167_048_target_position_1_2_retrieval_position_1	450359	0	1	1337	2	0	1250
+HK61CTP	29	Picture	Flicker2	451696	1337	1	1337	3	1250	1250
+HK61CTP	29	Picture	Flicker3	453033	2674	2	1338	3	2500	1250
+HK61CTP	30	Picture	Delay	454538	0	1	18053	3	0	17920
+HK61CTP	31	Picture	1_5_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_083_retrieval_position_1	472758	0	2	30089	3	0	29920
+HK61CTP	31	Response	20	485816	13058	4
+HK61CTP	32	Picture	ITI	503014	0	2	22066	3	0	21920
+HK61CTP	33	Picture	CueingCross	525247	0	1	3009	2	0	2920
+HK61CTP	34	Picture	PrepTime	528423	0	1	3009	2	0	2920
+HK61CTP	35	Picture	1_6_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2200_3000_1900_gabor_patch_orientation_110_060_002_166_target_position_3_4_retrieval_position_3	531599	0	1	1337	2	0	1250
+HK61CTP	35	Picture	Flicker2	532936	1337	1	1337	3	1250	1250
+HK61CTP	35	Picture	Flicker3	534273	2674	2	1338	3	2500	1250
+HK61CTP	36	Picture	Delay	535778	0	1	22065	2	0	21920
+HK61CTP	37	Picture	1_6_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_139_retrieval_position_3	558010	0	1	30089	2	0	29920
+HK61CTP	37	Response	20	568424	10414	3
+HK61CTP	38	Picture	ITI	588266	0	2	19056	4	0	18920
+HK61CTP	39	Picture	CueingCross	607490	0	1	3009	2	0	2920
+HK61CTP	40	Picture	PrepTime	610666	0	1	3009	2	0	2920
+HK61CTP	41	Picture	1_7_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_2100_3000_2200_gabor_patch_orientation_062_044_023_105_target_position_3_4_retrieval_position_2	613842	0	1	1337	2	0	1250
+HK61CTP	41	Picture	Flicker2	615179	1337	1	1337	2	1250	1250
+HK61CTP	41	Picture	Flicker3	616516	2674	1	1338	2	2500	1250
+HK61CTP	42	Picture	Delay	618021	0	1	21062	2	0	20920
+HK61CTP	43	Picture	1_7_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_044_retrieval_position_2	639250	0	1	30089	2	0	29920
+HK61CTP	43	Response	10	660801	21551	3
+HK61CTP	44	Picture	ITI	669506	0	1	22065	2	0	21920
+HK61CTP	45	Picture	CueingCross	691738	0	2	3009	3	0	2920
+HK61CTP	46	Picture	PrepTime	694914	0	2	3009	3	0	2920
+HK61CTP	47	Picture	1_8_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1950_3000_2100_gabor_patch_orientation_113_030_098_008_target_position_3_4_retrieval_position_4	698091	0	1	1337	2	0	1250
+HK61CTP	47	Picture	Flicker2	699428	1337	1	1337	2	1250	1250
+HK61CTP	47	Picture	Flicker3	700765	2674	1	1337	3	2500	1250
+HK61CTP	48	Picture	Delay	702270	0	1	19557	2	0	19420
+HK61CTP	49	Picture	1_8_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_008_retrieval_position_4	721994	0	2	30089	3	0	29920
+HK61CTP	49	Response	10	731809	9815	3
+HK61CTP	50	Picture	ITI	752250	0	2	21063	3	0	20920
+HK61CTP	51	Picture	CueingCross	773480	0	1	3009	2	0	2920
+HK61CTP	52	Picture	PrepTime	776656	0	1	3009	2	0	2920
+HK61CTP	53	Picture	1_9_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2150_3000_2500_gabor_patch_orientation_149_042_009_116_target_position_1_3_retrieval_position_1	779832	0	1	1337	2	0	1250
+HK61CTP	53	Picture	Flicker2	781169	1337	1	1337	3	1250	1250
+HK61CTP	53	Picture	Flicker3	782506	2674	2	1338	3	2500	1250
+HK61CTP	54	Picture	Delay	784011	0	1	21564	2	0	21420
+HK61CTP	55	Picture	1_9_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_149_retrieval_position_1	805742	0	1	30089	2	0	29920
+HK61CTP	55	Response	10	821216	15474	3
+HK61CTP	56	Picture	ITI	835998	0	1	25074	2	0	24920
+HK61CTP	57	Picture	CueingCross	861239	0	1	3009	2	0	2920
+HK61CTP	58	Picture	PrepTime	864415	0	1	3009	2	0	2920
+HK61CTP	59	Picture	1_10_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_2050_gabor_patch_orientation_060_093_040_123_target_position_3_4_retrieval_position_4	867591	0	1	1337	2	0	1250
+HK61CTP	59	Picture	Flicker2	868928	1337	1	1338	2	1250	1250
+HK61CTP	59	Picture	Flicker3	870266	2675	1	1337	2	2500	1250
+HK61CTP	60	Picture	Delay	871770	0	2	18053	4	0	17920
+HK61CTP	61	Picture	1_10_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_171_retrieval_position_4	889991	0	1	30088	3	0	29920
+HK61CTP	61	Response	20	898463	8472	4
+HK61CTP	62	Picture	ITI	920247	0	1	20560	2	0	20420
+HK61CTP	63	Picture	CueingCross	940975	0	1	3008	2	0	2920
+HK61CTP	64	Picture	PrepTime	944151	0	1	3008	3	0	2920
+HK61CTP	65	Picture	1_11_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2100_3000_2200_gabor_patch_orientation_082_143_108_125_target_position_3_4_retrieval_position_3	947327	0	1	1337	2	0	1250
+HK61CTP	65	Picture	Flicker2	948664	1337	1	1337	2	1250	1250
+HK61CTP	65	Picture	Flicker3	950001	2674	1	1337	3	2500	1250
+HK61CTP	66	Picture	Delay	951506	0	1	21062	2	0	20920
+HK61CTP	67	Picture	1_11_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_059_retrieval_position_3	972735	0	1	30089	2	0	29920
+HK61CTP	67	Response	10	992901	20166	3
+HK61CTP	68	Picture	ITI	1002991	0	1	22065	2	0	21920
+HK61CTP	69	Picture	CueingCross	1025223	0	2	3009	3	0	2920
+HK61CTP	70	Picture	PrepTime	1028399	0	2	3009	3	0	2920
+HK61CTP	71	Picture	1_12_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2200_3000_1950_gabor_patch_orientation_033_076_154_018_target_position_1_3_retrieval_position_3	1031575	0	2	1338	3	0	1250
+HK61CTP	71	Picture	Flicker2	1032913	1338	1	1337	2	1250	1250
+HK61CTP	71	Picture	Flicker3	1034250	2675	1	1337	2	2500	1250
+HK61CTP	72	Picture	Delay	1035754	0	2	22066	3	0	21920
+HK61CTP	73	Picture	1_12_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_154_retrieval_position_3	1057987	0	1	30089	2	0	29920
+HK61CTP	73	Response	10	1067228	9241	4
+HK61CTP	74	Picture	ITI	1088243	0	1	19558	2	0	19420
+HK61CTP	75	Picture	CueingCross	1107968	0	1	3009	2	0	2920
+HK61CTP	76	Picture	PrepTime	1111144	0	1	3009	2	0	2920
+HK61CTP	77	Picture	1_13_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1750_3000_2000_gabor_patch_orientation_045_074_091_109_target_position_1_4_retrieval_position_2	1114320	0	1	1337	2	0	1250
+HK61CTP	77	Picture	Flicker2	1115657	1337	1	1337	2	1250	1250
+HK61CTP	77	Picture	Flicker3	1116994	2674	1	1338	2	2500	1250
+HK61CTP	78	Picture	Delay	1118499	0	1	17552	2	0	17420
+HK61CTP	79	Picture	1_13_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_029_retrieval_position_2	1136218	0	1	30089	2	0	29920
+HK61CTP	79	Response	10	1157195	20977	4
+HK61CTP	80	Picture	ITI	1166474	0	1	20059	2	0	19920
+HK61CTP	81	Picture	CueingCross	1186700	0	1	3009	2	0	2920
+HK61CTP	82	Picture	PrepTime	1189876	0	1	3009	2	0	2920
+HK61CTP	83	Picture	1_14_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2050_3000_2250_gabor_patch_orientation_067_052_139_174_target_position_1_3_retrieval_position_1	1193052	0	1	1338	2	0	1250
+HK61CTP	83	Picture	Flicker2	1194390	1338	1	1337	2	1250	1250
+HK61CTP	83	Picture	Flicker3	1195727	2675	1	1337	2	2500	1250
+HK61CTP	84	Picture	Delay	1197231	0	1	20561	2	0	20420
+HK61CTP	85	Picture	1_14_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_112_retrieval_position_1	1217959	0	1	30089	2	0	29920
+HK61CTP	85	Response	20	1234873	16914	4
+HK61CTP	86	Picture	ITI	1248215	0	1	22567	2	0	22420
+HK61CTP	87	Picture	CueingCross	1270949	0	1	3009	2	0	2920
+HK61CTP	88	Picture	PrepTime	1274125	0	1	3009	2	0	2920
+HK61CTP	89	Picture	1_15_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2000_3000_2200_gabor_patch_orientation_162_040_104_128_target_position_1_3_retrieval_position_1	1277301	0	1	1337	2	0	1250
+HK61CTP	89	Picture	Flicker2	1278638	1337	1	1338	2	1250	1250
+HK61CTP	89	Picture	Flicker3	1279976	2675	1	1337	2	2500	1250
+HK61CTP	90	Picture	Delay	1281480	0	1	20059	2	0	19920
+HK61CTP	91	Picture	1_15_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_162_retrieval_position_1	1301706	0	2	30089	3	0	29920
+HK61CTP	91	Response	20	1321960	20254	4
+HK61CTP	92	Picture	ITI	1331962	0	2	22066	3	0	21920
+HK61CTP	93	Picture	CueingCross	1354195	0	1	3009	2	0	2920
+HK61CTP	94	Picture	PrepTime	1357371	0	1	3009	2	0	2920
+HK61CTP	95	Picture	1_16_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1950_3000_2300_gabor_patch_orientation_124_006_042_170_target_position_2_3_retrieval_position_3	1360547	0	1	1337	2	0	1250
+HK61CTP	95	Picture	Flicker2	1361884	1337	1	1337	3	1250	1250
+HK61CTP	95	Picture	Flicker3	1363221	2674	2	1338	3	2500	1250
+HK61CTP	96	Picture	Delay	1364726	0	1	19558	2	0	19420
+HK61CTP	97	Picture	1_16_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_042_retrieval_position_3	1384451	0	1	30089	2	0	29920
+HK61CTP	97	Response	10	1396518	12067	4
+HK61CTP	98	Picture	ITI	1414707	0	1	23068	2	0	22920
+HK61CTP	99	Picture	CueingCross	1437942	0	1	3009	2	0	2920
+HK61CTP	100	Picture	PrepTime	1441118	0	1	3009	2	0	2920
+HK61CTP	101	Picture	1_17_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_2600_gabor_patch_orientation_073_003_021_051_target_position_2_3_retrieval_position_3	1444294	0	1	1337	3	0	1250
+HK61CTP	101	Picture	Flicker2	1445631	1337	2	1338	3	1250	1250
+HK61CTP	101	Picture	Flicker3	1446969	2675	1	1337	2	2500	1250
+HK61CTP	102	Picture	Delay	1448473	0	1	18054	2	0	17920
+HK61CTP	103	Picture	1_17_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_161_retrieval_position_3	1466694	0	1	30089	2	0	29920
+HK61CTP	103	Response	20	1475696	9002	5
+HK61CTP	104	Picture	ITI	1496949	0	2	26077	4	0	25920
+HK61CTP	105	Picture	CueingCross	1523194	0	1	3009	2	0	2920
+HK61CTP	106	Picture	PrepTime	1526370	0	1	3009	2	0	2920
+HK61CTP	107	Picture	1_18_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1850_3000_2450_gabor_patch_orientation_052_073_121_158_target_position_2_3_retrieval_position_1	1529546	0	1	1337	2	0	1250
+HK61CTP	107	Picture	Flicker2	1530883	1337	1	1338	2	1250	1250
+HK61CTP	107	Picture	Flicker3	1532221	2675	1	1337	2	2500	1250
+HK61CTP	108	Picture	Delay	1533725	0	1	18555	2	0	18420
+HK61CTP	109	Picture	1_18_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_100_retrieval_position_1	1552447	0	1	30089	2	0	29920
+HK61CTP	109	Response	10	1576413	23966	3
+HK61CTP	110	Picture	ITI	1582703	0	1	24572	3	0	24420
+HK61CTP	111	Picture	CueingCross	1607443	0	1	3009	2	0	2920
+HK61CTP	112	Picture	PrepTime	1610619	0	1	3009	2	0	2920
+HK61CTP	113	Picture	1_19_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_2150_gabor_patch_orientation_036_058_090_163_target_position_3_4_retrieval_position_4	1613795	0	1	1337	2	0	1250
+HK61CTP	113	Picture	Flicker2	1615132	1337	1	1337	2	1250	1250
+HK61CTP	113	Picture	Flicker3	1616469	2674	1	1338	2	2500	1250
+HK61CTP	114	Picture	Delay	1617974	0	1	18053	2	0	17920
+HK61CTP	115	Picture	1_19_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_116_retrieval_position_4	1636194	0	1	30089	2	0	29920
+HK61CTP	115	Response	10	1651710	15516	4
+HK61CTP	116	Picture	ITI	1666450	0	1	21564	2	0	21420
+HK61CTP	117	Picture	CueingCross	1688181	0	1	3009	2	0	2920
+HK61CTP	118	Picture	PrepTime	1691357	0	1	3009	2	0	2920
+HK61CTP	119	Picture	1_20_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2100_3000_2400_gabor_patch_orientation_130_113_146_096_target_position_1_4_retrieval_position_1	1694533	0	1	1337	3	0	1250
+HK61CTP	119	Picture	Flicker2	1695870	1337	2	1338	3	1250	1250
+HK61CTP	119	Picture	Flicker3	1697208	2675	1	1337	2	2500	1250
+HK61CTP	120	Picture	Delay	1698712	0	1	21062	3	0	20920
+HK61CTP	121	Picture	1_20_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_130_retrieval_position_1	1719942	0	1	30088	2	0	29920
+HK61CTP	121	Response	20	1729728	9786	3
+HK61CTP	122	Picture	ITI	1750197	0	2	24072	3	0	23920
+HK61CTP	123	Picture	CueingCross	1774436	0	1	3009	2	0	2920
+HK61CTP	124	Picture	PrepTime	1777612	0	1	3009	2	0	2920
+HK61CTP	125	Picture	1_21_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2250_3000_1900_gabor_patch_orientation_132_173_002_116_target_position_2_3_retrieval_position_3	1780788	0	2	1337	3	0	1250
+HK61CTP	125	Picture	Flicker2	1782125	1337	1	1337	3	1250	1250
+HK61CTP	125	Picture	Flicker3	1783462	2674	2	1338	3	2500	1250
+HK61CTP	126	Picture	Delay	1784967	0	1	22567	2	0	22420
+HK61CTP	127	Picture	1_21_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_048_retrieval_position_3	1807701	0	1	30089	2	0	29920
+HK61CTP	127	Response	20	1816365	8664	4
+HK61CTP	128	Picture	ITI	1837957	0	1	19056	2	0	18920
+HK61CTP	129	Picture	CueingCross	1857180	0	1	3009	2	0	2920
+HK61CTP	130	Picture	PrepTime	1860356	0	1	3009	2	0	2920
+HK61CTP	131	Picture	1_22_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1750_3000_2300_gabor_patch_orientation_136_031_052_072_target_position_3_4_retrieval_position_1	1863532	0	1	1337	3	0	1250
+HK61CTP	131	Picture	Flicker2	1864869	1337	2	1338	3	1250	1250
+HK61CTP	131	Picture	Flicker3	1866207	2675	1	1337	2	2500	1250
+HK61CTP	132	Picture	Delay	1867711	0	1	17552	2	0	17420
+HK61CTP	133	Picture	1_22_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_090_retrieval_position_1	1885430	0	1	30089	2	0	29920
+HK61CTP	133	Response	20	1901563	16133	3
+HK61CTP	134	Picture	ITI	1915686	0	2	23068	3	0	22920
+HK61CTP	135	Picture	CueingCross	1938922	0	1	3008	3	0	2920
+HK61CTP	136	Picture	PrepTime	1942098	0	1	3008	3	0	2920
+HK61CTP	137	Picture	1_23_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2100_3000_2450_gabor_patch_orientation_034_177_066_090_target_position_1_3_retrieval_position_3	1945274	0	1	1337	2	0	1250
+HK61CTP	137	Picture	Flicker2	1946611	1337	1	1337	2	1250	1250
+HK61CTP	137	Picture	Flicker3	1947948	2674	1	1337	3	2500	1250
+HK61CTP	138	Picture	Delay	1949453	0	1	21062	2	0	20920
+HK61CTP	139	Picture	1_23_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_066_retrieval_position_3	1970682	0	1	30089	2	0	29920
+HK61CTP	139	Response	10	1980150	9468	4
+HK61CTP	140	Picture	ITI	2000938	0	1	24573	2	0	24420
+HK61CTP	141	Picture	CueingCross	2025678	0	1	3008	3	0	2920
+HK61CTP	142	Picture	PrepTime	2028854	0	1	3009	2	0	2920
+HK61CTP	143	Picture	1_24_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1850_3000_2450_gabor_patch_orientation_101_162_073_011_target_position_2_3_retrieval_position_3	2032030	0	1	1337	2	0	1250
+HK61CTP	143	Picture	Flicker2	2033367	1337	1	1337	2	1250	1250
+HK61CTP	143	Picture	Flicker3	2034704	2674	1	1338	2	2500	1250
+HK61CTP	144	Picture	Delay	2036209	0	1	18555	2	0	18420
+HK61CTP	145	Picture	1_24_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_073_retrieval_position_3	2054931	0	1	30089	2	0	29920
+HK61CTP	145	Response	10	2068587	13656	4
+HK61CTP	146	Picture	ITI	2085187	0	1	24572	2	0	24420
+HK61CTP	147	Picture	CueingCross	2109926	0	2	3009	3	0	2920
+HK61CTP	148	Picture	PrepTime	2113103	0	1	3008	3	0	2920
+HK61CTP	149	Picture	1_25_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1900_3000_2100_gabor_patch_orientation_137_006_158_081_target_position_2_4_retrieval_position_4	2116279	0	1	1337	2	0	1250
+HK61CTP	149	Picture	Flicker2	2117616	1337	1	1337	2	1250	1250
+HK61CTP	149	Picture	Flicker3	2118953	2674	1	1337	3	2500	1250
+HK61CTP	150	Picture	Delay	2120458	0	1	19056	2	0	18920
+HK61CTP	151	Picture	1_25_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_031_retrieval_position_4	2139681	0	1	30089	2	0	29920
+HK61CTP	151	Response	20	2147405	7724	3
+HK61CTP	152	Picture	ITI	2169937	0	1	21062	2	0	20920
+HK61CTP	153	Picture	CueingCross	2191166	0	2	3009	3	0	2920
+HK61CTP	154	Picture	PrepTime	2194342	0	2	3009	3	0	2920
+HK61CTP	155	Picture	1_26_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1850_3000_2400_gabor_patch_orientation_067_123_157_141_target_position_1_3_retrieval_position_2	2197518	0	2	1338	3	0	1250
+HK61CTP	155	Picture	Flicker2	2198856	1338	1	1337	2	1250	1250
+HK61CTP	155	Picture	Flicker3	2200193	2675	1	1337	2	2500	1250
+HK61CTP	156	Picture	Delay	2201697	0	2	18555	3	0	18420
+HK61CTP	157	Picture	1_26_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_123_retrieval_position_2	2220419	0	2	30089	3	0	29920
+HK61CTP	157	Response	20	2235792	15373	4
+HK61CTP	158	Picture	ITI	2250675	0	2	24072	3	0	23920
+HK61CTP	159	Picture	CueingCross	2274914	0	1	3009	2	0	2920
+HK61CTP	160	Picture	PrepTime	2278090	0	1	3009	2	0	2920
+HK61CTP	161	Picture	1_27_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2050_3000_2600_gabor_patch_orientation_006_158_140_122_target_position_2_4_retrieval_position_4	2281266	0	1	1337	2	0	1250
+HK61CTP	161	Picture	Flicker2	2282603	1337	1	1337	2	1250	1250
+HK61CTP	161	Picture	Flicker3	2283940	2674	1	1338	2	2500	1250
+HK61CTP	162	Picture	Delay	2285445	0	1	20560	3	0	20420
+HK61CTP	163	Picture	1_27_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_122_retrieval_position_4	2306173	0	1	30089	2	0	29920
+HK61CTP	163	Response	20	2326009	19836	4
+HK61CTP	164	Picture	ITI	2336429	0	1	26077	2	0	25920
+HK61CTP	165	Picture	CueingCross	2362673	0	1	3009	2	0	2920
+HK61CTP	166	Picture	PrepTime	2365849	0	1	3009	2	0	2920
+HK61CTP	167	Picture	1_28_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2250_3000_2450_gabor_patch_orientation_012_088_137_167_target_position_1_2_retrieval_position_1	2369025	0	1	1337	2	0	1250
+HK61CTP	167	Picture	Flicker2	2370362	1337	1	1338	2	1250	1250
+HK61CTP	167	Picture	Flicker3	2371700	2675	1	1337	2	2500	1250
+HK61CTP	168	Picture	Delay	2373204	0	1	22567	2	0	22420
+HK61CTP	169	Picture	1_28_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_058_retrieval_position_1	2395938	0	1	30089	2	0	29920
+HK61CTP	169	Response	10	2417217	21279	3
+HK61CTP	170	Picture	ITI	2426194	0	1	24572	2	0	24420
+HK61CTP	171	Picture	CueingCross	2450933	0	2	3009	3	0	2920
+HK61CTP	172	Picture	PrepTime	2454110	0	1	3008	3	0	2920
+HK61CTP	173	Picture	1_29_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2050_3000_2350_gabor_patch_orientation_037_124_096_015_target_position_1_2_retrieval_position_1	2457286	0	1	1337	2	0	1250
+HK61CTP	173	Picture	Flicker2	2458623	1337	1	1337	2	1250	1250
+HK61CTP	173	Picture	Flicker3	2459960	2674	1	1337	3	2500	1250
+HK61CTP	174	Picture	Delay	2461465	0	1	20560	2	0	20420
+HK61CTP	175	Picture	1_29_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_037_retrieval_position_1	2482192	0	2	30089	3	0	29920
+HK61CTP	175	Response	10	2489044	6852	4
+HK61CTP	176	Picture	ITI	2512448	0	2	23570	3	0	23420
+HK61CTP	177	Picture	CueingCross	2536185	0	1	3009	2	0	2920
+HK61CTP	178	Picture	PrepTime	2539361	0	2	3009	3	0	2920
+HK61CTP	179	Picture	1_30_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1750_3000_2000_gabor_patch_orientation_056_006_166_135_target_position_2_3_retrieval_position_4	2542537	0	2	1338	3	0	1250
+HK61CTP	179	Picture	Flicker2	2543875	1338	1	1337	2	1250	1250
+HK61CTP	179	Picture	Flicker3	2545212	2675	1	1337	2	2500	1250
+HK61CTP	180	Picture	Delay	2546716	0	2	17552	3	0	17420
+HK61CTP	181	Picture	1_30_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_135_retrieval_position_4	2564435	0	2	30089	3	0	29920
+HK61CTP	181	Response	20	2579952	15517	3
+HK61CTP	182	Picture	ITI	2594691	0	2	20060	3	0	19920
+HK61CTP	183	Picture	CueingCross	2614918	0	1	3009	2	0	2920
+HK61CTP	184	Picture	PrepTime	2618094	0	1	3009	2	0	2920
+HK61CTP	185	Picture	1_31_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2000_3000_2100_gabor_patch_orientation_092_179_152_028_target_position_1_3_retrieval_position_3	2621270	0	1	1337	2	0	1250
+HK61CTP	185	Picture	Flicker2	2622607	1337	1	1337	2	1250	1250
+HK61CTP	185	Picture	Flicker3	2623944	2674	1	1338	2	2500	1250
+HK61CTP	186	Picture	Delay	2625449	0	1	20059	2	0	19920
+HK61CTP	187	Picture	1_31_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_152_retrieval_position_3	2645675	0	1	30089	2	0	29920
+HK61CTP	187	Response	10	2656789	11114	4
+HK61CTP	188	Picture	ITI	2675931	0	1	21062	3	0	20920
+HK61CTP	189	Picture	CueingCross	2697161	0	1	3008	3	0	2920
+HK61CTP	190	Picture	PrepTime	2700337	0	1	3008	3	0	2920
+HK61CTP	191	Picture	1_32_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2000_3000_2250_gabor_patch_orientation_013_168_099_143_target_position_1_3_retrieval_position_1	2703513	0	1	1337	2	0	1250
+HK61CTP	191	Picture	Flicker2	2704850	1337	1	1337	2	1250	1250
+HK61CTP	191	Picture	Flicker3	2706187	2674	1	1338	2	2500	1250
+HK61CTP	192	Picture	Delay	2707692	0	1	20059	2	0	19920
+HK61CTP	193	Picture	1_32_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_013_retrieval_position_1	2727918	0	1	30089	2	0	29920
+HK61CTP	193	Response	10	2740167	12249	4
+HK61CTP	194	Picture	ITI	2758174	0	1	22567	2	0	22420
+HK61CTP	195	Picture	CueingCross	2780908	0	1	3009	2	0	2920
+HK61CTP	196	Picture	PrepTime	2784084	0	1	3009	2	0	2920
+HK61CTP	197	Picture	1_33_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1750_3000_2350_gabor_patch_orientation_098_041_128_162_target_position_2_3_retrieval_position_3	2787260	0	1	1337	2	0	1250
+HK61CTP	197	Picture	Flicker2	2788597	1337	1	1338	2	1250	1250
+HK61CTP	197	Picture	Flicker3	2789935	2675	1	1337	2	2500	1250
+HK61CTP	198	Picture	Delay	2791439	0	1	17552	2	0	17420
+HK61CTP	199	Picture	1_33_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_128_retrieval_position_3	2809158	0	1	30089	2	0	29920
+HK61CTP	199	Response	10	2819024	9866	7
+HK61CTP	200	Picture	ITI	2839414	0	1	23570	2	0	23420
+HK61CTP	201	Picture	CueingCross	2863151	0	1	3009	2	0	2920
+HK61CTP	202	Picture	PrepTime	2866327	0	1	3009	2	0	2920
+HK61CTP	203	Picture	1_34_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2200_3000_2550_gabor_patch_orientation_120_003_154_175_target_position_2_3_retrieval_position_2	2869503	0	1	1337	2	0	1250
+HK61CTP	203	Picture	Flicker2	2870840	1337	1	1337	2	1250	1250
+HK61CTP	203	Picture	Flicker3	2872177	2674	1	1338	2	2500	1250
+HK61CTP	204	Picture	Delay	2873682	0	1	22065	2	0	21920
+HK61CTP	205	Picture	1_34_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_003_retrieval_position_2	2895914	0	1	30089	2	0	29920
+HK61CTP	205	Response	20	2904872	8958	3
+HK61CTP	206	Picture	ITI	2926170	0	1	25576	2	0	25420
+HK61CTP	207	Picture	CueingCross	2951912	0	2	3010	3	0	2920
+HK61CTP	208	Picture	PrepTime	2955089	0	1	3009	2	0	2920
+HK61CTP	209	Picture	1_35_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2250_3000_1950_gabor_patch_orientation_131_014_065_103_target_position_2_4_retrieval_position_2	2958265	0	1	1337	2	0	1250
+HK61CTP	209	Picture	Flicker2	2959602	1337	1	1337	3	1250	1250
+HK61CTP	209	Picture	Flicker3	2960939	2674	2	1338	3	2500	1250
+HK61CTP	210	Picture	Delay	2962444	0	1	22567	2	0	22420
+HK61CTP	211	Picture	1_35_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_014_retrieval_position_2	2985178	0	1	30089	2	0	29920
+HK61CTP	211	Response	10	2996619	11441	3
+HK61CTP	212	Picture	ITI	3015434	0	1	19557	3	0	19420
+HK61CTP	213	Picture	CueingCross	3035159	0	1	3009	2	0	2920
+HK61CTP	214	Picture	PrepTime	3038335	0	1	3009	2	0	2920
+HK61CTP	215	Picture	1_36_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1850_3000_2200_gabor_patch_orientation_133_110_177_048_target_position_2_3_retrieval_position_4	3041511	0	1	1337	2	0	1250
+HK61CTP	215	Picture	Flicker2	3042848	1337	1	1337	2	1250	1250
+HK61CTP	215	Picture	Flicker3	3044185	2674	1	1338	2	2500	1250
+HK61CTP	216	Picture	Delay	3045690	0	1	18555	2	0	18420
+HK61CTP	217	Picture	1_36_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_048_retrieval_position_4	3064412	0	1	30089	2	0	29920
+HK61CTP	217	Response	10	3086676	22264	3
+HK61CTP	218	Picture	ITI	3094668	0	1	22065	2	0	21920
+HK61CTP	219	Picture	CueingCross	3116900	0	1	3009	2	0	2920
+HK61CTP	220	Picture	PrepTime	3120076	0	1	3009	2	0	2920
+HK61CTP	221	Picture	1_37_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1850_3000_2050_gabor_patch_orientation_019_107_075_144_target_position_2_3_retrieval_position_2	3123252	0	1	1337	2	0	1250
+HK61CTP	221	Picture	Flicker2	3124589	1337	1	1338	2	1250	1250
+HK61CTP	221	Picture	Flicker3	3125927	2675	1	1337	2	2500	1250
+HK61CTP	222	Picture	Delay	3127431	0	1	18555	2	0	18420
+HK61CTP	223	Picture	1_37_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_057_retrieval_position_2	3146153	0	1	30089	2	0	29920
+HK61CTP	223	Response	20	3157014	10861	3
+HK61CTP	224	Picture	ITI	3176409	0	1	20561	2	0	20420
+HK61CTP	225	Picture	CueingCross	3197137	0	1	3009	2	0	2920
+HK61CTP	226	Picture	PrepTime	3200313	0	1	3009	2	0	2920
+HK61CTP	227	Picture	1_38_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1900_3000_1950_gabor_patch_orientation_176_024_129_060_target_position_1_2_retrieval_position_1	3203489	0	1	1337	2	0	1250
+HK61CTP	227	Picture	Flicker2	3204826	1337	1	1338	2	1250	1250
+HK61CTP	227	Picture	Flicker3	3206164	2675	1	1337	2	2500	1250
+HK61CTP	228	Picture	Delay	3207668	0	1	19056	2	0	18920
+HK61CTP	229	Picture	1_38_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_041_retrieval_position_1	3226891	0	2	30089	3	0	29920
+HK61CTP	229	Response	20	3235791	8900	4
+HK61CTP	230	Picture	ITI	3257147	0	2	19558	3	0	19420
+HK61CTP	231	Picture	CueingCross	3276872	0	2	3009	3	0	2920
+HK61CTP	232	Picture	PrepTime	3280048	0	2	3009	3	0	2920
+HK61CTP	233	Picture	1_39_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1800_3000_2150_gabor_patch_orientation_045_170_155_119_target_position_1_4_retrieval_position_1	3283224	0	2	1338	3	0	1250
+HK61CTP	233	Picture	Flicker2	3284562	1338	1	1337	2	1250	1250
+HK61CTP	233	Picture	Flicker3	3285899	2675	1	1337	2	2500	1250
+HK61CTP	234	Picture	Delay	3287404	0	1	18053	2	0	17920
+HK61CTP	235	Picture	1_39_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_045_retrieval_position_1	3305624	0	1	30089	2	0	29920
+HK61CTP	235	Response	10	3314149	8525	4
+HK61CTP	236	Picture	ITI	3335880	0	1	21564	2	0	21420
+HK61CTP	237	Picture	CueingCross	3357611	0	1	3009	2	0	2920
+HK61CTP	238	Picture	PrepTime	3360787	0	1	3009	2	0	2920
+HK61CTP	239	Picture	1_40_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2000_3000_2100_gabor_patch_orientation_123_033_168_055_target_position_1_3_retrieval_position_1	3363963	0	1	1337	2	0	1250
+HK61CTP	239	Picture	Flicker2	3365300	1337	1	1337	3	1250	1250
+HK61CTP	239	Picture	Flicker3	3366637	2674	2	1338	3	2500	1250
+HK61CTP	240	Picture	Delay	3368142	0	1	20059	2	0	19920
+HK61CTP	241	Picture	1_40_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_078_retrieval_position_1	3388368	0	2	30089	4	0	29920
+HK61CTP	241	Response	20	3409496	21128	4
+HK61CTP	242	Picture	ITI	3418624	0	2	21063	3	0	20920
+HK61CTP	243	Picture	CueingCross	3439854	0	1	3009	2	0	2920
+HK61CTP	244	Picture	PrepTime	3443030	0	1	3009	2	0	2920
+HK61CTP	245	Picture	1_41_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1800_3000_2550_gabor_patch_orientation_134_115_073_090_target_position_1_4_retrieval_position_2	3446206	0	1	1337	2	0	1250
+HK61CTP	245	Picture	Flicker2	3447543	1337	1	1337	2	1250	1250
+HK61CTP	245	Picture	Flicker3	3448880	2674	1	1338	2	2500	1250
+HK61CTP	246	Picture	Delay	3450385	0	1	18053	2	0	17920
+HK61CTP	247	Picture	1_41_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_161_retrieval_position_2	3468605	0	1	30089	2	0	29920
+HK61CTP	247	Response	20	3483134	14529	3
+HK61CTP	248	Picture	ITI	3498861	0	2	25576	3	0	25420
+HK61CTP	249	Picture	CueingCross	3524604	0	1	3009	2	0	2920
+HK61CTP	250	Picture	PrepTime	3527780	0	1	3009	2	0	2920
+HK61CTP	251	Picture	1_42_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1850_3000_2050_gabor_patch_orientation_047_176_127_152_target_position_2_4_retrieval_position_4	3530956	0	1	1337	2	0	1250
+HK61CTP	251	Picture	Flicker2	3532293	1337	1	1338	2	1250	1250
+HK61CTP	251	Picture	Flicker3	3533631	2675	1	1337	2	2500	1250
+HK61CTP	252	Picture	Delay	3535135	0	1	18555	2	0	18420
+HK61CTP	253	Picture	1_42_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_152_retrieval_position_4	3553857	0	1	30089	2	0	29920
+HK61CTP	253	Response	10	3572761	18904	5
+HK61CTP	254	Picture	ITI	3584113	0	1	20561	2	0	20420
+HK61CTP	255	Picture	CueingCross	3604841	0	1	3009	2	0	2920
+HK61CTP	256	Picture	PrepTime	3608017	0	1	3009	2	0	2920
+HK61CTP	257	Picture	1_43_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1900_3000_2250_gabor_patch_orientation_089_031_162_005_target_position_1_2_retrieval_position_1	3611193	0	1	1337	2	0	1250
+HK61CTP	257	Picture	Flicker2	3612530	1337	1	1338	2	1250	1250
+HK61CTP	257	Picture	Flicker3	3613868	2675	1	1337	2	2500	1250
+HK61CTP	258	Picture	Delay	3615372	0	1	19056	2	0	18920
+HK61CTP	259	Picture	1_43_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_137_retrieval_position_1	3634595	0	2	30089	3	0	29920
+HK61CTP	259	Response	20	3645939	11344	3
+HK61CTP	260	Picture	ITI	3664851	0	2	22567	3	0	22420
+HK61CTP	261	Picture	CueingCross	3687585	0	1	3009	2	0	2920
+HK61CTP	262	Picture	PrepTime	3690761	0	1	3009	2	0	2920
+HK61CTP	263	Picture	1_44_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2250_3000_1950_gabor_patch_orientation_089_123_006_148_target_position_2_3_retrieval_position_2	3693937	0	2	1338	3	0	1250
+HK61CTP	263	Picture	Flicker2	3695275	1338	1	1337	2	1250	1250
+HK61CTP	263	Picture	Flicker3	3696612	2675	1	1337	2	2500	1250
+HK61CTP	264	Picture	Delay	3698116	0	2	22567	3	0	22420
+HK61CTP	265	Picture	1_44_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_073_retrieval_position_2	3720850	0	1	30089	2	0	29920
+HK61CTP	265	Response	20	3739026	18176	3
+HK61CTP	266	Picture	ITI	3751106	0	1	19558	2	0	19420
+HK61CTP	267	Picture	CueingCross	3770831	0	1	3009	2	0	2920
+HK61CTP	268	Picture	PrepTime	3774006	0	2	3010	3	0	2920
+HK61CTP	269	Picture	1_45_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1900_3000_1900_gabor_patch_orientation_075_127_046_015_target_position_1_3_retrieval_position_3	3777183	0	1	1337	2	0	1250
+HK61CTP	269	Picture	Flicker2	3778520	1337	1	1338	2	1250	1250
+HK61CTP	269	Picture	Flicker3	3779858	2675	1	1337	2	2500	1250
+HK61CTP	270	Picture	Delay	3781362	0	1	19056	2	0	18920
+HK61CTP	271	Picture	1_45_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_046_retrieval_position_3	3800586	0	1	30088	2	0	29920
+HK61CTP	271	Response	10	3822743	22157	5
+HK61CTP	272	Picture	ITI	3830841	0	2	19057	3	0	18920
+HK61CTP	273	Picture	CueingCross	3850065	0	1	3009	2	0	2920
+HK61CTP	274	Picture	PrepTime	3853241	0	1	3009	2	0	2920
+HK61CTP	275	Picture	1_46_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1800_3000_2500_gabor_patch_orientation_074_053_005_036_target_position_1_4_retrieval_position_1	3856417	0	1	1337	2	0	1250
+HK61CTP	275	Picture	Flicker2	3857754	1337	1	1338	2	1250	1250
+HK61CTP	275	Picture	Flicker3	3859092	2675	1	1337	2	2500	1250
+HK61CTP	276	Picture	Delay	3860596	0	1	18053	2	0	17920
+HK61CTP	277	Picture	1_46_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_074_retrieval_position_1	3878817	0	1	30088	3	0	29920
+HK61CTP	277	Response	10	3896201	17384	4
+HK61CTP	278	Picture	ITI	3909073	0	1	25074	2	0	24920
+HK61CTP	279	Picture	CueingCross	3934314	0	1	3009	2	0	2920
+HK61CTP	280	Picture	PrepTime	3937490	0	1	3009	2	0	2920
+HK61CTP	281	Picture	1_47_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1900_3000_2350_gabor_patch_orientation_157_128_096_076_target_position_1_2_retrieval_position_3	3940666	0	1	1337	2	0	1250
+HK61CTP	281	Picture	Flicker2	3942003	1337	1	1337	2	1250	1250
+HK61CTP	281	Picture	Flicker3	3943340	2674	1	1338	2	2500	1250
+HK61CTP	282	Picture	Delay	3944845	0	1	19056	2	0	18920
+HK61CTP	283	Picture	1_47_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_096_retrieval_position_3	3964068	0	2	30089	3	0	29920
+HK61CTP	283	Response	20	3987098	23030	4
+HK61CTP	284	Picture	ITI	3994324	0	2	23570	3	0	23420
+HK61CTP	285	Picture	CueingCross	4018061	0	1	3009	2	0	2920
+HK61CTP	286	Picture	PrepTime	4021237	0	1	3009	2	0	2920
+HK61CTP	287	Picture	1_48_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1950_3000_2400_gabor_patch_orientation_085_108_044_161_target_position_1_4_retrieval_position_1	4024413	0	1	1337	3	0	1250
+HK61CTP	287	Picture	Flicker2	4025750	1337	2	1338	3	1250	1250
+HK61CTP	287	Picture	Flicker3	4027088	2675	1	1337	2	2500	1250
+HK61CTP	288	Picture	Delay	4028592	0	1	19558	2	0	19420
+HK61CTP	289	Picture	1_48_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_134_retrieval_position_1	4048317	0	1	30089	2	0	29920
+HK61CTP	289	Response	20	4056436	8119	4
+HK61CTP	290	Picture	ITI	4078573	0	1	24071	2	0	23920
+HK61CTP	291	Picture	CueingCross	4102811	0	2	3009	3	0	2920
+HK61CTP	292	Picture	PrepTime	4105987	0	2	3009	3	0	2920
+HK61CTP	293	Picture	1_49_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2000_3000_2000_gabor_patch_orientation_090_123_036_013_target_position_3_4_retrieval_position_4	4109163	0	2	1338	3	0	1250
+HK61CTP	293	Picture	Flicker2	4110501	1338	1	1337	2	1250	1250
+HK61CTP	293	Picture	Flicker3	4111838	2675	1	1337	2	2500	1250
+HK61CTP	294	Picture	Delay	4113342	0	2	20060	3	0	19920
+HK61CTP	295	Picture	1_49_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_013_retrieval_position_4	4133569	0	1	30089	2	0	29920
+HK61CTP	295	Response	10	4148673	15104	4
+HK61CTP	296	Picture	ITI	4163825	0	1	20059	2	0	19920
+HK61CTP	297	Picture	CueingCross	4184051	0	1	3009	2	0	2920
+HK61CTP	298	Picture	PrepTime	4187227	0	1	3009	2	0	2920
+HK61CTP	299	Picture	1_50_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2100_3000_2300_gabor_patch_orientation_137_097_178_007_target_position_1_2_retrieval_position_2	4190403	0	2	1338	3	0	1250
+HK61CTP	299	Picture	Flicker2	4191741	1338	1	1337	2	1250	1250
+HK61CTP	299	Picture	Flicker3	4193078	2675	1	1337	2	2500	1250
+HK61CTP	300	Picture	Delay	4194582	0	2	21062	4	0	20920
+HK61CTP	301	Picture	1_50_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_051_retrieval_position_2	4215812	0	1	30089	2	0	29920
+HK61CTP	301	Response	20	4226921	11109	3
+HK61CTP	302	Picture	ITI	4246068	0	1	23068	2	0	22920
+HK61CTP	303	Picture	CueingCross	4269303	0	1	3009	2	0	2920
+HK61CTP	304	Picture	PrepTime	4272479	0	1	3009	2	0	2920
+HK61CTP	305	Picture	1_51_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1850_3000_2350_gabor_patch_orientation_017_107_036_141_target_position_2_4_retrieval_position_3	4275655	0	1	1337	2	0	1250
+HK61CTP	305	Picture	Flicker2	4276992	1337	1	1338	2	1250	1250
+HK61CTP	305	Picture	Flicker3	4278330	2675	1	1336	3	2500	1250
+HK61CTP	306	Picture	Delay	4279834	0	1	18555	2	0	18420
+HK61CTP	307	Picture	1_51_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_173_retrieval_position_3	4298556	0	1	30089	2	0	29920
+HK61CTP	307	Response	20	4310898	12342	4
+HK61CTP	308	Picture	ITI	4328812	0	1	23570	2	0	23420
+HK61CTP	309	Picture	CueingCross	4352549	0	1	3009	2	0	2920
+HK61CTP	310	Picture	PrepTime	4355725	0	1	3009	2	0	2920
+HK61CTP	311	Picture	1_52_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1950_3000_2150_gabor_patch_orientation_038_146_064_115_target_position_2_3_retrieval_position_2	4358901	0	1	1337	2	0	1250
+HK61CTP	311	Picture	Flicker2	4360238	1337	1	1337	3	1250	1250
+HK61CTP	311	Picture	Flicker3	4361575	2674	2	1338	3	2500	1250
+HK61CTP	312	Picture	Delay	4363080	0	1	19558	2	0	19420
+HK61CTP	313	Picture	1_52_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_006_retrieval_position_2	4382805	0	1	30089	2	0	29920
+HK61CTP	313	Response	10	4402116	19311	3
+HK61CTP	314	Picture	ITI	4413061	0	1	21563	3	0	21420
+HK61CTP	315	Picture	CueingCross	4434792	0	1	3008	3	0	2920
+HK61CTP	316	Picture	PrepTime	4437968	0	1	3009	2	0	2920
+HK61CTP	317	Picture	1_53_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1750_3000_2600_gabor_patch_orientation_124_061_016_175_target_position_2_3_retrieval_position_3	4441144	0	1	1337	2	0	1250
+HK61CTP	317	Picture	Flicker2	4442481	1337	1	1337	2	1250	1250
+HK61CTP	317	Picture	Flicker3	4443818	2674	1	1338	2	2500	1250
+HK61CTP	318	Picture	Delay	4445323	0	1	17552	2	0	17420
+HK61CTP	319	Picture	1_53_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_016_retrieval_position_3	4463042	0	1	30089	2	0	29920
+HK61CTP	319	Response	10	4472933	9891	4
+HK61CTP	320	Picture	ITI	4493298	0	1	26077	2	0	25920
+HK61CTP	321	Picture	CueingCross	4519542	0	1	3009	2	0	2920
+HK61CTP	322	Picture	PrepTime	4522717	0	2	3010	3	0	2920
+HK61CTP	323	Picture	1_54_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1900_3000_2050_gabor_patch_orientation_018_170_126_053_target_position_2_4_retrieval_position_4	4525894	0	1	1337	2	0	1250
+HK61CTP	323	Picture	Flicker2	4527231	1337	1	1337	3	1250	1250
+HK61CTP	323	Picture	Flicker3	4528568	2674	2	1338	3	2500	1250
+HK61CTP	324	Picture	Delay	4530073	0	1	19056	2	0	18920
+HK61CTP	325	Picture	1_54_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_103_retrieval_position_4	4549296	0	2	30089	3	0	29920
+HK61CTP	325	Response	20	4562071	12775	3
+HK61CTP	326	Picture	ITI	4579552	0	2	20561	3	0	20420
+HK61CTP	327	Picture	CueingCross	4600280	0	2	3009	3	0	2920
+HK61CTP	328	Picture	PrepTime	4603456	0	2	3009	3	0	2920
+HK61CTP	329	Picture	1_55_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2150_3000_2050_gabor_patch_orientation_116_057_007_163_target_position_3_4_retrieval_position_4	4606632	0	2	1338	3	0	1250
+HK61CTP	329	Picture	Flicker2	4607970	1338	1	1337	2	1250	1250
+HK61CTP	329	Picture	Flicker3	4609307	2675	1	1337	2	2500	1250
+HK61CTP	330	Picture	Delay	4610811	0	2	21564	3	0	21420
+HK61CTP	331	Picture	1_55_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_028_retrieval_position_4	4632542	0	1	30089	2	0	29920
+HK61CTP	331	Response	20	4640958	8416	4
+HK61CTP	332	Picture	ITI	4662798	0	1	20561	2	0	20420
+HK61CTP	333	Picture	CueingCross	4683526	0	1	3009	2	0	2920
+HK61CTP	334	Picture	PrepTime	4686702	0	1	3009	2	0	2920
+HK61CTP	335	Picture	1_56_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1750_3000_2150_gabor_patch_orientation_168_153_082_001_target_position_2_3_retrieval_position_3	4689878	0	1	1337	3	0	1250
+HK61CTP	335	Picture	Flicker2	4691215	1337	2	1338	3	1250	1250
+HK61CTP	335	Picture	Flicker3	4692553	2675	1	1337	2	2500	1250
+HK61CTP	336	Picture	Delay	4694057	0	1	17552	2	0	17420
+HK61CTP	337	Picture	1_56_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_132_retrieval_position_3	4711776	0	1	30089	2	0	29920
+HK61CTP	337	Response	20	4728445	16669	4
+HK61CTP	338	Picture	ITI	4742032	0	1	21564	2	0	21420
+HK61CTP	339	Picture	CueingCross	4763763	0	1	3009	2	0	2920
+HK61CTP	340	Picture	PrepTime	4766939	0	1	3009	2	0	2920
+HK61CTP	341	Picture	1_57_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2000_3000_2500_gabor_patch_orientation_084_125_107_149_target_position_3_4_retrieval_position_3	4770115	0	1	1337	2	0	1250
+HK61CTP	341	Picture	Flicker2	4771452	1337	1	1338	2	1250	1250
+HK61CTP	341	Picture	Flicker3	4772790	2675	1	1337	2	2500	1250
+HK61CTP	342	Picture	Delay	4774294	0	1	20059	2	0	19920
+HK61CTP	343	Picture	1_57_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_059_retrieval_position_3	4794520	0	2	30089	3	0	29920
+HK61CTP	343	Response	20	4801943	7423	4
+HK61CTP	344	Picture	ITI	4824776	0	2	25075	3	0	24920
+HK61CTP	345	Picture	CueingCross	4850018	0	1	3009	2	0	2920
+HK61CTP	346	Picture	PrepTime	4853194	0	1	3009	2	0	2920
+HK61CTP	347	Picture	1_58_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_2150_3000_2300_gabor_patch_orientation_002_122_050_179_target_position_3_4_retrieval_position_1	4856370	0	1	1337	2	0	1250
+HK61CTP	347	Picture	Flicker2	4857707	1337	1	1337	2	1250	1250
+HK61CTP	347	Picture	Flicker3	4859044	2674	1	1338	3	2500	1250
+HK61CTP	348	Picture	Delay	4860549	0	1	21563	3	0	21420
+HK61CTP	349	Picture	1_58_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_140_retrieval_position_1	4882280	0	1	30088	3	0	29920
+HK61CTP	349	Response	20	4899330	17050	4
+HK61CTP	350	Picture	ITI	4912535	0	2	23069	3	0	22920
+HK61CTP	351	Picture	CueingCross	4935771	0	1	3009	2	0	2920
+HK61CTP	352	Picture	PrepTime	4938947	0	1	3009	2	0	2920
+HK61CTP	353	Picture	1_59_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2200_3000_2000_gabor_patch_orientation_161_029_001_080_target_position_3_4_retrieval_position_3	4942123	0	1	1337	2	0	1250
+HK61CTP	353	Picture	Flicker2	4943460	1337	1	1338	2	1250	1250
+HK61CTP	353	Picture	Flicker3	4944798	2675	1	1337	2	2500	1250
+HK61CTP	354	Picture	Delay	4946302	0	1	22065	2	0	21920
+HK61CTP	355	Picture	1_59_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_001_retrieval_position_3	4968534	0	2	30089	3	0	29920
+HK61CTP	355	Response	10	4983568	15034	3
+HK61CTP	356	Picture	ITI	4998790	0	2	20060	3	0	19920
+HK61CTP	357	Picture	CueingCross	5019017	0	1	3009	2	0	2920
+HK61CTP	358	Picture	PrepTime	5022193	0	1	3009	2	0	2920
+HK61CTP	359	Picture	1_60_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2250_3000_2300_gabor_patch_orientation_139_113_050_161_target_position_1_3_retrieval_position_3	5025369	0	1	1336	3	0	1250
+HK61CTP	359	Picture	Flicker2	5026705	1336	2	1338	3	1250	1250
+HK61CTP	359	Picture	Flicker3	5028043	2674	1	1338	2	2500	1250
+HK61CTP	360	Picture	Delay	5029548	0	1	22566	3	0	22420
+HK61CTP	361	Picture	1_60_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_050_retrieval_position_3	5052282	0	1	30088	3	0	29920
+HK61CTP	361	Response	10	5064665	12383	4
+HK61CTP	362	Picture	ITI	5082538	0	1	23068	2	0	22920
+HK61CTP	363	Picture	CueingCross	5105773	0	1	3009	2	0	2920
+HK61CTP	364	Picture	PrepTime	5108949	0	1	3009	2	0	2920
+HK61CTP	365	Picture	1_61_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_2100_3000_2000_gabor_patch_orientation_179_043_094_121_target_position_1_2_retrieval_position_4	5112125	0	1	1337	2	0	1250
+HK61CTP	365	Picture	Flicker2	5113462	1337	1	1337	3	1250	1250
+HK61CTP	365	Picture	Flicker3	5114799	2674	2	1338	3	2500	1250
+HK61CTP	366	Picture	Delay	5116304	0	1	21062	2	0	20920
+HK61CTP	367	Picture	1_61_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_121_retrieval_position_4	5137533	0	2	30089	3	0	29920
+HK61CTP	367	Response	20	5151532	13999	5
+HK61CTP	368	Picture	ITI	5167789	0	2	20060	3	0	19920
+HK61CTP	369	Picture	CueingCross	5188016	0	1	3009	2	0	2920
+HK61CTP	370	Picture	PrepTime	5191192	0	1	3009	2	0	2920
+HK61CTP	371	Picture	1_62_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2200_3000_2100_gabor_patch_orientation_173_005_093_125_target_position_1_4_retrieval_position_1	5194368	0	1	1337	2	0	1250
+HK61CTP	371	Picture	Flicker2	5195705	1337	1	1337	2	1250	1250
+HK61CTP	371	Picture	Flicker3	5197042	2674	1	1338	2	2500	1250
+HK61CTP	372	Picture	Delay	5198547	0	1	22065	2	0	21920
+HK61CTP	373	Picture	1_62_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_173_retrieval_position_1	5220779	0	1	30089	2	0	29920
+HK61CTP	373	Response	10	5243720	22941	3
+HK61CTP	374	Picture	ITI	5251035	0	1	21062	2	0	20920
+HK61CTP	375	Picture	CueingCross	5272264	0	2	3009	4	0	2920
+HK61CTP	376	Picture	PrepTime	5275441	0	1	3008	3	0	2920
+HK61CTP	377	Picture	1_63_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2150_3000_2250_gabor_patch_orientation_157_046_067_178_target_position_1_2_retrieval_position_1	5278617	0	1	1337	2	0	1250
+HK61CTP	377	Picture	Flicker2	5279954	1337	1	1337	2	1250	1250
+HK61CTP	377	Picture	Flicker3	5281291	2674	1	1337	3	2500	1250
+HK61CTP	378	Picture	Delay	5282796	0	1	21563	2	0	21420
+HK61CTP	379	Picture	1_63_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_019_retrieval_position_1	5304526	0	2	30089	3	0	29920
+HK61CTP	379	Response	20	5316927	12401	4
+HK61CTP	380	Picture	ITI	5334782	0	2	22567	3	0	22420
+HK61CTP	381	Picture	CueingCross	5357516	0	2	3009	3	0	2920
+HK61CTP	382	Picture	PrepTime	5360692	0	2	3009	3	0	2920
+HK61CTP	383	Picture	1_64_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_2150_3000_2350_gabor_patch_orientation_134_150_165_117_target_position_1_3_retrieval_position_2	5363868	0	2	1338	3	0	1250
+HK61CTP	383	Picture	Flicker2	5365206	1338	1	1337	2	1250	1250
+HK61CTP	383	Picture	Flicker3	5366543	2675	1	1337	2	2500	1250
+HK61CTP	384	Picture	Delay	5368047	0	2	21564	3	0	21420
+HK61CTP	385	Picture	1_64_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_010_retrieval_position_2	5389778	0	1	30089	2	0	29920
+HK61CTP	385	Response	10	5411744	21966	4
+HK61CTP	386	Picture	ITI	5420034	0	1	23570	2	0	23420
+HK61CTP	387	Picture	CueingCross	5443771	0	1	3009	2	0	2920
+HK61CTP	388	Picture	PrepTime	5446947	0	1	3009	2	0	2920
+HK61CTP	389	Picture	1_65_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2050_3000_2600_gabor_patch_orientation_007_088_173_153_target_position_1_2_retrieval_position_2	5450123	0	1	1337	2	0	1250
+HK61CTP	389	Picture	Flicker2	5451460	1337	1	1338	2	1250	1250
+HK61CTP	389	Picture	Flicker3	5452798	2675	1	1337	2	2500	1250
+HK61CTP	390	Picture	Delay	5454302	0	1	20561	2	0	20420
+HK61CTP	391	Picture	1_65_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_040_retrieval_position_2	5475030	0	1	30089	2	0	29920
+HK61CTP	391	Response	20	5482872	7842	4
+HK61CTP	392	Picture	ITI	5505286	0	1	26077	2	0	25920
+HK61CTP	393	Picture	CueingCross	5531530	0	1	3009	2	0	2920
+HK61CTP	394	Picture	PrepTime	5534706	0	1	3009	2	0	2920
+HK61CTP	395	Picture	1_66_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2150_3000_2500_gabor_patch_orientation_081_138_050_155_target_position_2_4_retrieval_position_4	5537882	0	1	1337	3	0	1250
+HK61CTP	395	Picture	Flicker2	5539219	1337	2	1338	3	1250	1250
+HK61CTP	395	Picture	Flicker3	5540557	2675	1	1337	2	2500	1250
+HK61CTP	396	Picture	Delay	5542061	0	1	21564	2	0	21420
+HK61CTP	397	Picture	1_66_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_107_retrieval_position_4	5563792	0	1	30089	2	0	29920
+HK61CTP	397	Response	20	5577659	13867	4
+HK61CTP	398	Picture	ITI	5594048	0	1	25074	2	0	24920
+HK61CTP	399	Picture	CueingCross	5619289	0	1	3009	2	0	2920
+HK61CTP	400	Picture	PrepTime	5622465	0	1	3009	2	0	2920
+HK61CTP	401	Picture	1_67_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2050_3000_1900_gabor_patch_orientation_006_160_121_144_target_position_3_4_retrieval_position_3	5625641	0	2	1337	4	0	1250
+HK61CTP	401	Picture	Flicker2	5626978	1337	2	1338	3	1250	1250
+HK61CTP	401	Picture	Flicker3	5628316	2675	1	1337	2	2500	1250
+HK61CTP	402	Picture	Delay	5629820	0	2	20561	3	0	20420
+HK61CTP	403	Picture	1_67_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_121_retrieval_position_3	5650548	0	1	30089	2	0	29920
+HK61CTP	403	Response	10	5660767	10219	3
+HK61CTP	404	Picture	ITI	5680804	0	1	19056	3	0	18920
+HK61CTP	405	Picture	CueingCross	5700028	0	1	3009	2	0	2920
+HK61CTP	406	Picture	PrepTime	5703204	0	1	3009	2	0	2920
+HK61CTP	407	Picture	1_68_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1950_3000_1900_gabor_patch_orientation_099_055_035_125_target_position_2_4_retrieval_position_2	5706380	0	1	1337	2	0	1250
+HK61CTP	407	Picture	Flicker2	5707717	1337	1	1337	2	1250	1250
+HK61CTP	407	Picture	Flicker3	5709054	2674	1	1338	2	2500	1250
+HK61CTP	408	Picture	Delay	5710559	0	1	19557	3	0	19420
+HK61CTP	409	Picture	1_68_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_009_retrieval_position_2	5730284	0	1	30088	3	0	29920
+HK61CTP	409	Response	10	5747734	17450	4
+HK61CTP	410	Picture	ITI	5760540	0	1	19056	2	0	18920
+HK61CTP	411	Picture	CueingCross	5779763	0	1	3009	2	0	2920
+HK61CTP	412	Picture	PrepTime	5782939	0	1	3009	2	0	2920
+HK61CTP	413	Picture	1_69_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1900_3000_2550_gabor_patch_orientation_094_056_162_121_target_position_2_3_retrieval_position_4	5786115	0	1	1337	3	0	1250
+HK61CTP	413	Picture	Flicker2	5787452	1337	2	1338	3	1250	1250
+HK61CTP	413	Picture	Flicker3	5788790	2675	1	1337	3	2500	1250
+HK61CTP	414	Picture	Delay	5790294	0	1	19056	3	0	18920
+HK61CTP	415	Picture	1_69_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_121_retrieval_position_4	5809518	0	1	30088	3	0	29920
+HK61CTP	415	Response	20	5828182	18664	3
+HK61CTP	416	Picture	ITI	5839774	0	1	25575	2	0	25420
+HK61CTP	417	Picture	CueingCross	5865516	0	2	3009	3	0	2920
+HK61CTP	418	Picture	PrepTime	5868692	0	2	3009	3	0	2920
+HK61CTP	419	Picture	1_70_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2250_3000_2400_gabor_patch_orientation_082_106_154_041_target_position_1_3_retrieval_position_1	5871868	0	2	1338	3	0	1250
+HK61CTP	419	Picture	Flicker2	5873206	1338	1	1337	2	1250	1250
+HK61CTP	419	Picture	Flicker3	5874543	2675	1	1337	2	2500	1250
+HK61CTP	420	Picture	Delay	5876047	0	2	22567	3	0	22420
+HK61CTP	421	Picture	1_70_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_082_retrieval_position_1	5898781	0	1	30089	2	0	29920
+HK61CTP	421	Response	10	5910899	12118	4
+HK61CTP	422	Picture	ITI	5929037	0	1	24071	2	0	23920
+HK61CTP	423	Picture	BaselinePost	5953275	0	2	50148	4	0	50000

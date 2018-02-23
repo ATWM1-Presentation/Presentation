@@ -1,0 +1,636 @@
+Scenario - ATWM1_Working_Memory_MEG_salient_cued_run1
+Logfile written - 04/04/2016 14:24:49
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+JH56CNU	1	Picture	ExpStart	29	0	1	10030	2	0	10000
+JH56CNU	2	Picture	BaselinePre	10226	0	1	100131	2	0	100000
+JH56CNU	3	Picture	CueingCross	110524	0	1	3009	2	0	2920
+JH56CNU	4	Picture	PrepTime	113700	0	1	3009	2	0	2920
+JH56CNU	5	Picture	1_1_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_1850_3000_2250_gabor_patch_orientation_144_055_030_091_target_position_2_3_retrieval_position_2	116876	0	1	1337	2	0	1250
+JH56CNU	5	Picture	Flicker2	118213	1337	1	1171	2	1250	1250
+JH56CNU	5	Picture	Flicker3	119384	2508	1	1337	2	2500	1250
+JH56CNU	6	Picture	Delay	120888	0	1	18555	2	0	18420
+JH56CNU	7	Picture	1_1_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_055_retrieval_position_2	139610	0	2	30090	3	0	29920
+JH56CNU	7	Response	10	150331	10721	5
+JH56CNU	8	Picture	ITI	169867	0	1	22567	2	0	22420
+JH56CNU	9	Picture	CueingCross	192601	0	1	3009	2	0	2920
+JH56CNU	10	Picture	PrepTime	195777	0	1	3009	2	0	2920
+JH56CNU	11	Picture	1_2_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_2250_3000_2600_gabor_patch_orientation_054_166_015_126_target_position_3_4_retrieval_position_4	198953	0	1	1337	3	0	1250
+JH56CNU	11	Picture	Flicker2	200290	1337	2	1171	3	1250	1250
+JH56CNU	11	Picture	Flicker3	201461	2508	1	1337	2	2500	1250
+JH56CNU	12	Picture	Delay	202965	0	1	22567	2	0	22420
+JH56CNU	13	Picture	1_2_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_081_retrieval_position_4	225699	0	2	30090	3	0	29920
+JH56CNU	13	Response	20	237150	11451	4
+JH56CNU	14	Picture	ITI	255956	0	1	26077	2	0	25920
+JH56CNU	15	Picture	CueingCross	282200	0	2	3009	3	0	2920
+JH56CNU	16	Picture	PrepTime	285376	0	2	3009	4	0	2920
+JH56CNU	17	Picture	1_3_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_2000_3000_1900_gabor_patch_orientation_034_109_004_172_target_position_2_3_retrieval_position_2	288553	0	1	1337	2	0	1250
+JH56CNU	17	Picture	Flicker2	289890	1337	1	1337	2	1250	1250
+JH56CNU	17	Picture	Flicker3	291227	2674	1	1337	3	2500	1250
+JH56CNU	18	Picture	Delay	292732	0	1	20059	2	0	19920
+JH56CNU	19	Picture	1_3_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_156_retrieval_position_2	312958	0	2	30090	3	0	29920
+JH56CNU	19	Response	10	324529	11571	3
+JH56CNU	20	Picture	ITI	343215	0	1	19057	2	0	18920
+JH56CNU	21	Picture	CueingCross	362439	0	1	3009	2	0	2920
+JH56CNU	22	Picture	PrepTime	365615	0	1	3009	2	0	2920
+JH56CNU	23	Picture	1_4_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_1900_3000_2500_gabor_patch_orientation_029_084_136_064_target_position_1_3_retrieval_position_3	368791	0	1	1337	2	0	1250
+JH56CNU	23	Picture	Flicker2	370128	1337	1	1337	3	1250	1250
+JH56CNU	23	Picture	Flicker3	371465	2674	2	1338	3	2500	1250
+JH56CNU	24	Picture	Delay	372970	0	1	19056	3	0	18920
+JH56CNU	25	Picture	1_4_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_136_retrieval_position_3	392194	0	1	30089	2	0	29920
+JH56CNU	25	Response	10	405268	13074	3
+JH56CNU	26	Picture	ITI	422450	0	1	25075	2	0	24920
+JH56CNU	27	Picture	CueingCross	447692	0	1	3009	2	0	2920
+JH56CNU	28	Picture	PrepTime	450868	0	1	3009	2	0	2920
+JH56CNU	29	Picture	1_5_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1950_3000_2150_gabor_patch_orientation_038_072_116_003_target_position_1_2_retrieval_position_1	454044	0	1	1337	2	0	1250
+JH56CNU	29	Picture	Flicker2	455381	1337	1	1170	3	1250	1250
+JH56CNU	29	Picture	Flicker3	456551	2507	2	1338	3	2500	1250
+JH56CNU	30	Picture	Delay	458056	0	1	19558	2	0	19420
+JH56CNU	31	Picture	1_5_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_178_retrieval_position_1	477781	0	1	30090	2	0	29920
+JH56CNU	31	Response	20	493516	15735	4
+JH56CNU	32	Picture	ITI	508038	0	1	21564	2	0	21420
+JH56CNU	33	Picture	CueingCross	529769	0	1	3009	2	0	2920
+JH56CNU	34	Picture	PrepTime	532945	0	1	3009	2	0	2920
+JH56CNU	35	Picture	1_6_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_UncuedRetriev_300_300_399_1850_3000_2200_gabor_patch_orientation_031_005_121_076_target_position_1_4_retrieval_position_3	536121	0	1	1337	3	0	1250
+JH56CNU	35	Picture	Flicker2	537458	1337	2	1171	3	1250	1250
+JH56CNU	35	Picture	Flicker3	538629	2508	1	1337	2	2500	1250
+JH56CNU	36	Picture	Delay	540133	0	1	18555	2	0	18420
+JH56CNU	37	Picture	1_6_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_UncuedRetriev_retrieval_patch_orientation_121_retrieval_position_3	558855	0	1	30090	2	0	29920
+JH56CNU	37	Response	20	572935	14080	4
+JH56CNU	38	Picture	ITI	589112	0	1	22065	2	0	21920
+JH56CNU	39	Picture	CueingCross	611344	0	2	3009	4	0	2920
+JH56CNU	40	Picture	PrepTime	614521	0	1	3009	2	0	2920
+JH56CNU	41	Picture	1_7_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2150_3000_2550_gabor_patch_orientation_175_147_089_125_target_position_1_2_retrieval_position_1	617697	0	1	1337	2	0	1250
+JH56CNU	41	Picture	Flicker2	619034	1337	1	1337	2	1250	1250
+JH56CNU	41	Picture	Flicker3	620371	2674	1	1338	2	2500	1250
+JH56CNU	42	Picture	Delay	621876	0	1	21564	2	0	21420
+JH56CNU	43	Picture	1_7_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_175_retrieval_position_1	643607	0	1	30089	2	0	29920
+JH56CNU	43	Response	10	654444	10837	4
+JH56CNU	44	Picture	ITI	673863	0	2	25576	4	0	25420
+JH56CNU	45	Picture	CueingCross	699607	0	1	3009	2	0	2920
+JH56CNU	46	Picture	PrepTime	702783	0	1	3009	2	0	2920
+JH56CNU	47	Picture	1_8_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1800_3000_2000_gabor_patch_orientation_155_002_176_119_target_position_2_3_retrieval_position_2	705959	0	1	1337	2	0	1250
+JH56CNU	47	Picture	Flicker2	707296	1337	1	1337	3	1250	1250
+JH56CNU	47	Picture	Flicker3	708633	2674	2	1338	3	2500	1250
+JH56CNU	48	Picture	Delay	710138	0	1	18053	3	0	17920
+JH56CNU	49	Picture	1_8_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_139_retrieval_position_2	728359	0	1	30089	2	0	29920
+JH56CNU	49	Response	20	741043	12684	3
+JH56CNU	50	Picture	ITI	758615	0	1	20060	2	0	19920
+JH56CNU	51	Picture	CueingCross	778842	0	1	3009	2	0	2920
+JH56CNU	52	Picture	PrepTime	782018	0	1	3009	2	0	2920
+JH56CNU	53	Picture	1_9_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_UncuedRetriev_300_300_399_2150_3000_2250_gabor_patch_orientation_054_117_089_161_target_position_1_4_retrieval_position_3	785194	0	1	1337	2	0	1250
+JH56CNU	53	Picture	Flicker2	786531	1337	1	1171	2	1250	1250
+JH56CNU	53	Picture	Flicker3	787702	2508	1	1337	2	2500	1250
+JH56CNU	54	Picture	Delay	789206	0	1	21564	2	0	21420
+JH56CNU	55	Picture	1_9_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_UncuedRetriev_retrieval_patch_orientation_089_retrieval_position_3	810937	0	1	30090	2	0	29920
+JH56CNU	55	Response	20	838972	28035	3
+JH56CNU	56	Picture	ITI	841194	0	1	22567	2	0	22420
+JH56CNU	57	Picture	CueingCross	863928	0	1	3009	2	0	2920
+JH56CNU	58	Picture	PrepTime	867104	0	1	3009	2	0	2920
+JH56CNU	59	Picture	1_10_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_1750_3000_2250_gabor_patch_orientation_063_177_147_124_target_position_1_3_retrieval_position_1	870280	0	1	1337	2	0	1250
+JH56CNU	59	Picture	Flicker2	871617	1337	1	1171	2	1250	1250
+JH56CNU	59	Picture	Flicker3	872788	2508	1	1337	2	2500	1250
+JH56CNU	60	Picture	Delay	874292	0	1	17552	2	0	17420
+JH56CNU	61	Picture	1_10_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_063_retrieval_position_1	892011	0	2	30089	4	0	29920
+JH56CNU	61	Response	10	903961	11950	3
+JH56CNU	62	Picture	ITI	922268	0	1	22567	2	0	22420
+JH56CNU	63	Picture	CueingCross	945002	0	1	3009	2	0	2920
+JH56CNU	64	Picture	PrepTime	948177	0	2	3010	3	0	2920
+JH56CNU	65	Picture	1_11_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_1900_3000_2500_gabor_patch_orientation_091_005_128_021_target_position_1_2_retrieval_position_2	951354	0	1	1337	3	0	1250
+JH56CNU	65	Picture	Flicker2	952691	1337	2	1171	3	1250	1250
+JH56CNU	65	Picture	Flicker3	953862	2508	1	1337	2	2500	1250
+JH56CNU	66	Picture	Delay	955366	0	1	19057	2	0	18920
+JH56CNU	67	Picture	1_11_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_005_retrieval_position_2	974589	0	2	30090	3	0	29920
+JH56CNU	67	Response	10	986699	12110	4
+JH56CNU	68	Picture	ITI	1004846	0	2	25075	3	0	24920
+JH56CNU	69	Picture	CueingCross	1030088	0	1	3009	2	0	2920
+JH56CNU	70	Picture	PrepTime	1033264	0	1	3008	3	0	2920
+JH56CNU	71	Picture	1_12_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2200_3000_2500_gabor_patch_orientation_131_093_024_157_target_position_3_4_retrieval_position_3	1036440	0	1	1337	3	0	1250
+JH56CNU	71	Picture	Flicker2	1037777	1337	2	1171	3	1250	1250
+JH56CNU	71	Picture	Flicker3	1038948	2508	1	1337	2	2500	1250
+JH56CNU	72	Picture	Delay	1040452	0	1	22066	2	0	21920
+JH56CNU	73	Picture	1_12_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_024_retrieval_position_3	1062685	0	1	30089	2	0	29920
+JH56CNU	73	Response	10	1075558	12873	4
+JH56CNU	74	Picture	ITI	1092941	0	2	25075	3	0	24920
+JH56CNU	75	Picture	CueingCross	1118183	0	1	3009	2	0	2920
+JH56CNU	76	Picture	PrepTime	1121359	0	1	3009	3	0	2920
+JH56CNU	77	Picture	1_13_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_2200_3000_2050_gabor_patch_orientation_036_002_144_056_target_position_1_2_retrieval_position_1	1124535	0	1	1337	3	0	1250
+JH56CNU	77	Picture	Flicker2	1125872	1337	2	1171	3	1250	1250
+JH56CNU	77	Picture	Flicker3	1127043	2508	1	1337	2	2500	1250
+JH56CNU	78	Picture	Delay	1128547	0	1	22066	2	0	21920
+JH56CNU	79	Picture	1_13_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_086_retrieval_position_1	1150780	0	1	30089	2	0	29920
+JH56CNU	79	Response	10	1168657	17877	4
+JH56CNU	80	Picture	ITI	1181036	0	2	20561	3	0	20420
+JH56CNU	81	Picture	CueingCross	1201764	0	2	3009	3	0	2920
+JH56CNU	82	Picture	PrepTime	1204941	0	1	3008	3	0	2920
+JH56CNU	83	Picture	1_14_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1800_3000_1950_gabor_patch_orientation_161_037_009_126_target_position_1_2_retrieval_position_2	1208117	0	1	1337	2	0	1250
+JH56CNU	83	Picture	Flicker2	1209454	1337	1	1337	2	1250	1250
+JH56CNU	83	Picture	Flicker3	1210791	2674	1	1338	2	2500	1250
+JH56CNU	84	Picture	Delay	1212296	0	1	18053	2	0	17920
+JH56CNU	85	Picture	1_14_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_087_retrieval_position_2	1230517	0	1	30089	2	0	29920
+JH56CNU	85	Response	20	1244326	13809	3
+JH56CNU	86	Picture	ITI	1260773	0	1	19558	2	0	19420
+JH56CNU	87	Picture	CueingCross	1280498	0	1	3009	2	0	2920
+JH56CNU	88	Picture	PrepTime	1283674	0	2	3009	3	0	2920
+JH56CNU	89	Picture	1_15_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2050_3000_2450_gabor_patch_orientation_132_060_177_111_target_position_2_3_retrieval_position_3	1286850	0	2	1338	3	0	1250
+JH56CNU	89	Picture	Flicker2	1288188	1338	1	1170	2	1250	1250
+JH56CNU	89	Picture	Flicker3	1289358	2508	1	1337	2	2500	1250
+JH56CNU	90	Picture	Delay	1290862	0	2	20561	4	0	20420
+JH56CNU	91	Picture	1_15_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_177_retrieval_position_3	1311591	0	1	30089	2	0	29920
+JH56CNU	91	Response	10	1326545	14954	3
+JH56CNU	92	Picture	ITI	1341847	0	1	24573	2	0	24420
+JH56CNU	93	Picture	CueingCross	1366587	0	1	3009	2	0	2920
+JH56CNU	94	Picture	PrepTime	1369763	0	2	3009	3	0	2920
+JH56CNU	95	Picture	1_16_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_UncuedRetriev_300_300_399_1850_3000_2000_gabor_patch_orientation_058_033_090_145_target_position_1_4_retrieval_position_2	1372939	0	2	1338	3	0	1250
+JH56CNU	95	Picture	Flicker2	1374277	1338	1	1170	2	1250	1250
+JH56CNU	95	Picture	Flicker3	1375447	2508	1	1337	2	2500	1250
+JH56CNU	96	Picture	Delay	1376951	0	2	18555	4	0	18420
+JH56CNU	97	Picture	1_16_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_UncuedRetriev_retrieval_patch_orientation_170_retrieval_position_2	1395674	0	1	30089	2	0	29920
+JH56CNU	97	Response	10	1416523	20849	4
+JH56CNU	98	Picture	ITI	1425930	0	1	20060	2	0	19920
+JH56CNU	99	Picture	CueingCross	1446157	0	1	3009	2	0	2920
+JH56CNU	100	Picture	PrepTime	1449333	0	1	3009	2	0	2920
+JH56CNU	101	Picture	1_17_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2050_3000_1950_gabor_patch_orientation_100_130_165_076_target_position_1_3_retrieval_position_1	1452509	0	1	1337	2	0	1250
+JH56CNU	101	Picture	Flicker2	1453846	1337	1	1171	2	1250	1250
+JH56CNU	101	Picture	Flicker3	1455017	2508	1	1337	2	2500	1250
+JH56CNU	102	Picture	Delay	1456521	0	1	20561	2	0	20420
+JH56CNU	103	Picture	1_17_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_100_retrieval_position_1	1477249	0	1	30090	2	0	29920
+JH56CNU	103	Response	10	1492642	15393	4
+JH56CNU	104	Picture	ITI	1507506	0	1	19558	2	0	19420
+JH56CNU	105	Picture	CueingCross	1527231	0	1	3009	2	0	2920
+JH56CNU	106	Picture	PrepTime	1530407	0	1	3009	2	0	2920
+JH56CNU	107	Picture	1_18_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1950_3000_2350_gabor_patch_orientation_068_174_134_110_target_position_3_4_retrieval_position_4	1533583	0	1	1337	3	0	1250
+JH56CNU	107	Picture	Flicker2	1534920	1337	2	1171	3	1250	1250
+JH56CNU	107	Picture	Flicker3	1536091	2508	1	1337	2	2500	1250
+JH56CNU	108	Picture	Delay	1537595	0	1	19558	2	0	19420
+JH56CNU	109	Picture	1_18_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_156_retrieval_position_4	1557320	0	2	30090	3	0	29920
+JH56CNU	109	Response	20	1576121	18801	4
+JH56CNU	110	Picture	ITI	1587577	0	1	23570	2	0	23420
+JH56CNU	111	Picture	CueingCross	1611314	0	1	3009	2	0	2920
+JH56CNU	112	Picture	PrepTime	1614490	0	1	3009	2	0	2920
+JH56CNU	113	Picture	1_19_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1750_3000_2350_gabor_patch_orientation_080_030_096_053_target_position_3_4_retrieval_position_4	1617666	0	1	1337	3	0	1250
+JH56CNU	113	Picture	Flicker2	1619003	1337	2	1171	3	1250	1250
+JH56CNU	113	Picture	Flicker3	1620174	2508	1	1337	2	2500	1250
+JH56CNU	114	Picture	Delay	1621678	0	1	17552	2	0	17420
+JH56CNU	115	Picture	1_19_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_007_retrieval_position_4	1639397	0	2	30090	3	0	29920
+JH56CNU	115	Response	20	1655090	15693	4
+JH56CNU	116	Picture	ITI	1669654	0	1	23570	2	0	23420
+JH56CNU	117	Picture	CueingCross	1693391	0	1	3009	2	0	2920
+JH56CNU	118	Picture	PrepTime	1696567	0	1	3009	2	0	2920
+JH56CNU	119	Picture	1_20_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2100_3000_1950_gabor_patch_orientation_037_058_115_090_target_position_2_4_retrieval_position_2	1699743	0	1	1338	2	0	1250
+JH56CNU	119	Picture	Flicker2	1701081	1338	1	1170	2	1250	1250
+JH56CNU	119	Picture	Flicker3	1702251	2508	1	1337	2	2500	1250
+JH56CNU	120	Picture	Delay	1703755	0	1	21063	2	0	20920
+JH56CNU	121	Picture	1_20_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_058_retrieval_position_2	1724985	0	1	30089	2	0	29920
+JH56CNU	121	Response	20	1737959	12974	3
+JH56CNU	122	Picture	ITI	1755241	0	2	19558	4	0	19420
+JH56CNU	123	Picture	CueingCross	1774967	0	1	3009	2	0	2920
+JH56CNU	124	Picture	PrepTime	1778143	0	1	3009	2	0	2920
+JH56CNU	125	Picture	1_21_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2250_3000_1900_gabor_patch_orientation_088_059_124_144_target_position_1_3_retrieval_position_3	1781319	0	1	1337	2	0	1250
+JH56CNU	125	Picture	Flicker2	1782656	1337	1	1337	3	1250	1250
+JH56CNU	125	Picture	Flicker3	1783993	2674	2	1338	3	2500	1250
+JH56CNU	126	Picture	Delay	1785498	0	1	22567	2	0	22420
+JH56CNU	127	Picture	1_21_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_124_retrieval_position_3	1808232	0	1	30089	3	0	29920
+JH56CNU	127	Response	10	1821148	12916	3
+JH56CNU	128	Picture	ITI	1838489	0	1	19056	2	0	18920
+JH56CNU	129	Picture	CueingCross	1857712	0	2	3009	3	0	2920
+JH56CNU	130	Picture	PrepTime	1860888	0	2	3009	3	0	2920
+JH56CNU	131	Picture	1_22_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_UncuedRetriev_300_300_399_1900_3000_2450_gabor_patch_orientation_076_031_157_048_target_position_1_4_retrieval_position_3	1864065	0	1	1337	2	0	1250
+JH56CNU	131	Picture	Flicker2	1865402	1337	1	1337	2	1250	1250
+JH56CNU	131	Picture	Flicker3	1866739	2674	1	1337	3	2500	1250
+JH56CNU	132	Picture	Delay	1868244	0	1	19056	2	0	18920
+JH56CNU	133	Picture	1_22_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_UncuedRetriev_retrieval_patch_orientation_157_retrieval_position_3	1887467	0	2	30090	3	0	29920
+JH56CNU	133	Response	20	1914796	27329	4
+JH56CNU	134	Picture	ITI	1917724	0	1	24573	2	0	24420
+JH56CNU	135	Picture	CueingCross	1942464	0	1	3009	2	0	2920
+JH56CNU	136	Picture	PrepTime	1945640	0	1	3009	2	0	2920
+JH56CNU	137	Picture	1_23_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_1750_3000_2100_gabor_patch_orientation_019_109_040_152_target_position_1_3_retrieval_position_1	1948816	0	1	1338	2	0	1250
+JH56CNU	137	Picture	Flicker2	1950154	1338	1	1170	2	1250	1250
+JH56CNU	137	Picture	Flicker3	1951324	2508	1	1337	2	2500	1250
+JH56CNU	138	Picture	Delay	1952828	0	1	17552	2	0	17420
+JH56CNU	139	Picture	1_23_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_019_retrieval_position_1	1970547	0	2	30090	3	0	29920
+JH56CNU	139	Response	10	1984955	14408	4
+JH56CNU	140	Picture	ITI	2000804	0	1	21062	3	0	20920
+JH56CNU	141	Picture	CueingCross	2022034	0	1	3009	2	0	2920
+JH56CNU	142	Picture	PrepTime	2025210	0	1	3009	2	0	2920
+JH56CNU	143	Picture	1_24_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_UncuedRetriev_300_300_399_2250_3000_2600_gabor_patch_orientation_003_077_127_093_target_position_2_3_retrieval_position_1	2028386	0	1	1337	2	0	1250
+JH56CNU	143	Picture	Flicker2	2029723	1337	1	1337	3	1250	1250
+JH56CNU	143	Picture	Flicker3	2031060	2674	2	1338	3	2500	1250
+JH56CNU	144	Picture	Delay	2032565	0	1	22567	2	0	22420
+JH56CNU	145	Picture	1_24_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_UncuedRetriev_retrieval_patch_orientation_003_retrieval_position_1	2055299	0	1	30089	3	0	29920
+JH56CNU	145	Response	10	2076694	21395	4
+JH56CNU	146	Picture	ITI	2085556	0	1	26077	2	0	25920
+JH56CNU	147	Picture	CueingCross	2111800	0	1	3009	2	0	2920
+JH56CNU	148	Picture	PrepTime	2114976	0	2	3009	3	0	2920
+JH56CNU	149	Picture	1_25_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_1950_3000_2150_gabor_patch_orientation_034_162_052_108_target_position_3_4_retrieval_position_3	2118152	0	2	1338	3	0	1250
+JH56CNU	149	Picture	Flicker2	2119490	1338	1	1170	2	1250	1250
+JH56CNU	149	Picture	Flicker3	2120660	2508	1	1337	2	2500	1250
+JH56CNU	150	Picture	Delay	2122164	0	2	19558	3	0	19420
+JH56CNU	151	Picture	1_25_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_052_retrieval_position_3	2141890	0	1	30089	2	0	29920
+JH56CNU	151	Response	10	2158533	16643	3
+JH56CNU	152	Picture	ITI	2172146	0	1	21564	2	0	21420
+JH56CNU	153	Picture	CueingCross	2193877	0	1	3009	2	0	2920
+JH56CNU	154	Picture	PrepTime	2197053	0	2	3009	3	0	2920
+JH56CNU	155	Picture	1_26_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_1900_3000_2050_gabor_patch_orientation_070_149_097_125_target_position_2_4_retrieval_position_2	2200229	0	2	1338	3	0	1250
+JH56CNU	155	Picture	Flicker2	2201567	1338	1	1170	2	1250	1250
+JH56CNU	155	Picture	Flicker3	2202737	2508	1	1337	2	2500	1250
+JH56CNU	156	Picture	Delay	2204241	0	2	19057	3	0	18920
+JH56CNU	157	Picture	1_26_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_149_retrieval_position_2	2223465	0	1	30089	3	0	29920
+JH56CNU	157	Response	10	2242962	19497	3
+JH56CNU	158	Picture	ITI	2253722	0	1	20561	2	0	20420
+JH56CNU	159	Picture	CueingCross	2274450	0	1	3009	2	0	2920
+JH56CNU	160	Picture	PrepTime	2277626	0	1	3009	2	0	2920
+JH56CNU	161	Picture	1_27_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1950_3000_2000_gabor_patch_orientation_152_004_062_126_target_position_1_3_retrieval_position_3	2280802	0	1	1337	2	0	1250
+JH56CNU	161	Picture	Flicker2	2282139	1337	1	1170	3	1250	1250
+JH56CNU	161	Picture	Flicker3	2283309	2507	2	1338	3	2500	1250
+JH56CNU	162	Picture	Delay	2284814	0	1	19558	2	0	19420
+JH56CNU	163	Picture	1_27_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_110_retrieval_position_3	2304539	0	1	30090	2	0	29920
+JH56CNU	163	Response	20	2328371	23832	3
+JH56CNU	164	Picture	ITI	2334796	0	1	20059	2	0	19920
+JH56CNU	165	Picture	CueingCross	2355022	0	2	3009	3	0	2920
+JH56CNU	166	Picture	PrepTime	2358199	0	1	3008	3	0	2920
+JH56CNU	167	Picture	1_28_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_2200_3000_2100_gabor_patch_orientation_169_111_051_093_target_position_2_3_retrieval_position_3	2361375	0	1	1337	2	0	1250
+JH56CNU	167	Picture	Flicker2	2362712	1337	1	1337	3	1250	1250
+JH56CNU	167	Picture	Flicker3	2364049	2674	2	1338	3	2500	1250
+JH56CNU	168	Picture	Delay	2365554	0	1	22065	2	0	21920
+JH56CNU	169	Picture	1_28_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_003_retrieval_position_3	2387786	0	2	30090	3	0	29920
+JH56CNU	169	Response	20	2404749	16963	5
+JH56CNU	170	Picture	ITI	2418043	0	1	21062	3	0	20920
+JH56CNU	171	Picture	CueingCross	2439273	0	1	3009	2	0	2920
+JH56CNU	172	Picture	PrepTime	2442449	0	1	3009	2	0	2920
+JH56CNU	173	Picture	1_29_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1850_3000_2250_gabor_patch_orientation_040_145_078_168_target_position_3_4_retrieval_position_3	2445624	0	2	1338	3	0	1250
+JH56CNU	173	Picture	Flicker2	2446962	1338	1	1170	2	1250	1250
+JH56CNU	173	Picture	Flicker3	2448132	2508	1	1338	2	2500	1250
+JH56CNU	174	Picture	Delay	2449637	0	1	18555	2	0	18420
+JH56CNU	175	Picture	1_29_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_126_retrieval_position_3	2468359	0	1	30089	2	0	29920
+JH56CNU	175	Response	20	2478878	10519	4
+JH56CNU	176	Picture	ITI	2498616	0	1	22567	2	0	22420
+JH56CNU	177	Picture	CueingCross	2521350	0	1	3009	2	0	2920
+JH56CNU	178	Picture	PrepTime	2524526	0	1	3009	2	0	2920
+JH56CNU	179	Picture	1_30_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2200_3000_1900_gabor_patch_orientation_038_176_110_065_target_position_1_2_retrieval_position_2	2527702	0	1	1337	2	0	1250
+JH56CNU	179	Picture	Flicker2	2529039	1337	1	1337	3	1250	1250
+JH56CNU	179	Picture	Flicker3	2530376	2674	2	1338	3	2500	1250
+JH56CNU	180	Picture	Delay	2531881	0	1	22065	3	0	21920
+JH56CNU	181	Picture	1_30_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_176_retrieval_position_2	2554114	0	1	30089	2	0	29920
+JH56CNU	181	Response	10	2580977	26863	3
+JH56CNU	182	Picture	ITI	2584370	0	1	19057	2	0	18920
+JH56CNU	183	Picture	CueingCross	2603594	0	1	3009	2	0	2920
+JH56CNU	184	Picture	PrepTime	2606770	0	1	3009	2	0	2920
+JH56CNU	185	Picture	1_31_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_1950_3000_2500_gabor_patch_orientation_179_013_053_128_target_position_1_3_retrieval_position_3	2609946	0	1	1337	3	0	1250
+JH56CNU	185	Picture	Flicker2	2611283	1337	2	1171	3	1250	1250
+JH56CNU	185	Picture	Flicker3	2612454	2508	1	1337	2	2500	1250
+JH56CNU	186	Picture	Delay	2613958	0	1	19558	2	0	19420
+JH56CNU	187	Picture	1_31_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_053_retrieval_position_3	2633683	0	2	30090	3	0	29920
+JH56CNU	187	Response	20	2644116	10433	4
+JH56CNU	188	Picture	ITI	2663940	0	1	25074	2	0	24920
+JH56CNU	189	Picture	CueingCross	2689181	0	2	3009	3	0	2920
+JH56CNU	190	Picture	PrepTime	2692358	0	1	3008	3	0	2920
+JH56CNU	191	Picture	1_32_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_2050_3000_2350_gabor_patch_orientation_103_148_125_041_target_position_1_4_retrieval_position_4	2695534	0	1	1337	2	0	1250
+JH56CNU	191	Picture	Flicker2	2696871	1337	1	1337	2	1250	1250
+JH56CNU	191	Picture	Flicker3	2698208	2674	1	1338	2	2500	1250
+JH56CNU	192	Picture	Delay	2699713	0	1	20561	2	0	20420
+JH56CNU	193	Picture	1_32_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_179_retrieval_position_4	2720441	0	1	30089	2	0	29920
+JH56CNU	193	Response	20	2733485	13044	3
+JH56CNU	194	Picture	ITI	2750697	0	2	23570	4	0	23420
+JH56CNU	195	Picture	CueingCross	2774435	0	1	3009	2	0	2920
+JH56CNU	196	Picture	PrepTime	2777611	0	1	3009	2	0	2920
+JH56CNU	197	Picture	1_33_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_UncuedRetriev_300_300_399_2100_3000_2000_gabor_patch_orientation_008_113_037_098_target_position_2_3_retrieval_position_1	2780787	0	1	1337	2	0	1250
+JH56CNU	197	Picture	Flicker2	2782124	1337	1	1337	2	1250	1250
+JH56CNU	197	Picture	Flicker3	2783461	2674	1	1338	2	2500	1250
+JH56CNU	198	Picture	Delay	2784966	0	1	21062	2	0	20920
+JH56CNU	199	Picture	1_33_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_UncuedRetriev_retrieval_patch_orientation_145_retrieval_position_1	2806196	0	1	30089	2	0	29920
+JH56CNU	199	Response	10	2825904	19708	3
+JH56CNU	200	Picture	ITI	2836452	0	1	20060	2	0	19920
+JH56CNU	201	Picture	CueingCross	2856678	0	2	3010	3	0	2920
+JH56CNU	202	Picture	PrepTime	2859855	0	1	3009	2	0	2920
+JH56CNU	203	Picture	1_34_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1800_3000_2250_gabor_patch_orientation_017_175_130_056_target_position_1_3_retrieval_position_3	2863031	0	1	1337	2	0	1250
+JH56CNU	203	Picture	Flicker2	2864368	1337	1	1170	3	1250	1250
+JH56CNU	203	Picture	Flicker3	2865538	2507	2	1338	3	2500	1250
+JH56CNU	204	Picture	Delay	2867043	0	1	18053	3	0	17920
+JH56CNU	205	Picture	1_34_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_085_retrieval_position_3	2885264	0	1	30089	2	0	29920
+JH56CNU	205	Response	20	2897543	12279	3
+JH56CNU	206	Picture	ITI	2915520	0	1	22567	2	0	22420
+JH56CNU	207	Picture	CueingCross	2938254	0	2	3009	3	0	2920
+JH56CNU	208	Picture	PrepTime	2941430	0	2	3009	3	0	2920
+JH56CNU	209	Picture	1_35_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1900_3000_1900_gabor_patch_orientation_037_120_168_153_target_position_1_4_retrieval_position_1	2944607	0	1	1337	2	0	1250
+JH56CNU	209	Picture	Flicker2	2945944	1337	1	1337	2	1250	1250
+JH56CNU	209	Picture	Flicker3	2947281	2674	1	1337	3	2500	1250
+JH56CNU	210	Picture	Delay	2948786	0	1	19056	2	0	18920
+JH56CNU	211	Picture	1_35_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_085_retrieval_position_1	2968009	0	2	30090	3	0	29920
+JH56CNU	211	Response	20	2977131	9122	4
+JH56CNU	212	Picture	ITI	2998266	0	1	19056	3	0	18920
+JH56CNU	213	Picture	CueingCross	3017490	0	1	3009	2	0	2920
+JH56CNU	214	Picture	PrepTime	3020666	0	1	3009	2	0	2920
+JH56CNU	215	Picture	1_36_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_UncuedRetriev_300_300_399_1800_3000_2350_gabor_patch_orientation_032_086_137_061_target_position_1_2_retrieval_position_4	3023842	0	1	1337	2	0	1250
+JH56CNU	215	Picture	Flicker2	3025179	1337	1	1337	3	1250	1250
+JH56CNU	215	Picture	Flicker3	3026516	2674	2	1338	3	2500	1250
+JH56CNU	216	Picture	Delay	3028021	0	1	18054	2	0	17920
+JH56CNU	217	Picture	1_36_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_UncuedRetriev_retrieval_patch_orientation_061_retrieval_position_4	3046242	0	1	30089	2	0	29920
+JH56CNU	217	Response	20	3058310	12068	4
+JH56CNU	218	Picture	ITI	3076498	0	1	23570	2	0	23420
+JH56CNU	219	Picture	CueingCross	3100235	0	2	3009	3	0	2920
+JH56CNU	220	Picture	PrepTime	3103411	0	2	3009	4	0	2920
+JH56CNU	221	Picture	1_37_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2000_3000_2300_gabor_patch_orientation_084_173_036_015_target_position_3_4_retrieval_position_4	3106588	0	1	1337	3	0	1250
+JH56CNU	221	Picture	Flicker2	3107925	1337	2	1337	3	1250	1250
+JH56CNU	221	Picture	Flicker3	3109262	2674	1	1337	3	2500	1250
+JH56CNU	222	Picture	Delay	3110767	0	1	20059	2	0	19920
+JH56CNU	223	Picture	1_37_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_015_retrieval_position_4	3130993	0	2	30090	3	0	29920
+JH56CNU	223	Response	20	3143649	12656	4
+JH56CNU	224	Picture	ITI	3161250	0	1	23068	3	0	22920
+JH56CNU	225	Picture	CueingCross	3184486	0	1	3008	3	0	2920
+JH56CNU	226	Picture	PrepTime	3187662	0	1	3009	2	0	2920
+JH56CNU	227	Picture	1_38_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2050_3000_2550_gabor_patch_orientation_174_149_107_043_target_position_1_4_retrieval_position_1	3190838	0	1	1337	2	0	1250
+JH56CNU	227	Picture	Flicker2	3192175	1337	1	1337	2	1250	1250
+JH56CNU	227	Picture	Flicker3	3193512	2674	1	1338	2	2500	1250
+JH56CNU	228	Picture	Delay	3195017	0	1	20561	3	0	20420
+JH56CNU	229	Picture	1_38_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_174_retrieval_position_1	3215745	0	1	30089	3	0	29920
+JH56CNU	229	Response	10	3232868	17123	4
+JH56CNU	230	Picture	ITI	3246002	0	1	25576	2	0	25420
+JH56CNU	231	Picture	CueingCross	3271745	0	1	3009	2	0	2920
+JH56CNU	232	Picture	PrepTime	3274921	0	1	3009	2	0	2920
+JH56CNU	233	Picture	1_39_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_1850_3000_2450_gabor_patch_orientation_034_178_069_140_target_position_2_3_retrieval_position_3	3278097	0	1	1337	2	0	1250
+JH56CNU	233	Picture	Flicker2	3279434	1337	1	1337	3	1250	1250
+JH56CNU	233	Picture	Flicker3	3280771	2674	2	1338	3	2500	1250
+JH56CNU	234	Picture	Delay	3282276	0	1	18555	2	0	18420
+JH56CNU	235	Picture	1_39_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_069_retrieval_position_3	3300998	0	1	30090	2	0	29920
+JH56CNU	235	Response	10	3317957	16959	4
+JH56CNU	236	Picture	ITI	3331255	0	1	24572	3	0	24420
+JH56CNU	237	Picture	CueingCross	3355995	0	1	3009	2	0	2920
+JH56CNU	238	Picture	PrepTime	3359171	0	1	3009	2	0	2920
+JH56CNU	239	Picture	1_40_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_2050_3000_1900_gabor_patch_orientation_010_179_072_039_target_position_3_4_retrieval_position_4	3362346	0	2	1338	3	0	1250
+JH56CNU	239	Picture	Flicker2	3363684	1338	1	1170	3	1250	1250
+JH56CNU	239	Picture	Flicker3	3364854	2508	2	1338	3	2500	1250
+JH56CNU	240	Picture	Delay	3366359	0	1	20561	2	0	20420
+JH56CNU	241	Picture	1_40_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_089_retrieval_position_4	3387087	0	1	30090	2	0	29920
+JH56CNU	241	Response	20	3407605	20518	4
+JH56CNU	242	Picture	ITI	3417344	0	1	19056	2	0	18920
+JH56CNU	243	Picture	CueingCross	3436567	0	2	3009	3	0	2920
+JH56CNU	244	Picture	PrepTime	3439744	0	1	3008	3	0	2920
+JH56CNU	245	Picture	1_41_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2100_3000_2300_gabor_patch_orientation_051_073_025_094_target_position_1_2_retrieval_position_1	3442920	0	1	1337	2	0	1250
+JH56CNU	245	Picture	Flicker2	3444257	1337	1	1337	2	1250	1250
+JH56CNU	245	Picture	Flicker3	3445594	2674	1	1338	2	2500	1250
+JH56CNU	246	Picture	Delay	3447099	0	1	21062	2	0	20920
+JH56CNU	247	Picture	1_41_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_051_retrieval_position_1	3468328	0	2	30090	3	0	29920
+JH56CNU	247	Response	10	3478364	10036	4
+JH56CNU	248	Picture	ITI	3498585	0	1	23068	3	0	22920
+JH56CNU	249	Picture	CueingCross	3521821	0	1	3009	2	0	2920
+JH56CNU	250	Picture	PrepTime	3524996	0	2	3010	3	0	2920
+JH56CNU	251	Picture	1_42_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_UncuedRetriev_300_300_399_2150_3000_2350_gabor_patch_orientation_111_006_081_026_target_position_2_4_retrieval_position_1	3528173	0	1	1337	2	0	1250
+JH56CNU	251	Picture	Flicker2	3529510	1337	1	1337	3	1250	1250
+JH56CNU	251	Picture	Flicker3	3530847	2674	2	1338	3	2500	1250
+JH56CNU	252	Picture	Delay	3532352	0	1	21564	2	0	21420
+JH56CNU	253	Picture	1_42_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_UncuedRetriev_retrieval_patch_orientation_111_retrieval_position_1	3554083	0	1	30089	3	0	29920
+JH56CNU	253	Response	10	3572173	18090	4
+JH56CNU	254	Picture	ITI	3584340	0	1	23570	2	0	23420
+JH56CNU	255	Picture	CueingCross	3608077	0	1	3009	2	0	2920
+JH56CNU	256	Picture	PrepTime	3611253	0	1	3009	2	0	2920
+JH56CNU	257	Picture	1_43_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1750_3000_2200_gabor_patch_orientation_111_023_165_086_target_position_2_4_retrieval_position_4	3614429	0	1	1337	2	0	1250
+JH56CNU	257	Picture	Flicker2	3615766	1337	1	1170	2	1250	1250
+JH56CNU	257	Picture	Flicker3	3616936	2507	1	1338	2	2500	1250
+JH56CNU	258	Picture	Delay	3618441	0	1	17552	2	0	17420
+JH56CNU	259	Picture	1_43_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_133_retrieval_position_4	3636160	0	1	30089	3	0	29920
+JH56CNU	259	Response	20	3651062	14902	3
+JH56CNU	260	Picture	ITI	3666417	0	1	22065	2	0	21920
+JH56CNU	261	Picture	CueingCross	3688649	0	2	3009	3	0	2920
+JH56CNU	262	Picture	PrepTime	3691825	0	2	3009	4	0	2920
+JH56CNU	263	Picture	1_44_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2000_3000_2100_gabor_patch_orientation_014_150_127_085_target_position_2_3_retrieval_position_3	3695002	0	1	1337	2	0	1250
+JH56CNU	263	Picture	Flicker2	3696339	1337	1	1337	2	1250	1250
+JH56CNU	263	Picture	Flicker3	3697676	2674	1	1337	3	2500	1250
+JH56CNU	264	Picture	Delay	3699181	0	1	20059	2	0	19920
+JH56CNU	265	Picture	1_44_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_127_retrieval_position_3	3719407	0	2	30090	3	0	29920
+JH56CNU	265	Response	10	3748441	29034	3
+JH56CNU	266	Picture	ITI	3749664	0	1	21062	3	0	20920
+JH56CNU	267	Picture	CueingCross	3770894	0	1	3008	3	0	2920
+JH56CNU	268	Picture	PrepTime	3774070	0	1	3009	2	0	2920
+JH56CNU	269	Picture	1_45_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2250_3000_2200_gabor_patch_orientation_134_020_102_084_target_position_2_4_retrieval_position_2	3777246	0	1	1337	2	0	1250
+JH56CNU	269	Picture	Flicker2	3778583	1337	1	1337	3	1250	1250
+JH56CNU	269	Picture	Flicker3	3779920	2674	2	1338	3	2500	1250
+JH56CNU	270	Picture	Delay	3781425	0	1	22567	2	0	22420
+JH56CNU	271	Picture	1_45_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_020_retrieval_position_2	3804159	0	1	30089	3	0	29920
+JH56CNU	271	Response	10	3821740	17581	3
+JH56CNU	272	Picture	ITI	3834415	0	2	22066	3	0	21920
+JH56CNU	273	Picture	CueingCross	3856648	0	1	3009	2	0	2920
+JH56CNU	274	Picture	PrepTime	3859824	0	2	3009	3	0	2920
+JH56CNU	275	Picture	1_46_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2000_3000_2050_gabor_patch_orientation_061_090_007_034_target_position_2_4_retrieval_position_2	3863000	0	2	1338	3	0	1250
+JH56CNU	275	Picture	Flicker2	3864338	1338	1	1170	2	1250	1250
+JH56CNU	275	Picture	Flicker3	3865508	2508	1	1337	2	2500	1250
+JH56CNU	276	Picture	Delay	3867012	0	2	20060	3	0	19920
+JH56CNU	277	Picture	1_46_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_090_retrieval_position_2	3887239	0	1	30089	3	0	29920
+JH56CNU	277	Response	10	3901138	13899	4
+JH56CNU	278	Picture	ITI	3917496	0	1	20561	2	0	20420
+JH56CNU	279	Picture	CueingCross	3938224	0	1	3009	2	0	2920
+JH56CNU	280	Picture	PrepTime	3941400	0	1	3009	2	0	2920
+JH56CNU	281	Picture	1_47_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_UncuedRetriev_300_300_399_2150_3000_2600_gabor_patch_orientation_160_128_091_053_target_position_2_3_retrieval_position_1	3944576	0	1	1337	2	0	1250
+JH56CNU	281	Picture	Flicker2	3945913	1337	1	1170	3	1250	1250
+JH56CNU	281	Picture	Flicker3	3947083	2507	2	1338	3	2500	1250
+JH56CNU	282	Picture	Delay	3948588	0	1	21564	2	0	21420
+JH56CNU	283	Picture	1_47_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_UncuedRetriev_retrieval_patch_orientation_112_retrieval_position_1	3970319	0	1	30089	3	0	29920
+JH56CNU	283	Response	10	3988337	18018	4
+JH56CNU	284	Picture	ITI	4000576	0	1	26077	2	0	25920
+JH56CNU	285	Picture	CueingCross	4026820	0	1	3009	2	0	2920
+JH56CNU	286	Picture	PrepTime	4029996	0	2	3009	3	0	2920
+JH56CNU	287	Picture	1_48_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1750_3000_2600_gabor_patch_orientation_041_150_001_123_target_position_1_2_retrieval_position_1	4033172	0	2	1338	3	0	1250
+JH56CNU	287	Picture	Flicker2	4034510	1338	1	1170	2	1250	1250
+JH56CNU	287	Picture	Flicker3	4035680	2508	1	1337	2	2500	1250
+JH56CNU	288	Picture	Delay	4037184	0	2	17552	4	0	17420
+JH56CNU	289	Picture	1_48_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_180_retrieval_position_1	4054740	0	165	30086	166	0	29920
+JH56CNU	290	Picture	ITI	4084993	0	1	26077	3	0	25920
+JH56CNU	291	Picture	CueingCross	4111238	0	1	3008	3	0	2920
+JH56CNU	292	Picture	PrepTime	4114414	0	1	3009	2	0	2920
+JH56CNU	293	Picture	1_49_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_2100_3000_1950_gabor_patch_orientation_027_070_042_178_target_position_1_3_retrieval_position_3	4117590	0	1	1337	2	0	1250
+JH56CNU	293	Picture	Flicker2	4118927	1337	1	1337	3	1250	1250
+JH56CNU	293	Picture	Flicker3	4120264	2674	2	1338	3	2500	1250
+JH56CNU	294	Picture	Delay	4121769	0	1	21062	2	0	20920
+JH56CNU	295	Picture	1_49_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_091_retrieval_position_3	4142999	0	1	30089	2	0	29920
+JH56CNU	295	Response	20	4153385	10386	3
+JH56CNU	296	Picture	ITI	4173255	0	1	19558	2	0	19420
+JH56CNU	297	Picture	CueingCross	4192980	0	2	3009	3	0	2920
+JH56CNU	298	Picture	PrepTime	4196156	0	2	3009	3	0	2920
+JH56CNU	299	Picture	1_50_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1900_3000_2400_gabor_patch_orientation_164_124_141_105_target_position_1_4_retrieval_position_4	4199332	0	2	1338	3	0	1250
+JH56CNU	299	Picture	Flicker2	4200670	1338	1	1170	2	1250	1250
+JH56CNU	299	Picture	Flicker3	4201840	2508	1	1337	2	2500	1250
+JH56CNU	300	Picture	Delay	4203344	0	2	19057	3	0	18920
+JH56CNU	301	Picture	1_50_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_058_retrieval_position_4	4222568	0	1	30090	2	0	29920
+JH56CNU	301	Response	20	4234804	12236	3
+JH56CNU	302	Picture	ITI	4252825	0	1	24071	2	0	23920
+JH56CNU	303	Picture	CueingCross	4277063	0	2	3009	3	0	2920
+JH56CNU	304	Picture	PrepTime	4280239	0	2	3009	3	0	2920
+JH56CNU	305	Picture	1_51_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_2250_3000_2400_gabor_patch_orientation_038_167_128_103_target_position_1_3_retrieval_position_3	4283415	0	2	1338	3	0	1250
+JH56CNU	305	Picture	Flicker2	4284753	1338	1	1170	2	1250	1250
+JH56CNU	305	Picture	Flicker3	4285923	2508	1	1337	2	2500	1250
+JH56CNU	306	Picture	Delay	4287427	0	2	22567	4	0	22420
+JH56CNU	307	Picture	1_51_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_079_retrieval_position_3	4310162	0	1	30089	2	0	29920
+JH56CNU	307	Response	20	4320042	9880	4
+JH56CNU	308	Picture	ITI	4340418	0	1	24072	2	0	23920
+JH56CNU	309	Picture	CueingCross	4364657	0	1	3009	2	0	2920
+JH56CNU	310	Picture	PrepTime	4367833	0	1	3009	2	0	2920
+JH56CNU	311	Picture	1_52_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_UncuedRetriev_300_300_399_2200_3000_2300_gabor_patch_orientation_054_079_110_140_target_position_2_4_retrieval_position_1	4371009	0	1	1337	2	0	1250
+JH56CNU	311	Picture	Flicker2	4372346	1337	1	1170	3	1250	1250
+JH56CNU	311	Picture	Flicker3	4373516	2507	2	1338	3	2500	1250
+JH56CNU	312	Picture	Delay	4375021	0	1	22065	3	0	21920
+JH56CNU	313	Picture	1_52_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_UncuedRetriev_retrieval_patch_orientation_054_retrieval_position_1	4397254	0	1	30089	2	0	29920
+JH56CNU	313	Response	10	4411321	14067	4
+JH56CNU	314	Picture	ITI	4427510	0	1	23069	2	0	22920
+JH56CNU	315	Picture	CueingCross	4450746	0	1	3009	2	0	2920
+JH56CNU	316	Picture	PrepTime	4453922	0	1	3009	2	0	2920
+JH56CNU	317	Picture	1_53_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_2250_3000_2550_gabor_patch_orientation_038_103_075_013_target_position_3_4_retrieval_position_4	4457098	0	1	1337	2	0	1250
+JH56CNU	317	Picture	Flicker2	4458435	1337	1	1338	2	1250	1250
+JH56CNU	317	Picture	Flicker3	4459773	2675	1	1337	2	2500	1250
+JH56CNU	318	Picture	Delay	4461277	0	1	22567	2	0	22420
+JH56CNU	319	Picture	1_53_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_150_retrieval_position_4	4484011	0	1	30090	2	0	29920
+JH56CNU	319	Response	10	4505350	21339	3
+JH56CNU	320	Picture	ITI	4514268	0	1	25576	2	0	25420
+JH56CNU	321	Picture	CueingCross	4540011	0	1	3009	2	0	2920
+JH56CNU	322	Picture	PrepTime	4543187	0	1	3009	2	0	2920
+JH56CNU	323	Picture	1_54_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2050_3000_2300_gabor_patch_orientation_081_049_155_100_target_position_3_4_retrieval_position_3	4546363	0	1	1337	2	0	1250
+JH56CNU	323	Picture	Flicker2	4547700	1337	1	1170	3	1250	1250
+JH56CNU	323	Picture	Flicker3	4548870	2507	2	1338	3	2500	1250
+JH56CNU	324	Picture	Delay	4550375	0	1	20561	2	0	20420
+JH56CNU	325	Picture	1_54_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_155_retrieval_position_3	4571103	0	1	30089	3	0	29920
+JH56CNU	325	Response	10	4585889	14786	3
+JH56CNU	326	Picture	ITI	4601360	0	1	23068	2	0	22920
+JH56CNU	327	Picture	CueingCross	4624595	0	2	3009	3	0	2920
+JH56CNU	328	Picture	PrepTime	4627771	0	2	3009	3	0	2920
+JH56CNU	329	Picture	1_55_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_1850_3000_2100_gabor_patch_orientation_124_011_166_077_target_position_2_4_retrieval_position_2	4630947	0	2	1338	3	0	1250
+JH56CNU	329	Picture	Flicker2	4632285	1338	1	1170	2	1250	1250
+JH56CNU	329	Picture	Flicker3	4633455	2508	1	1337	2	2500	1250
+JH56CNU	330	Picture	Delay	4634959	0	2	18556	3	0	18420
+JH56CNU	331	Picture	1_55_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_011_retrieval_position_2	4653682	0	1	30089	2	0	29920
+JH56CNU	331	Response	10	4671218	17536	4
+JH56CNU	332	Picture	ITI	4683938	0	1	21063	2	0	20920
+JH56CNU	333	Picture	CueingCross	4705168	0	1	3009	2	0	2920
+JH56CNU	334	Picture	PrepTime	4708344	0	1	3009	2	0	2920
+JH56CNU	335	Picture	1_56_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_UncuedRetriev_300_300_399_1750_3000_2300_gabor_patch_orientation_178_005_032_072_target_position_3_4_retrieval_position_2	4711520	0	1	1337	3	0	1250
+JH56CNU	335	Picture	Flicker2	4712857	1337	2	1171	3	1250	1250
+JH56CNU	335	Picture	Flicker3	4714028	2508	1	1337	2	2500	1250
+JH56CNU	336	Picture	Delay	4715532	0	1	17552	2	0	17420
+JH56CNU	337	Picture	1_56_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_UncuedRetriev_retrieval_patch_orientation_053_retrieval_position_2	4733251	0	2	30090	3	0	29920
+JH56CNU	337	Response	10	4747206	13955	5
+JH56CNU	338	Picture	ITI	4763508	0	1	23068	2	0	22920
+JH56CNU	339	Picture	CueingCross	4786743	0	2	3009	4	0	2920
+JH56CNU	340	Picture	PrepTime	4789920	0	1	3009	2	0	2920
+JH56CNU	341	Picture	1_57_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_2150_3000_2400_gabor_patch_orientation_115_132_027_008_target_position_3_4_retrieval_position_4	4793096	0	1	1337	2	0	1250
+JH56CNU	341	Picture	Flicker2	4794433	1337	1	1337	2	1250	1250
+JH56CNU	341	Picture	Flicker3	4795770	2674	1	1338	2	2500	1250
+JH56CNU	342	Picture	Delay	4797275	0	1	21564	2	0	21420
+JH56CNU	343	Picture	1_57_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_056_retrieval_position_4	4819006	0	1	30089	2	0	29920
+JH56CNU	343	Response	10	4842535	23529	4
+JH56CNU	344	Picture	ITI	4849262	0	2	24072	3	0	23920
+JH56CNU	345	Picture	CueingCross	4873501	0	1	3009	2	0	2920
+JH56CNU	346	Picture	PrepTime	4876677	0	1	3009	2	0	2920
+JH56CNU	347	Picture	1_58_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_2100_3000_2150_gabor_patch_orientation_096_037_022_066_target_position_2_4_retrieval_position_4	4879853	0	2	1338	3	0	1250
+JH56CNU	347	Picture	Flicker2	4881191	1338	1	1170	2	1250	1250
+JH56CNU	347	Picture	Flicker3	4882361	2508	1	1337	2	2500	1250
+JH56CNU	348	Picture	Delay	4883865	0	1	21063	2	0	20920
+JH56CNU	349	Picture	1_58_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_112_retrieval_position_4	4905095	0	1	30089	2	0	29920
+JH56CNU	349	Response	10	4925174	20079	3
+JH56CNU	350	Picture	ITI	4935351	0	2	21564	4	0	21420
+JH56CNU	351	Picture	CueingCross	4957083	0	1	3009	2	0	2920
+JH56CNU	352	Picture	PrepTime	4960259	0	1	3009	2	0	2920
+JH56CNU	353	Picture	1_59_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2100_3000_2150_gabor_patch_orientation_029_080_060_105_target_position_3_4_retrieval_position_4	4963435	0	1	1337	2	0	1250
+JH56CNU	353	Picture	Flicker2	4964772	1337	1	1337	3	1250	1250
+JH56CNU	353	Picture	Flicker3	4966109	2674	2	1337	4	2500	1250
+JH56CNU	354	Picture	Delay	4967614	0	1	21062	3	0	20920
+JH56CNU	355	Picture	1_59_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_105_retrieval_position_4	4988844	0	1	30089	2	0	29920
+JH56CNU	356	Picture	ITI	5019100	0	1	21564	2	0	21420
+JH56CNU	357	Picture	CueingCross	5040831	0	2	3009	3	0	2920
+JH56CNU	358	Picture	PrepTime	5044007	0	2	3009	3	0	2920
+JH56CNU	359	Picture	1_60_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1800_3000_2150_gabor_patch_orientation_090_136_121_151_target_position_2_4_retrieval_position_4	5047184	0	1	1337	2	0	1250
+JH56CNU	359	Picture	Flicker2	5048521	1337	1	1337	2	1250	1250
+JH56CNU	359	Picture	Flicker3	5049858	2674	1	1337	3	2500	1250
+JH56CNU	360	Picture	Delay	5051363	0	1	18053	2	0	17920
+JH56CNU	361	Picture	1_60_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_013_retrieval_position_4	5069583	0	2	30090	3	0	29920
+JH56CNU	361	Response	20	5083622	14039	8
+JH56CNU	362	Picture	ITI	5099840	0	1	21564	2	0	21420
+JH56CNU	363	Picture	CueingCross	5121571	0	1	3009	2	0	2920
+JH56CNU	364	Picture	PrepTime	5124747	0	1	3009	2	0	2920
+JH56CNU	365	Picture	1_61_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1750_3000_2050_gabor_patch_orientation_163_178_005_112_target_position_1_2_retrieval_position_1	5127923	0	2	1338	3	0	1250
+JH56CNU	365	Picture	Flicker2	5129261	1338	1	1170	2	1250	1250
+JH56CNU	365	Picture	Flicker3	5130431	2508	1	1337	2	2500	1250
+JH56CNU	366	Picture	Delay	5131935	0	1	17552	2	0	17420
+JH56CNU	367	Picture	1_61_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_025_retrieval_position_1	5149654	0	2	30090	3	0	29920
+JH56CNU	367	Response	20	5166731	17077	3
+JH56CNU	368	Picture	ITI	5179911	0	1	20561	2	0	20420
+JH56CNU	369	Picture	CueingCross	5200639	0	1	3009	2	0	2920
+JH56CNU	370	Picture	PrepTime	5203815	0	2	3009	3	0	2920
+JH56CNU	371	Picture	1_62_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_UncuedRetriev_300_300_399_1850_3000_2400_gabor_patch_orientation_080_028_043_115_target_position_1_2_retrieval_position_4	5206991	0	2	1338	3	0	1250
+JH56CNU	371	Picture	Flicker2	5208329	1338	1	1170	2	1250	1250
+JH56CNU	371	Picture	Flicker3	5209499	2508	1	1337	2	2500	1250
+JH56CNU	372	Picture	Delay	5211003	0	2	18555	4	0	18420
+JH56CNU	373	Picture	1_62_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_UncuedRetriev_retrieval_patch_orientation_161_retrieval_position_4	5229726	0	1	30089	2	0	29920
+JH56CNU	373	Response	10	5254249	24523	4
+JH56CNU	374	Picture	ITI	5259982	0	1	24072	2	0	23920
+JH56CNU	375	Picture	CueingCross	5284221	0	1	3009	2	0	2920
+JH56CNU	376	Picture	PrepTime	5287397	0	1	3008	3	0	2920
+JH56CNU	377	Picture	1_63_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_1900_3000_2050_gabor_patch_orientation_173_142_087_102_target_position_2_4_retrieval_position_4	5290573	0	1	1337	2	0	1250
+JH56CNU	377	Picture	Flicker2	5291910	1337	1	1338	2	1250	1250
+JH56CNU	377	Picture	Flicker3	5293248	2675	1	1337	2	2500	1250
+JH56CNU	378	Picture	Delay	5294752	0	1	19057	2	0	18920
+JH56CNU	379	Picture	1_63_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_102_retrieval_position_4	5313976	0	1	30089	2	0	29920
+JH56CNU	379	Response	10	5328048	14072	4
+JH56CNU	380	Picture	ITI	5344232	0	2	20561	3	0	20420
+JH56CNU	381	Picture	CueingCross	5364960	0	2	3009	4	0	2920
+JH56CNU	382	Picture	PrepTime	5368137	0	1	3009	2	0	2920
+JH56CNU	383	Picture	1_64_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1800_3000_2550_gabor_patch_orientation_004_112_091_128_target_position_1_3_retrieval_position_1	5371313	0	1	1337	2	0	1250
+JH56CNU	383	Picture	Flicker2	5372650	1337	1	1337	2	1250	1250
+JH56CNU	383	Picture	Flicker3	5373987	2674	1	1338	2	2500	1250
+JH56CNU	384	Picture	Delay	5375492	0	1	18053	2	0	17920
+JH56CNU	385	Picture	1_64_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_053_retrieval_position_1	5393713	0	1	30089	2	0	29920
+JH56CNU	385	Response	20	5417767	24054	3
+JH56CNU	386	Picture	ITI	5423969	0	1	25576	2	0	25420
+JH56CNU	387	Picture	CueingCross	5449712	0	1	3009	2	0	2920
+JH56CNU	388	Picture	PrepTime	5452888	0	2	3009	3	0	2920
+JH56CNU	389	Picture	1_65_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2200_3000_1950_gabor_patch_orientation_173_108_152_091_target_position_2_4_retrieval_position_2	5456064	0	2	1338	3	0	1250
+JH56CNU	389	Picture	Flicker2	5457402	1338	1	1170	2	1250	1250
+JH56CNU	389	Picture	Flicker3	5458572	2508	1	1337	2	2500	1250
+JH56CNU	390	Picture	Delay	5460076	0	2	22066	3	0	21920
+JH56CNU	391	Picture	1_65_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_108_retrieval_position_2	5482309	0	1	30089	2	0	29920
+JH56CNU	391	Response	10	5494006	11697	3
+JH56CNU	392	Picture	ITI	5512565	0	2	19559	3	0	19420
+JH56CNU	393	Picture	CueingCross	5532291	0	1	3009	2	0	2920
+JH56CNU	394	Picture	PrepTime	5535467	0	1	3009	2	0	2920
+JH56CNU	395	Picture	1_66_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_2000_3000_2000_gabor_patch_orientation_010_157_118_035_target_position_1_4_retrieval_position_4	5538643	0	1	1337	2	0	1250
+JH56CNU	395	Picture	Flicker2	5539980	1337	1	1338	2	1250	1250
+JH56CNU	395	Picture	Flicker3	5541318	2675	1	1337	2	2500	1250
+JH56CNU	396	Picture	Delay	5542822	0	1	20060	2	0	19920
+JH56CNU	397	Picture	1_66_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_084_retrieval_position_4	5563049	0	1	30089	2	0	29920
+JH56CNU	397	Response	10	5572944	9895	5
+JH56CNU	398	Picture	ITI	5593305	0	2	20060	3	0	19920
+JH56CNU	399	Picture	CueingCross	5613532	0	1	3009	2	0	2920
+JH56CNU	400	Picture	PrepTime	5616708	0	2	3009	3	0	2920
+JH56CNU	401	Picture	1_67_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_UncuedRetriev_300_300_399_1800_3000_2450_gabor_patch_orientation_158_098_046_132_target_position_1_3_retrieval_position_4	5619884	0	1	1337	3	0	1250
+JH56CNU	401	Picture	Flicker2	5621221	1337	2	1171	3	1250	1250
+JH56CNU	401	Picture	Flicker3	5622392	2508	1	1337	2	2500	1250
+JH56CNU	402	Picture	Delay	5623896	0	1	18054	2	0	17920
+JH56CNU	403	Picture	1_67_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_UncuedRetriev_retrieval_patch_orientation_178_retrieval_position_4	5642117	0	1	30089	2	0	29920
+JH56CNU	403	Response	10	5659864	17747	3
+JH56CNU	404	Picture	ITI	5672373	0	2	24573	3	0	24420
+JH56CNU	405	Picture	CueingCross	5697113	0	2	3009	4	0	2920
+JH56CNU	406	Picture	PrepTime	5700290	0	1	3008	3	0	2920
+JH56CNU	407	Picture	1_68_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_2000_3000_2200_gabor_patch_orientation_158_094_029_180_target_position_1_3_retrieval_position_3	5703466	0	1	1337	2	0	1250
+JH56CNU	407	Picture	Flicker2	5704803	1337	1	1337	2	1250	1250
+JH56CNU	407	Picture	Flicker3	5706140	2674	1	1338	2	2500	1250
+JH56CNU	408	Picture	Delay	5707645	0	1	20059	2	0	19920
+JH56CNU	409	Picture	1_68_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_029_retrieval_position_3	5727871	0	2	30090	3	0	29920
+JH56CNU	409	Response	10	5738452	10581	4
+JH56CNU	410	Picture	ITI	5758128	0	1	22066	2	0	21920
+JH56CNU	411	Picture	CueingCross	5780361	0	1	3009	2	0	2920
+JH56CNU	412	Picture	PrepTime	5783537	0	1	3009	2	0	2920
+JH56CNU	413	Picture	1_69_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_UncuedRetriev_300_300_399_2150_3000_2200_gabor_patch_orientation_050_035_091_005_target_position_1_4_retrieval_position_2	5786713	0	1	1337	2	0	1250
+JH56CNU	413	Picture	Flicker2	5788050	1337	1	1337	3	1250	1250
+JH56CNU	413	Picture	Flicker3	5789387	2674	2	1338	3	2500	1250
+JH56CNU	414	Picture	Delay	5790892	0	1	21564	2	0	21420
+JH56CNU	415	Picture	1_69_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_UncuedRetriev_retrieval_patch_orientation_173_retrieval_position_2	5812623	0	1	30090	2	0	29920
+JH56CNU	415	Response	10	5827101	14478	4
+JH56CNU	416	Picture	ITI	5842880	0	1	22065	2	0	21920
+JH56CNU	417	Picture	CueingCross	5865112	0	2	3009	3	0	2920
+JH56CNU	418	Picture	PrepTime	5868288	0	2	3009	4	0	2920
+JH56CNU	419	Picture	1_70_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1950_3000_2100_gabor_patch_orientation_070_107_023_087_target_position_1_3_retrieval_position_3	5871465	0	1	1337	2	0	1250
+JH56CNU	419	Picture	Flicker2	5872802	1337	1	1337	2	1250	1250
+JH56CNU	419	Picture	Flicker3	5874139	2674	1	1337	3	2500	1250
+JH56CNU	420	Picture	Delay	5875644	0	1	19558	2	0	19420
+JH56CNU	421	Picture	1_70_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_159_retrieval_position_3	5895369	0	1	30089	2	0	29920
+JH56CNU	421	Response	20	5908820	13451	4
+JH56CNU	422	Picture	ITI	5925625	0	2	21063	3	0	20920
+JH56CNU	423	Picture	BaselinePost	5946855	0	1	50149	2	0	50000

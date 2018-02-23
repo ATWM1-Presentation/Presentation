@@ -1,0 +1,59 @@
+Scenario - ATWM1_Working_Memory_MEG_salient_uncued_instruction
+Logfile written - 04/06/2016 15:09:47
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+JH56CNU	1	Picture	Instruction_S_UC	29	0	1	100129	2	0	100000
+JH56CNU	2	Picture	Instruction2	100325	0	2	100130	3	0	100000
+JH56CNU	3	Picture	Instruction3	200622	0	1	12036	2	0	resp
+JH56CNU	3	Response	10	212607	11985	4
+JH56CNU	4	Picture	Instruction4	232717	0	1	3510	2	0	resp
+JH56CNU	4	Response	20	236097	3380	3
+JH56CNU	5	Picture	Instruction5	256119	0	2	3009	3	0	resp
+JH56CNU	5	Response	10	259026	2907	3
+JH56CNU	6	Picture	Instruction4	279188	0	1	2674	2	0	resp
+JH56CNU	6	Response	20	281825	2637	4
+JH56CNU	7	Picture	Instruction3	301921	0	2	3511	3	0	resp
+JH56CNU	7	Response	10	305325	3404	3
+JH56CNU	8	Picture	Instruction4	325491	0	1	3678	2	0	resp
+JH56CNU	8	Response	20	329114	3623	3
+JH56CNU	9	Picture	Instruction_S_UC_TestTrials	349228	0	1	100129	2	0	100000
+JH56CNU	10	Picture	BaselinePre	449525	0	1	20059	2	0	20000
+JH56CNU	11	Picture	CueingCross	469751	0	1	3009	2	0	2920
+JH56CNU	12	Picture	PrepTime	472927	0	1	3009	2	0	2920
+JH56CNU	13	Picture	2_1_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_1800_3000_2050_gabor_patch_orientation_037_078_061_019_target_position_2_4_retrieval_position_2	476103	0	1	1337	2	0	1250
+JH56CNU	13	Picture	Flicker2	477440	1337	1	1171	2	1250	1250
+JH56CNU	13	Picture	Flicker3	478611	2508	1	1337	2	2500	1250
+JH56CNU	14	Picture	Delay	480115	0	2	18053	3	0	17920
+JH56CNU	15	Picture	2_1_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_078_retrieval_position_2	498336	0	1	30088	3	0	29920
+JH56CNU	15	Response	10	509249	10913	4
+JH56CNU	16	Picture	ITI	548484	0	1	20561	2	0	20420
+JH56CNU	17	Picture	CueingCross	569212	0	1	3009	2	0	2920
+JH56CNU	18	Picture	PrepTime	572388	0	1	3009	2	0	2920
+JH56CNU	19	Picture	2_2_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1750_3000_1950_gabor_patch_orientation_165_033_100_010_target_position_1_3_retrieval_position_1	575564	0	1	1337	2	0	1250
+JH56CNU	19	Picture	Flicker2	576901	1337	1	1337	3	1250	1250
+JH56CNU	19	Picture	Flicker3	578238	2674	2	1338	3	2500	1250
+JH56CNU	20	Picture	Delay	579743	0	1	17552	2	0	17420
+JH56CNU	21	Picture	2_2_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_119_retrieval_position_1	597462	0	1	30089	2	0	29920
+JH56CNU	21	Response	20	610536	13074	4
+JH56CNU	22	Picture	ITI	647610	0	1	19558	2	0	19420
+JH56CNU	23	Picture	CueingCross	667335	0	1	3009	2	0	2920
+JH56CNU	24	Picture	PrepTime	670511	0	1	3009	2	0	2920
+JH56CNU	25	Picture	2_3_Encoding_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_300_300_399_1850_3000_1900_gabor_patch_orientation_003_120_144_175_target_position_1_4_retrieval_position_4	673687	0	1	1338	2	0	1250
+JH56CNU	25	Picture	Flicker2	675025	1338	1	1170	2	1250	1250
+JH56CNU	25	Picture	Flicker3	676195	2508	1	1337	2	2500	1250
+JH56CNU	26	Picture	Delay	677699	0	1	18555	2	0	18420
+JH56CNU	27	Picture	2_3_Retrieval_Working_Memory_MEG_P6_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_175_retrieval_position_4	696421	0	1	30089	2	0	29920
+JH56CNU	27	Response	10	709674	13253	3
+JH56CNU	28	Picture	ITI	746569	0	2	19057	3	0	18920
+JH56CNU	29	Picture	CueingCross	765793	0	1	3009	2	0	2920
+JH56CNU	30	Picture	PrepTime	768969	0	1	3009	2	0	2920
+JH56CNU	31	Picture	2_4_Encoding_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_300_300_399_1900_3000_2000_gabor_patch_orientation_170_147_112_088_target_position_1_2_retrieval_position_1	772145	0	1	1337	2	0	1250
+JH56CNU	31	Picture	Flicker2	773482	1337	1	1170	3	1250	1250
+JH56CNU	31	Picture	Flicker3	774652	2507	2	1338	3	2500	1250
+JH56CNU	32	Picture	Delay	776157	0	1	19056	2	0	18920
+JH56CNU	33	Picture	2_4_Retrieval_Working_Memory_MEG_P6_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_032_retrieval_position_1	795380	0	2	30089	3	0	29920
+JH56CNU	33	Response	20	804461	9081	4
+JH56CNU	34	Picture	ITI	845529	0	1	20059	2	0	19920
+JH56CNU	35	Picture	BaselinePost	865755	0	1	20059	2	0	20000
+JH56CNU	36	Picture	Instruction_S_UC	885982	0	1	50148	2	0	50000
