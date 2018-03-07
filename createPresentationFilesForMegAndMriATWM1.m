@@ -115,7 +115,7 @@ while ~bParametersCorrect
     
     [iGroup] = listdlg('ListString', parametersGroups.aStrShortGroups, 'PromptString', strPrompt, 'Name', strTitle, 'ListSize', vListSize, 'SelectionMode', strDialogSelectionMode);
     if isempty(iGroup)
-        error('\n\nNo group selected!\n');
+        error(sprintf('\n\nNo group selected!\n'));
     end
     strGroup = parametersGroups.aStrShortGroups{iGroup};
     
