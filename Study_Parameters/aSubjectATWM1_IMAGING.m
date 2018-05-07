@@ -37,9 +37,11 @@ aSubject.ATWM1_IMAGING.Groups.CONT	= {
 	'HK61CTP'
 	'HM55PYA'
 	'HW94YUV'
+	'HY22EUW'
 	'JA34HRQ'
 	'JH56CNU'
 	'JN18PZW'
+	'JQ49GPY'
 	'JT88LVU'
 	'JW68EXY'
 	'KE37GAY'
@@ -107,6 +109,7 @@ aSubject.ATWM1_IMAGING.Groups.CONT	= {
 	'XG57FZY'
 	'XR65WZG'
 	'XY29NJQ'
+	'YG86XFU'
 	'YK26RGQ'
 	'YK95HMC'
 	'YN65CXJ'
@@ -115,6 +118,7 @@ aSubject.ATWM1_IMAGING.Groups.CONT	= {
 	'ZJ12XAM'
 	'ZK53LGM'
 	'ZL33UFC'
+	'ZU41QPG'
 	'ZW28REA'
 	};
 aSubject.ATWM1_IMAGING.Groups.CONT = sort(aSubject.ATWM1_IMAGING.Groups.CONT);
@@ -124,6 +128,8 @@ aSubject.ATWM1_IMAGING.Groups.SCHI	= {
 	'CG96FVZ'
 	'DZ59LCP'
 	'GA77XKH'
+	'HL35AUC'
+	'KQ16TCH'
 	'LC30PHD'
 	'RY37ZCL'
 	'TH80DKW'
@@ -136,6 +142,7 @@ aSubject.ATWM1_IMAGING.Groups.SCHI = sort(aSubject.ATWM1_IMAGING.Groups.SCHI);
 
 aSubject.ATWM1_IMAGING.Groups.BIPO	= {
 	'ED96FHG'
+	'XU85KRE'
 	};
 aSubject.ATWM1_IMAGING.Groups.BIPO = sort(aSubject.ATWM1_IMAGING.Groups.BIPO);
 
