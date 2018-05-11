@@ -144,6 +144,7 @@ aSubject.ATWM1_IMAGING.Groups.SCHI = sort(aSubject.ATWM1_IMAGING.Groups.SCHI);
 aSubject.ATWM1_IMAGING.Groups.BIPO	= {
 	'ED96FHG'
 	'JU75WGN'
+	'QF57VLG'
 	'XU85KRE'
 	};
 aSubject.ATWM1_IMAGING.Groups.BIPO = sort(aSubject.ATWM1_IMAGING.Groups.BIPO);
