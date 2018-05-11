@@ -1,0 +1,110 @@
+# Template ATWM1_Localizer_MRI
+  
+    
+# Stimulus presentation
+trial {
+
+   trial_type = fixed;
+
+   incorrect_feedback = wrong;
+   correct_feedback = right;
+   no_response_feedback = miss;
+
+   stimulus_event {    
+      picture {       
+	      box frame1; x=0; y=0;
+	      box frame2; x=0; y=0;
+		   box background; x=0; y=0;
+	      bitmap fixation_cross_black; x=0; y=0;
+	      bitmap  $stim_enc1; x = $posX1; y = $posY1;
+	      bitmap  $stim_enc2; x = $posX2; y = $posY2;
+	      bitmap  $stim_enc3; x = $posX3; y = $posY3;
+	      bitmap  $stim_enc4; x = $posX4; y = $posY4;  
+	   };
+	   
+		time = 0;
+		mri_pulse = $trigger_volume;
+		duration = $single_stimulus_presentation_time; 	
+	
+	   # for simple response statistics directly in Presentations
+	   response_active = true; 
+
+	   IF '$control_flicker_index > 0';
+			stimulus_time_in = 0;
+			stimulus_time_out = '$single_stimulus_presentation_time*$control_flicker_index';
+ 	   ENDIF;
+
+	   code = $trial_code; 	
+	};   
+		
+   $numBlink = 0;
+   $numLoops = '( $trl_duration-$single_stimulus_presentation_time ) / ( $single_stimulus_presentation_time*2 )'; # already one cycle with length $single_stimulus_presentation_time done
+   $numLoops = 'floor($numLoops)'; 
+         
+   IF '$numLoops >= 1';
+		LOOP $i $numLoops;
+
+			$numBlink = '$numBlink + 1';
+
+			stimulus_event { 
+				 picture { 
+					 box frame1; x=0; y=0;
+					 box frame2; x=0; y=0;
+					 box background; x=0; y=0;
+					 bitmap fixation_cross_black; x=0; y=0;
+
+					IF '( $numBlink + 1) != $control_flicker_index';
+						bitmap  $stim_enc_alt1; x = $posX1; y = $posY1;
+						bitmap  $stim_enc_alt2; x = $posX2; y = $posY2;
+						bitmap  $stim_enc_alt3; x = $posX3; y = $posY3;
+						bitmap  $stim_enc_alt4; x = $posX4; y = $posY4;  
+					ENDIF;
+					IF '( $numBlink + 1) == $control_flicker_index';						
+							bitmap  $stim_enc_target1; x = $posX1; y = $posY1;
+							bitmap  $stim_enc_target2; x = $posX2; y = $posY2;
+							bitmap  $stim_enc_target3; x = $posX3; y = $posY3;
+							bitmap  $stim_enc_target4; x = $posX4; y = $posY4;  										
+					ENDIF;
+				}; 
+				time = '$numBlink*$single_stimulus_presentation_time';
+				duration = $single_stimulus_presentation_time; 	
+				
+				IF '( $numBlink + 1) == $control_flicker_index';	
+					target_button = 1;
+					stimulus_time_in = 0;
+					stimulus_time_out = 2000;
+				ENDIF;
+			};
+
+			$numBlink = '$numBlink + 1';
+			picture { 
+				box frame1; x=0; y=0;
+				box frame2; x=0; y=0;
+				box background; x=0; y=0;
+				bitmap fixation_cross_black; x=0; y=0;
+				bitmap  $stim_enc1; x = $posX1; y = $posY1;
+				bitmap  $stim_enc2; x = $posX2; y = $posY2;
+				bitmap  $stim_enc3; x = $posX3; y = $posY3;
+				bitmap  $stim_enc4; x = $posX4; y = $posY4;  
+			};
+			time = '$numBlink*$single_stimulus_presentation_time';
+			duration = $single_stimulus_presentation_time; 	
+
+		ENDLOOP;
+	ENDIF;
+};
+
+# Intertrial Interval
+trial {   
+  IF '$intertrial_interval > 0';
+	  picture {
+		  box frame1; x=0; y=0;
+		  box frame2; x=0; y=0;
+		 box background; x=0; y=0;
+		  bitmap fixation_cross_black; x=0; y=0;
+	  };				 
+		time = 0;  	
+		duration = $intertrial_interval;	
+		code = "ITI"; 
+   ENDIF;
+}; 
