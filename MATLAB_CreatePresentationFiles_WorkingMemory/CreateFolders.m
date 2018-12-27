@@ -44,8 +44,11 @@ function [strSubjectFolder] = CreateFolders(strRootFolder, strSubjectID, strPerm
     fclose(fidOutput);
 
     % rename .exp file
-    strActualPath = strrep(strPathSubjectData, 'LR', strLeftRight);
-    strActualPath = strrep(strActualPath, 'P1', strPermutationType); 
+    [filePath, fileName, fileExt] = fileparts(strPathSubjectData);
+    fileName = strrep(fileName, 'LR', strLeftRight);
+    fileName = strrep(fileName, 'P1', strPermutationType); 
+    strActualPath = sprintf('%s/%s%s', filePath, fileName, fileExt);
+
     strRenameCommand = sprintf('mv %s %s', strPathSubjectData, strActualPath);
     system(strRenameCommand);
 
