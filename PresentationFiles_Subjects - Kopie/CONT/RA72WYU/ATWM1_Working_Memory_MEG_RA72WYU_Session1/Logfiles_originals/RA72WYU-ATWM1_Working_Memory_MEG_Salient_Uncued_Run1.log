@@ -1,0 +1,643 @@
+Scenario - ATWM1_Working_Memory_MEG_salient_uncued_run1
+Logfile written - 02/03/2016 19:21:44
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+RA72WYU	1	Picture	ExpStart	162	0	1	10163	2	0	10000
+RA72WYU	2	Picture	BaselinePre	10491	0	2	100128	3	0	100000
+RA72WYU	3	Picture	CueingCross	110786	0	1	2999	2	0	2920
+RA72WYU	4	Picture	PrepTime	113951	0	2	2999	3	0	2920
+RA72WYU	5	Picture	1_1_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_1750_3000_2150_gabor_patch_orientation_094_043_010_150_target_position_2_3_retrieval_position_3	117117	0	1	1333	2	0	1250
+RA72WYU	5	Picture	Flicker2	118450	1333	1	1333	2	1250	1250
+RA72WYU	5	Picture	Flicker3	119783	2666	1	1332	2	2500	1250
+RA72WYU	6	Picture	Delay	121282	0	1	17493	2	0	17420
+RA72WYU	7	Picture	1_1_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_010_retrieval_position_3	138942	0	1	29988	2	0	29920
+RA72WYU	7	Response	10	154509	15567	4
+RA72WYU	8	Picture	ITI	169097	0	1	21491	3	0	21420
+RA72WYU	9	Picture	CueingCross	190755	0	1	2999	2	0	2920
+RA72WYU	10	Picture	PrepTime	193921	0	1	2998	2	0	2920
+RA72WYU	11	Picture	1_2_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_1800_3000_2200_gabor_patch_orientation_129_072_015_104_target_position_1_3_retrieval_position_1	197086	0	1	1333	2	0	1250
+RA72WYU	11	Picture	Flicker2	198419	1333	1	1333	2	1250	1250
+RA72WYU	11	Picture	Flicker3	199752	2666	1	1332	3	2500	1250
+RA72WYU	12	Picture	Delay	201251	0	1	17993	2	0	17920
+RA72WYU	13	Picture	1_2_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_178_retrieval_position_1	219411	0	1	29988	2	0	29920
+RA72WYU	13	Response	10	239507	20096	4
+RA72WYU	14	Picture	ITI	249566	0	1	21991	2	0	21920
+RA72WYU	15	Picture	CueingCross	271724	0	1	2999	2	0	2920
+RA72WYU	16	Picture	PrepTime	274889	0	2	2999	3	0	2920
+RA72WYU	17	Picture	1_3_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2200_3000_2000_gabor_patch_orientation_004_109_047_064_target_position_3_4_retrieval_position_3	278055	0	1	1333	2	0	1250
+RA72WYU	17	Picture	Flicker2	279388	1333	1	1332	2	1250	1250
+RA72WYU	17	Picture	Flicker3	280720	2665	1	1333	2	2500	1250
+RA72WYU	18	Picture	Delay	282220	0	1	21991	2	0	21920
+RA72WYU	19	Picture	1_3_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_047_retrieval_position_3	304378	0	1	29988	2	0	29920
+RA72WYU	19	Response	10	323865	19487	3
+RA72WYU	20	Picture	ITI	334533	0	1	19992	2	0	19920
+RA72WYU	21	Picture	CueingCross	354692	0	1	2999	2	0	2920
+RA72WYU	22	Picture	PrepTime	357857	0	1	2999	2	0	2920
+RA72WYU	23	Picture	1_4_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_1800_3000_2200_gabor_patch_orientation_095_114_038_161_target_position_1_2_retrieval_position_1	361023	0	1	1333	2	0	1250
+RA72WYU	23	Picture	Flicker2	362356	1333	1	1332	2	1250	1250
+RA72WYU	23	Picture	Flicker3	363688	2665	1	1333	2	2500	1250
+RA72WYU	24	Picture	Delay	365188	0	1	17993	2	0	17920
+RA72WYU	25	Picture	1_4_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_095_retrieval_position_1	383347	0	2	29989	3	0	29920
+RA72WYU	25	Response	10	396123	12776	3
+RA72WYU	26	Picture	ITI	413502	0	2	21992	3	0	21920
+RA72WYU	27	Picture	CueingCross	435661	0	1	2998	3	0	2920
+RA72WYU	28	Picture	PrepTime	438826	0	1	2999	2	0	2920
+RA72WYU	29	Picture	1_5_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_2050_3000_2150_gabor_patch_orientation_019_067_124_142_target_position_2_3_retrieval_position_3	441991	0	2	1333	3	0	1250
+RA72WYU	29	Picture	Flicker2	443324	1333	1	1333	2	1250	1250
+RA72WYU	29	Picture	Flicker3	444657	2666	1	1333	2	2500	1250
+RA72WYU	30	Picture	Delay	446156	0	2	20493	3	0	20420
+RA72WYU	31	Picture	1_5_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_173_retrieval_position_3	466815	0	1	29989	2	0	29920
+RA72WYU	31	Response	20	480110	13295	4
+RA72WYU	32	Picture	ITI	496970	0	1	21492	2	0	21420
+RA72WYU	33	Picture	CueingCross	518628	0	2	2999	3	0	2920
+RA72WYU	34	Picture	PrepTime	521794	0	1	2999	2	0	2920
+RA72WYU	35	Picture	1_6_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2000_3000_2200_gabor_patch_orientation_047_175_063_092_target_position_1_2_retrieval_position_2	524959	0	2	1333	3	0	1250
+RA72WYU	35	Picture	Flicker2	526292	1333	1	1333	2	1250	1250
+RA72WYU	35	Picture	Flicker3	527625	2666	1	1333	2	2500	1250
+RA72WYU	36	Picture	Delay	529124	0	2	19993	3	0	19920
+RA72WYU	37	Picture	1_6_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_175_retrieval_position_2	549283	0	2	29989	3	0	29920
+RA72WYU	37	Response	20	566378	17095	4
+RA72WYU	38	Picture	ITI	579438	0	2	21992	3	0	21920
+RA72WYU	39	Picture	CueingCross	601596	0	2	2999	3	0	2920
+RA72WYU	40	Picture	PrepTime	604762	0	1	2999	2	0	2920
+RA72WYU	41	Picture	1_7_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2150_3000_2500_gabor_patch_orientation_020_059_178_145_target_position_2_4_retrieval_position_4	607927	0	2	1333	3	0	1250
+RA72WYU	41	Picture	Flicker2	609260	1333	1	1333	2	1250	1250
+RA72WYU	41	Picture	Flicker3	610593	2666	1	1333	2	2500	1250
+RA72WYU	42	Picture	Delay	612092	0	2	21492	3	0	21420
+RA72WYU	43	Picture	1_7_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_145_retrieval_position_4	633751	0	1	29988	2	0	29920
+RA72WYU	43	Response	10	651786	18035	3
+RA72WYU	44	Picture	ITI	663906	0	1	24990	2	0	24920
+RA72WYU	45	Picture	CueingCross	689063	0	1	2998	3	0	2920
+RA72WYU	46	Picture	PrepTime	692228	0	1	2999	2	0	2920
+RA72WYU	47	Picture	1_8_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_UncuedRetriev_300_300_399_2250_3000_2000_gabor_patch_orientation_171_138_097_033_target_position_2_4_retrieval_position_1	695394	0	1	1332	3	0	1250
+RA72WYU	47	Picture	Flicker2	696726	1332	2	1333	3	1250	1250
+RA72WYU	47	Picture	Flicker3	698059	2665	1	1333	2	2500	1250
+RA72WYU	48	Picture	Delay	699559	0	1	22491	2	0	22420
+RA72WYU	49	Picture	1_8_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_UncuedRetriev_retrieval_patch_orientation_122_retrieval_position_1	722217	0	1	29988	2	0	29920
+RA72WYU	49	Response	20	750013	27796	4
+RA72WYU	50	Picture	ITI	752372	0	1	19992	2	0	19920
+RA72WYU	51	Picture	CueingCross	772530	0	2	2999	3	0	2920
+RA72WYU	52	Picture	PrepTime	775696	0	1	2999	2	0	2920
+RA72WYU	53	Picture	1_9_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2100_3000_2500_gabor_patch_orientation_051_074_034_117_target_position_1_2_retrieval_position_1	778861	0	2	1333	3	0	1250
+RA72WYU	53	Picture	Flicker2	780194	1333	1	1333	2	1250	1250
+RA72WYU	53	Picture	Flicker3	781527	2666	1	1332	3	2500	1250
+RA72WYU	54	Picture	Delay	783026	0	2	20992	3	0	20920
+RA72WYU	55	Picture	1_9_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_051_retrieval_position_1	804185	0	1	29988	2	0	29920
+RA72WYU	55	Response	10	828091	23906	3
+RA72WYU	56	Picture	ITI	834340	0	1	24990	2	0	24920
+RA72WYU	57	Picture	CueingCross	859497	0	1	2999	2	0	2920
+RA72WYU	58	Picture	PrepTime	862662	0	2	2999	3	0	2920
+RA72WYU	59	Picture	1_10_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_UncuedRetriev_300_300_399_1850_3000_2150_gabor_patch_orientation_166_051_086_110_target_position_1_4_retrieval_position_3	865828	0	1	1333	2	0	1250
+RA72WYU	59	Picture	Flicker2	867161	1333	1	1332	2	1250	1250
+RA72WYU	59	Picture	Flicker3	868493	2665	1	1333	2	2500	1250
+RA72WYU	60	Picture	Delay	869993	0	1	18493	2	0	18420
+RA72WYU	61	Picture	1_10_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_UncuedRetriev_retrieval_patch_orientation_131_retrieval_position_3	888652	0	2	29989	3	0	29920
+RA72WYU	61	Response	20	907259	18607	4
+RA72WYU	62	Picture	ITI	918807	0	2	21492	3	0	21420
+RA72WYU	63	Picture	CueingCross	940466	0	1	2998	3	0	2920
+RA72WYU	64	Picture	PrepTime	943631	0	1	2999	2	0	2920
+RA72WYU	65	Picture	1_11_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_2200_3000_2050_gabor_patch_orientation_043_163_015_101_target_position_1_3_retrieval_position_1	946796	0	2	1333	3	0	1250
+RA72WYU	65	Picture	Flicker2	948129	1333	1	1333	2	1250	1250
+RA72WYU	65	Picture	Flicker3	949462	2666	1	1333	2	2500	1250
+RA72WYU	66	Picture	Delay	950962	0	1	21991	2	0	21920
+RA72WYU	67	Picture	1_11_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_179_retrieval_position_1	973120	0	1	29988	2	0	29920
+RA72WYU	67	Response	20	988977	15857	4
+RA72WYU	68	Picture	ITI	1003275	0	1	20492	2	0	20420
+RA72WYU	69	Picture	CueingCross	1023933	0	2	2999	3	0	2920
+RA72WYU	70	Picture	PrepTime	1027099	0	1	2999	2	0	2920
+RA72WYU	71	Picture	1_12_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_1900_3000_2400_gabor_patch_orientation_077_151_016_035_target_position_3_4_retrieval_position_3	1030264	0	2	1333	3	0	1250
+RA72WYU	71	Picture	Flicker2	1031597	1333	1	1333	2	1250	1250
+RA72WYU	71	Picture	Flicker3	1032930	2666	1	1333	2	2500	1250
+RA72WYU	72	Picture	Delay	1034429	0	2	18993	3	0	18920
+RA72WYU	73	Picture	1_12_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_016_retrieval_position_3	1053589	0	1	29988	2	0	29920
+RA72WYU	73	Response	10	1066404	12815	4
+RA72WYU	74	Picture	ITI	1083744	0	1	23990	2	0	23920
+RA72WYU	75	Picture	CueingCross	1107901	0	1	2999	2	0	2920
+RA72WYU	76	Picture	PrepTime	1111066	0	2	2999	3	0	2920
+RA72WYU	77	Picture	1_13_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_1800_3000_2400_gabor_patch_orientation_176_003_018_053_target_position_1_2_retrieval_position_2	1114232	0	1	1332	3	0	1250
+RA72WYU	77	Picture	Flicker2	1115564	1332	2	1333	4	1250	1250
+RA72WYU	77	Picture	Flicker3	1116897	2665	2	1333	3	2500	1250
+RA72WYU	78	Picture	Delay	1118397	0	1	17993	2	0	17920
+RA72WYU	79	Picture	1_13_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_142_retrieval_position_2	1136557	0	1	29988	2	0	29920
+RA72WYU	79	Response	20	1152142	15585	4
+RA72WYU	80	Picture	ITI	1166712	0	1	23990	2	0	23920
+RA72WYU	81	Picture	CueingCross	1190869	0	1	2999	2	0	2920
+RA72WYU	82	Picture	PrepTime	1194034	0	2	2999	3	0	2920
+RA72WYU	83	Picture	1_14_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_1850_3000_2050_gabor_patch_orientation_116_010_172_135_target_position_2_4_retrieval_position_2	1197200	0	1	1333	2	0	1250
+RA72WYU	83	Picture	Flicker2	1198533	1333	1	1332	2	1250	1250
+RA72WYU	83	Picture	Flicker3	1199865	2665	1	1333	2	2500	1250
+RA72WYU	84	Picture	Delay	1201365	0	1	18493	2	0	18420
+RA72WYU	85	Picture	1_14_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_055_retrieval_position_2	1220024	0	2	29989	3	0	29920
+RA72WYU	85	Response	20	1239620	19596	3
+RA72WYU	86	Picture	ITI	1250179	0	2	20492	4	0	20420
+RA72WYU	87	Picture	CueingCross	1270838	0	1	2999	2	0	2920
+RA72WYU	88	Picture	PrepTime	1274003	0	2	2999	3	0	2920
+RA72WYU	89	Picture	1_15_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_2100_3000_2100_gabor_patch_orientation_092_153_034_015_target_position_1_4_retrieval_position_4	1277169	0	1	1333	2	0	1250
+RA72WYU	89	Picture	Flicker2	1278502	1333	1	1333	2	1250	1250
+RA72WYU	89	Picture	Flicker3	1279835	2666	1	1332	2	2500	1250
+RA72WYU	90	Picture	Delay	1281334	0	5	20992	6	0	20920
+RA72WYU	91	Picture	1_15_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_065_retrieval_position_4	1302492	0	2	29989	3	0	29920
+RA72WYU	91	Response	10	1324967	22475	4
+RA72WYU	92	Picture	ITI	1332647	0	2	20992	3	0	20920
+RA72WYU	93	Picture	CueingCross	1353806	0	1	2999	2	0	2920
+RA72WYU	94	Picture	PrepTime	1356971	0	2	2999	3	0	2920
+RA72WYU	95	Picture	1_16_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2150_3000_2250_gabor_patch_orientation_020_131_104_049_target_position_2_3_retrieval_position_2	1360137	0	1	1333	2	0	1250
+RA72WYU	95	Picture	Flicker2	1361470	1333	1	1333	2	1250	1250
+RA72WYU	95	Picture	Flicker3	1362803	2666	1	1332	2	2500	1250
+RA72WYU	96	Picture	Delay	1364302	0	1	21492	2	0	21420
+RA72WYU	97	Picture	1_16_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_131_retrieval_position_2	1385960	0	1	29989	2	0	29920
+RA72WYU	97	Response	10	1411135	25175	3
+RA72WYU	98	Picture	ITI	1416115	0	2	22492	3	0	22420
+RA72WYU	99	Picture	CueingCross	1438773	0	1	2999	2	0	2920
+RA72WYU	100	Picture	PrepTime	1441939	0	1	2998	3	0	2920
+RA72WYU	101	Picture	1_17_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_2200_3000_2450_gabor_patch_orientation_037_057_102_169_target_position_3_4_retrieval_position_4	1445104	0	1	1333	2	0	1250
+RA72WYU	101	Picture	Flicker2	1446437	1333	1	1333	2	1250	1250
+RA72WYU	101	Picture	Flicker3	1447770	2666	1	1332	3	2500	1250
+RA72WYU	102	Picture	Delay	1449269	0	1	21992	2	0	21920
+RA72WYU	103	Picture	1_17_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_122_retrieval_position_4	1471427	0	1	29989	2	0	29920
+RA72WYU	103	Response	10	1495283	23856	3
+RA72WYU	104	Picture	ITI	1501582	0	1	24491	2	0	24420
+RA72WYU	105	Picture	CueingCross	1526239	0	2	2999	3	0	2920
+RA72WYU	106	Picture	PrepTime	1529405	0	1	2999	2	0	2920
+RA72WYU	107	Picture	1_18_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_UncuedRetriev_300_300_399_2250_3000_2100_gabor_patch_orientation_058_093_121_142_target_position_1_4_retrieval_position_3	1532570	0	1	1333	2	0	1250
+RA72WYU	107	Picture	Flicker2	1533903	1333	1	1333	2	1250	1250
+RA72WYU	107	Picture	Flicker3	1535236	2666	1	1333	2	2500	1250
+RA72WYU	108	Picture	Delay	1536735	0	2	22492	3	0	22420
+RA72WYU	109	Picture	1_18_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_UncuedRetriev_retrieval_patch_orientation_167_retrieval_position_3	1559393	0	1	29989	2	0	29920
+RA72WYU	109	Response	20	1584600	25207	4
+RA72WYU	110	Picture	ITI	1589548	0	2	20992	3	0	20920
+RA72WYU	111	Picture	CueingCross	1610707	0	1	2999	2	0	2920
+RA72WYU	112	Picture	PrepTime	1613872	0	1	2999	2	0	2920
+RA72WYU	113	Picture	1_19_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_1900_3000_2300_gabor_patch_orientation_174_137_104_068_target_position_3_4_retrieval_position_3	1617038	0	1	1332	3	0	1250
+RA72WYU	113	Picture	Flicker2	1618370	1332	2	1333	3	1250	1250
+RA72WYU	113	Picture	Flicker3	1619703	2665	1	1333	2	2500	1250
+RA72WYU	114	Picture	Delay	1621203	0	1	18992	2	0	18920
+RA72WYU	115	Picture	1_19_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_104_retrieval_position_3	1640362	0	1	29988	3	0	29920
+RA72WYU	115	Response	10	1655138	14776	4
+RA72WYU	116	Picture	ITI	1670517	0	1	22991	2	0	22920
+RA72WYU	117	Picture	CueingCross	1693675	0	1	2999	2	0	2920
+RA72WYU	118	Picture	PrepTime	1696840	0	1	2999	2	0	2920
+RA72WYU	119	Picture	1_20_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_2050_3000_2450_gabor_patch_orientation_036_064_001_170_target_position_2_4_retrieval_position_2	1700006	0	1	1332	3	0	1250
+RA72WYU	119	Picture	Flicker2	1701338	1332	2	1333	3	1250	1250
+RA72WYU	119	Picture	Flicker3	1702671	2665	1	1333	2	2500	1250
+RA72WYU	120	Picture	Delay	1704171	0	1	20492	2	0	20420
+RA72WYU	121	Picture	1_20_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_110_retrieval_position_2	1724829	0	2	29989	3	0	29920
+RA72WYU	121	Response	20	1745306	20477	3
+RA72WYU	122	Picture	ITI	1754984	0	2	24491	3	0	24420
+RA72WYU	123	Picture	CueingCross	1779641	0	2	2999	3	0	2920
+RA72WYU	124	Picture	PrepTime	1782807	0	1	2999	2	0	2920
+RA72WYU	125	Picture	1_21_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2150_3000_2150_gabor_patch_orientation_046_168_090_006_target_position_1_3_retrieval_position_3	1785972	0	2	1333	3	0	1250
+RA72WYU	125	Picture	Flicker2	1787305	1333	1	1333	2	1250	1250
+RA72WYU	125	Picture	Flicker3	1788638	2666	1	1333	2	2500	1250
+RA72WYU	126	Picture	Delay	1790137	0	2	21492	3	0	21420
+RA72WYU	127	Picture	1_21_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_090_retrieval_position_3	1811796	0	1	29988	2	0	29920
+RA72WYU	127	Response	10	1823764	11968	3
+RA72WYU	128	Picture	ITI	1841951	0	1	21491	3	0	21420
+RA72WYU	129	Picture	CueingCross	1863609	0	1	2999	2	0	2920
+RA72WYU	130	Picture	PrepTime	1866775	0	1	2998	2	0	2920
+RA72WYU	131	Picture	1_22_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_UncuedRetriev_300_300_399_2050_3000_2200_gabor_patch_orientation_151_016_095_134_target_position_2_3_retrieval_position_4	1869940	0	1	1333	2	0	1250
+RA72WYU	131	Picture	Flicker2	1871273	1333	1	1333	2	1250	1250
+RA72WYU	131	Picture	Flicker3	1872606	2666	1	1332	3	2500	1250
+RA72WYU	132	Picture	Delay	1874105	0	1	20492	2	0	20420
+RA72WYU	133	Picture	1_22_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_UncuedRetriev_retrieval_patch_orientation_134_retrieval_position_4	1894764	0	1	29988	2	0	29920
+RA72WYU	133	Response	10	1918411	23647	4
+RA72WYU	134	Picture	ITI	1924919	0	1	21991	2	0	21920
+RA72WYU	135	Picture	CueingCross	1947077	0	1	2999	3	0	2920
+RA72WYU	136	Picture	PrepTime	1950242	0	2	2999	3	0	2920
+RA72WYU	137	Picture	1_23_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2200_3000_2450_gabor_patch_orientation_122_139_060_104_target_position_1_3_retrieval_position_1	1953408	0	1	1333	2	0	1250
+RA72WYU	137	Picture	Flicker2	1954741	1333	1	1332	3	1250	1250
+RA72WYU	137	Picture	Flicker3	1956073	2665	2	1333	3	2500	1250
+RA72WYU	138	Picture	Delay	1957573	0	1	21991	2	0	21920
+RA72WYU	139	Picture	1_23_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_122_retrieval_position_1	1979731	0	1	29988	2	0	29920
+RA72WYU	139	Response	10	1993669	13938	4
+RA72WYU	140	Picture	ITI	2009886	0	1	24490	3	0	24420
+RA72WYU	141	Picture	CueingCross	2034543	0	1	2999	2	0	2920
+RA72WYU	142	Picture	PrepTime	2037709	0	1	2998	2	0	2920
+RA72WYU	143	Picture	1_24_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2000_3000_2300_gabor_patch_orientation_017_090_033_180_target_position_1_4_retrieval_position_1	2040874	0	1	1333	2	0	1250
+RA72WYU	143	Response	10	2041758	884	3
+RA72WYU	143	Picture	Flicker2	2042207	1333	1	1333	2	1250	1250
+RA72WYU	143	Picture	Flicker3	2043540	2666	1	1332	3	2500	1250
+RA72WYU	144	Picture	Delay	2045039	0	1	19992	2	0	19920
+RA72WYU	145	Picture	1_24_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_017_retrieval_position_1	2065198	0	1	29988	2	0	29920
+RA72WYU	145	Response	10	2079087	13889	3
+RA72WYU	146	Picture	ITI	2095353	0	1	22991	2	0	22920
+RA72WYU	147	Picture	CueingCross	2118511	0	1	2998	3	0	2920
+RA72WYU	148	Picture	PrepTime	2121676	0	1	2999	2	0	2920
+RA72WYU	149	Picture	1_25_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_UncuedRetriev_300_300_399_2000_3000_2350_gabor_patch_orientation_170_096_030_138_target_position_3_4_retrieval_position_1	2124842	0	1	1332	2	0	1250
+RA72WYU	149	Picture	Flicker2	2126174	1332	1	1333	2	1250	1250
+RA72WYU	149	Picture	Flicker3	2127507	2665	1	1333	2	2500	1250
+RA72WYU	150	Picture	Delay	2129007	0	1	19992	2	0	19920
+RA72WYU	151	Picture	1_25_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_UncuedRetriev_retrieval_patch_orientation_170_retrieval_position_1	2149166	0	1	29988	3	0	29920
+RA72WYU	151	Response	10	2161924	12758	4
+RA72WYU	152	Picture	ITI	2179321	0	1	23490	3	0	23420
+RA72WYU	153	Picture	CueingCross	2202978	0	1	2999	2	0	2920
+RA72WYU	154	Picture	PrepTime	2206143	0	2	2999	4	0	2920
+RA72WYU	155	Picture	1_26_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_2250_3000_2350_gabor_patch_orientation_124_172_052_088_target_position_2_3_retrieval_position_2	2209309	0	1	1333	2	0	1250
+RA72WYU	155	Picture	Flicker2	2210642	1333	1	1333	2	1250	1250
+RA72WYU	155	Picture	Flicker3	2211975	2666	1	1332	3	2500	1250
+RA72WYU	156	Picture	Delay	2213474	0	1	22491	2	0	22420
+RA72WYU	157	Picture	1_26_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_034_retrieval_position_2	2236132	0	1	29988	2	0	29920
+RA72WYU	157	Response	10	2260132	24000	3
+RA72WYU	157	Response	10	2263941	27809	4
+RA72WYU	158	Picture	ITI	2266287	0	1	23491	2	0	23420
+RA72WYU	159	Picture	CueingCross	2289944	0	2	2999	3	0	2920
+RA72WYU	160	Picture	PrepTime	2293110	0	1	2999	2	0	2920
+RA72WYU	161	Picture	1_27_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_1850_3000_2450_gabor_patch_orientation_131_068_101_014_target_position_1_2_retrieval_position_1	2296275	0	2	1333	3	0	1250
+RA72WYU	161	Picture	Flicker2	2297608	1333	1	1333	2	1250	1250
+RA72WYU	161	Picture	Flicker3	2298941	2666	1	1333	2	2500	1250
+RA72WYU	162	Picture	Delay	2300440	0	2	18493	3	0	18420
+RA72WYU	163	Picture	1_27_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_178_retrieval_position_1	2319100	0	1	29988	2	0	29920
+RA72WYU	163	Response	20	2335790	16690	3
+RA72WYU	164	Picture	ITI	2349255	0	1	24490	3	0	24420
+RA72WYU	165	Picture	CueingCross	2373912	0	1	2999	2	0	2920
+RA72WYU	166	Picture	PrepTime	2377077	0	2	2999	3	0	2920
+RA72WYU	167	Picture	1_28_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_1800_3000_2450_gabor_patch_orientation_006_068_035_088_target_position_1_3_retrieval_position_3	2380243	0	1	1333	2	0	1250
+RA72WYU	167	Picture	Flicker2	2381576	1333	1	1333	2	1250	1250
+RA72WYU	167	Picture	Flicker3	2382909	2666	1	1332	2	2500	1250
+RA72WYU	168	Picture	Delay	2384408	0	1	17993	2	0	17920
+RA72WYU	169	Picture	1_28_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_174_retrieval_position_3	2402568	0	1	29988	2	0	29920
+RA72WYU	169	Response	20	2414847	12279	4
+RA72WYU	170	Picture	ITI	2432723	0	1	24490	2	0	24420
+RA72WYU	171	Picture	CueingCross	2457380	0	1	2999	2	0	2920
+RA72WYU	172	Picture	PrepTime	2460545	0	1	2999	2	0	2920
+RA72WYU	173	Picture	1_29_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_2250_3000_2100_gabor_patch_orientation_152_062_039_012_target_position_1_3_retrieval_position_1	2463711	0	1	1333	2	0	1250
+RA72WYU	173	Picture	Flicker2	2465044	1333	1	1332	2	1250	1250
+RA72WYU	173	Picture	Flicker3	2466376	2665	1	1333	2	2500	1250
+RA72WYU	174	Picture	Delay	2467876	0	1	22491	2	0	22420
+RA72WYU	175	Picture	1_29_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_102_retrieval_position_1	2490534	0	1	29988	2	0	29920
+RA72WYU	175	Response	10	2504315	13781	3
+RA72WYU	176	Picture	ITI	2520689	0	1	20992	2	0	20920
+RA72WYU	177	Picture	CueingCross	2541847	0	2	2999	3	0	2920
+RA72WYU	178	Picture	PrepTime	2545013	0	1	2998	3	0	2920
+RA72WYU	179	Picture	1_30_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_UncuedRetriev_300_300_399_2150_3000_2400_gabor_patch_orientation_038_155_105_178_target_position_1_2_retrieval_position_4	2548178	0	1	1333	2	0	1250
+RA72WYU	179	Picture	Flicker2	2549511	1333	1	1333	2	1250	1250
+RA72WYU	179	Picture	Flicker3	2550844	2666	1	1333	2	2500	1250
+RA72WYU	180	Picture	Delay	2552343	0	1	21492	2	0	21420
+RA72WYU	181	Picture	1_30_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_UncuedRetriev_retrieval_patch_orientation_178_retrieval_position_4	2574001	0	2	29989	3	0	29920
+RA72WYU	181	Response	10	2590533	16532	3
+RA72WYU	182	Picture	ITI	2604156	0	2	23991	3	0	23920
+RA72WYU	183	Picture	CueingCross	2628314	0	1	2999	2	0	2920
+RA72WYU	184	Picture	PrepTime	2631479	0	1	2999	2	0	2920
+RA72WYU	185	Picture	1_31_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_1750_3000_2000_gabor_patch_orientation_088_173_131_059_target_position_1_4_retrieval_position_1	2634645	0	1	1332	3	0	1250
+RA72WYU	185	Picture	Flicker2	2635977	1332	2	1333	3	1250	1250
+RA72WYU	185	Picture	Flicker3	2637310	2665	1	1333	2	2500	1250
+RA72WYU	186	Picture	Delay	2638810	0	1	17493	2	0	17420
+RA72WYU	187	Picture	1_31_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_088_retrieval_position_1	2656470	0	1	29988	2	0	29920
+RA72WYU	187	Response	20	2677320	20850	4
+RA72WYU	188	Picture	ITI	2686625	0	1	19992	2	0	19920
+RA72WYU	189	Picture	CueingCross	2706783	0	2	2999	3	0	2920
+RA72WYU	190	Picture	PrepTime	2709949	0	1	2999	2	0	2920
+RA72WYU	191	Picture	1_32_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_1750_3000_2050_gabor_patch_orientation_035_144_080_019_target_position_2_4_retrieval_position_2	2713114	0	2	1333	3	0	1250
+RA72WYU	191	Picture	Flicker2	2714447	1333	1	1333	2	1250	1250
+RA72WYU	191	Picture	Flicker3	2715780	2666	1	1333	2	2500	1250
+RA72WYU	192	Picture	Delay	2717279	0	2	17494	3	0	17420
+RA72WYU	193	Picture	1_32_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_096_retrieval_position_2	2734939	0	2	29989	3	0	29920
+RA72WYU	193	Response	10	2754718	19779	3
+RA72WYU	194	Picture	ITI	2765094	0	2	20492	3	0	20420
+RA72WYU	195	Picture	CueingCross	2785753	0	1	2999	2	0	2920
+RA72WYU	196	Picture	PrepTime	2788918	0	2	2999	3	0	2920
+RA72WYU	197	Picture	1_33_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2050_3000_2050_gabor_patch_orientation_096_154_112_171_target_position_1_2_retrieval_position_1	2792084	0	1	1333	2	0	1250
+RA72WYU	197	Picture	Flicker2	2793417	1333	1	1333	2	1250	1250
+RA72WYU	197	Picture	Flicker3	2794750	2666	1	1332	2	2500	1250
+RA72WYU	198	Picture	Delay	2796249	0	1	20492	2	0	20420
+RA72WYU	199	Picture	1_33_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_096_retrieval_position_1	2816908	0	1	29988	2	0	29920
+RA72WYU	199	Response	10	2842806	25898	4
+RA72WYU	200	Picture	ITI	2847063	0	1	20492	2	0	20420
+RA72WYU	201	Picture	CueingCross	2867721	0	2	2999	3	0	2920
+RA72WYU	202	Picture	PrepTime	2870887	0	1	2999	2	0	2920
+RA72WYU	203	Picture	1_34_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_2100_3000_2050_gabor_patch_orientation_058_087_172_125_target_position_2_3_retrieval_position_2	2874052	0	1	1333	2	0	1250
+RA72WYU	203	Picture	Flicker2	2875385	1333	1	1333	2	1250	1250
+RA72WYU	203	Picture	Flicker3	2876718	2666	1	1333	2	2500	1250
+RA72WYU	204	Picture	Delay	2878217	0	2	20992	3	0	20920
+RA72WYU	205	Picture	1_34_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_042_retrieval_position_2	2899376	0	1	29988	2	0	29920
+RA72WYU	205	Response	20	2927383	28007	4
+RA72WYU	206	Picture	ITI	2929531	0	1	20492	2	0	20420
+RA72WYU	207	Picture	CueingCross	2950189	0	2	2999	3	0	2920
+RA72WYU	208	Picture	PrepTime	2953355	0	1	2999	3	0	2920
+RA72WYU	209	Picture	1_35_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_1800_3000_2500_gabor_patch_orientation_161_118_045_012_target_position_2_4_retrieval_position_2	2956520	0	2	1333	3	0	1250
+RA72WYU	209	Picture	Flicker2	2957853	1333	1	1333	2	1250	1250
+RA72WYU	209	Picture	Flicker3	2959186	2666	1	1333	2	2500	1250
+RA72WYU	210	Picture	Delay	2960685	0	2	17993	4	0	17920
+RA72WYU	211	Picture	1_35_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_118_retrieval_position_2	2978845	0	1	29988	3	0	29920
+RA72WYU	211	Response	10	2990182	11337	3
+RA72WYU	212	Picture	ITI	3009000	0	1	24990	3	0	24920
+RA72WYU	213	Picture	CueingCross	3034157	0	1	2999	2	0	2920
+RA72WYU	214	Picture	PrepTime	3037322	0	2	2999	3	0	2920
+RA72WYU	215	Picture	1_36_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_UncuedRetriev_300_300_399_1950_3000_2100_gabor_patch_orientation_145_095_080_013_target_position_2_4_retrieval_position_3	3040488	0	1	1333	2	0	1250
+RA72WYU	215	Picture	Flicker2	3041821	1333	1	1333	2	1250	1250
+RA72WYU	215	Picture	Flicker3	3043154	2666	1	1332	2	2500	1250
+RA72WYU	216	Picture	Delay	3044653	0	1	19492	3	0	19420
+RA72WYU	217	Picture	1_36_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_UncuedRetriev_retrieval_patch_orientation_033_retrieval_position_3	3064312	0	1	29988	3	0	29920
+RA72WYU	217	Response	10	3064320	8	3
+RA72WYU	217	Response	10	3082139	17827	3
+RA72WYU	217	Response	10	3085349	21037	3
+RA72WYU	218	Picture	ITI	3094467	0	1	20992	2	0	20920
+RA72WYU	219	Picture	CueingCross	3115626	0	1	2998	3	0	2920
+RA72WYU	220	Picture	PrepTime	3118791	0	1	2999	2	0	2920
+RA72WYU	221	Picture	1_37_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_2100_3000_2000_gabor_patch_orientation_013_069_096_136_target_position_1_2_retrieval_position_1	3121956	0	2	1333	3	0	1250
+RA72WYU	221	Picture	Flicker2	3123289	1333	1	1333	2	1250	1250
+RA72WYU	221	Picture	Flicker3	3124622	2666	1	1333	2	2500	1250
+RA72WYU	222	Picture	Delay	3126122	0	1	20991	3	0	20920
+RA72WYU	223	Picture	1_37_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_152_retrieval_position_1	3147280	0	1	29988	3	0	29920
+RA72WYU	223	Response	10	3161577	14297	3
+RA72WYU	224	Picture	ITI	3177435	0	1	19992	2	0	19920
+RA72WYU	225	Picture	CueingCross	3197594	0	1	2999	2	0	2920
+RA72WYU	226	Picture	PrepTime	3200759	0	2	2999	3	0	2920
+RA72WYU	227	Picture	1_38_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2200_3000_2250_gabor_patch_orientation_067_031_010_093_target_position_1_2_retrieval_position_1	3203925	0	1	1333	2	0	1250
+RA72WYU	227	Picture	Flicker2	3205258	1333	1	1332	3	1250	1250
+RA72WYU	227	Picture	Flicker3	3206590	2665	2	1333	3	2500	1250
+RA72WYU	228	Picture	Delay	3208090	0	1	21991	2	0	21920
+RA72WYU	229	Picture	1_38_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_067_retrieval_position_1	3230248	0	1	29988	2	0	29920
+RA72WYU	229	Response	10	3242815	12567	3
+RA72WYU	230	Picture	ITI	3260403	0	1	22491	2	0	22420
+RA72WYU	231	Picture	CueingCross	3283061	0	1	2999	2	0	2920
+RA72WYU	232	Picture	PrepTime	3286226	0	2	2999	3	0	2920
+RA72WYU	233	Picture	1_39_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2250_3000_2100_gabor_patch_orientation_067_094_050_008_target_position_1_3_retrieval_position_1	3289392	0	1	1333	2	0	1250
+RA72WYU	233	Picture	Flicker2	3290725	1333	1	1332	3	1250	1250
+RA72WYU	233	Picture	Flicker3	3292057	2665	2	1333	3	2500	1250
+RA72WYU	234	Picture	Delay	3293557	0	1	22491	2	0	22420
+RA72WYU	235	Picture	1_39_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_067_retrieval_position_1	3316215	0	1	29988	2	0	29920
+RA72WYU	235	Response	10	3326962	10747	4
+RA72WYU	236	Picture	ITI	3346370	0	1	20992	2	0	20920
+RA72WYU	237	Picture	CueingCross	3367528	0	2	2999	3	0	2920
+RA72WYU	238	Picture	PrepTime	3370694	0	1	2999	2	0	2920
+RA72WYU	239	Picture	1_40_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_2200_3000_2300_gabor_patch_orientation_166_143_111_027_target_position_3_4_retrieval_position_4	3373859	0	1	1333	2	0	1250
+RA72WYU	239	Picture	Flicker2	3375192	1333	1	1333	2	1250	1250
+RA72WYU	239	Picture	Flicker3	3376525	2666	1	1333	2	2500	1250
+RA72WYU	240	Picture	Delay	3378024	0	2	21992	3	0	21920
+RA72WYU	241	Picture	1_40_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_076_retrieval_position_4	3400182	0	2	29989	3	0	29920
+RA72WYU	241	Response	10	3420490	20308	3
+RA72WYU	242	Picture	ITI	3430337	0	2	22991	4	0	22920
+RA72WYU	243	Picture	CueingCross	3453495	0	1	2999	2	0	2920
+RA72WYU	244	Picture	PrepTime	3456661	0	1	2998	2	0	2920
+RA72WYU	245	Picture	1_41_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_1750_3000_2350_gabor_patch_orientation_089_131_066_044_target_position_2_4_retrieval_position_4	3459826	0	1	1333	2	0	1250
+RA72WYU	245	Picture	Flicker2	3461159	1333	1	1333	2	1250	1250
+RA72WYU	245	Picture	Flicker3	3462492	2666	1	1332	3	2500	1250
+RA72WYU	246	Picture	Delay	3463991	0	1	17493	2	0	17420
+RA72WYU	247	Picture	1_41_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_044_retrieval_position_4	3481651	0	1	29988	2	0	29920
+RA72WYU	247	Response	20	3505667	24016	4
+RA72WYU	248	Picture	ITI	3511806	0	1	23491	2	0	23420
+RA72WYU	249	Picture	CueingCross	3535463	0	2	2999	3	0	2920
+RA72WYU	250	Picture	PrepTime	3538629	0	1	2999	2	0	2920
+RA72WYU	251	Picture	1_42_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_1850_3000_2250_gabor_patch_orientation_099_026_057_136_target_position_2_3_retrieval_position_3	3541794	0	2	1333	3	0	1250
+RA72WYU	251	Picture	Flicker2	3543127	1333	1	1333	2	1250	1250
+RA72WYU	251	Picture	Flicker3	3544460	2666	1	1333	2	2500	1250
+RA72WYU	252	Picture	Delay	3545959	0	2	18492	4	0	18420
+RA72WYU	253	Picture	1_42_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_009_retrieval_position_3	3564619	0	1	29988	2	0	29920
+RA72WYU	253	Response	10	3581715	17096	4
+RA72WYU	254	Picture	ITI	3594774	0	1	22491	2	0	22420
+RA72WYU	255	Picture	CueingCross	3617432	0	1	2999	2	0	2920
+RA72WYU	256	Picture	PrepTime	3620597	0	1	2999	2	0	2920
+RA72WYU	257	Picture	1_43_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_UncuedRetriev_300_300_399_1850_3000_2500_gabor_patch_orientation_036_078_014_143_target_position_1_4_retrieval_position_3	3623763	0	1	1333	2	0	1250
+RA72WYU	257	Picture	Flicker2	3625096	1333	1	1332	2	1250	1250
+RA72WYU	257	Picture	Flicker3	3626428	2665	1	1333	2	2500	1250
+RA72WYU	258	Picture	Delay	3627928	0	1	18493	2	0	18420
+RA72WYU	259	Picture	1_43_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_UncuedRetriev_retrieval_patch_orientation_059_retrieval_position_3	3646587	0	1	29989	2	0	29920
+RA72WYU	259	Response	20	3661213	14626	4
+RA72WYU	260	Picture	ITI	3676742	0	1	24991	2	0	24920
+RA72WYU	261	Picture	CueingCross	3701899	0	1	2999	2	0	2920
+RA72WYU	262	Picture	PrepTime	3705065	0	1	2998	3	0	2920
+RA72WYU	263	Picture	1_44_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2100_3000_2250_gabor_patch_orientation_129_100_145_071_target_position_2_3_retrieval_position_2	3708230	0	1	1333	2	0	1250
+RA72WYU	263	Picture	Flicker2	3709563	1333	1	1333	2	1250	1250
+RA72WYU	263	Picture	Flicker3	3710896	2666	1	1333	2	2500	1250
+RA72WYU	264	Picture	Delay	3712395	0	1	20992	2	0	20920
+RA72WYU	265	Picture	1_44_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_100_retrieval_position_2	3733553	0	2	29989	4	0	29920
+RA72WYU	265	Response	10	3744351	10798	3
+RA72WYU	266	Picture	ITI	3763709	0	1	22491	2	0	22420
+RA72WYU	267	Picture	CueingCross	3786367	0	1	2998	3	0	2920
+RA72WYU	268	Picture	PrepTime	3789532	0	1	2999	2	0	2920
+RA72WYU	269	Picture	1_45_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_2000_3000_2300_gabor_patch_orientation_033_144_118_093_target_position_1_3_retrieval_position_1	3792697	0	2	1333	3	0	1250
+RA72WYU	269	Picture	Flicker2	3794030	1333	1	1333	2	1250	1250
+RA72WYU	269	Picture	Flicker3	3795363	2666	1	1333	2	2500	1250
+RA72WYU	270	Picture	Delay	3796862	0	2	19993	3	0	19920
+RA72WYU	271	Picture	1_45_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_171_retrieval_position_1	3817021	0	2	29989	3	0	29920
+RA72WYU	271	Response	20	3833448	16427	4
+RA72WYU	272	Picture	ITI	3847176	0	2	22992	3	0	22920
+RA72WYU	273	Picture	CueingCross	3870334	0	1	2999	2	0	2920
+RA72WYU	274	Picture	PrepTime	3873500	0	1	2998	3	0	2920
+RA72WYU	275	Picture	1_46_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_1900_3000_2500_gabor_patch_orientation_054_022_178_097_target_position_3_4_retrieval_position_3	3876665	0	1	1333	2	0	1250
+RA72WYU	275	Picture	Flicker2	3877998	1333	1	1333	2	1250	1250
+RA72WYU	275	Picture	Flicker3	3879331	2666	1	1332	3	2500	1250
+RA72WYU	276	Picture	Delay	3880830	0	2	18993	3	0	18920
+RA72WYU	277	Picture	1_46_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_132_retrieval_position_3	3899989	0	2	29989	3	0	29920
+RA72WYU	277	Response	20	3925566	25577	3
+RA72WYU	278	Picture	ITI	3930144	0	2	24991	3	0	24920
+RA72WYU	279	Picture	CueingCross	3955301	0	2	2999	3	0	2920
+RA72WYU	280	Picture	PrepTime	3958467	0	1	2999	2	0	2920
+RA72WYU	281	Picture	1_47_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_UncuedRetriev_300_300_399_1900_3000_2350_gabor_patch_orientation_034_011_116_061_target_position_3_4_retrieval_position_2	3961632	0	1	1333	2	0	1250
+RA72WYU	281	Picture	Flicker2	3962965	1333	1	1333	2	1250	1250
+RA72WYU	281	Picture	Flicker3	3964298	2666	1	1333	2	2500	1250
+RA72WYU	282	Picture	Delay	3965797	0	2	18993	3	0	18920
+RA72WYU	283	Picture	1_47_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_UncuedRetriev_retrieval_patch_orientation_150_retrieval_position_2	3984957	0	1	29988	2	0	29920
+RA72WYU	283	Response	10	4003724	18767	3
+RA72WYU	284	Picture	ITI	4015112	0	1	23490	3	0	23420
+RA72WYU	285	Picture	CueingCross	4038769	0	1	2999	2	0	2920
+RA72WYU	286	Picture	PrepTime	4041935	0	1	2998	2	0	2920
+RA72WYU	287	Picture	1_48_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_1800_3000_2200_gabor_patch_orientation_066_049_134_007_target_position_3_4_retrieval_position_3	4045100	0	1	1333	2	0	1250
+RA72WYU	287	Picture	Flicker2	4046433	1333	1	1333	2	1250	1250
+RA72WYU	287	Picture	Flicker3	4047766	2666	1	1332	3	2500	1250
+RA72WYU	288	Picture	Delay	4049265	0	1	17993	2	0	17920
+RA72WYU	289	Picture	1_48_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_089_retrieval_position_3	4067425	0	1	29988	2	0	29920
+RA72WYU	289	Response	20	4083822	16397	3
+RA72WYU	290	Picture	ITI	4097580	0	1	21991	2	0	21920
+RA72WYU	291	Picture	CueingCross	4119738	0	1	2999	2	0	2920
+RA72WYU	292	Picture	PrepTime	4122903	0	1	2999	2	0	2920
+RA72WYU	293	Picture	1_49_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_UncuedRetriev_300_300_399_1800_3000_2150_gabor_patch_orientation_139_155_066_094_target_position_3_4_retrieval_position_2	4126069	0	1	1333	2	0	1250
+RA72WYU	293	Picture	Flicker2	4127402	1333	1	1332	2	1250	1250
+RA72WYU	293	Picture	Flicker3	4128734	2665	1	1333	2	2500	1250
+RA72WYU	294	Picture	Delay	4130234	0	1	17993	2	0	17920
+RA72WYU	295	Picture	1_49_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_UncuedRetriev_retrieval_patch_orientation_155_retrieval_position_2	4148393	0	2	29989	3	0	29920
+RA72WYU	295	Response	10	4164059	15666	4
+RA72WYU	296	Picture	ITI	4178548	0	2	21492	3	0	21420
+RA72WYU	297	Picture	CueingCross	4200207	0	1	2999	2	0	2920
+RA72WYU	298	Picture	PrepTime	4203372	0	1	2999	2	0	2920
+RA72WYU	299	Picture	1_50_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_1950_3000_2000_gabor_patch_orientation_106_086_126_151_target_position_1_3_retrieval_position_1	4206538	0	1	1332	3	0	1250
+RA72WYU	299	Picture	Flicker2	4207870	1332	2	1333	3	1250	1250
+RA72WYU	299	Picture	Flicker3	4209203	2665	1	1333	2	2500	1250
+RA72WYU	300	Picture	Delay	4210703	0	1	19492	2	0	19420
+RA72WYU	301	Picture	1_50_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_061_retrieval_position_1	4230362	0	1	29988	2	0	29920
+RA72WYU	301	Response	10	4258477	28115	8
+RA72WYU	302	Picture	ITI	4260517	0	1	19992	2	0	19920
+RA72WYU	303	Picture	CueingCross	4280676	0	1	2998	3	0	2920
+RA72WYU	304	Picture	PrepTime	4283841	0	1	2999	2	0	2920
+RA72WYU	305	Picture	1_51_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2000_3000_2050_gabor_patch_orientation_031_050_008_170_target_position_1_2_retrieval_position_2	4287007	0	1	1332	2	0	1250
+RA72WYU	305	Picture	Flicker2	4288339	1332	1	1333	2	1250	1250
+RA72WYU	305	Picture	Flicker3	4289672	2665	1	1333	2	2500	1250
+RA72WYU	306	Picture	Delay	4291172	0	1	19992	2	0	19920
+RA72WYU	307	Picture	1_51_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_050_retrieval_position_2	4311330	0	2	29989	3	0	29920
+RA72WYU	307	Response	10	4325305	13975	3
+RA72WYU	308	Picture	ITI	4341485	0	2	20493	3	0	20420
+RA72WYU	309	Picture	CueingCross	4362144	0	1	2999	2	0	2920
+RA72WYU	310	Picture	PrepTime	4365310	0	1	2998	3	0	2920
+RA72WYU	311	Picture	1_52_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_1750_3000_2100_gabor_patch_orientation_137_092_167_062_target_position_1_2_retrieval_position_1	4368475	0	1	1333	2	0	1250
+RA72WYU	311	Picture	Flicker2	4369808	1333	1	1333	2	1250	1250
+RA72WYU	311	Picture	Flicker3	4371141	2666	1	1333	2	2500	1250
+RA72WYU	312	Picture	Delay	4372640	0	1	17493	2	0	17420
+RA72WYU	313	Picture	1_52_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_002_retrieval_position_1	4390300	0	1	29988	3	0	29920
+RA72WYU	313	Response	20	4404793	14493	3
+RA72WYU	314	Picture	ITI	4420455	0	1	20992	2	0	20920
+RA72WYU	315	Picture	CueingCross	4441614	0	1	2998	2	0	2920
+RA72WYU	316	Picture	PrepTime	4444779	0	1	2999	2	0	2920
+RA72WYU	317	Picture	1_53_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_1900_3000_2150_gabor_patch_orientation_022_164_051_135_target_position_2_4_retrieval_position_4	4447944	0	2	1333	3	0	1250
+RA72WYU	317	Picture	Flicker2	4449277	1333	1	1333	2	1250	1250
+RA72WYU	317	Picture	Flicker3	4450610	2666	1	1333	2	2500	1250
+RA72WYU	318	Picture	Delay	4452109	0	2	18993	3	0	18920
+RA72WYU	319	Picture	1_53_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_090_retrieval_position_4	4471269	0	1	29988	2	0	29920
+RA72WYU	319	Response	20	4485710	14441	4
+RA72WYU	320	Picture	ITI	4501424	0	1	21491	3	0	21420
+RA72WYU	321	Picture	CueingCross	4523082	0	1	2999	2	0	2920
+RA72WYU	322	Picture	PrepTime	4526247	0	2	2999	3	0	2920
+RA72WYU	323	Picture	1_54_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2150_3000_2450_gabor_patch_orientation_050_176_001_140_target_position_1_4_retrieval_position_4	4529413	0	1	1333	2	0	1250
+RA72WYU	323	Picture	Flicker2	4530746	1333	1	1333	2	1250	1250
+RA72WYU	323	Picture	Flicker3	4532079	2666	1	1332	2	2500	1250
+RA72WYU	324	Picture	Delay	4533578	0	1	21492	2	0	21420
+RA72WYU	325	Picture	1_54_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_140_retrieval_position_4	4555236	0	2	29989	3	0	29920
+RA72WYU	325	Response	10	4569228	13992	4
+RA72WYU	326	Picture	ITI	4585391	0	2	24491	3	0	24420
+RA72WYU	327	Picture	CueingCross	4610048	0	2	2999	3	0	2920
+RA72WYU	328	Picture	PrepTime	4613214	0	1	2999	2	0	2920
+RA72WYU	329	Picture	1_55_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2050_3000_2100_gabor_patch_orientation_134_021_044_154_target_position_1_4_retrieval_position_4	4616379	0	2	1333	3	0	1250
+RA72WYU	329	Picture	Flicker2	4617712	1333	1	1333	2	1250	1250
+RA72WYU	329	Picture	Flicker3	4619045	2666	1	1333	2	2500	1250
+RA72WYU	330	Picture	Delay	4620544	0	2	20492	4	0	20420
+RA72WYU	331	Picture	1_55_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_154_retrieval_position_4	4641203	0	1	29988	3	0	29920
+RA72WYU	331	Response	10	4657846	16643	3
+RA72WYU	332	Picture	ITI	4671358	0	1	20992	2	0	20920
+RA72WYU	333	Picture	CueingCross	4692517	0	1	2998	3	0	2920
+RA72WYU	334	Picture	PrepTime	4695682	0	1	2999	2	0	2920
+RA72WYU	335	Picture	1_56_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_UncuedRetriev_300_300_399_1750_3000_2300_gabor_patch_orientation_026_081_115_143_target_position_1_3_retrieval_position_4	4698847	0	2	1333	3	0	1250
+RA72WYU	335	Picture	Flicker2	4700180	1333	1	1333	2	1250	1250
+RA72WYU	335	Picture	Flicker3	4701513	2666	1	1333	2	2500	1250
+RA72WYU	336	Picture	Delay	4703013	0	1	17493	2	0	17420
+RA72WYU	337	Picture	1_56_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_UncuedRetriev_retrieval_patch_orientation_143_retrieval_position_4	4720672	0	2	29989	3	0	29920
+RA72WYU	337	Response	10	4731444	10772	3
+RA72WYU	338	Picture	ITI	4750827	0	2	22992	3	0	22920
+RA72WYU	339	Picture	CueingCross	4773985	0	1	2999	2	0	2920
+RA72WYU	340	Picture	PrepTime	4777151	0	1	2998	3	0	2920
+RA72WYU	341	Picture	1_57_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_1950_3000_2400_gabor_patch_orientation_116_166_007_076_target_position_1_4_retrieval_position_4	4780316	0	1	1333	2	0	1250
+RA72WYU	341	Picture	Flicker2	4781649	1333	1	1333	2	1250	1250
+RA72WYU	341	Picture	Flicker3	4782982	2666	1	1332	3	2500	1250
+RA72WYU	342	Picture	Delay	4784481	0	1	19493	2	0	19420
+RA72WYU	343	Picture	1_57_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_029_retrieval_position_4	4804140	0	1	29989	2	0	29920
+RA72WYU	343	Response	10	4826081	21941	4
+RA72WYU	344	Picture	ITI	4834295	0	1	23991	2	0	23920
+RA72WYU	345	Picture	CueingCross	4858452	0	2	2999	3	0	2920
+RA72WYU	346	Picture	PrepTime	4861618	0	1	2999	2	0	2920
+RA72WYU	347	Picture	1_58_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_2100_3000_2150_gabor_patch_orientation_165_082_137_012_target_position_2_4_retrieval_position_4	4864783	0	2	1333	3	0	1250
+RA72WYU	347	Picture	Flicker2	4866116	1333	1	1333	2	1250	1250
+RA72WYU	347	Picture	Flicker3	4867449	2666	1	1333	2	2500	1250
+RA72WYU	348	Picture	Delay	4868948	0	2	20992	3	0	20920
+RA72WYU	349	Picture	1_58_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_058_retrieval_position_4	4890107	0	1	29988	2	0	29920
+RA72WYU	349	Response	10	4906659	16552	3
+RA72WYU	350	Picture	ITI	4920262	0	1	21492	2	0	21420
+RA72WYU	351	Picture	CueingCross	4941920	0	1	2999	2	0	2920
+RA72WYU	352	Picture	PrepTime	4945086	0	1	2999	2	0	2920
+RA72WYU	353	Picture	1_59_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_1750_3000_2000_gabor_patch_orientation_027_099_057_166_target_position_2_4_retrieval_position_4	4948251	0	1	1333	2	0	1250
+RA72WYU	353	Picture	Flicker2	4949584	1333	1	1333	2	1250	1250
+RA72WYU	353	Picture	Flicker3	4950917	2666	1	1333	2	2500	1250
+RA72WYU	354	Picture	Delay	4952416	0	1	17493	3	0	17420
+RA72WYU	355	Picture	1_59_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_166_retrieval_position_4	4970076	0	1	29988	3	0	29920
+RA72WYU	355	Response	20	4988617	18541	9
+RA72WYU	356	Picture	ITI	5000231	0	1	19992	2	0	19920
+RA72WYU	357	Picture	CueingCross	5020390	0	1	2999	2	0	2920
+RA72WYU	358	Picture	PrepTime	5023555	0	2	2999	3	0	2920
+RA72WYU	359	Picture	1_60_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_1950_3000_2000_gabor_patch_orientation_066_010_081_116_target_position_1_2_retrieval_position_2	5026721	0	1	1333	2	0	1250
+RA72WYU	359	Picture	Flicker2	5028054	1333	1	1332	3	1250	1250
+RA72WYU	359	Picture	Flicker3	5029386	2665	2	1333	3	2500	1250
+RA72WYU	360	Picture	Delay	5030886	0	1	19492	2	0	19420
+RA72WYU	361	Picture	1_60_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_010_retrieval_position_2	5050545	0	1	29988	3	0	29920
+RA72WYU	361	Response	10	5065305	14760	3
+RA72WYU	362	Picture	ITI	5080699	0	2	19993	3	0	19920
+RA72WYU	363	Picture	CueingCross	5100859	0	1	2999	2	0	2920
+RA72WYU	364	Picture	PrepTime	5104024	0	2	2999	3	0	2920
+RA72WYU	365	Picture	1_61_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2050_3000_2350_gabor_patch_orientation_143_100_027_073_target_position_1_2_retrieval_position_2	5107190	0	1	1333	2	0	1250
+RA72WYU	365	Picture	Flicker2	5108523	1333	1	1332	2	1250	1250
+RA72WYU	365	Picture	Flicker3	5109855	2665	1	1333	2	2500	1250
+RA72WYU	366	Picture	Delay	5111355	0	1	20492	2	0	20420
+RA72WYU	367	Picture	1_61_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_100_retrieval_position_2	5132014	0	1	29988	2	0	29920
+RA72WYU	367	Response	10	5142392	10378	4
+RA72WYU	368	Picture	ITI	5162169	0	1	23490	3	0	23420
+RA72WYU	369	Picture	CueingCross	5185826	0	1	2999	2	0	2920
+RA72WYU	370	Picture	PrepTime	5188992	0	1	2998	2	0	2920
+RA72WYU	371	Picture	1_62_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_1900_3000_2400_gabor_patch_orientation_178_117_034_051_target_position_2_3_retrieval_position_2	5192157	0	1	1333	2	0	1250
+RA72WYU	371	Picture	Flicker2	5193490	1333	1	1333	2	1250	1250
+RA72WYU	371	Picture	Flicker3	5194823	2666	1	1332	3	2500	1250
+RA72WYU	372	Picture	Delay	5196322	0	1	18993	2	0	18920
+RA72WYU	373	Picture	1_62_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_117_retrieval_position_2	5215481	0	2	29989	3	0	29920
+RA72WYU	373	Response	10	5224810	9329	4
+RA72WYU	374	Picture	ITI	5245636	0	2	23991	3	0	23920
+RA72WYU	375	Picture	CueingCross	5269794	0	1	2998	3	0	2920
+RA72WYU	376	Picture	PrepTime	5272959	0	1	2999	2	0	2920
+RA72WYU	377	Picture	1_63_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_UncuedRetriev_300_300_399_1850_3000_2050_gabor_patch_orientation_123_155_050_077_target_position_1_4_retrieval_position_3	5276125	0	1	1332	2	0	1250
+RA72WYU	377	Picture	Flicker2	5277457	1332	1	1333	2	1250	1250
+RA72WYU	377	Picture	Flicker3	5278790	2665	1	1333	2	2500	1250
+RA72WYU	378	Picture	Delay	5280290	0	1	18492	3	0	18420
+RA72WYU	379	Picture	1_63_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_UncuedRetriev_retrieval_patch_orientation_050_retrieval_position_3	5298949	0	1	29988	3	0	29920
+RA72WYU	379	Response	20	5321838	22889	3
+RA72WYU	380	Picture	ITI	5329104	0	1	20492	2	0	20420
+RA72WYU	381	Picture	CueingCross	5349763	0	1	2999	2	0	2920
+RA72WYU	382	Picture	PrepTime	5352928	0	1	2999	2	0	2920
+RA72WYU	383	Picture	1_64_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2150_3000_2350_gabor_patch_orientation_110_178_047_129_target_position_1_3_retrieval_position_1	5356094	0	1	1332	3	0	1250
+RA72WYU	383	Picture	Flicker2	5357426	1332	2	1333	3	1250	1250
+RA72WYU	383	Picture	Flicker3	5358759	2665	1	1333	2	2500	1250
+RA72WYU	384	Picture	Delay	5360259	0	1	21491	3	0	21420
+RA72WYU	385	Picture	1_64_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_110_retrieval_position_1	5381917	0	1	29988	3	0	29920
+RA72WYU	385	Response	10	5396295	14378	4
+RA72WYU	385	Response	10	5409505	27588	3
+RA72WYU	386	Picture	ITI	5412072	0	1	23491	2	0	23420
+RA72WYU	387	Picture	CueingCross	5435730	0	1	2998	3	0	2920
+RA72WYU	388	Picture	PrepTime	5438895	0	1	2999	2	0	2920
+RA72WYU	389	Picture	1_65_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_300_300_399_2000_3000_2250_gabor_patch_orientation_176_109_087_056_target_position_1_3_retrieval_position_3	5442060	0	2	1333	4	0	1250
+RA72WYU	389	Picture	Flicker2	5443393	1333	2	1333	3	1250	1250
+RA72WYU	389	Picture	Flicker3	5444726	2666	1	1333	2	2500	1250
+RA72WYU	390	Picture	Delay	5446225	0	2	19993	3	0	19920
+RA72WYU	391	Picture	1_65_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_CuedRetrieval_retrieval_patch_orientation_087_retrieval_position_3	5466384	0	2	29989	3	0	29920
+RA72WYU	391	Response	10	5487183	20799	3
+RA72WYU	392	Picture	ITI	5496539	0	2	22492	3	0	22420
+RA72WYU	393	Picture	CueingCross	5519197	0	2	2999	3	0	2920
+RA72WYU	394	Picture	PrepTime	5522363	0	1	2999	2	0	2920
+RA72WYU	395	Picture	1_66_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_2250_3000_2300_gabor_patch_orientation_142_085_068_029_target_position_1_4_retrieval_position_1	5525528	0	1	1333	2	0	1250
+RA72WYU	395	Picture	Flicker2	5526861	1333	1	1333	2	1250	1250
+RA72WYU	395	Picture	Flicker3	5528194	2666	1	1333	2	2500	1250
+RA72WYU	396	Picture	Delay	5529693	0	2	22492	3	0	22420
+RA72WYU	397	Picture	1_66_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_007_retrieval_position_1	5552351	0	1	29989	2	0	29920
+RA72WYU	397	Response	20	5564991	12640	3
+RA72WYU	398	Picture	ITI	5582506	0	2	22991	3	0	22920
+RA72WYU	399	Picture	CueingCross	5605664	0	1	2999	2	0	2920
+RA72WYU	400	Picture	PrepTime	5608829	0	2	2999	3	0	2920
+RA72WYU	401	Picture	1_67_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_1900_3000_2500_gabor_patch_orientation_114_028_097_139_target_position_3_4_retrieval_position_3	5611995	0	1	1333	2	0	1250
+RA72WYU	401	Picture	Flicker2	5613328	1333	1	1332	3	1250	1250
+RA72WYU	401	Picture	Flicker3	5614660	2665	2	1333	3	2500	1250
+RA72WYU	402	Picture	Delay	5616160	0	1	18993	2	0	18920
+RA72WYU	403	Picture	1_67_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_051_retrieval_position_3	5635319	0	1	29989	2	0	29920
+RA72WYU	403	Response	20	5663898	28579	4
+RA72WYU	404	Picture	ITI	5665474	0	1	24991	2	0	24920
+RA72WYU	405	Picture	CueingCross	5690631	0	1	2999	2	0	2920
+RA72WYU	406	Picture	PrepTime	5693797	0	1	2998	2	0	2920
+RA72WYU	407	Picture	1_68_Encoding_Working_Memory_MEG_Salient_Uncued_NoChange_UncuedRetriev_300_300_399_1950_3000_2200_gabor_patch_orientation_016_171_057_082_target_position_2_3_retrieval_position_4	5696962	0	1	1333	2	0	1250
+RA72WYU	407	Picture	Flicker2	5698295	1333	1	1333	2	1250	1250
+RA72WYU	407	Picture	Flicker3	5699628	2666	1	1332	3	2500	1250
+RA72WYU	408	Picture	Delay	5701127	0	1	19493	2	0	19420
+RA72WYU	409	Picture	1_68_Retrieval_Working_Memory_MEG_Salient_Uncued_NoChange_UncuedRetriev_retrieval_patch_orientation_082_retrieval_position_4	5720786	0	1	29989	2	0	29920
+RA72WYU	409	Response	10	5748126	27340	3
+RA72WYU	410	Picture	ITI	5750941	0	1	21992	2	0	21920
+RA72WYU	411	Picture	CueingCross	5773099	0	1	2998	3	0	2920
+RA72WYU	412	Picture	PrepTime	5776265	0	1	2999	2	0	2920
+RA72WYU	413	Picture	1_69_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_300_300_399_1850_3000_2400_gabor_patch_orientation_160_007_075_090_target_position_1_3_retrieval_position_1	5779430	0	1	1333	2	0	1250
+RA72WYU	413	Picture	Flicker2	5780763	1333	1	1333	2	1250	1250
+RA72WYU	413	Picture	Flicker3	5782096	2666	1	1333	2	2500	1250
+RA72WYU	414	Picture	Delay	5783595	0	1	18493	2	0	18420
+RA72WYU	415	Picture	1_69_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_CuedRetrieval_retrieval_patch_orientation_114_retrieval_position_1	5802255	0	1	29988	2	0	29920
+RA72WYU	415	Response	10	5814934	12679	3
+RA72WYU	416	Picture	ITI	5832410	0	1	23990	3	0	23920
+RA72WYU	417	Picture	CueingCross	5856567	0	1	2999	2	0	2920
+RA72WYU	418	Picture	PrepTime	5859732	0	2	2999	3	0	2920
+RA72WYU	419	Picture	1_70_Encoding_Working_Memory_MEG_Salient_Uncued_DoChange_UncuedRetriev_300_300_399_1950_3000_2250_gabor_patch_orientation_074_144_107_163_target_position_3_4_retrieval_position_1	5862898	0	1	1333	2	0	1250
+RA72WYU	419	Picture	Flicker2	5864231	1333	1	1333	2	1250	1250
+RA72WYU	419	Picture	Flicker3	5865564	2666	1	1332	2	2500	1250
+RA72WYU	420	Picture	Delay	5867063	0	1	19492	3	0	19420
+RA72WYU	421	Picture	1_70_Retrieval_Working_Memory_MEG_Salient_Uncued_DoChange_UncuedRetriev_retrieval_patch_orientation_027_retrieval_position_1	5886722	0	1	29988	3	0	29920
+RA72WYU	421	Response	10	5904652	17930	3
+RA72WYU	422	Picture	ITI	5916877	0	1	22491	2	0	22420
+RA72WYU	423	Picture	BaselinePost	5939535	0	1	50147	2	0	50000

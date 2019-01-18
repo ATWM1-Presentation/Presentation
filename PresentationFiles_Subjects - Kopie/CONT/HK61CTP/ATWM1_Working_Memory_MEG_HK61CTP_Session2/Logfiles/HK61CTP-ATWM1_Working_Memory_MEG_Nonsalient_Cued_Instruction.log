@@ -1,0 +1,59 @@
+Scenario - ATWM1_Working_Memory_MEG_nonsalient_cued_instruction
+Logfile written - 02/10/2016 10:00:43
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+HK61CTP	1	Picture	Instruction_NS_C	28	0	3	100130	4	0	100000
+HK61CTP	2	Picture	Instruction2	100325	0	1	100129	2	0	100000
+HK61CTP	3	Picture	Instruction3	200621	0	1	4012	2	0	resp
+HK61CTP	3	Response	10	204458	3837	4
+HK61CTP	4	Picture	Instruction4	224525	0	1	2675	2	0	resp
+HK61CTP	4	Response	20	227157	2632	4
+HK61CTP	5	Picture	Instruction5	247259	0	1	2173	2	0	resp
+HK61CTP	5	Response	10	249337	2078	3
+HK61CTP	6	Picture	Instruction4	269491	0	1	2173	3	0	resp
+HK61CTP	6	Response	20	271486	1995	4
+HK61CTP	7	Picture	Instruction3	291557	0	1	2340	2	0	resp
+HK61CTP	7	Response	10	293795	2238	4
+HK61CTP	8	Picture	Instruction4	313956	0	1	1003	2	0	resp
+HK61CTP	8	Response	20	314844	888	4
+HK61CTP	9	Picture	Instruction_NS_C_TestTrials	335018	0	1	100129	3	0	100000
+HK61CTP	10	Picture	BaselinePre	435314	0	2	20060	3	0	20000
+HK61CTP	11	Picture	CueingCross	455541	0	1	3009	2	0	2920
+HK61CTP	12	Picture	PrepTime	458717	0	1	3009	2	0	2920
+HK61CTP	13	Picture	2_1_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1750_3000_1900_gabor_patch_orientation_045_113_030_094_target_position_3_4_retrieval_position_3	461893	0	1	1337	2	0	1250
+HK61CTP	13	Picture	Flicker2	463230	1337	1	1337	3	1250	1250
+HK61CTP	13	Picture	Flicker3	464567	2674	2	1338	3	2500	1250
+HK61CTP	14	Picture	Delay	466072	0	1	17552	2	0	17420
+HK61CTP	15	Picture	2_1_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_077_retrieval_position_3	483791	0	1	30089	2	0	29920
+HK61CTP	15	Response	20	491139	7348	4
+HK61CTP	16	Picture	ITI	533939	0	1	19056	2	0	18920
+HK61CTP	17	Picture	CueingCross	553162	0	2	3009	3	0	2920
+HK61CTP	18	Picture	PrepTime	556338	0	2	3009	3	0	2920
+HK61CTP	19	Picture	2_2_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1850_3000_2050_gabor_patch_orientation_179_064_146_008_target_position_1_2_retrieval_position_1	559515	0	1	1337	2	0	1250
+HK61CTP	19	Picture	Flicker2	560852	1337	1	1337	2	1250	1250
+HK61CTP	19	Picture	Flicker3	562189	2674	1	1337	2	2500	1250
+HK61CTP	20	Picture	Delay	563694	0	1	18554	2	0	18420
+HK61CTP	21	Picture	2_2_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_179_retrieval_position_1	582415	0	2	30089	3	0	29920
+HK61CTP	21	Response	20	597196	14781	3
+HK61CTP	22	Picture	ITI	632564	0	1	20560	2	0	20420
+HK61CTP	23	Picture	CueingCross	653291	0	2	3009	3	0	2920
+HK61CTP	24	Picture	PrepTime	656468	0	1	3008	2	0	2920
+HK61CTP	25	Picture	2_3_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1900_3000_2000_gabor_patch_orientation_108_048_091_001_target_position_3_4_retrieval_position_3	659644	0	1	1337	2	0	1250
+HK61CTP	25	Picture	Flicker2	660981	1337	1	1337	2	1250	1250
+HK61CTP	25	Picture	Flicker3	662318	2674	1	1337	3	2500	1250
+HK61CTP	26	Picture	Delay	663823	0	1	19056	2	0	18920
+HK61CTP	27	Picture	2_3_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_091_retrieval_position_3	683046	0	1	30089	2	0	29920
+HK61CTP	27	Response	10	693153	10107	3
+HK61CTP	28	Picture	ITI	733194	0	1	20059	2	0	19920
+HK61CTP	29	Picture	CueingCross	753421	0	1	3008	2	0	2920
+HK61CTP	30	Picture	PrepTime	756597	0	1	3008	3	0	2920
+HK61CTP	31	Picture	2_4_Encoding_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_1950_gabor_patch_orientation_161_139_016_054_target_position_1_2_retrieval_position_2	759773	0	1	1337	2	0	1250
+HK61CTP	31	Picture	Flicker2	761110	1337	1	1337	2	1250	1250
+HK61CTP	31	Picture	Flicker3	762447	2674	1	1337	3	2500	1250
+HK61CTP	32	Picture	Delay	763952	0	1	18053	2	0	17920
+HK61CTP	33	Picture	2_4_Retrieval_Working_Memory_MEG_P3_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_091_retrieval_position_2	782172	0	1	30089	2	0	29920
+HK61CTP	33	Response	20	794150	11978	3
+HK61CTP	34	Picture	ITI	832320	0	1	19558	2	0	19420
+HK61CTP	35	Picture	BaselinePost	852045	0	1	20059	2	0	20000
+HK61CTP	36	Picture	Instruction_NS_C	872271	0	2	50149	3	0	50000

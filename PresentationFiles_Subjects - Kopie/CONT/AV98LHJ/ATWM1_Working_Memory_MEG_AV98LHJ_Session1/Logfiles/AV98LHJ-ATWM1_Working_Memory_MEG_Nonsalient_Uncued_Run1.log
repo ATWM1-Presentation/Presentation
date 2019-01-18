@@ -1,0 +1,640 @@
+Scenario - ATWM1_Working_Memory_MEG_salient_cued_run1
+Logfile written - 02/16/2016 13:18:56
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+AV98LHJ	1	Picture	ExpStart	29	0	1	10030	2	0	10000
+AV98LHJ	2	Picture	BaselinePre	10226	0	1	100130	2	0	100000
+AV98LHJ	3	Picture	CueingCross	110523	0	2	3009	4	0	2920
+AV98LHJ	4	Picture	PrepTime	113700	0	1	3009	2	0	2920
+AV98LHJ	5	Picture	1_1_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2250_3000_2100_gabor_patch_orientation_101_077_032_059_target_position_2_4_retrieval_position_2	116876	0	1	1337	2	0	1250
+AV98LHJ	5	Picture	Flicker2	118213	1337	1	1337	2	1250	1250
+AV98LHJ	5	Picture	Flicker3	119550	2674	1	1338	2	2500	1250
+AV98LHJ	6	Picture	Delay	121055	0	1	22567	2	0	22420
+AV98LHJ	7	Picture	1_1_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_077_retrieval_position_2	143789	0	1	30089	2	0	29920
+AV98LHJ	7	Response	10	161972	18183	4
+AV98LHJ	8	Picture	ITI	174045	0	1	21063	2	0	20920
+AV98LHJ	9	Picture	CueingCross	195275	0	1	3009	2	0	2920
+AV98LHJ	10	Picture	PrepTime	198451	0	1	3009	2	0	2920
+AV98LHJ	11	Picture	1_2_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1800_3000_2350_gabor_patch_orientation_083_051_112_027_target_position_1_4_retrieval_position_4	201627	0	1	1337	2	0	1250
+AV98LHJ	11	Picture	Flicker2	202964	1337	1	1337	3	1250	1250
+AV98LHJ	11	Picture	Flicker3	204301	2674	2	1338	3	2500	1250
+AV98LHJ	12	Picture	Delay	205806	0	1	18053	3	0	17920
+AV98LHJ	13	Picture	1_2_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_027_retrieval_position_4	224027	0	1	30089	2	0	29920
+AV98LHJ	13	Response	20	236071	12044	3
+AV98LHJ	14	Picture	ITI	254283	0	2	23570	3	0	23420
+AV98LHJ	15	Picture	CueingCross	278020	0	2	3009	3	0	2920
+AV98LHJ	16	Picture	PrepTime	281196	0	2	3009	3	0	2920
+AV98LHJ	17	Picture	1_3_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1900_3000_2550_gabor_patch_orientation_109_035_088_154_target_position_2_4_retrieval_position_4	284373	0	1	1337	2	0	1250
+AV98LHJ	17	Picture	Flicker2	285710	1337	1	1337	2	1250	1250
+AV98LHJ	17	Picture	Flicker3	287047	2674	1	1337	3	2500	1250
+AV98LHJ	18	Picture	Delay	288552	0	1	19056	2	0	18920
+AV98LHJ	19	Picture	1_3_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_154_retrieval_position_4	307775	0	2	30090	3	0	29920
+AV98LHJ	19	Response	20	327709	19934	4
+AV98LHJ	20	Picture	ITI	338031	0	2	25577	3	0	25420
+AV98LHJ	21	Picture	CueingCross	363775	0	1	3009	2	0	2920
+AV98LHJ	22	Picture	PrepTime	366951	0	1	3009	2	0	2920
+AV98LHJ	23	Picture	1_4_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1750_3000_2100_gabor_patch_orientation_031_167_085_141_target_position_1_4_retrieval_position_2	370127	0	1	1337	2	0	1250
+AV98LHJ	23	Picture	Flicker2	371464	1337	1	1338	2	1250	1250
+AV98LHJ	23	Picture	Flicker3	372802	2675	1	1337	2	2500	1250
+AV98LHJ	24	Picture	Delay	374306	0	1	17552	2	0	17420
+AV98LHJ	25	Picture	1_4_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_119_retrieval_position_2	392025	0	2	30090	3	0	29920
+AV98LHJ	26	Picture	ITI	422282	0	1	21062	2	0	20920
+AV98LHJ	26	Response	20	422677	395	4
+AV98LHJ	27	Picture	CueingCross	443511	0	2	3009	3	0	2920
+AV98LHJ	28	Picture	PrepTime	446687	0	2	3009	3	0	2920
+AV98LHJ	29	Picture	1_5_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1850_3000_2200_gabor_patch_orientation_121_087_104_058_target_position_1_4_retrieval_position_1	449863	0	2	1338	3	0	1250
+AV98LHJ	29	Picture	Flicker2	451201	1338	1	1337	2	1250	1250
+AV98LHJ	29	Picture	Flicker3	452538	2675	1	1337	3	2500	1250
+AV98LHJ	30	Picture	Delay	454043	0	1	18555	2	0	18420
+AV98LHJ	31	Picture	1_5_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_167_retrieval_position_1	472765	0	1	30089	2	0	29920
+AV98LHJ	31	Response	20	485516	12751	4
+AV98LHJ	32	Picture	ITI	503021	0	1	22066	2	0	21920
+AV98LHJ	33	Picture	CueingCross	525254	0	1	3009	2	0	2920
+AV98LHJ	34	Picture	PrepTime	528430	0	1	3009	2	0	2920
+AV98LHJ	35	Picture	1_6_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_2050_gabor_patch_orientation_138_177_026_069_target_position_1_4_retrieval_position_4	531606	0	1	1337	2	0	1250
+AV98LHJ	35	Picture	Flicker2	532943	1337	1	1338	2	1250	1250
+AV98LHJ	35	Picture	Flicker3	534281	2675	1	1337	2	2500	1250
+AV98LHJ	36	Picture	Delay	535785	0	1	18054	2	0	17920
+AV98LHJ	37	Picture	1_6_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_115_retrieval_position_4	554006	0	1	30089	2	0	29920
+AV98LHJ	37	Response	20	567395	13389	4
+AV98LHJ	38	Picture	ITI	584262	0	1	20561	2	0	20420
+AV98LHJ	39	Picture	CueingCross	604990	0	2	3009	3	0	2920
+AV98LHJ	40	Picture	PrepTime	608166	0	2	3009	3	0	2920
+AV98LHJ	41	Picture	1_7_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2150_3000_2550_gabor_patch_orientation_012_120_101_033_target_position_1_2_retrieval_position_2	611343	0	1	1337	2	0	1250
+AV98LHJ	41	Picture	Flicker2	612680	1337	1	1337	2	1250	1250
+AV98LHJ	41	Picture	Flicker3	614017	2674	1	1337	3	2500	1250
+AV98LHJ	42	Picture	Delay	615522	0	1	21564	2	0	21420
+AV98LHJ	43	Picture	1_7_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_120_retrieval_position_2	637253	0	1	30089	2	0	29920
+AV98LHJ	43	Response	20	662023	24770	4
+AV98LHJ	44	Picture	ITI	667508	0	2	25577	3	0	25420
+AV98LHJ	45	Picture	CueingCross	693252	0	1	3009	2	0	2920
+AV98LHJ	46	Picture	PrepTime	696428	0	2	3009	3	0	2920
+AV98LHJ	47	Picture	1_8_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1750_3000_2000_gabor_patch_orientation_096_172_147_015_target_position_2_4_retrieval_position_2	699604	0	2	1338	3	0	1250
+AV98LHJ	47	Picture	Flicker2	700942	1338	1	1337	2	1250	1250
+AV98LHJ	47	Picture	Flicker3	702279	2675	1	1337	2	2500	1250
+AV98LHJ	48	Picture	Delay	703783	0	2	17553	3	0	17420
+AV98LHJ	49	Picture	1_8_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_172_retrieval_position_2	721503	0	1	30089	2	0	29920
+AV98LHJ	49	Response	20	739922	18419	5
+AV98LHJ	50	Picture	ITI	751759	0	1	20060	2	0	19920
+AV98LHJ	51	Picture	CueingCross	771986	0	1	3009	2	0	2920
+AV98LHJ	52	Picture	PrepTime	775162	0	1	3009	2	0	2920
+AV98LHJ	53	Picture	1_9_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_2200_gabor_patch_orientation_050_129_177_018_target_position_1_2_retrieval_position_1	778338	0	1	1337	2	0	1250
+AV98LHJ	53	Picture	Flicker2	779675	1337	1	1338	2	1250	1250
+AV98LHJ	53	Picture	Flicker3	781013	2675	1	1337	2	2500	1250
+AV98LHJ	54	Picture	Delay	782517	0	1	18054	2	0	17920
+AV98LHJ	55	Picture	1_9_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_096_retrieval_position_1	800738	0	1	30089	2	0	29920
+AV98LHJ	55	Response	20	809381	8643	3
+AV98LHJ	56	Picture	ITI	830994	0	1	22066	2	0	21920
+AV98LHJ	57	Picture	CueingCross	853227	0	1	3009	2	0	2920
+AV98LHJ	58	Picture	PrepTime	856403	0	1	3009	2	0	2920
+AV98LHJ	59	Picture	1_10_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2150_3000_2050_gabor_patch_orientation_083_113_173_006_target_position_1_4_retrieval_position_1	859579	0	1	1337	2	0	1250
+AV98LHJ	59	Picture	Flicker2	860916	1337	1	1338	2	1250	1250
+AV98LHJ	59	Picture	Flicker3	862254	2675	1	1337	2	2500	1250
+AV98LHJ	60	Picture	Delay	863758	0	1	21564	2	0	21420
+AV98LHJ	61	Picture	1_10_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_083_retrieval_position_1	885489	0	1	30089	3	0	29920
+AV98LHJ	61	Response	20	902959	17470	4
+AV98LHJ	62	Picture	ITI	915746	0	1	20561	2	0	20420
+AV98LHJ	63	Picture	CueingCross	936474	0	1	3009	2	0	2920
+AV98LHJ	64	Picture	PrepTime	939650	0	1	3009	2	0	2920
+AV98LHJ	65	Picture	1_11_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_2100_gabor_patch_orientation_042_126_160_179_target_position_1_3_retrieval_position_1	942826	0	1	1337	2	0	1250
+AV98LHJ	65	Picture	Flicker2	944163	1337	1	1338	2	1250	1250
+AV98LHJ	65	Picture	Flicker3	945501	2675	1	1337	2	2500	1250
+AV98LHJ	66	Picture	Delay	947005	0	1	18054	2	0	17920
+AV98LHJ	67	Picture	1_11_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_091_retrieval_position_1	965226	0	1	30089	2	0	29920
+AV98LHJ	67	Response	20	980028	14802	3
+AV98LHJ	68	Picture	ITI	995482	0	1	21063	2	0	20920
+AV98LHJ	69	Picture	CueingCross	1016712	0	1	3009	2	0	2920
+AV98LHJ	70	Picture	PrepTime	1019888	0	2	3009	3	0	2920
+AV98LHJ	71	Picture	1_12_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2250_3000_2000_gabor_patch_orientation_124_034_069_100_target_position_3_4_retrieval_position_4	1023064	0	1	1337	2	0	1250
+AV98LHJ	71	Picture	Flicker2	1024401	1337	1	1338	2	1250	1250
+AV98LHJ	71	Picture	Flicker3	1025739	2675	1	1337	2	2500	1250
+AV98LHJ	72	Picture	Delay	1027243	0	1	22567	2	0	22420
+AV98LHJ	73	Picture	1_12_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_145_retrieval_position_4	1049977	0	1	30089	3	0	29920
+AV98LHJ	73	Response	20	1064886	14909	4
+AV98LHJ	74	Picture	ITI	1080234	0	1	20059	2	0	19920
+AV98LHJ	75	Picture	CueingCross	1100460	0	2	3009	3	0	2920
+AV98LHJ	76	Picture	PrepTime	1103636	0	2	3009	3	0	2920
+AV98LHJ	77	Picture	1_13_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1900_3000_2150_gabor_patch_orientation_052_123_178_002_target_position_1_3_retrieval_position_4	1106812	0	2	1338	3	0	1250
+AV98LHJ	77	Picture	Flicker2	1108150	1338	1	1337	2	1250	1250
+AV98LHJ	77	Picture	Flicker3	1109487	2675	1	1337	2	2500	1250
+AV98LHJ	78	Picture	Delay	1110991	0	2	19057	3	0	18920
+AV98LHJ	79	Picture	1_13_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_002_retrieval_position_4	1130215	0	1	30089	3	0	29920
+AV98LHJ	79	Response	10	1140275	10060	3
+AV98LHJ	80	Picture	ITI	1160472	0	1	21564	2	0	21420
+AV98LHJ	81	Picture	CueingCross	1182203	0	1	3009	2	0	2920
+AV98LHJ	82	Picture	PrepTime	1185379	0	1	3009	2	0	2920
+AV98LHJ	83	Picture	1_14_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2200_3000_2150_gabor_patch_orientation_065_118_103_170_target_position_3_4_retrieval_position_3	1188555	0	1	1337	2	0	1250
+AV98LHJ	83	Picture	Flicker2	1189892	1337	1	1338	2	1250	1250
+AV98LHJ	83	Picture	Flicker3	1191230	2675	1	1337	2	2500	1250
+AV98LHJ	84	Picture	Delay	1192734	0	1	22065	3	0	21920
+AV98LHJ	85	Picture	1_14_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_149_retrieval_position_3	1214967	0	1	30089	2	0	29920
+AV98LHJ	85	Response	10	1228313	13346	4
+AV98LHJ	86	Picture	ITI	1245223	0	1	21564	2	0	21420
+AV98LHJ	87	Picture	CueingCross	1266954	0	1	3009	2	0	2920
+AV98LHJ	88	Picture	PrepTime	1270130	0	2	3009	3	0	2920
+AV98LHJ	89	Picture	1_15_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2100_3000_2600_gabor_patch_orientation_006_028_081_056_target_position_2_4_retrieval_position_2	1273306	0	2	1338	3	0	1250
+AV98LHJ	89	Picture	Flicker2	1274644	1338	1	1337	2	1250	1250
+AV98LHJ	89	Picture	Flicker3	1275981	2675	1	1337	2	2500	1250
+AV98LHJ	90	Picture	Delay	1277485	0	2	21063	3	0	20920
+AV98LHJ	91	Picture	1_15_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_167_retrieval_position_2	1298715	0	1	30089	2	0	29920
+AV98LHJ	91	Response	20	1307762	9047	4
+AV98LHJ	92	Picture	ITI	1328971	0	2	26078	3	0	25920
+AV98LHJ	93	Picture	CueingCross	1355216	0	1	3009	2	0	2920
+AV98LHJ	94	Picture	PrepTime	1358392	0	1	3009	2	0	2920
+AV98LHJ	95	Picture	1_16_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2200_3000_2300_gabor_patch_orientation_169_014_125_050_target_position_3_4_retrieval_position_4	1361568	0	1	1338	2	0	1250
+AV98LHJ	95	Picture	Flicker2	1362906	1338	1	1337	2	1250	1250
+AV98LHJ	95	Picture	Flicker3	1364243	2675	1	1337	2	2500	1250
+AV98LHJ	96	Picture	Delay	1365747	0	2	22066	3	0	21920
+AV98LHJ	97	Picture	1_16_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_099_retrieval_position_4	1387980	0	1	30089	2	0	29920
+AV98LHJ	97	Response	20	1396870	8890	5
+AV98LHJ	98	Picture	ITI	1418236	0	2	23069	3	0	22920
+AV98LHJ	99	Picture	CueingCross	1441472	0	1	3009	2	0	2920
+AV98LHJ	100	Picture	PrepTime	1444648	0	1	3009	2	0	2920
+AV98LHJ	101	Picture	1_17_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_2000_3000_1950_gabor_patch_orientation_086_013_041_157_target_position_1_4_retrieval_position_3	1447824	0	1	1337	3	0	1250
+AV98LHJ	101	Picture	Flicker2	1449161	1337	2	1337	4	1250	1250
+AV98LHJ	101	Picture	Flicker3	1450498	2674	2	1338	3	2500	1250
+AV98LHJ	102	Picture	Delay	1452003	0	1	20060	2	0	19920
+AV98LHJ	103	Picture	1_17_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_176_retrieval_position_3	1472230	0	1	30089	2	0	29920
+AV98LHJ	103	Response	10	1486009	13779	3
+AV98LHJ	104	Picture	ITI	1502486	0	2	19558	3	0	19420
+AV98LHJ	105	Picture	CueingCross	1522211	0	2	3009	3	0	2920
+AV98LHJ	106	Picture	PrepTime	1525388	0	1	3008	3	0	2920
+AV98LHJ	107	Picture	1_18_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1750_3000_2200_gabor_patch_orientation_173_019_088_066_target_position_1_3_retrieval_position_3	1528564	0	1	1337	2	0	1250
+AV98LHJ	107	Picture	Flicker2	1529901	1337	1	1337	2	1250	1250
+AV98LHJ	107	Picture	Flicker3	1531238	2674	1	1337	3	2500	1250
+AV98LHJ	108	Picture	Delay	1532743	0	1	17552	2	0	17420
+AV98LHJ	109	Picture	1_18_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_138_retrieval_position_3	1550462	0	1	30089	2	0	29920
+AV98LHJ	109	Response	20	1563248	12786	3
+AV98LHJ	110	Picture	ITI	1580718	0	2	22066	3	0	21920
+AV98LHJ	111	Picture	CueingCross	1602951	0	1	3009	2	0	2920
+AV98LHJ	112	Picture	PrepTime	1606127	0	1	3009	2	0	2920
+AV98LHJ	113	Picture	1_19_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1950_3000_2500_gabor_patch_orientation_081_001_142_025_target_position_2_3_retrieval_position_4	1609303	0	1	1337	3	0	1250
+AV98LHJ	113	Picture	Flicker2	1610640	1337	2	1338	3	1250	1250
+AV98LHJ	113	Picture	Flicker3	1611978	2675	1	1337	2	2500	1250
+AV98LHJ	114	Picture	Delay	1613482	0	1	19558	2	0	19420
+AV98LHJ	115	Picture	1_19_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_161_retrieval_position_4	1633207	0	2	30090	3	0	29920
+AV98LHJ	115	Response	20	1643996	10789	4
+AV98LHJ	116	Picture	ITI	1663464	0	1	25074	2	0	24920
+AV98LHJ	117	Picture	CueingCross	1688705	0	2	3009	3	0	2920
+AV98LHJ	118	Picture	PrepTime	1691881	0	2	3009	3	0	2920
+AV98LHJ	119	Picture	1_20_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1800_3000_1900_gabor_patch_orientation_077_012_134_060_target_position_2_4_retrieval_position_2	1695058	0	1	1337	2	0	1250
+AV98LHJ	119	Picture	Flicker2	1696395	1337	1	1337	2	1250	1250
+AV98LHJ	119	Picture	Flicker3	1697732	2674	1	1337	3	2500	1250
+AV98LHJ	120	Picture	Delay	1699237	0	1	18053	2	0	17920
+AV98LHJ	121	Picture	1_20_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_012_retrieval_position_2	1717457	0	2	30090	3	0	29920
+AV98LHJ	121	Response	10	1729105	11648	3
+AV98LHJ	122	Picture	ITI	1747714	0	1	19056	2	0	18920
+AV98LHJ	123	Picture	CueingCross	1766937	0	2	3009	3	0	2920
+AV98LHJ	124	Picture	PrepTime	1770113	0	2	3009	4	0	2920
+AV98LHJ	125	Picture	1_21_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2050_3000_2150_gabor_patch_orientation_106_151_042_178_target_position_2_4_retrieval_position_2	1773290	0	1	1337	2	0	1250
+AV98LHJ	125	Picture	Flicker2	1774627	1337	1	1337	2	1250	1250
+AV98LHJ	125	Picture	Flicker3	1775964	2674	1	1337	3	2500	1250
+AV98LHJ	126	Picture	Delay	1777469	0	1	20561	2	0	20420
+AV98LHJ	127	Picture	1_21_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_151_retrieval_position_2	1798197	0	1	30089	2	0	29920
+AV98LHJ	127	Response	10	1812373	14176	4
+AV98LHJ	128	Picture	ITI	1828453	0	2	21564	3	0	21420
+AV98LHJ	129	Picture	CueingCross	1850184	0	2	3009	3	0	2920
+AV98LHJ	130	Picture	PrepTime	1853360	0	2	3009	3	0	2920
+AV98LHJ	131	Picture	1_22_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1750_3000_2300_gabor_patch_orientation_074_093_014_048_target_position_1_3_retrieval_position_3	1856537	0	1	1337	2	0	1250
+AV98LHJ	131	Picture	Flicker2	1857874	1337	1	1337	2	1250	1250
+AV98LHJ	131	Picture	Flicker3	1859211	2674	1	1337	3	2500	1250
+AV98LHJ	132	Picture	Delay	1860716	0	1	17552	2	0	17420
+AV98LHJ	133	Picture	1_22_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_014_retrieval_position_3	1878435	0	1	30089	2	0	29920
+AV98LHJ	133	Response	10	1895862	17427	3
+AV98LHJ	134	Picture	ITI	1908691	0	2	23069	3	0	22920
+AV98LHJ	135	Picture	CueingCross	1931927	0	1	3009	2	0	2920
+AV98LHJ	136	Picture	PrepTime	1935103	0	1	3009	2	0	2920
+AV98LHJ	137	Picture	1_23_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1900_3000_2050_gabor_patch_orientation_042_150_084_016_target_position_2_4_retrieval_position_2	1938279	0	1	1337	2	0	1250
+AV98LHJ	137	Picture	Flicker2	1939616	1337	1	1338	2	1250	1250
+AV98LHJ	137	Picture	Flicker3	1940954	2675	1	1337	2	2500	1250
+AV98LHJ	138	Picture	Delay	1942458	0	1	19057	2	0	18920
+AV98LHJ	139	Picture	1_23_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_150_retrieval_position_2	1961682	0	1	30089	2	0	29920
+AV98LHJ	139	Response	20	1979860	18178	5
+AV98LHJ	140	Picture	ITI	1991938	0	2	20561	3	0	20420
+AV98LHJ	141	Picture	CueingCross	2012666	0	2	3009	3	0	2920
+AV98LHJ	142	Picture	PrepTime	2015842	0	2	3009	4	0	2920
+AV98LHJ	143	Picture	1_24_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2200_3000_2400_gabor_patch_orientation_053_129_011_087_target_position_2_4_retrieval_position_2	2019019	0	1	1337	2	0	1250
+AV98LHJ	143	Picture	Flicker2	2020356	1337	1	1337	2	1250	1250
+AV98LHJ	143	Picture	Flicker3	2021693	2674	1	1337	3	2500	1250
+AV98LHJ	144	Picture	Delay	2023198	0	1	22065	2	0	21920
+AV98LHJ	145	Picture	1_24_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_177_retrieval_position_2	2045430	0	2	30090	3	0	29920
+AV98LHJ	145	Response	20	2055159	9729	3
+AV98LHJ	146	Picture	ITI	2075687	0	1	24071	2	0	23920
+AV98LHJ	147	Picture	CueingCross	2099925	0	1	3009	2	0	2920
+AV98LHJ	148	Picture	PrepTime	2103101	0	2	3009	3	0	2920
+AV98LHJ	149	Picture	1_25_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_2250_3000_2250_gabor_patch_orientation_096_064_122_079_target_position_1_2_retrieval_position_4	2106277	0	2	1338	3	0	1250
+AV98LHJ	149	Picture	Flicker2	2107615	1338	1	1337	2	1250	1250
+AV98LHJ	149	Picture	Flicker3	2108952	2675	1	1337	2	2500	1250
+AV98LHJ	150	Picture	Delay	2110457	0	1	22566	3	0	22420
+AV98LHJ	151	Picture	1_25_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_079_retrieval_position_4	2133191	0	1	30089	2	0	29920
+AV98LHJ	151	Response	10	2148247	15056	4
+AV98LHJ	152	Picture	ITI	2163447	0	1	22567	2	0	22420
+AV98LHJ	153	Picture	CueingCross	2186181	0	1	3009	2	0	2920
+AV98LHJ	154	Picture	PrepTime	2189357	0	1	3009	2	0	2920
+AV98LHJ	155	Picture	1_26_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1850_3000_2400_gabor_patch_orientation_098_051_118_135_target_position_3_4_retrieval_position_3	2192533	0	2	1338	3	0	1250
+AV98LHJ	155	Picture	Flicker2	2193871	1338	1	1337	2	1250	1250
+AV98LHJ	155	Picture	Flicker3	2195208	2675	1	1337	2	2500	1250
+AV98LHJ	156	Picture	Delay	2196712	0	2	18555	4	0	18420
+AV98LHJ	157	Picture	1_26_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_071_retrieval_position_3	2215435	0	1	30089	2	0	29920
+AV98LHJ	157	Response	20	2233226	17791	3
+AV98LHJ	158	Picture	ITI	2245691	0	1	24071	3	0	23920
+AV98LHJ	159	Picture	CueingCross	2269930	0	1	3009	2	0	2920
+AV98LHJ	160	Picture	PrepTime	2273106	0	1	3009	2	0	2920
+AV98LHJ	161	Picture	1_27_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1750_3000_2300_gabor_patch_orientation_137_072_051_092_target_position_1_2_retrieval_position_1	2276282	0	1	1337	2	0	1250
+AV98LHJ	161	Picture	Flicker2	2277619	1337	1	1337	3	1250	1250
+AV98LHJ	161	Picture	Flicker3	2278956	2674	2	1338	3	2500	1250
+AV98LHJ	162	Picture	Delay	2280461	0	1	17552	2	0	17420
+AV98LHJ	163	Picture	1_27_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_137_retrieval_position_1	2298180	0	1	30089	2	0	29920
+AV98LHJ	163	Response	10	2322804	24624	4
+AV98LHJ	164	Picture	ITI	2328436	0	2	23069	3	0	22920
+AV98LHJ	165	Picture	CueingCross	2351672	0	1	3009	2	0	2920
+AV98LHJ	166	Picture	PrepTime	2354848	0	1	3009	2	0	2920
+AV98LHJ	167	Picture	1_28_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2000_3000_2350_gabor_patch_orientation_178_130_066_101_target_position_1_4_retrieval_position_1	2358024	0	2	1338	3	0	1250
+AV98LHJ	167	Picture	Flicker2	2359362	1338	1	1337	2	1250	1250
+AV98LHJ	167	Picture	Flicker3	2360699	2675	1	1337	2	2500	1250
+AV98LHJ	168	Picture	Delay	2362203	0	2	20060	3	0	19920
+AV98LHJ	169	Picture	1_28_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_042_retrieval_position_1	2382430	0	1	30089	2	0	29920
+AV98LHJ	169	Response	20	2406443	24013	3
+AV98LHJ	170	Picture	ITI	2412686	0	2	23570	3	0	23420
+AV98LHJ	171	Picture	CueingCross	2436424	0	1	3008	3	0	2920
+AV98LHJ	172	Picture	PrepTime	2439600	0	1	3009	2	0	2920
+AV98LHJ	173	Picture	1_29_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1750_3000_2450_gabor_patch_orientation_014_151_086_121_target_position_1_3_retrieval_position_3	2442776	0	1	1337	2	0	1250
+AV98LHJ	173	Picture	Flicker2	2444113	1337	1	1337	2	1250	1250
+AV98LHJ	173	Picture	Flicker3	2445450	2674	1	1338	2	2500	1250
+AV98LHJ	174	Picture	Delay	2446955	0	1	17552	2	0	17420
+AV98LHJ	175	Picture	1_29_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_086_retrieval_position_3	2464674	0	1	30089	2	0	29920
+AV98LHJ	175	Response	10	2485201	20527	4
+AV98LHJ	176	Picture	ITI	2494930	0	2	24573	3	0	24420
+AV98LHJ	177	Picture	CueingCross	2519670	0	2	3009	4	0	2920
+AV98LHJ	178	Picture	PrepTime	2522847	0	1	3009	2	0	2920
+AV98LHJ	179	Picture	1_30_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2150_3000_2250_gabor_patch_orientation_020_180_056_094_target_position_3_4_retrieval_position_4	2526023	0	1	1337	2	0	1250
+AV98LHJ	179	Picture	Flicker2	2527360	1337	1	1337	2	1250	1250
+AV98LHJ	179	Picture	Flicker3	2528697	2674	1	1338	2	2500	1250
+AV98LHJ	180	Picture	Delay	2530202	0	1	21564	2	0	21420
+AV98LHJ	181	Picture	1_30_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_142_retrieval_position_4	2551933	0	1	30089	2	0	29920
+AV98LHJ	181	Response	20	2565150	13217	4
+AV98LHJ	182	Picture	ITI	2582189	0	2	22567	3	0	22420
+AV98LHJ	183	Picture	CueingCross	2604923	0	2	3009	3	0	2920
+AV98LHJ	184	Picture	PrepTime	2608099	0	2	3009	4	0	2920
+AV98LHJ	185	Picture	1_31_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2200_3000_2550_gabor_patch_orientation_008_070_159_117_target_position_1_3_retrieval_position_1	2611276	0	1	1337	2	0	1250
+AV98LHJ	185	Picture	Flicker2	2612613	1337	1	1337	2	1250	1250
+AV98LHJ	185	Picture	Flicker3	2613950	2674	1	1338	2	2500	1250
+AV98LHJ	186	Picture	Delay	2615455	0	1	22065	2	0	21920
+AV98LHJ	187	Picture	1_31_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_008_retrieval_position_1	2637687	0	2	30090	3	0	29920
+AV98LHJ	188	Picture	ITI	2667944	0	1	25576	2	0	25420
+AV98LHJ	188	Response	20	2673558	5614	4
+AV98LHJ	189	Picture	CueingCross	2693687	0	1	3009	2	0	2920
+AV98LHJ	190	Picture	PrepTime	2696863	0	1	3009	2	0	2920
+AV98LHJ	191	Picture	1_32_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2150_3000_2600_gabor_patch_orientation_082_112_162_129_target_position_3_4_retrieval_position_3	2700039	0	1	1337	2	0	1250
+AV98LHJ	191	Picture	Flicker2	2701376	1337	1	1337	3	1250	1250
+AV98LHJ	191	Picture	Flicker3	2702713	2674	2	1338	3	2500	1250
+AV98LHJ	192	Picture	Delay	2704218	0	1	21564	2	0	21420
+AV98LHJ	193	Picture	1_32_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_162_retrieval_position_3	2725949	0	1	30089	2	0	29920
+AV98LHJ	193	Response	10	2739307	13358	4
+AV98LHJ	194	Picture	ITI	2756206	0	1	26077	2	0	25920
+AV98LHJ	195	Picture	CueingCross	2782450	0	1	3009	2	0	2920
+AV98LHJ	196	Picture	PrepTime	2785626	0	1	3009	2	0	2920
+AV98LHJ	197	Picture	1_33_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1950_3000_2250_gabor_patch_orientation_067_046_175_001_target_position_2_4_retrieval_position_1	2788802	0	1	1338	2	0	1250
+AV98LHJ	197	Picture	Flicker2	2790140	1338	1	1337	2	1250	1250
+AV98LHJ	197	Picture	Flicker3	2791477	2675	1	1337	2	2500	1250
+AV98LHJ	198	Picture	Delay	2792981	0	2	19558	3	0	19420
+AV98LHJ	199	Picture	1_33_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_067_retrieval_position_1	2812706	0	2	30090	3	0	29920
+AV98LHJ	199	Response	10	2828136	15430	3
+AV98LHJ	200	Picture	ITI	2842963	0	1	22567	2	0	22420
+AV98LHJ	201	Picture	CueingCross	2865697	0	1	3009	2	0	2920
+AV98LHJ	202	Picture	PrepTime	2868873	0	1	3009	2	0	2920
+AV98LHJ	203	Picture	1_34_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1850_3000_2300_gabor_patch_orientation_162_051_177_136_target_position_1_4_retrieval_position_4	2872049	0	1	1338	2	0	1250
+AV98LHJ	203	Picture	Flicker2	2873387	1338	1	1337	2	1250	1250
+AV98LHJ	203	Picture	Flicker3	2874724	2675	1	1337	2	2500	1250
+AV98LHJ	204	Picture	Delay	2876228	0	2	18555	3	0	18420
+AV98LHJ	205	Picture	1_34_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_136_retrieval_position_4	2894950	0	2	30090	3	0	29920
+AV98LHJ	205	Response	10	2910214	15264	4
+AV98LHJ	206	Picture	ITI	2925207	0	1	23068	2	0	22920
+AV98LHJ	207	Picture	CueingCross	2948442	0	2	3009	4	0	2920
+AV98LHJ	208	Picture	PrepTime	2951619	0	1	3009	2	0	2920
+AV98LHJ	209	Picture	1_35_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2250_3000_2450_gabor_patch_orientation_071_055_018_127_target_position_2_4_retrieval_position_4	2954795	0	1	1337	2	0	1250
+AV98LHJ	209	Picture	Flicker2	2956132	1337	1	1337	2	1250	1250
+AV98LHJ	209	Picture	Flicker3	2957469	2674	1	1338	2	2500	1250
+AV98LHJ	210	Picture	Delay	2958974	0	1	22567	2	0	22420
+AV98LHJ	211	Picture	1_35_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_127_retrieval_position_4	2981708	0	1	30089	2	0	29920
+AV98LHJ	211	Response	10	2992233	10525	3
+AV98LHJ	212	Picture	ITI	3011964	0	2	24573	3	0	24420
+AV98LHJ	213	Picture	CueingCross	3036704	0	2	3009	3	0	2920
+AV98LHJ	214	Picture	PrepTime	3039880	0	2	3009	3	0	2920
+AV98LHJ	215	Picture	1_36_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2000_3000_2600_gabor_patch_orientation_089_016_038_055_target_position_1_3_retrieval_position_3	3043057	0	1	1337	2	0	1250
+AV98LHJ	215	Picture	Flicker2	3044394	1337	1	1337	2	1250	1250
+AV98LHJ	215	Picture	Flicker3	3045731	2674	1	1337	3	2500	1250
+AV98LHJ	216	Picture	Delay	3047236	0	1	20059	2	0	19920
+AV98LHJ	217	Picture	1_36_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_173_retrieval_position_3	3067462	0	1	30089	3	0	29920
+AV98LHJ	217	Response	20	3076411	8949	4
+AV98LHJ	218	Picture	ITI	3097719	0	1	26077	2	0	25920
+AV98LHJ	219	Picture	CueingCross	3123963	0	1	3009	2	0	2920
+AV98LHJ	220	Picture	PrepTime	3127139	0	2	3009	3	0	2920
+AV98LHJ	221	Picture	1_37_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_2050_3000_2500_gabor_patch_orientation_004_113_143_078_target_position_1_4_retrieval_position_3	3130315	0	2	1338	3	0	1250
+AV98LHJ	221	Picture	Flicker2	3131653	1338	1	1337	2	1250	1250
+AV98LHJ	221	Picture	Flicker3	3132990	2675	1	1337	2	2500	1250
+AV98LHJ	222	Picture	Delay	3134494	0	2	20561	4	0	20420
+AV98LHJ	223	Picture	1_37_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_143_retrieval_position_3	3155223	0	1	30089	2	0	29920
+AV98LHJ	223	Response	20	3164980	9757	3
+AV98LHJ	224	Picture	ITI	3185479	0	1	25074	2	0	24920
+AV98LHJ	225	Picture	CueingCross	3210721	0	1	3009	2	0	2920
+AV98LHJ	226	Picture	PrepTime	3213897	0	1	3009	2	0	2920
+AV98LHJ	227	Picture	1_38_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2000_3000_1900_gabor_patch_orientation_049_034_161_006_target_position_2_4_retrieval_position_2	3217073	0	1	1337	2	0	1250
+AV98LHJ	227	Picture	Flicker2	3218410	1337	1	1337	2	1250	1250
+AV98LHJ	227	Picture	Flicker3	3219747	2674	1	1338	2	2500	1250
+AV98LHJ	228	Picture	Delay	3221252	0	1	20059	2	0	19920
+AV98LHJ	229	Picture	1_38_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_081_retrieval_position_2	3241478	0	2	30090	3	0	29920
+AV98LHJ	229	Response	20	3255918	14440	4
+AV98LHJ	230	Picture	ITI	3271735	0	1	19056	3	0	18920
+AV98LHJ	231	Picture	CueingCross	3290959	0	1	3008	3	0	2920
+AV98LHJ	232	Picture	PrepTime	3294135	0	1	3009	2	0	2920
+AV98LHJ	233	Picture	1_39_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1750_3000_2400_gabor_patch_orientation_159_128_100_079_target_position_2_3_retrieval_position_3	3297311	0	1	1337	2	0	1250
+AV98LHJ	233	Picture	Flicker2	3298648	1337	1	1337	2	1250	1250
+AV98LHJ	233	Picture	Flicker3	3299985	2674	1	1338	2	2500	1250
+AV98LHJ	234	Picture	Delay	3301490	0	1	17552	2	0	17420
+AV98LHJ	235	Picture	1_39_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_100_retrieval_position_3	3319209	0	1	30089	2	0	29920
+AV98LHJ	235	Response	20	3332157	12948	3
+AV98LHJ	236	Picture	ITI	3349465	0	2	24072	3	0	23920
+AV98LHJ	237	Picture	CueingCross	3373704	0	1	3009	2	0	2920
+AV98LHJ	238	Picture	PrepTime	3376880	0	1	3009	2	0	2920
+AV98LHJ	239	Picture	1_40_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1950_3000_2000_gabor_patch_orientation_094_118_077_166_target_position_2_4_retrieval_position_4	3380056	0	1	1338	2	0	1250
+AV98LHJ	239	Picture	Flicker2	3381394	1338	1	1337	2	1250	1250
+AV98LHJ	239	Picture	Flicker3	3382731	2675	1	1337	2	2500	1250
+AV98LHJ	240	Picture	Delay	3384235	0	2	19558	3	0	19420
+AV98LHJ	241	Picture	1_40_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_166_retrieval_position_4	3403961	0	1	30089	2	0	29920
+AV98LHJ	241	Response	10	3427975	24014	4
+AV98LHJ	242	Picture	ITI	3434217	0	1	20059	3	0	19920
+AV98LHJ	243	Picture	CueingCross	3454444	0	1	3008	3	0	2920
+AV98LHJ	244	Picture	PrepTime	3457620	0	1	3009	2	0	2920
+AV98LHJ	245	Picture	1_41_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1850_3000_2300_gabor_patch_orientation_158_017_090_177_target_position_2_4_retrieval_position_4	3460796	0	1	1337	2	0	1250
+AV98LHJ	245	Picture	Flicker2	3462133	1337	1	1337	2	1250	1250
+AV98LHJ	245	Picture	Flicker3	3463470	2674	1	1338	2	2500	1250
+AV98LHJ	246	Picture	Delay	3464975	0	1	18555	2	0	18420
+AV98LHJ	247	Picture	1_41_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_177_retrieval_position_4	3483697	0	1	30089	2	0	29920
+AV98LHJ	247	Response	10	3498324	14627	3
+AV98LHJ	248	Picture	ITI	3513953	0	2	23069	3	0	22920
+AV98LHJ	249	Picture	CueingCross	3537189	0	1	3009	2	0	2920
+AV98LHJ	250	Picture	PrepTime	3540365	0	1	3009	2	0	2920
+AV98LHJ	251	Picture	1_42_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2050_3000_2150_gabor_patch_orientation_136_113_098_065_target_position_2_3_retrieval_position_3	3543541	0	1	1338	2	0	1250
+AV98LHJ	251	Picture	Flicker2	3544879	1338	1	1337	2	1250	1250
+AV98LHJ	251	Picture	Flicker3	3546216	2675	1	1337	2	2500	1250
+AV98LHJ	252	Picture	Delay	3547720	0	2	20561	3	0	20420
+AV98LHJ	253	Picture	1_42_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_048_retrieval_position_3	3568448	0	2	30090	3	0	29920
+AV98LHJ	253	Response	20	3578352	9904	4
+AV98LHJ	254	Picture	ITI	3598705	0	1	21564	2	0	21420
+AV98LHJ	255	Picture	CueingCross	3620436	0	1	3009	2	0	2920
+AV98LHJ	256	Picture	PrepTime	3623612	0	1	3009	2	0	2920
+AV98LHJ	257	Picture	1_43_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1900_3000_2600_gabor_patch_orientation_038_023_065_096_target_position_1_2_retrieval_position_4	3626788	0	1	1337	3	0	1250
+AV98LHJ	257	Picture	Flicker2	3628125	1337	2	1338	3	1250	1250
+AV98LHJ	257	Picture	Flicker3	3629463	2675	1	1337	2	2500	1250
+AV98LHJ	258	Picture	Delay	3630967	0	2	19057	3	0	18920
+AV98LHJ	259	Picture	1_43_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_144_retrieval_position_4	3650191	0	1	30089	2	0	29920
+AV98LHJ	259	Response	10	3671501	21310	3
+AV98LHJ	260	Picture	ITI	3680447	0	2	26078	3	0	25920
+AV98LHJ	261	Picture	CueingCross	3706692	0	1	3009	2	0	2920
+AV98LHJ	262	Picture	PrepTime	3709868	0	1	3009	2	0	2920
+AV98LHJ	263	Picture	1_44_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2050_3000_2550_gabor_patch_orientation_013_094_124_038_target_position_1_4_retrieval_position_1	3713044	0	1	1337	3	0	1250
+AV98LHJ	263	Picture	Flicker2	3714381	1337	2	1338	3	1250	1250
+AV98LHJ	263	Picture	Flicker3	3715719	2675	1	1337	2	2500	1250
+AV98LHJ	264	Picture	Delay	3717223	0	1	20561	2	0	20420
+AV98LHJ	265	Picture	1_44_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_063_retrieval_position_1	3737951	0	2	30090	3	0	29920
+AV98LHJ	265	Response	20	3746530	8579	3
+AV98LHJ	266	Picture	ITI	3768208	0	1	25576	2	0	25420
+AV98LHJ	267	Picture	CueingCross	3793951	0	1	3009	2	0	2920
+AV98LHJ	268	Picture	PrepTime	3797127	0	1	3009	2	0	2920
+AV98LHJ	269	Picture	1_45_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1900_3000_2350_gabor_patch_orientation_100_127_050_022_target_position_3_4_retrieval_position_4	3800303	0	1	1337	2	0	1250
+AV98LHJ	269	Picture	Flicker2	3801640	1337	1	1338	2	1250	1250
+AV98LHJ	269	Picture	Flicker3	3802978	2675	1	1337	2	2500	1250
+AV98LHJ	270	Picture	Delay	3804482	0	1	19057	2	0	18920
+AV98LHJ	271	Picture	1_45_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_022_retrieval_position_4	3823706	0	1	30089	2	0	29920
+AV98LHJ	271	Response	20	3832498	8792	3
+AV98LHJ	272	Picture	ITI	3853962	0	1	23570	2	0	23420
+AV98LHJ	273	Picture	CueingCross	3877699	0	2	3009	3	0	2920
+AV98LHJ	274	Picture	PrepTime	3880875	0	2	3009	3	0	2920
+AV98LHJ	275	Picture	1_46_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1950_3000_1950_gabor_patch_orientation_132_102_087_152_target_position_1_2_retrieval_position_3	3884051	0	2	1338	3	0	1250
+AV98LHJ	275	Picture	Flicker2	3885389	1338	1	1337	2	1250	1250
+AV98LHJ	275	Picture	Flicker3	3886726	2675	1	1337	2	2500	1250
+AV98LHJ	276	Picture	Delay	3888230	0	2	19558	4	0	19420
+AV98LHJ	277	Picture	1_46_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_042_retrieval_position_3	3907956	0	1	30089	2	0	29920
+AV98LHJ	277	Response	10	3919436	11480	4
+AV98LHJ	278	Picture	ITI	3938212	0	1	19558	2	0	19420
+AV98LHJ	279	Picture	CueingCross	3957937	0	1	3009	2	0	2920
+AV98LHJ	280	Picture	PrepTime	3961113	0	2	3009	3	0	2920
+AV98LHJ	281	Picture	1_47_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1950_3000_2400_gabor_patch_orientation_078_146_099_165_target_position_1_2_retrieval_position_2	3964289	0	2	1338	3	0	1250
+AV98LHJ	281	Picture	Flicker2	3965627	1338	1	1337	2	1250	1250
+AV98LHJ	281	Picture	Flicker3	3966964	2675	1	1337	2	2500	1250
+AV98LHJ	282	Picture	Delay	3968468	0	2	19558	4	0	19420
+AV98LHJ	283	Picture	1_47_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_009_retrieval_position_2	3988194	0	1	30089	2	0	29920
+AV98LHJ	283	Response	20	4008345	20151	3
+AV98LHJ	284	Picture	ITI	4018450	0	1	24072	2	0	23920
+AV98LHJ	285	Picture	CueingCross	4042689	0	1	3009	2	0	2920
+AV98LHJ	286	Picture	PrepTime	4045865	0	1	3009	2	0	2920
+AV98LHJ	287	Picture	1_48_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2250_3000_1950_gabor_patch_orientation_110_133_003_047_target_position_2_4_retrieval_position_4	4049041	0	1	1337	2	0	1250
+AV98LHJ	287	Picture	Flicker2	4050378	1337	1	1337	3	1250	1250
+AV98LHJ	287	Picture	Flicker3	4051715	2674	2	1338	3	2500	1250
+AV98LHJ	288	Picture	Delay	4053220	0	1	22567	2	0	22420
+AV98LHJ	289	Picture	1_48_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_047_retrieval_position_4	4075954	0	1	30089	3	0	29920
+AV98LHJ	289	Response	10	4090554	14600	3
+AV98LHJ	290	Picture	ITI	4106210	0	2	19558	4	0	19420
+AV98LHJ	291	Picture	CueingCross	4125936	0	1	3009	2	0	2920
+AV98LHJ	292	Picture	PrepTime	4129112	0	1	3009	2	0	2920
+AV98LHJ	293	Picture	1_49_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2050_3000_2450_gabor_patch_orientation_035_091_124_014_target_position_1_3_retrieval_position_3	4132288	0	1	1337	2	0	1250
+AV98LHJ	293	Picture	Flicker2	4133625	1337	1	1337	3	1250	1250
+AV98LHJ	293	Picture	Flicker3	4134962	2674	2	1338	3	2500	1250
+AV98LHJ	294	Picture	Delay	4136467	0	1	20561	2	0	20420
+AV98LHJ	295	Picture	1_49_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_173_retrieval_position_3	4157195	0	1	30089	2	0	29920
+AV98LHJ	295	Response	20	4164822	7627	4
+AV98LHJ	296	Picture	ITI	4187451	0	2	24573	3	0	24420
+AV98LHJ	297	Picture	CueingCross	4212191	0	2	3009	4	0	2920
+AV98LHJ	298	Picture	PrepTime	4215368	0	1	3009	2	0	2920
+AV98LHJ	299	Picture	1_50_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2100_3000_2100_gabor_patch_orientation_067_157_034_001_target_position_1_3_retrieval_position_3	4218544	0	1	1337	2	0	1250
+AV98LHJ	299	Picture	Flicker2	4219881	1337	1	1337	2	1250	1250
+AV98LHJ	299	Picture	Flicker3	4221218	2674	1	1338	2	2500	1250
+AV98LHJ	300	Picture	Delay	4222723	0	1	21062	2	0	20920
+AV98LHJ	301	Picture	1_50_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_034_retrieval_position_3	4243952	0	2	30090	3	0	29920
+AV98LHJ	301	Response	10	4252881	8929	3
+AV98LHJ	302	Picture	ITI	4274209	0	1	21062	3	0	20920
+AV98LHJ	303	Picture	CueingCross	4295438	0	2	3009	4	0	2920
+AV98LHJ	304	Picture	PrepTime	4298615	0	1	3009	2	0	2920
+AV98LHJ	305	Picture	1_51_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_2100_3000_2200_gabor_patch_orientation_046_178_001_088_target_position_2_3_retrieval_position_4	4301790	0	2	1338	3	0	1250
+AV98LHJ	305	Picture	Flicker2	4303128	1338	1	1337	2	1250	1250
+AV98LHJ	305	Picture	Flicker3	4304465	2675	1	1338	2	2500	1250
+AV98LHJ	306	Picture	Delay	4305970	0	1	21062	2	0	20920
+AV98LHJ	307	Picture	1_51_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_088_retrieval_position_4	4327199	0	2	30090	3	0	29920
+AV98LHJ	307	Response	20	4342889	15690	4
+AV98LHJ	308	Picture	ITI	4357456	0	1	22065	2	0	21920
+AV98LHJ	309	Picture	CueingCross	4379688	0	2	3009	3	0	2920
+AV98LHJ	310	Picture	PrepTime	4382865	0	1	3008	3	0	2920
+AV98LHJ	311	Picture	1_52_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1900_3000_2350_gabor_patch_orientation_112_001_156_129_target_position_1_4_retrieval_position_1	4386041	0	1	1337	2	0	1250
+AV98LHJ	311	Picture	Flicker2	4387378	1337	1	1337	2	1250	1250
+AV98LHJ	311	Picture	Flicker3	4388715	2674	1	1337	3	2500	1250
+AV98LHJ	312	Picture	Delay	4390220	0	1	19056	2	0	18920
+AV98LHJ	313	Picture	1_52_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_112_retrieval_position_1	4409443	0	2	30090	3	0	29920
+AV98LHJ	313	Response	10	4427488	18045	4
+AV98LHJ	314	Picture	ITI	4439700	0	1	23570	2	0	23420
+AV98LHJ	315	Picture	CueingCross	4463437	0	1	3009	2	0	2920
+AV98LHJ	316	Picture	PrepTime	4466613	0	1	3009	2	0	2920
+AV98LHJ	317	Picture	1_53_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2000_3000_2500_gabor_patch_orientation_059_164_044_028_target_position_1_4_retrieval_position_1	4469789	0	1	1337	2	0	1250
+AV98LHJ	317	Picture	Flicker2	4471126	1337	1	1338	2	1250	1250
+AV98LHJ	317	Picture	Flicker3	4472464	2675	1	1337	2	2500	1250
+AV98LHJ	318	Picture	Delay	4473968	0	1	20060	2	0	19920
+AV98LHJ	319	Picture	1_53_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_011_retrieval_position_1	4494195	0	1	30089	2	0	29920
+AV98LHJ	319	Response	20	4504216	10021	4
+AV98LHJ	320	Picture	ITI	4524451	0	1	25075	2	0	24920
+AV98LHJ	321	Picture	CueingCross	4549693	0	1	3009	2	0	2920
+AV98LHJ	322	Picture	PrepTime	4552869	0	1	3009	2	0	2920
+AV98LHJ	323	Picture	1_54_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1950_3000_2250_gabor_patch_orientation_171_130_099_045_target_position_2_4_retrieval_position_2	4556045	0	1	1337	2	0	1250
+AV98LHJ	323	Picture	Flicker2	4557382	1337	1	1337	3	1250	1250
+AV98LHJ	323	Picture	Flicker3	4558719	2674	2	1338	3	2500	1250
+AV98LHJ	324	Picture	Delay	4560224	0	1	19558	2	0	19420
+AV98LHJ	325	Picture	1_54_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_130_retrieval_position_2	4579949	0	1	30089	3	0	29920
+AV98LHJ	325	Response	10	4590285	10336	3
+AV98LHJ	326	Picture	ITI	4610206	0	1	22567	2	0	22420
+AV98LHJ	327	Picture	CueingCross	4632940	0	1	3009	2	0	2920
+AV98LHJ	328	Picture	PrepTime	4636116	0	1	3009	2	0	2920
+AV98LHJ	329	Picture	1_55_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2150_3000_2000_gabor_patch_orientation_025_002_140_070_target_position_1_2_retrieval_position_2	4639292	0	1	1337	2	0	1250
+AV98LHJ	329	Picture	Flicker2	4640629	1337	1	1338	2	1250	1250
+AV98LHJ	329	Picture	Flicker3	4641967	2675	1	1337	2	2500	1250
+AV98LHJ	330	Picture	Delay	4643471	0	1	21564	2	0	21420
+AV98LHJ	331	Picture	1_55_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_002_retrieval_position_2	4665202	0	1	30089	2	0	29920
+AV98LHJ	331	Response	10	4680823	15621	4
+AV98LHJ	332	Picture	ITI	4695458	0	2	20060	3	0	19920
+AV98LHJ	333	Picture	CueingCross	4715685	0	1	3009	2	0	2920
+AV98LHJ	334	Picture	PrepTime	4718861	0	2	3009	3	0	2920
+AV98LHJ	335	Picture	1_56_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2050_3000_2050_gabor_patch_orientation_055_076_037_022_target_position_3_4_retrieval_position_4	4722037	0	2	1338	3	0	1250
+AV98LHJ	335	Picture	Flicker2	4723375	1338	1	1337	2	1250	1250
+AV98LHJ	335	Picture	Flicker3	4724712	2675	1	1337	2	2500	1250
+AV98LHJ	336	Picture	Delay	4726216	0	2	20561	4	0	20420
+AV98LHJ	337	Picture	1_56_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_161_retrieval_position_4	4746945	0	1	30089	2	0	29920
+AV98LHJ	337	Response	20	4763482	16537	3
+AV98LHJ	338	Picture	ITI	4777201	0	1	20561	2	0	20420
+AV98LHJ	339	Picture	CueingCross	4797929	0	1	3009	3	0	2920
+AV98LHJ	340	Picture	PrepTime	4801105	0	1	3009	2	0	2920
+AV98LHJ	341	Picture	1_57_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1900_3000_2200_gabor_patch_orientation_107_078_019_044_target_position_2_3_retrieval_position_3	4804281	0	2	1338	3	0	1250
+AV98LHJ	341	Picture	Flicker2	4805619	1338	1	1337	2	1250	1250
+AV98LHJ	341	Picture	Flicker3	4806956	2675	1	1337	2	2500	1250
+AV98LHJ	342	Picture	Delay	4808460	0	2	19057	3	0	18920
+AV98LHJ	343	Picture	1_57_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_159_retrieval_position_3	4827684	0	1	30089	2	0	29920
+AV98LHJ	343	Response	10	4841110	13426	4
+AV98LHJ	344	Picture	ITI	4857940	0	2	22066	3	0	21920
+AV98LHJ	345	Picture	CueingCross	4880173	0	1	3009	2	0	2920
+AV98LHJ	346	Picture	PrepTime	4883349	0	1	3009	2	0	2920
+AV98LHJ	347	Picture	1_58_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_2100_3000_1900_gabor_patch_orientation_017_176_155_126_target_position_1_4_retrieval_position_3	4886525	0	2	1338	3	0	1250
+AV98LHJ	347	Picture	Flicker2	4887863	1338	1	1337	2	1250	1250
+AV98LHJ	347	Picture	Flicker3	4889200	2675	1	1337	2	2500	1250
+AV98LHJ	348	Picture	Delay	4890704	0	2	21063	3	0	20920
+AV98LHJ	349	Picture	1_58_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_107_retrieval_position_3	4911934	0	1	30089	2	0	29920
+AV98LHJ	349	Response	20	4936579	24645	3
+AV98LHJ	350	Picture	ITI	4942190	0	2	19057	3	0	18920
+AV98LHJ	351	Picture	CueingCross	4961414	0	1	3009	2	0	2920
+AV98LHJ	352	Picture	PrepTime	4964590	0	1	3009	2	0	2920
+AV98LHJ	353	Picture	1_59_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_1900_gabor_patch_orientation_048_172_001_087_target_position_1_3_retrieval_position_3	4967766	0	2	1338	3	0	1250
+AV98LHJ	353	Picture	Flicker2	4969104	1338	1	1337	2	1250	1250
+AV98LHJ	353	Picture	Flicker3	4970441	2675	1	1337	2	2500	1250
+AV98LHJ	354	Picture	Delay	4971945	0	2	18054	3	0	17920
+AV98LHJ	355	Picture	1_59_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_137_retrieval_position_3	4990166	0	2	30089	4	0	29920
+AV98LHJ	355	Response	20	5014297	24131	4
+AV98LHJ	355	Response	10	5018257	28091	4
+AV98LHJ	356	Picture	ITI	5020423	0	1	19056	2	0	18920
+AV98LHJ	357	Picture	CueingCross	5039646	0	1	3009	2	0	2920
+AV98LHJ	358	Picture	PrepTime	5042822	0	2	3009	3	0	2920
+AV98LHJ	359	Picture	1_60_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_2250_3000_2250_gabor_patch_orientation_104_048_135_162_target_position_1_2_retrieval_position_4	5045998	0	2	1338	3	0	1250
+AV98LHJ	359	Picture	Flicker2	5047336	1338	1	1337	2	1250	1250
+AV98LHJ	359	Picture	Flicker3	5048673	2675	1	1337	2	2500	1250
+AV98LHJ	360	Picture	Delay	5050177	0	2	22567	4	0	22420
+AV98LHJ	361	Picture	1_60_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_162_retrieval_position_4	5072912	0	1	30089	2	0	29920
+AV98LHJ	361	Response	20	5085116	12204	4
+AV98LHJ	362	Picture	ITI	5103168	0	1	22567	2	0	22420
+AV98LHJ	363	Picture	CueingCross	5125902	0	1	3009	2	0	2920
+AV98LHJ	364	Picture	PrepTime	5129078	0	1	3009	2	0	2920
+AV98LHJ	365	Picture	1_61_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2100_3000_2050_gabor_patch_orientation_020_177_155_036_target_position_1_3_retrieval_position_3	5132254	0	2	1338	3	0	1250
+AV98LHJ	365	Picture	Flicker2	5133592	1338	1	1337	2	1250	1250
+AV98LHJ	365	Picture	Flicker3	5134929	2675	1	1337	2	2500	1250
+AV98LHJ	366	Picture	Delay	5136433	0	2	21063	3	0	20920
+AV98LHJ	367	Picture	1_61_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_155_retrieval_position_3	5157663	0	1	30089	2	0	29920
+AV98LHJ	367	Response	10	5169735	12072	3
+AV98LHJ	368	Picture	ITI	5187919	0	2	20561	4	0	20420
+AV98LHJ	369	Picture	CueingCross	5208648	0	1	3009	2	0	2920
+AV98LHJ	370	Picture	PrepTime	5211824	0	1	3009	2	0	2920
+AV98LHJ	371	Picture	1_62_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2000_3000_1950_gabor_patch_orientation_015_070_180_131_target_position_1_3_retrieval_position_1	5215000	0	1	1337	2	0	1250
+AV98LHJ	371	Picture	Flicker2	5216337	1337	1	1337	2	1250	1250
+AV98LHJ	371	Picture	Flicker3	5217674	2674	1	1338	2	2500	1250
+AV98LHJ	372	Picture	Delay	5219179	0	1	20059	2	0	19920
+AV98LHJ	373	Picture	1_62_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_015_retrieval_position_1	5239406	0	1	30089	2	0	29920
+AV98LHJ	373	Response	20	5260133	20727	4
+AV98LHJ	373	Response	10	5264423	25017	3
+AV98LHJ	374	Picture	ITI	5269662	0	1	19558	2	0	19420
+AV98LHJ	375	Picture	CueingCross	5289387	0	1	3009	2	0	2920
+AV98LHJ	376	Picture	PrepTime	5292563	0	1	3009	2	0	2920
+AV98LHJ	377	Picture	1_63_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1850_3000_1950_gabor_patch_orientation_019_164_095_125_target_position_2_3_retrieval_position_3	5295739	0	2	1338	3	0	1250
+AV98LHJ	377	Picture	Flicker2	5297077	1338	1	1337	2	1250	1250
+AV98LHJ	377	Picture	Flicker3	5298414	2675	1	1337	2	2500	1250
+AV98LHJ	378	Picture	Delay	5299918	0	2	18555	4	0	18420
+AV98LHJ	379	Picture	1_63_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_048_retrieval_position_3	5318641	0	1	30089	2	0	29920
+AV98LHJ	379	Response	10	5334762	16121	3
+AV98LHJ	380	Picture	ITI	5348897	0	1	19558	2	0	19420
+AV98LHJ	381	Picture	CueingCross	5368622	0	1	3009	2	0	2920
+AV98LHJ	382	Picture	PrepTime	5371798	0	1	3009	2	0	2920
+AV98LHJ	383	Picture	1_64_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_2100_3000_2000_gabor_patch_orientation_147_019_179_128_target_position_3_4_retrieval_position_2	5374974	0	2	1338	3	0	1250
+AV98LHJ	383	Picture	Flicker2	5376312	1338	1	1337	2	1250	1250
+AV98LHJ	383	Picture	Flicker3	5377649	2675	1	1337	2	2500	1250
+AV98LHJ	384	Picture	Delay	5379153	0	2	21063	3	0	20920
+AV98LHJ	385	Picture	1_64_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_066_retrieval_position_2	5400383	0	1	30089	2	0	29920
+AV98LHJ	385	Response	20	5414010	13627	4
+AV98LHJ	386	Picture	ITI	5430639	0	2	20060	3	0	19920
+AV98LHJ	387	Picture	CueingCross	5450866	0	1	3009	2	0	2920
+AV98LHJ	388	Picture	PrepTime	5454042	0	1	3009	2	0	2920
+AV98LHJ	389	Picture	1_65_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1850_3000_1900_gabor_patch_orientation_120_147_064_008_target_position_1_2_retrieval_position_2	5457218	0	2	1338	3	0	1250
+AV98LHJ	389	Picture	Flicker2	5458556	1338	1	1336	3	1250	1250
+AV98LHJ	389	Picture	Flicker3	5459892	2674	2	1338	3	2500	1250
+AV98LHJ	390	Picture	Delay	5461397	0	2	18555	4	0	18420
+AV98LHJ	391	Picture	1_65_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_098_retrieval_position_2	5480120	0	1	30089	2	0	29920
+AV98LHJ	391	Response	20	5505569	25449	3
+AV98LHJ	392	Picture	ITI	5510376	0	1	19057	2	0	18920
+AV98LHJ	393	Picture	CueingCross	5529600	0	1	3009	2	0	2920
+AV98LHJ	394	Picture	PrepTime	5532776	0	1	3009	2	0	2920
+AV98LHJ	395	Picture	1_66_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2200_3000_2450_gabor_patch_orientation_135_097_115_074_target_position_2_3_retrieval_position_3	5535952	0	1	1337	2	0	1250
+AV98LHJ	395	Picture	Flicker2	5537289	1337	1	1337	3	1250	1250
+AV98LHJ	395	Picture	Flicker3	5538626	2674	2	1338	3	2500	1250
+AV98LHJ	396	Picture	Delay	5540131	0	1	22065	3	0	21920
+AV98LHJ	397	Picture	1_66_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_163_retrieval_position_3	5562364	0	1	30089	2	0	29920
+AV98LHJ	397	Response	20	5579908	17544	3
+AV98LHJ	398	Picture	ITI	5592620	0	1	24573	2	0	24420
+AV98LHJ	399	Picture	CueingCross	5617360	0	1	3009	2	0	2920
+AV98LHJ	400	Picture	PrepTime	5620536	0	1	3009	2	0	2920
+AV98LHJ	401	Picture	1_67_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2150_3000_2100_gabor_patch_orientation_042_148_180_067_target_position_2_4_retrieval_position_4	5623712	0	1	1338	2	0	1250
+AV98LHJ	401	Picture	Flicker2	5625050	1338	1	1337	2	1250	1250
+AV98LHJ	401	Picture	Flicker3	5626387	2675	1	1337	2	2500	1250
+AV98LHJ	402	Picture	Delay	5627891	0	2	21564	3	0	21420
+AV98LHJ	403	Picture	1_67_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_067_retrieval_position_4	5649622	0	2	30090	3	0	29920
+AV98LHJ	403	Response	10	5666926	17304	4
+AV98LHJ	404	Picture	ITI	5679879	0	1	21062	2	0	20920
+AV98LHJ	405	Picture	CueingCross	5701109	0	1	3008	3	0	2920
+AV98LHJ	406	Picture	PrepTime	5704285	0	1	3008	3	0	2920
+AV98LHJ	407	Picture	1_68_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_2350_gabor_patch_orientation_002_074_039_160_target_position_3_4_retrieval_position_4	5707461	0	1	1337	2	0	1250
+AV98LHJ	407	Picture	Flicker2	5708798	1337	1	1337	2	1250	1250
+AV98LHJ	407	Picture	Flicker3	5710135	2674	1	1338	2	2500	1250
+AV98LHJ	408	Picture	Delay	5711640	0	6	18053	7	0	17920
+AV98LHJ	409	Picture	1_68_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_114_retrieval_position_4	5729860	0	2	30090	3	0	29920
+AV98LHJ	409	Response	10	5746055	16195	3
+AV98LHJ	410	Picture	ITI	5760117	0	1	23570	2	0	23420
+AV98LHJ	411	Picture	CueingCross	5783854	0	1	3009	2	0	2920
+AV98LHJ	412	Picture	PrepTime	5787030	0	1	3009	2	0	2920
+AV98LHJ	413	Picture	1_69_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_2200_3000_2150_gabor_patch_orientation_166_036_008_094_target_position_2_3_retrieval_position_1	5790206	0	1	1337	3	0	1250
+AV98LHJ	413	Picture	Flicker2	5791543	1337	2	1338	3	1250	1250
+AV98LHJ	413	Picture	Flicker3	5792881	2675	1	1337	2	2500	1250
+AV98LHJ	414	Picture	Delay	5794385	0	2	22066	3	0	21920
+AV98LHJ	415	Picture	1_69_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_166_retrieval_position_1	5816618	0	1	30089	2	0	29920
+AV98LHJ	415	Response	20	5843343	26725	3
+AV98LHJ	416	Picture	ITI	5846874	0	1	21564	2	0	21420
+AV98LHJ	417	Picture	CueingCross	5868605	0	2	3009	3	0	2920
+AV98LHJ	418	Picture	PrepTime	5871782	0	1	3008	3	0	2920
+AV98LHJ	419	Picture	1_70_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1850_3000_2500_gabor_patch_orientation_140_013_056_123_target_position_3_4_retrieval_position_4	5874958	0	1	1337	2	0	1250
+AV98LHJ	419	Picture	Flicker2	5876295	1337	1	1337	2	1250	1250
+AV98LHJ	419	Picture	Flicker3	5877632	2674	1	1338	2	2500	1250
+AV98LHJ	420	Picture	Delay	5879137	0	1	18555	2	0	18420
+AV98LHJ	421	Picture	1_70_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_075_retrieval_position_4	5897859	0	1	30089	2	0	29920
+AV98LHJ	421	Response	20	5917702	19843	3
+AV98LHJ	422	Picture	ITI	5928115	0	2	25075	3	0	24920
+AV98LHJ	423	Picture	BaselinePost	5953357	0	1	50149	2	0	50000

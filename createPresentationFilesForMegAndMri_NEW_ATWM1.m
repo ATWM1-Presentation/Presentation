@@ -44,7 +44,33 @@ if bAbort == true
     return
 end
 
-bCreateMegPresentationFiles = false
+
+%% Move to separate function
+[parametersDialog] = eval(['parametersDialog', strStudy]);
+
+strTitle    = 'File creation options';
+strPrompt   = 'Please select file creation options';
+
+strButton1 = sprintf('%sAll files%s', parametersDialog.strEmpty, parametersDialog.strEmpty);
+strButton2 = sprintf('%sMRI only%s', parametersDialog.strEmpty, parametersDialog.strEmpty);
+strButton3 = sprintf('%sAbort%s', parametersDialog.strEmpty, parametersDialog.strEmpty);
+default = strButton3;
+choice = questdlg(strPrompt, strTitle, strButton1, strButton2, strButton3, default);
+if isempty(choice)
+    fprintf('No option selected!\nAborting function.\n');
+    return
+end
+
+switch choice
+    case strButton1
+        bCreateMegPresentationFiles = true;
+    case strButton2
+        bCreateMegPresentationFiles = false;
+    case strButton3
+        fprintf('\nAborting function.\n');
+        return
+end
+%return
 
 %% Create presentation files for MEG and MRI version of the working memory experiment
 aStrSubjectPresentationFileSubFolder = {};
@@ -57,8 +83,8 @@ for ced = 1:numel(parametersStudy.aStrExpDevice)
     end
     
     %%% REMOVE
-    bCreatePresentationFiles = false
-    strExpDevice = strExpDevice
+    %bCreatePresentationFiles = false
+    %strExpDevice = strExpDevice
     %%% REMOVE
     
     aStrFilePath = CreatePresentationFiles_NEW(strExpDevice, strSubjectID, strPermutationType, strLeftRight, strGroup, strRootFolder, strScriptFolderWM, bCreatePresentationFiles);
@@ -69,12 +95,11 @@ for ced = 1:numel(parametersStudy.aStrExpDevice)
         aStrSubjectPresentationFileSubFolder{indSubFolder} = aStrFilePath{cp};
         
         %%% REMOVE
-        test = aStrSubjectPresentationFileSubFolder{indSubFolder}
+        %test = aStrSubjectPresentationFileSubFolder{indSubFolder}
         %%% REMOVE
     end
     %}
 end
-%return
 
 %% Create presentation files for localizer
 strSubjectFolder = CreateSceFilesLocalizer(strSubjectID, strGroup, strRootFolder);

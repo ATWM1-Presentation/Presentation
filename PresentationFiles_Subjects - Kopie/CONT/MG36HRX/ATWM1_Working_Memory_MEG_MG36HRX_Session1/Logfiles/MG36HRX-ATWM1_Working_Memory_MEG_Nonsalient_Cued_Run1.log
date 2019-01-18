@@ -1,0 +1,643 @@
+Scenario - ATWM1_Working_Memory_MEG_salient_cued_run1
+Logfile written - 02/10/2016 16:56:53
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+MG36HRX	1	Picture	ExpStart	29	0	1	10030	2	0	10000
+MG36HRX	2	Picture	BaselinePre	10226	0	1	100131	2	0	100000
+MG36HRX	3	Picture	CueingCross	110524	0	1	3009	2	0	2920
+MG36HRX	4	Picture	PrepTime	113700	0	2	3009	3	0	2920
+MG36HRX	5	Picture	1_1_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1750_3000_1950_gabor_patch_orientation_121_179_100_032_target_position_3_4_retrieval_position_3	116876	0	2	1338	3	0	1250
+MG36HRX	5	Picture	Flicker2	118214	1338	1	1337	2	1250	1250
+MG36HRX	5	Picture	Flicker3	119551	2675	1	1337	2	2500	1250
+MG36HRX	6	Picture	Delay	121056	0	1	17552	2	0	17420
+MG36HRX	7	Picture	1_1_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_150_retrieval_position_3	138775	0	1	30089	2	0	29920
+MG36HRX	7	Response	10	155608	16833	3
+MG36HRX	8	Picture	ITI	169031	0	2	19559	3	0	19420
+MG36HRX	9	Picture	CueingCross	188757	0	1	3009	2	0	2920
+MG36HRX	10	Picture	PrepTime	191933	0	1	3009	2	0	2920
+MG36HRX	11	Picture	1_2_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2200_3000_2250_gabor_patch_orientation_098_178_056_123_target_position_1_2_retrieval_position_2	195109	0	1	1337	2	0	1250
+MG36HRX	11	Picture	Flicker2	196446	1337	1	1337	3	1250	1250
+MG36HRX	11	Picture	Flicker3	197783	2674	2	1338	3	2500	1250
+MG36HRX	12	Picture	Delay	199288	0	1	22066	2	0	21920
+MG36HRX	13	Picture	1_2_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_178_retrieval_position_2	221521	0	1	30089	2	0	29920
+MG36HRX	13	Response	10	230387	8866	3
+MG36HRX	14	Picture	ITI	251777	0	2	22568	3	0	22420
+MG36HRX	15	Picture	CueingCross	274512	0	1	3009	2	0	2920
+MG36HRX	16	Picture	PrepTime	277688	0	1	3009	2	0	2920
+MG36HRX	17	Picture	1_3_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2050_3000_2150_gabor_patch_orientation_087_138_104_169_target_position_1_4_retrieval_position_4	280864	0	1	1337	2	0	1250
+MG36HRX	17	Picture	Flicker2	282201	1337	1	1338	2	1250	1250
+MG36HRX	17	Picture	Flicker3	283539	2675	1	1337	2	2500	1250
+MG36HRX	18	Picture	Delay	285043	0	1	20561	2	0	20420
+MG36HRX	19	Picture	1_3_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_169_retrieval_position_4	305771	0	2	30090	3	0	29920
+MG36HRX	19	Response	10	316406	10635	3
+MG36HRX	20	Picture	ITI	336028	0	1	21564	2	0	21420
+MG36HRX	21	Picture	CueingCross	357759	0	1	3009	2	0	2920
+MG36HRX	22	Picture	PrepTime	360935	0	2	3009	3	0	2920
+MG36HRX	23	Picture	1_4_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1950_3000_2550_gabor_patch_orientation_016_077_037_094_target_position_2_4_retrieval_position_2	364111	0	2	1338	3	0	1250
+MG36HRX	23	Picture	Flicker2	365449	1338	1	1337	2	1250	1250
+MG36HRX	23	Picture	Flicker3	366786	2675	1	1337	2	2500	1250
+MG36HRX	24	Picture	Delay	368290	0	2	19559	3	0	19420
+MG36HRX	25	Picture	1_4_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_122_retrieval_position_2	388016	0	1	30089	2	0	29920
+MG36HRX	25	Response	20	400205	12189	3
+MG36HRX	26	Picture	ITI	418272	0	2	25576	4	0	25420
+MG36HRX	27	Picture	CueingCross	444016	0	1	3009	2	0	2920
+MG36HRX	28	Picture	PrepTime	447192	0	1	3009	2	0	2920
+MG36HRX	29	Picture	1_5_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_2200_gabor_patch_orientation_131_001_167_048_target_position_1_2_retrieval_position_1	450368	0	1	1337	2	0	1250
+MG36HRX	29	Picture	Flicker2	451705	1337	1	1337	2	1250	1250
+MG36HRX	29	Picture	Flicker3	453042	2674	1	1338	2	2500	1250
+MG36HRX	30	Picture	Delay	454547	0	1	18054	2	0	17920
+MG36HRX	31	Picture	1_5_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_083_retrieval_position_1	472768	0	1	30089	2	0	29920
+MG36HRX	31	Response	20	481924	9156	4
+MG36HRX	32	Picture	ITI	503024	0	2	22066	3	0	21920
+MG36HRX	33	Picture	CueingCross	525257	0	1	3009	2	0	2920
+MG36HRX	34	Picture	PrepTime	528433	0	1	3009	2	0	2920
+MG36HRX	35	Picture	1_6_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2200_3000_1900_gabor_patch_orientation_110_060_002_166_target_position_3_4_retrieval_position_3	531609	0	2	1338	3	0	1250
+MG36HRX	35	Picture	Flicker2	532947	1338	1	1337	2	1250	1250
+MG36HRX	35	Picture	Flicker3	534284	2675	1	1337	2	2500	1250
+MG36HRX	36	Picture	Delay	535788	0	2	22066	3	0	21920
+MG36HRX	37	Picture	1_6_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_139_retrieval_position_3	558021	0	1	30090	2	0	29920
+MG36HRX	37	Response	20	567163	9142	4
+MG36HRX	38	Picture	ITI	588278	0	1	19056	3	0	18920
+MG36HRX	39	Picture	CueingCross	607502	0	1	3008	3	0	2920
+MG36HRX	40	Picture	PrepTime	610678	0	1	3009	2	0	2920
+MG36HRX	41	Picture	1_7_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_2100_3000_2200_gabor_patch_orientation_062_044_023_105_target_position_3_4_retrieval_position_2	613854	0	1	1337	2	0	1250
+MG36HRX	41	Picture	Flicker2	615191	1337	1	1337	3	1250	1250
+MG36HRX	41	Picture	Flicker3	616528	2674	2	1338	3	2500	1250
+MG36HRX	42	Picture	Delay	618033	0	1	21062	3	0	20920
+MG36HRX	43	Picture	1_7_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_044_retrieval_position_2	639263	0	1	30089	2	0	29920
+MG36HRX	43	Response	10	654832	15569	4
+MG36HRX	44	Picture	ITI	669519	0	2	22066	3	0	21920
+MG36HRX	45	Picture	CueingCross	691752	0	1	3009	2	0	2920
+MG36HRX	46	Picture	PrepTime	694928	0	1	3009	2	0	2920
+MG36HRX	47	Picture	1_8_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1950_3000_2100_gabor_patch_orientation_113_030_098_008_target_position_3_4_retrieval_position_4	698104	0	1	1338	2	0	1250
+MG36HRX	47	Picture	Flicker2	699442	1338	1	1337	2	1250	1250
+MG36HRX	47	Picture	Flicker3	700779	2675	1	1337	2	2500	1250
+MG36HRX	48	Picture	Delay	702283	0	2	19558	4	0	19420
+MG36HRX	49	Picture	1_8_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_008_retrieval_position_4	722009	0	1	30089	2	0	29920
+MG36HRX	49	Response	10	735981	13972	4
+MG36HRX	50	Picture	ITI	752265	0	2	21063	3	0	20920
+MG36HRX	51	Picture	CueingCross	773495	0	1	3009	2	0	2920
+MG36HRX	52	Picture	PrepTime	776671	0	1	3009	2	0	2920
+MG36HRX	53	Picture	1_9_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2150_3000_2500_gabor_patch_orientation_149_042_009_116_target_position_1_3_retrieval_position_1	779847	0	1	1337	3	0	1250
+MG36HRX	53	Picture	Flicker2	781184	1337	2	1338	3	1250	1250
+MG36HRX	53	Picture	Flicker3	782522	2675	1	1337	2	2500	1250
+MG36HRX	54	Picture	Delay	784026	0	2	21564	3	0	21420
+MG36HRX	55	Picture	1_9_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_149_retrieval_position_1	805758	0	1	30089	2	0	29920
+MG36HRX	55	Response	20	830120	24362	4
+MG36HRX	56	Picture	ITI	836014	0	1	25075	2	0	24920
+MG36HRX	57	Picture	CueingCross	861256	0	1	3009	2	0	2920
+MG36HRX	58	Picture	PrepTime	864432	0	1	3009	2	0	2920
+MG36HRX	59	Picture	1_10_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_2050_gabor_patch_orientation_060_093_040_123_target_position_3_4_retrieval_position_4	867608	0	1	1337	2	0	1250
+MG36HRX	59	Picture	Flicker2	868945	1337	1	1338	2	1250	1250
+MG36HRX	59	Picture	Flicker3	870283	2675	1	1337	2	2500	1250
+MG36HRX	60	Picture	Delay	871787	0	1	18054	2	0	17920
+MG36HRX	61	Picture	1_10_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_171_retrieval_position_4	890008	0	1	30089	3	0	29920
+MG36HRX	61	Response	20	900090	10082	3
+MG36HRX	62	Picture	ITI	920265	0	1	20561	2	0	20420
+MG36HRX	63	Picture	CueingCross	940993	0	1	3009	2	0	2920
+MG36HRX	64	Picture	PrepTime	944169	0	1	3009	2	0	2920
+MG36HRX	65	Picture	1_11_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2100_3000_2200_gabor_patch_orientation_082_143_108_125_target_position_3_4_retrieval_position_3	947345	0	1	1337	3	0	1250
+MG36HRX	65	Picture	Flicker2	948682	1337	2	1338	3	1250	1250
+MG36HRX	65	Picture	Flicker3	950020	2675	1	1336	3	2500	1250
+MG36HRX	66	Picture	Delay	951524	0	1	21063	2	0	20920
+MG36HRX	67	Picture	1_11_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_059_retrieval_position_3	972754	0	1	30089	3	0	29920
+MG36HRX	67	Response	20	984339	11585	3
+MG36HRX	68	Picture	ITI	1003011	0	1	22065	2	0	21920
+MG36HRX	69	Picture	CueingCross	1025243	0	2	3009	3	0	2920
+MG36HRX	70	Picture	PrepTime	1028419	0	2	3009	4	0	2920
+MG36HRX	71	Picture	1_12_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2200_3000_1950_gabor_patch_orientation_033_076_154_018_target_position_1_3_retrieval_position_3	1031596	0	1	1336	3	0	1250
+MG36HRX	71	Picture	Flicker2	1032932	1336	2	1338	3	1250	1250
+MG36HRX	71	Picture	Flicker3	1034270	2674	1	1338	2	2500	1250
+MG36HRX	72	Picture	Delay	1035775	0	1	22065	2	0	21920
+MG36HRX	73	Picture	1_12_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_154_retrieval_position_3	1058007	0	2	30090	3	0	29920
+MG36HRX	73	Response	10	1069558	11551	3
+MG36HRX	74	Picture	ITI	1088264	0	1	19558	2	0	19420
+MG36HRX	75	Picture	CueingCross	1107989	0	2	3009	3	0	2920
+MG36HRX	76	Picture	PrepTime	1111165	0	2	3009	3	0	2920
+MG36HRX	77	Picture	1_13_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1750_3000_2000_gabor_patch_orientation_045_074_091_109_target_position_1_4_retrieval_position_2	1114342	0	1	1337	2	0	1250
+MG36HRX	77	Picture	Flicker2	1115679	1337	1	1337	2	1250	1250
+MG36HRX	77	Picture	Flicker3	1117016	2674	1	1337	3	2500	1250
+MG36HRX	78	Picture	Delay	1118521	0	1	17552	2	0	17420
+MG36HRX	79	Picture	1_13_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_029_retrieval_position_2	1136240	0	1	30089	3	0	29920
+MG36HRX	79	Response	10	1163257	27017	3
+MG36HRX	80	Picture	ITI	1166497	0	1	20059	2	0	19920
+MG36HRX	81	Picture	CueingCross	1186723	0	2	3009	3	0	2920
+MG36HRX	82	Picture	PrepTime	1189899	0	2	3009	4	0	2920
+MG36HRX	83	Picture	1_14_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2050_3000_2250_gabor_patch_orientation_067_052_139_174_target_position_1_3_retrieval_position_1	1193076	0	1	1337	2	0	1250
+MG36HRX	83	Picture	Flicker2	1194413	1337	1	1337	2	1250	1250
+MG36HRX	83	Picture	Flicker3	1195750	2674	1	1337	3	2500	1250
+MG36HRX	84	Picture	Delay	1197255	0	1	20561	2	0	20420
+MG36HRX	85	Picture	1_14_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_112_retrieval_position_1	1217983	0	1	30089	3	0	29920
+MG36HRX	85	Response	20	1228276	10293	4
+MG36HRX	86	Picture	ITI	1248239	0	2	22568	3	0	22420
+MG36HRX	87	Picture	CueingCross	1270974	0	1	3009	2	0	2920
+MG36HRX	88	Picture	PrepTime	1274150	0	1	3009	2	0	2920
+MG36HRX	89	Picture	1_15_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2000_3000_2200_gabor_patch_orientation_162_040_104_128_target_position_1_3_retrieval_position_1	1277326	0	1	1337	2	0	1250
+MG36HRX	89	Picture	Flicker2	1278663	1337	1	1338	2	1250	1250
+MG36HRX	89	Picture	Flicker3	1280001	2675	1	1337	2	2500	1250
+MG36HRX	90	Picture	Delay	1281505	0	1	20060	2	0	19920
+MG36HRX	91	Picture	1_15_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_162_retrieval_position_1	1301732	0	1	30089	2	0	29920
+MG36HRX	91	Response	10	1312455	10723	4
+MG36HRX	92	Picture	ITI	1331988	0	2	22066	3	0	21920
+MG36HRX	93	Picture	CueingCross	1354221	0	2	3009	3	0	2920
+MG36HRX	94	Picture	PrepTime	1357397	0	2	3009	3	0	2920
+MG36HRX	95	Picture	1_16_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1950_3000_2300_gabor_patch_orientation_124_006_042_170_target_position_2_3_retrieval_position_3	1360573	0	2	1338	3	0	1250
+MG36HRX	95	Picture	Flicker2	1361911	1338	1	1337	2	1250	1250
+MG36HRX	95	Picture	Flicker3	1363248	2675	1	1337	3	2500	1250
+MG36HRX	96	Picture	Delay	1364753	0	1	19558	2	0	19420
+MG36HRX	97	Picture	1_16_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_042_retrieval_position_3	1384478	0	1	30089	2	0	29920
+MG36HRX	97	Response	20	1406524	22046	4
+MG36HRX	98	Picture	ITI	1414734	0	2	23069	3	0	22920
+MG36HRX	99	Picture	CueingCross	1437970	0	1	3009	2	0	2920
+MG36HRX	100	Picture	PrepTime	1441146	0	2	3009	3	0	2920
+MG36HRX	101	Picture	1_17_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_2600_gabor_patch_orientation_073_003_021_051_target_position_2_3_retrieval_position_3	1444322	0	2	1338	3	0	1250
+MG36HRX	101	Picture	Flicker2	1445660	1338	1	1337	2	1250	1250
+MG36HRX	101	Picture	Flicker3	1446997	2675	1	1337	2	2500	1250
+MG36HRX	102	Picture	Delay	1448502	0	1	18053	2	0	17920
+MG36HRX	103	Picture	1_17_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_161_retrieval_position_3	1466722	0	2	30090	3	0	29920
+MG36HRX	103	Response	20	1477583	10861	4
+MG36HRX	104	Picture	ITI	1496979	0	1	26078	2	0	25920
+MG36HRX	105	Picture	CueingCross	1523224	0	1	3009	2	0	2920
+MG36HRX	106	Picture	PrepTime	1526400	0	1	3009	2	0	2920
+MG36HRX	107	Picture	1_18_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1850_3000_2450_gabor_patch_orientation_052_073_121_158_target_position_2_3_retrieval_position_1	1529576	0	1	1337	2	0	1250
+MG36HRX	107	Picture	Flicker2	1530913	1337	1	1337	3	1250	1250
+MG36HRX	107	Picture	Flicker3	1532250	2674	2	1338	3	2500	1250
+MG36HRX	108	Picture	Delay	1533755	0	1	18555	2	0	18420
+MG36HRX	109	Picture	1_18_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_100_retrieval_position_1	1552477	0	2	30090	3	0	29920
+MG36HRX	109	Response	10	1568342	15865	4
+MG36HRX	109	Response	20	1571752	19275	3
+MG36HRX	109	Response	20	1579602	27125	3
+MG36HRX	109	Response	20	1581792	29315	3
+MG36HRX	110	Picture	ITI	1582734	0	1	24573	2	0	24420
+MG36HRX	110	Response	20	1583772	1038	4
+MG36HRX	111	Picture	CueingCross	1607474	0	1	3009	2	0	2920
+MG36HRX	112	Picture	PrepTime	1610650	0	1	3009	3	0	2920
+MG36HRX	113	Picture	1_19_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_2150_gabor_patch_orientation_036_058_090_163_target_position_3_4_retrieval_position_4	1613826	0	2	1338	3	0	1250
+MG36HRX	113	Picture	Flicker2	1615164	1338	1	1337	2	1250	1250
+MG36HRX	113	Picture	Flicker3	1616501	2675	1	1337	2	2500	1250
+MG36HRX	114	Picture	Delay	1618005	0	2	18054	3	0	17920
+MG36HRX	115	Picture	1_19_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_116_retrieval_position_4	1636226	0	1	30090	2	0	29920
+MG36HRX	115	Response	20	1654751	18525	4
+MG36HRX	116	Picture	ITI	1666483	0	1	21564	2	0	21420
+MG36HRX	117	Picture	CueingCross	1688214	0	1	3009	2	0	2920
+MG36HRX	118	Picture	PrepTime	1691390	0	1	3009	2	0	2920
+MG36HRX	119	Picture	1_20_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2100_3000_2400_gabor_patch_orientation_130_113_146_096_target_position_1_4_retrieval_position_1	1694566	0	2	1338	3	0	1250
+MG36HRX	119	Picture	Flicker2	1695904	1338	1	1337	2	1250	1250
+MG36HRX	119	Picture	Flicker3	1697241	2675	1	1337	2	2500	1250
+MG36HRX	120	Picture	Delay	1698745	0	2	21063	3	0	20920
+MG36HRX	121	Picture	1_20_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_130_retrieval_position_1	1719975	0	1	30090	2	0	29920
+MG36HRX	121	Response	10	1728681	8706	4
+MG36HRX	122	Picture	ITI	1750232	0	1	24071	2	0	23920
+MG36HRX	123	Picture	CueingCross	1774471	0	1	3008	3	0	2920
+MG36HRX	124	Picture	PrepTime	1777647	0	1	3009	2	0	2920
+MG36HRX	125	Picture	1_21_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2250_3000_1900_gabor_patch_orientation_132_173_002_116_target_position_2_3_retrieval_position_3	1780823	0	1	1337	2	0	1250
+MG36HRX	125	Picture	Flicker2	1782160	1337	1	1337	2	1250	1250
+MG36HRX	125	Picture	Flicker3	1783497	2674	1	1338	2	2500	1250
+MG36HRX	126	Picture	Delay	1785002	0	1	22567	2	0	22420
+MG36HRX	127	Picture	1_21_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_048_retrieval_position_3	1807736	0	1	30090	2	0	29920
+MG36HRX	127	Response	20	1817130	9394	3
+MG36HRX	128	Picture	ITI	1837993	0	1	19056	2	0	18920
+MG36HRX	129	Picture	CueingCross	1857216	0	2	3009	4	0	2920
+MG36HRX	130	Picture	PrepTime	1860393	0	1	3009	2	0	2920
+MG36HRX	131	Picture	1_22_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1750_3000_2300_gabor_patch_orientation_136_031_052_072_target_position_3_4_retrieval_position_1	1863569	0	1	1337	2	0	1250
+MG36HRX	131	Picture	Flicker2	1864906	1337	1	1337	2	1250	1250
+MG36HRX	131	Picture	Flicker3	1866243	2674	1	1338	2	2500	1250
+MG36HRX	132	Picture	Delay	1867748	0	1	17552	2	0	17420
+MG36HRX	133	Picture	1_22_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_090_retrieval_position_1	1885467	0	1	30090	2	0	29920
+MG36HRX	133	Response	20	1896469	11002	3
+MG36HRX	134	Picture	ITI	1915724	0	1	23068	2	0	22920
+MG36HRX	135	Picture	CueingCross	1938959	0	2	3009	4	0	2920
+MG36HRX	136	Picture	PrepTime	1942136	0	1	3009	2	0	2920
+MG36HRX	137	Picture	1_23_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2100_3000_2450_gabor_patch_orientation_034_177_066_090_target_position_1_3_retrieval_position_3	1945312	0	1	1337	2	0	1250
+MG36HRX	137	Picture	Flicker2	1946649	1337	1	1337	2	1250	1250
+MG36HRX	137	Picture	Flicker3	1947986	2674	1	1338	2	2500	1250
+MG36HRX	138	Picture	Delay	1949491	0	1	21062	3	0	20920
+MG36HRX	139	Picture	1_23_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_066_retrieval_position_3	1970721	0	1	30089	2	0	29920
+MG36HRX	139	Response	10	1988128	17407	3
+MG36HRX	140	Picture	ITI	2000977	0	1	24573	2	0	24420
+MG36HRX	141	Picture	CueingCross	2025717	0	2	3009	3	0	2920
+MG36HRX	142	Picture	PrepTime	2028894	0	1	3008	3	0	2920
+MG36HRX	143	Picture	1_24_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1850_3000_2450_gabor_patch_orientation_101_162_073_011_target_position_2_3_retrieval_position_3	2032070	0	1	1337	2	0	1250
+MG36HRX	143	Picture	Flicker2	2033407	1337	1	1337	2	1250	1250
+MG36HRX	143	Picture	Flicker3	2034744	2674	1	1338	2	2500	1250
+MG36HRX	144	Picture	Delay	2036249	0	1	18555	2	0	18420
+MG36HRX	145	Picture	1_24_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_073_retrieval_position_3	2054971	0	1	30089	3	0	29920
+MG36HRX	145	Response	10	2066117	11146	3
+MG36HRX	146	Picture	ITI	2085228	0	1	24573	2	0	24420
+MG36HRX	147	Picture	CueingCross	2109968	0	1	3009	2	0	2920
+MG36HRX	148	Picture	PrepTime	2113144	0	1	3009	2	0	2920
+MG36HRX	149	Picture	1_25_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1900_3000_2100_gabor_patch_orientation_137_006_158_081_target_position_2_4_retrieval_position_4	2116320	0	1	1337	2	0	1250
+MG36HRX	149	Picture	Flicker2	2117657	1337	1	1338	2	1250	1250
+MG36HRX	149	Picture	Flicker3	2118995	2675	1	1337	2	2500	1250
+MG36HRX	150	Picture	Delay	2120499	0	1	19057	2	0	18920
+MG36HRX	151	Picture	1_25_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_031_retrieval_position_4	2139723	0	1	30089	3	0	29920
+MG36HRX	151	Response	10	2154136	14413	4
+MG36HRX	152	Picture	ITI	2169980	0	1	21062	2	0	20920
+MG36HRX	153	Picture	CueingCross	2191209	0	2	3009	3	0	2920
+MG36HRX	154	Picture	PrepTime	2194385	0	2	3009	4	0	2920
+MG36HRX	155	Picture	1_26_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1850_3000_2400_gabor_patch_orientation_067_123_157_141_target_position_1_3_retrieval_position_2	2197562	0	1	1337	2	0	1250
+MG36HRX	155	Picture	Flicker2	2198899	1337	1	1337	2	1250	1250
+MG36HRX	155	Picture	Flicker3	2200236	2674	1	1337	3	2500	1250
+MG36HRX	156	Picture	Delay	2201741	0	1	18555	2	0	18420
+MG36HRX	157	Picture	1_26_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_123_retrieval_position_2	2220463	0	1	30089	3	0	29920
+MG36HRX	157	Response	10	2237095	16632	4
+MG36HRX	158	Picture	ITI	2250720	0	1	24071	2	0	23920
+MG36HRX	159	Picture	CueingCross	2274958	0	2	3009	3	0	2920
+MG36HRX	160	Picture	PrepTime	2278134	0	2	3009	3	0	2920
+MG36HRX	161	Picture	1_27_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2050_3000_2600_gabor_patch_orientation_006_158_140_122_target_position_2_4_retrieval_position_4	2281310	0	2	1338	3	0	1250
+MG36HRX	161	Picture	Flicker2	2282648	1338	1	1337	2	1250	1250
+MG36HRX	161	Picture	Flicker3	2283985	2675	1	1337	3	2500	1250
+MG36HRX	162	Picture	Delay	2285490	0	1	20561	2	0	20420
+MG36HRX	163	Picture	1_27_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_122_retrieval_position_4	2306218	0	1	30089	2	0	29920
+MG36HRX	163	Response	10	2322594	16376	4
+MG36HRX	164	Picture	ITI	2336474	0	2	26078	3	0	25920
+MG36HRX	165	Picture	CueingCross	2362719	0	1	3009	2	0	2920
+MG36HRX	166	Picture	PrepTime	2365895	0	1	3009	2	0	2920
+MG36HRX	167	Picture	1_28_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2250_3000_2450_gabor_patch_orientation_012_088_137_167_target_position_1_2_retrieval_position_1	2369071	0	2	1338	3	0	1250
+MG36HRX	167	Picture	Flicker2	2370409	1338	1	1337	2	1250	1250
+MG36HRX	167	Picture	Flicker3	2371746	2675	1	1337	2	2500	1250
+MG36HRX	168	Picture	Delay	2373250	0	7	22568	8	0	22420
+MG36HRX	169	Picture	1_28_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_058_retrieval_position_1	2395985	0	1	30089	2	0	29920
+MG36HRX	169	Response	20	2409653	13668	4
+MG36HRX	170	Picture	ITI	2426241	0	2	24573	3	0	24420
+MG36HRX	171	Picture	CueingCross	2450982	0	1	3008	3	0	2920
+MG36HRX	172	Picture	PrepTime	2454158	0	1	3009	2	0	2920
+MG36HRX	173	Picture	1_29_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2050_3000_2350_gabor_patch_orientation_037_124_096_015_target_position_1_2_retrieval_position_1	2457334	0	1	1337	2	0	1250
+MG36HRX	173	Picture	Flicker2	2458671	1337	1	1337	2	1250	1250
+MG36HRX	173	Picture	Flicker3	2460008	2674	1	1338	2	2500	1250
+MG36HRX	174	Picture	Delay	2461513	0	1	20561	2	0	20420
+MG36HRX	175	Picture	1_29_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_037_retrieval_position_1	2482241	0	1	30090	2	0	29920
+MG36HRX	175	Response	10	2491782	9541	4
+MG36HRX	176	Picture	ITI	2512498	0	1	23570	2	0	23420
+MG36HRX	177	Picture	CueingCross	2536235	0	1	3009	2	0	2920
+MG36HRX	178	Picture	PrepTime	2539411	0	1	3009	2	0	2920
+MG36HRX	179	Picture	1_30_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1750_3000_2000_gabor_patch_orientation_056_006_166_135_target_position_2_3_retrieval_position_4	2542587	0	1	1337	3	0	1250
+MG36HRX	179	Picture	Flicker2	2543924	1337	2	1338	3	1250	1250
+MG36HRX	179	Picture	Flicker3	2545262	2675	1	1337	2	2500	1250
+MG36HRX	180	Picture	Delay	2546766	0	2	17552	4	0	17420
+MG36HRX	181	Picture	1_30_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_135_retrieval_position_4	2564486	0	1	30089	2	0	29920
+MG36HRX	181	Response	10	2581451	16965	4
+MG36HRX	182	Picture	ITI	2594742	0	2	20060	3	0	19920
+MG36HRX	183	Picture	CueingCross	2614969	0	1	3009	2	0	2920
+MG36HRX	184	Picture	PrepTime	2618145	0	1	3009	2	0	2920
+MG36HRX	185	Picture	1_31_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2000_3000_2100_gabor_patch_orientation_092_179_152_028_target_position_1_3_retrieval_position_3	2621321	0	1	1338	2	0	1250
+MG36HRX	185	Picture	Flicker2	2622659	1338	1	1337	2	1250	1250
+MG36HRX	185	Picture	Flicker3	2623996	2675	1	1337	2	2500	1250
+MG36HRX	186	Picture	Delay	2625500	0	2	20060	3	0	19920
+MG36HRX	187	Picture	1_31_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_152_retrieval_position_3	2645727	0	1	30090	2	0	29920
+MG36HRX	187	Response	10	2655071	9344	3
+MG36HRX	188	Picture	ITI	2675984	0	1	21062	2	0	20920
+MG36HRX	189	Picture	CueingCross	2697213	0	2	3009	4	0	2920
+MG36HRX	190	Picture	PrepTime	2700390	0	1	3009	2	0	2920
+MG36HRX	191	Picture	1_32_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2000_3000_2250_gabor_patch_orientation_013_168_099_143_target_position_1_3_retrieval_position_1	2703566	0	1	1337	2	0	1250
+MG36HRX	191	Picture	Flicker2	2704903	1337	1	1337	2	1250	1250
+MG36HRX	191	Picture	Flicker3	2706240	2674	1	1338	2	2500	1250
+MG36HRX	192	Picture	Delay	2707745	0	1	20059	3	0	19920
+MG36HRX	193	Picture	1_32_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_013_retrieval_position_1	2727972	0	1	30089	2	0	29920
+MG36HRX	193	Response	10	2738800	10828	3
+MG36HRX	194	Picture	ITI	2758228	0	1	22567	2	0	22420
+MG36HRX	195	Picture	CueingCross	2780962	0	2	3009	3	0	2920
+MG36HRX	196	Picture	PrepTime	2784139	0	1	3008	3	0	2920
+MG36HRX	197	Picture	1_33_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1750_3000_2350_gabor_patch_orientation_098_041_128_162_target_position_2_3_retrieval_position_3	2787315	0	1	1337	2	0	1250
+MG36HRX	197	Picture	Flicker2	2788652	1337	1	1337	2	1250	1250
+MG36HRX	197	Picture	Flicker3	2789989	2674	1	1337	3	2500	1250
+MG36HRX	198	Picture	Delay	2791494	0	1	17552	2	0	17420
+MG36HRX	199	Picture	1_33_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_128_retrieval_position_3	2809213	0	1	30090	2	0	29920
+MG36HRX	199	Response	10	2818089	8876	3
+MG36HRX	200	Picture	ITI	2839470	0	1	23570	2	0	23420
+MG36HRX	201	Picture	CueingCross	2863207	0	1	3009	2	0	2920
+MG36HRX	202	Picture	PrepTime	2866383	0	2	3009	3	0	2920
+MG36HRX	203	Picture	1_34_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2200_3000_2550_gabor_patch_orientation_120_003_154_175_target_position_2_3_retrieval_position_2	2869559	0	1	1337	3	0	1250
+MG36HRX	203	Picture	Flicker2	2870896	1337	2	1338	3	1250	1250
+MG36HRX	203	Picture	Flicker3	2872234	2675	1	1337	2	2500	1250
+MG36HRX	204	Picture	Delay	2873738	0	1	22066	2	0	21920
+MG36HRX	205	Picture	1_34_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_003_retrieval_position_2	2895971	0	1	30089	3	0	29920
+MG36HRX	205	Response	10	2915718	19747	3
+MG36HRX	206	Picture	ITI	2926228	0	1	25576	2	0	25420
+MG36HRX	207	Picture	CueingCross	2951971	0	1	3009	2	0	2920
+MG36HRX	208	Picture	PrepTime	2955147	0	1	3009	2	0	2920
+MG36HRX	209	Picture	1_35_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2250_3000_1950_gabor_patch_orientation_131_014_065_103_target_position_2_4_retrieval_position_2	2958323	0	1	1337	3	0	1250
+MG36HRX	209	Picture	Flicker2	2959660	1337	2	1337	4	1250	1250
+MG36HRX	209	Picture	Flicker3	2960997	2674	2	1338	3	2500	1250
+MG36HRX	210	Picture	Delay	2962502	0	1	22567	2	0	22420
+MG36HRX	211	Picture	1_35_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_014_retrieval_position_2	2985236	0	2	30090	3	0	29920
+MG36HRX	211	Response	10	2995727	10491	3
+MG36HRX	212	Picture	ITI	3015493	0	1	19558	2	0	19420
+MG36HRX	213	Picture	CueingCross	3035218	0	1	3009	2	0	2920
+MG36HRX	214	Picture	PrepTime	3038394	0	2	3009	3	0	2920
+MG36HRX	215	Picture	1_36_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1850_3000_2200_gabor_patch_orientation_133_110_177_048_target_position_2_3_retrieval_position_4	3041570	0	2	1338	3	0	1250
+MG36HRX	215	Picture	Flicker2	3042908	1338	1	1337	2	1250	1250
+MG36HRX	215	Picture	Flicker3	3044245	2675	1	1337	2	2500	1250
+MG36HRX	216	Picture	Delay	3045750	0	1	18555	2	0	18420
+MG36HRX	217	Picture	1_36_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_048_retrieval_position_4	3064472	0	1	30089	2	0	29920
+MG36HRX	217	Response	10	3080746	16274	4
+MG36HRX	218	Picture	ITI	3094728	0	2	22066	3	0	21920
+MG36HRX	219	Picture	CueingCross	3116961	0	1	3009	2	0	2920
+MG36HRX	220	Picture	PrepTime	3120137	0	2	3009	3	0	2920
+MG36HRX	221	Picture	1_37_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1850_3000_2050_gabor_patch_orientation_019_107_075_144_target_position_2_3_retrieval_position_2	3123313	0	2	1338	3	0	1250
+MG36HRX	221	Picture	Flicker2	3124651	1338	1	1337	2	1250	1250
+MG36HRX	221	Picture	Flicker3	3125988	2675	1	1337	2	2500	1250
+MG36HRX	222	Picture	Delay	3127493	0	1	18555	2	0	18420
+MG36HRX	223	Picture	1_37_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_057_retrieval_position_2	3146215	0	1	30089	3	0	29920
+MG36HRX	223	Response	20	3154995	8780	4
+MG36HRX	223	Response	20	3175725	29510	3
+MG36HRX	224	Picture	ITI	3176471	0	2	20562	3	0	20420
+MG36HRX	225	Picture	CueingCross	3197200	0	1	3009	2	0	2920
+MG36HRX	226	Picture	PrepTime	3200376	0	1	3009	2	0	2920
+MG36HRX	227	Picture	1_38_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1900_3000_1950_gabor_patch_orientation_176_024_129_060_target_position_1_2_retrieval_position_1	3203552	0	1	1337	2	0	1250
+MG36HRX	227	Picture	Flicker2	3204889	1337	1	1338	2	1250	1250
+MG36HRX	227	Picture	Flicker3	3206227	2675	1	1337	2	2500	1250
+MG36HRX	228	Picture	Delay	3207731	0	1	19057	2	0	18920
+MG36HRX	229	Picture	1_38_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_041_retrieval_position_1	3226955	0	1	30089	2	0	29920
+MG36HRX	229	Response	20	3234524	7569	5
+MG36HRX	230	Picture	ITI	3257211	0	2	19559	3	0	19420
+MG36HRX	231	Picture	CueingCross	3276937	0	1	3009	2	0	2920
+MG36HRX	232	Picture	PrepTime	3280113	0	1	3009	2	0	2920
+MG36HRX	233	Picture	1_39_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1800_3000_2150_gabor_patch_orientation_045_170_155_119_target_position_1_4_retrieval_position_1	3283289	0	1	1337	2	0	1250
+MG36HRX	233	Picture	Flicker2	3284626	1337	1	1338	2	1250	1250
+MG36HRX	233	Picture	Flicker3	3285964	2675	1	1337	2	2500	1250
+MG36HRX	234	Picture	Delay	3287468	0	1	18054	2	0	17920
+MG36HRX	235	Picture	1_39_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_045_retrieval_position_1	3305689	0	1	30089	2	0	29920
+MG36HRX	235	Response	10	3313594	7905	3
+MG36HRX	236	Picture	ITI	3335946	0	1	21564	2	0	21420
+MG36HRX	237	Picture	CueingCross	3357677	0	1	3009	2	0	2920
+MG36HRX	238	Picture	PrepTime	3360853	0	1	3009	2	0	2920
+MG36HRX	239	Picture	1_40_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2000_3000_2100_gabor_patch_orientation_123_033_168_055_target_position_1_3_retrieval_position_1	3364029	0	1	1337	2	0	1250
+MG36HRX	239	Picture	Flicker2	3365366	1337	1	1338	2	1250	1250
+MG36HRX	239	Picture	Flicker3	3366704	2675	1	1337	2	2500	1250
+MG36HRX	240	Picture	Delay	3368208	0	1	20060	2	0	19920
+MG36HRX	241	Picture	1_40_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_078_retrieval_position_1	3388435	0	1	30089	2	0	29920
+MG36HRX	241	Response	20	3398553	10118	3
+MG36HRX	242	Picture	ITI	3418692	0	1	21062	2	0	20920
+MG36HRX	243	Picture	CueingCross	3439921	0	2	3009	3	0	2920
+MG36HRX	244	Picture	PrepTime	3443097	0	2	3009	3	0	2920
+MG36HRX	245	Picture	1_41_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1800_3000_2550_gabor_patch_orientation_134_115_073_090_target_position_1_4_retrieval_position_2	3446273	0	2	1338	3	0	1250
+MG36HRX	245	Picture	Flicker2	3447611	1338	1	1337	2	1250	1250
+MG36HRX	245	Picture	Flicker3	3448948	2675	1	1337	2	2500	1250
+MG36HRX	246	Picture	Delay	3450453	0	1	18053	2	0	17920
+MG36HRX	247	Picture	1_41_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_161_retrieval_position_2	3468673	0	2	30090	3	0	29920
+MG36HRX	247	Response	20	3483242	14569	3
+MG36HRX	248	Picture	ITI	3498930	0	1	25576	2	0	25420
+MG36HRX	249	Picture	CueingCross	3524673	0	1	3009	2	0	2920
+MG36HRX	250	Picture	PrepTime	3527849	0	2	3009	3	0	2920
+MG36HRX	251	Picture	1_42_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1850_3000_2050_gabor_patch_orientation_047_176_127_152_target_position_2_4_retrieval_position_4	3531025	0	2	1338	3	0	1250
+MG36HRX	251	Picture	Flicker2	3532363	1338	1	1337	2	1250	1250
+MG36HRX	251	Picture	Flicker3	3533700	2675	1	1337	2	2500	1250
+MG36HRX	252	Picture	Delay	3535205	0	1	18555	2	0	18420
+MG36HRX	253	Picture	1_42_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_152_retrieval_position_4	3553927	0	1	30089	2	0	29920
+MG36HRX	253	Response	10	3568661	14734	3
+MG36HRX	254	Picture	ITI	3584183	0	2	20562	3	0	20420
+MG36HRX	255	Picture	CueingCross	3604912	0	1	3009	2	0	2920
+MG36HRX	256	Picture	PrepTime	3608088	0	1	3009	2	0	2920
+MG36HRX	257	Picture	1_43_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1900_3000_2250_gabor_patch_orientation_089_031_162_005_target_position_1_2_retrieval_position_1	3611264	0	1	1337	2	0	1250
+MG36HRX	257	Picture	Flicker2	3612601	1337	1	1338	2	1250	1250
+MG36HRX	257	Picture	Flicker3	3613939	2675	1	1337	2	2500	1250
+MG36HRX	258	Picture	Delay	3615443	0	1	19057	2	0	18920
+MG36HRX	259	Picture	1_43_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_137_retrieval_position_1	3634667	0	1	30089	2	0	29920
+MG36HRX	259	Response	20	3644380	9713	3
+MG36HRX	260	Picture	ITI	3664923	0	2	22568	3	0	22420
+MG36HRX	261	Picture	CueingCross	3687658	0	1	3009	2	0	2920
+MG36HRX	262	Picture	PrepTime	3690834	0	1	3009	2	0	2920
+MG36HRX	263	Picture	1_44_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2250_3000_1950_gabor_patch_orientation_089_123_006_148_target_position_2_3_retrieval_position_2	3694010	0	1	1337	2	0	1250
+MG36HRX	263	Picture	Flicker2	3695347	1337	1	1337	3	1250	1250
+MG36HRX	263	Picture	Flicker3	3696684	2674	2	1338	3	2500	1250
+MG36HRX	264	Picture	Delay	3698189	0	1	22567	2	0	22420
+MG36HRX	265	Picture	1_44_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_073_retrieval_position_2	3720923	0	1	30090	2	0	29920
+MG36HRX	265	Response	20	3731989	11066	4
+MG36HRX	266	Picture	ITI	3751180	0	1	19558	2	0	19420
+MG36HRX	267	Picture	CueingCross	3770905	0	1	3009	2	0	2920
+MG36HRX	268	Picture	PrepTime	3774081	0	1	3009	2	0	2920
+MG36HRX	269	Picture	1_45_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1900_3000_1900_gabor_patch_orientation_075_127_046_015_target_position_1_3_retrieval_position_3	3777257	0	2	1338	3	0	1250
+MG36HRX	269	Picture	Flicker2	3778595	1338	1	1337	2	1250	1250
+MG36HRX	269	Picture	Flicker3	3779932	2675	1	1337	2	2500	1250
+MG36HRX	270	Picture	Delay	3781436	0	2	19057	3	0	18920
+MG36HRX	271	Picture	1_45_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_046_retrieval_position_3	3800660	0	2	30090	3	0	29920
+MG36HRX	271	Response	10	3818188	17528	4
+MG36HRX	272	Picture	ITI	3830917	0	1	19057	2	0	18920
+MG36HRX	273	Picture	CueingCross	3850141	0	1	3009	2	0	2920
+MG36HRX	274	Picture	PrepTime	3853317	0	1	3009	2	0	2920
+MG36HRX	275	Picture	1_46_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1800_3000_2500_gabor_patch_orientation_074_053_005_036_target_position_1_4_retrieval_position_1	3856493	0	1	1337	2	0	1250
+MG36HRX	275	Picture	Flicker2	3857830	1337	1	1338	2	1250	1250
+MG36HRX	275	Picture	Flicker3	3859168	2675	1	1337	2	2500	1250
+MG36HRX	276	Picture	Delay	3860672	0	1	18054	2	0	17920
+MG36HRX	277	Picture	1_46_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_074_retrieval_position_1	3878893	0	1	30089	2	0	29920
+MG36HRX	277	Response	10	3888387	9494	4
+MG36HRX	278	Picture	ITI	3909149	0	2	25075	3	0	24920
+MG36HRX	279	Picture	CueingCross	3934391	0	1	3009	2	0	2920
+MG36HRX	280	Picture	PrepTime	3937567	0	1	3009	2	0	2920
+MG36HRX	281	Picture	1_47_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1900_3000_2350_gabor_patch_orientation_157_128_096_076_target_position_1_2_retrieval_position_3	3940743	0	2	1338	3	0	1250
+MG36HRX	281	Picture	Flicker2	3942081	1338	1	1337	2	1250	1250
+MG36HRX	281	Picture	Flicker3	3943418	2675	1	1337	2	2500	1250
+MG36HRX	282	Picture	Delay	3944922	0	2	19057	3	0	18920
+MG36HRX	283	Picture	1_47_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_096_retrieval_position_3	3964146	0	1	30090	2	0	29920
+MG36HRX	283	Response	10	3975146	11000	4
+MG36HRX	284	Picture	ITI	3994403	0	1	23569	3	0	23420
+MG36HRX	285	Picture	CueingCross	4018140	0	1	3009	2	0	2920
+MG36HRX	286	Picture	PrepTime	4021316	0	1	3009	2	0	2920
+MG36HRX	287	Picture	1_48_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1950_3000_2400_gabor_patch_orientation_085_108_044_161_target_position_1_4_retrieval_position_1	4024492	0	2	1338	3	0	1250
+MG36HRX	287	Picture	Flicker2	4025830	1338	1	1337	2	1250	1250
+MG36HRX	287	Picture	Flicker3	4027167	2675	1	1337	2	2500	1250
+MG36HRX	288	Picture	Delay	4028671	0	2	19559	3	0	19420
+MG36HRX	289	Picture	1_48_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_134_retrieval_position_1	4048397	0	1	30089	2	0	29920
+MG36HRX	289	Response	20	4061006	12609	3
+MG36HRX	290	Picture	ITI	4078653	0	2	24072	3	0	23920
+MG36HRX	291	Picture	CueingCross	4102892	0	1	3009	2	0	2920
+MG36HRX	292	Picture	PrepTime	4106068	0	2	3009	3	0	2920
+MG36HRX	293	Picture	1_49_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2000_3000_2000_gabor_patch_orientation_090_123_036_013_target_position_3_4_retrieval_position_4	4109244	0	1	1338	2	0	1250
+MG36HRX	293	Picture	Flicker2	4110582	1338	1	1337	2	1250	1250
+MG36HRX	293	Picture	Flicker3	4111919	2675	1	1337	2	2500	1250
+MG36HRX	294	Picture	Delay	4113423	0	2	20060	3	0	19920
+MG36HRX	295	Picture	1_49_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_013_retrieval_position_4	4133650	0	1	30090	2	0	29920
+MG36HRX	295	Response	10	4147655	14005	3
+MG36HRX	296	Picture	ITI	4163907	0	1	20059	2	0	19920
+MG36HRX	297	Picture	CueingCross	4184133	0	2	3009	4	0	2920
+MG36HRX	298	Picture	PrepTime	4187310	0	1	3009	2	0	2920
+MG36HRX	299	Picture	1_50_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2100_3000_2300_gabor_patch_orientation_137_097_178_007_target_position_1_2_retrieval_position_2	4190486	0	1	1337	2	0	1250
+MG36HRX	299	Picture	Flicker2	4191823	1337	1	1337	2	1250	1250
+MG36HRX	299	Picture	Flicker3	4193160	2674	1	1338	2	2500	1250
+MG36HRX	300	Picture	Delay	4194665	0	1	21062	3	0	20920
+MG36HRX	301	Picture	1_50_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_051_retrieval_position_2	4215895	0	1	30089	2	0	29920
+MG36HRX	301	Response	20	4224334	8439	3
+MG36HRX	302	Picture	ITI	4246151	0	2	23069	3	0	22920
+MG36HRX	303	Picture	CueingCross	4269387	0	1	3009	2	0	2920
+MG36HRX	304	Picture	PrepTime	4272563	0	1	3009	2	0	2920
+MG36HRX	305	Picture	1_51_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1850_3000_2350_gabor_patch_orientation_017_107_036_141_target_position_2_4_retrieval_position_3	4275739	0	1	1337	3	0	1250
+MG36HRX	305	Picture	Flicker2	4277076	1337	2	1338	3	1250	1250
+MG36HRX	305	Picture	Flicker3	4278414	2675	1	1337	2	2500	1250
+MG36HRX	306	Picture	Delay	4279918	0	2	18555	4	0	18420
+MG36HRX	307	Picture	1_51_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_173_retrieval_position_3	4298641	0	1	30089	2	0	29920
+MG36HRX	307	Response	20	4311993	13352	3
+MG36HRX	308	Picture	ITI	4328897	0	1	23570	2	0	23420
+MG36HRX	309	Picture	CueingCross	4352634	0	2	3009	3	0	2920
+MG36HRX	310	Picture	PrepTime	4355810	0	2	3009	4	0	2920
+MG36HRX	311	Picture	1_52_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1950_3000_2150_gabor_patch_orientation_038_146_064_115_target_position_2_3_retrieval_position_2	4358987	0	1	1337	2	0	1250
+MG36HRX	311	Picture	Flicker2	4360324	1337	1	1337	2	1250	1250
+MG36HRX	311	Picture	Flicker3	4361661	2674	1	1338	2	2500	1250
+MG36HRX	312	Picture	Delay	4363166	0	1	19558	2	0	19420
+MG36HRX	313	Picture	1_52_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_006_retrieval_position_2	4382891	0	1	30089	3	0	29920
+MG36HRX	313	Response	20	4392042	9151	4
+MG36HRX	314	Picture	ITI	4413148	0	1	21564	2	0	21420
+MG36HRX	315	Picture	CueingCross	4434879	0	1	3009	2	0	2920
+MG36HRX	316	Picture	PrepTime	4438055	0	1	3009	2	0	2920
+MG36HRX	317	Picture	1_53_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1750_3000_2600_gabor_patch_orientation_124_061_016_175_target_position_2_3_retrieval_position_3	4441231	0	1	1337	2	0	1250
+MG36HRX	317	Picture	Flicker2	4442568	1337	1	1338	2	1250	1250
+MG36HRX	317	Picture	Flicker3	4443906	2675	1	1337	2	2500	1250
+MG36HRX	318	Picture	Delay	4445410	0	1	17552	3	0	17420
+MG36HRX	319	Picture	1_53_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_016_retrieval_position_3	4463130	0	1	30089	2	0	29920
+MG36HRX	319	Response	10	4472871	9741	4
+MG36HRX	320	Picture	ITI	4493386	0	1	26078	2	0	25920
+MG36HRX	321	Picture	CueingCross	4519631	0	1	3009	2	0	2920
+MG36HRX	322	Picture	PrepTime	4522807	0	1	3009	2	0	2920
+MG36HRX	323	Picture	1_54_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1900_3000_2050_gabor_patch_orientation_018_170_126_053_target_position_2_4_retrieval_position_4	4525983	0	1	1337	2	0	1250
+MG36HRX	323	Picture	Flicker2	4527320	1337	1	1338	2	1250	1250
+MG36HRX	323	Picture	Flicker3	4528658	2675	1	1337	2	2500	1250
+MG36HRX	324	Picture	Delay	4530162	0	8	19057	9	0	18920
+MG36HRX	325	Picture	1_54_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_103_retrieval_position_4	4549386	0	1	30089	3	0	29920
+MG36HRX	325	Response	20	4561840	12454	4
+MG36HRX	326	Picture	ITI	4579643	0	1	20561	2	0	20420
+MG36HRX	327	Picture	CueingCross	4600371	0	1	3008	3	0	2920
+MG36HRX	328	Picture	PrepTime	4603547	0	1	3009	2	0	2920
+MG36HRX	329	Picture	1_55_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2150_3000_2050_gabor_patch_orientation_116_057_007_163_target_position_3_4_retrieval_position_4	4606723	0	1	1337	2	0	1250
+MG36HRX	329	Picture	Flicker2	4608060	1337	1	1338	2	1250	1250
+MG36HRX	329	Picture	Flicker3	4609398	2675	1	1337	2	2500	1250
+MG36HRX	330	Picture	Delay	4610902	0	1	21564	2	0	21420
+MG36HRX	331	Picture	1_55_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_028_retrieval_position_4	4632633	0	2	30090	3	0	29920
+MG36HRX	331	Response	20	4645129	12496	4
+MG36HRX	332	Picture	ITI	4662890	0	1	20561	2	0	20420
+MG36HRX	333	Picture	CueingCross	4683618	0	2	3009	3	0	2920
+MG36HRX	334	Picture	PrepTime	4686794	0	2	3009	3	0	2920
+MG36HRX	335	Picture	1_56_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1750_3000_2150_gabor_patch_orientation_168_153_082_001_target_position_2_3_retrieval_position_3	4689971	0	1	1337	2	0	1250
+MG36HRX	335	Picture	Flicker2	4691308	1337	1	1337	2	1250	1250
+MG36HRX	335	Picture	Flicker3	4692645	2674	1	1337	3	2500	1250
+MG36HRX	336	Picture	Delay	4694150	0	1	17552	2	0	17420
+MG36HRX	337	Picture	1_56_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_132_retrieval_position_3	4711869	0	1	30089	2	0	29920
+MG36HRX	337	Response	10	4731828	19959	4
+MG36HRX	338	Picture	ITI	4742126	0	1	21564	2	0	21420
+MG36HRX	339	Picture	CueingCross	4763857	0	1	3009	2	0	2920
+MG36HRX	340	Picture	PrepTime	4767033	0	1	3009	2	0	2920
+MG36HRX	341	Picture	1_57_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2000_3000_2500_gabor_patch_orientation_084_125_107_149_target_position_3_4_retrieval_position_3	4770209	0	1	1337	2	0	1250
+MG36HRX	341	Picture	Flicker2	4771546	1337	1	1338	2	1250	1250
+MG36HRX	341	Picture	Flicker3	4772884	2675	1	1337	2	2500	1250
+MG36HRX	342	Picture	Delay	4774388	0	1	20060	2	0	19920
+MG36HRX	343	Picture	1_57_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_059_retrieval_position_3	4794615	0	1	30089	2	0	29920
+MG36HRX	343	Response	20	4805168	10553	3
+MG36HRX	344	Picture	ITI	4824871	0	2	25075	3	0	24920
+MG36HRX	345	Picture	CueingCross	4850113	0	1	3009	2	0	2920
+MG36HRX	346	Picture	PrepTime	4853289	0	2	3009	3	0	2920
+MG36HRX	347	Picture	1_58_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_2150_3000_2300_gabor_patch_orientation_002_122_050_179_target_position_3_4_retrieval_position_1	4856465	0	2	1338	3	0	1250
+MG36HRX	347	Picture	Flicker2	4857803	1338	1	1337	2	1250	1250
+MG36HRX	347	Picture	Flicker3	4859140	2675	1	1337	2	2500	1250
+MG36HRX	348	Picture	Delay	4860645	0	1	21564	2	0	21420
+MG36HRX	349	Picture	1_58_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_140_retrieval_position_1	4882376	0	1	30089	2	0	29920
+MG36HRX	349	Response	20	4892527	10151	3
+MG36HRX	350	Picture	ITI	4912632	0	2	23069	3	0	22920
+MG36HRX	351	Picture	CueingCross	4935868	0	1	3009	2	0	2920
+MG36HRX	352	Picture	PrepTime	4939044	0	1	3009	2	0	2920
+MG36HRX	353	Picture	1_59_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2200_3000_2000_gabor_patch_orientation_161_029_001_080_target_position_3_4_retrieval_position_3	4942220	0	2	1338	3	0	1250
+MG36HRX	353	Picture	Flicker2	4943558	1338	1	1337	2	1250	1250
+MG36HRX	353	Picture	Flicker3	4944895	2675	1	1337	2	2500	1250
+MG36HRX	354	Picture	Delay	4946399	0	2	22066	3	0	21920
+MG36HRX	355	Picture	1_59_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_001_retrieval_position_3	4968632	0	1	30090	2	0	29920
+MG36HRX	355	Response	10	4982106	13474	3
+MG36HRX	356	Picture	ITI	4998889	0	1	20059	3	0	19920
+MG36HRX	357	Picture	CueingCross	5019116	0	1	3009	2	0	2920
+MG36HRX	358	Picture	PrepTime	5022292	0	1	3009	2	0	2920
+MG36HRX	359	Picture	1_60_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2250_3000_2300_gabor_patch_orientation_139_113_050_161_target_position_1_3_retrieval_position_3	5025468	0	1	1337	2	0	1250
+MG36HRX	359	Picture	Flicker2	5026805	1337	1	1337	3	1250	1250
+MG36HRX	359	Picture	Flicker3	5028142	2674	2	1338	3	2500	1250
+MG36HRX	360	Picture	Delay	5029647	0	1	22567	2	0	22420
+MG36HRX	361	Picture	1_60_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_050_retrieval_position_3	5052381	0	1	30090	2	0	29920
+MG36HRX	361	Response	10	5066925	14544	3
+MG36HRX	362	Picture	ITI	5082638	0	1	23068	2	0	22920
+MG36HRX	363	Picture	CueingCross	5105873	0	2	3009	4	0	2920
+MG36HRX	364	Picture	PrepTime	5109050	0	1	3009	2	0	2920
+MG36HRX	365	Picture	1_61_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_2100_3000_2000_gabor_patch_orientation_179_043_094_121_target_position_1_2_retrieval_position_4	5112226	0	1	1337	2	0	1250
+MG36HRX	365	Picture	Flicker2	5113563	1337	1	1337	2	1250	1250
+MG36HRX	365	Picture	Flicker3	5114900	2674	1	1338	2	2500	1250
+MG36HRX	366	Picture	Delay	5116405	0	1	21062	3	0	20920
+MG36HRX	367	Picture	1_61_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_121_retrieval_position_4	5137635	0	1	30089	2	0	29920
+MG36HRX	367	Response	20	5156334	18699	4
+MG36HRX	368	Picture	ITI	5167891	0	2	20060	3	0	19920
+MG36HRX	369	Picture	CueingCross	5188118	0	1	3009	2	0	2920
+MG36HRX	370	Picture	PrepTime	5191294	0	1	3009	2	0	2920
+MG36HRX	371	Picture	1_62_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2200_3000_2100_gabor_patch_orientation_173_005_093_125_target_position_1_4_retrieval_position_1	5194470	0	1	1337	3	0	1250
+MG36HRX	371	Picture	Flicker2	5195807	1337	2	1338	3	1250	1250
+MG36HRX	371	Picture	Flicker3	5197145	2675	1	1337	2	2500	1250
+MG36HRX	372	Picture	Delay	5198649	0	2	22066	3	0	21920
+MG36HRX	373	Picture	1_62_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_173_retrieval_position_1	5220882	0	1	30089	3	0	29920
+MG36HRX	373	Response	10	5233043	12161	3
+MG36HRX	374	Picture	ITI	5251138	0	2	21063	3	0	20920
+MG36HRX	375	Picture	CueingCross	5272368	0	2	3009	3	0	2920
+MG36HRX	376	Picture	PrepTime	5275545	0	1	3008	3	0	2920
+MG36HRX	377	Picture	1_63_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2150_3000_2250_gabor_patch_orientation_157_046_067_178_target_position_1_2_retrieval_position_1	5278721	0	1	1337	2	0	1250
+MG36HRX	377	Picture	Flicker2	5280058	1337	1	1337	2	1250	1250
+MG36HRX	377	Picture	Flicker3	5281395	2674	1	1338	2	2500	1250
+MG36HRX	378	Picture	Delay	5282900	0	1	21564	2	0	21420
+MG36HRX	379	Picture	1_63_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_019_retrieval_position_1	5304631	0	1	30089	3	0	29920
+MG36HRX	379	Response	20	5315532	10901	4
+MG36HRX	380	Picture	ITI	5334888	0	1	22567	2	0	22420
+MG36HRX	381	Picture	CueingCross	5357622	0	1	3009	2	0	2920
+MG36HRX	382	Picture	PrepTime	5360798	0	1	3009	2	0	2920
+MG36HRX	383	Picture	1_64_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_2150_3000_2350_gabor_patch_orientation_134_150_165_117_target_position_1_3_retrieval_position_2	5363974	0	1	1337	3	0	1250
+MG36HRX	383	Picture	Flicker2	5365311	1337	2	1338	3	1250	1250
+MG36HRX	383	Picture	Flicker3	5366649	2675	1	1337	2	2500	1250
+MG36HRX	384	Picture	Delay	5368153	0	1	21564	2	0	21420
+MG36HRX	385	Picture	1_64_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_010_retrieval_position_2	5389884	0	2	30090	3	0	29920
+MG36HRX	385	Response	20	5399711	9827	4
+MG36HRX	386	Picture	ITI	5420141	0	1	23570	2	0	23420
+MG36HRX	387	Picture	CueingCross	5443878	0	2	3009	4	0	2920
+MG36HRX	388	Picture	PrepTime	5447054	0	2	3009	3	0	2920
+MG36HRX	389	Picture	1_65_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2050_3000_2600_gabor_patch_orientation_007_088_173_153_target_position_1_2_retrieval_position_2	5450230	0	2	1338	3	0	1250
+MG36HRX	389	Picture	Flicker2	5451568	1338	1	1337	2	1250	1250
+MG36HRX	389	Picture	Flicker3	5452905	2675	1	1337	2	2500	1250
+MG36HRX	390	Picture	Delay	5454410	0	1	20561	2	0	20420
+MG36HRX	391	Picture	1_65_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_040_retrieval_position_2	5475138	0	1	30089	2	0	29920
+MG36HRX	391	Response	20	5484210	9072	4
+MG36HRX	392	Picture	ITI	5505394	0	2	26078	3	0	25920
+MG36HRX	393	Picture	CueingCross	5531639	0	2	3009	3	0	2920
+MG36HRX	394	Picture	PrepTime	5534815	0	2	3009	3	0	2920
+MG36HRX	395	Picture	1_66_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2150_3000_2500_gabor_patch_orientation_081_138_050_155_target_position_2_4_retrieval_position_4	5537991	0	2	1338	3	0	1250
+MG36HRX	395	Picture	Flicker2	5539329	1338	1	1337	2	1250	1250
+MG36HRX	395	Picture	Flicker3	5540666	2675	1	1337	2	2500	1250
+MG36HRX	396	Picture	Delay	5542170	0	2	21565	3	0	21420
+MG36HRX	397	Picture	1_66_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_107_retrieval_position_4	5563902	0	1	30089	2	0	29920
+MG36HRX	397	Response	20	5581779	17877	4
+MG36HRX	398	Picture	ITI	5594158	0	2	25075	3	0	24920
+MG36HRX	399	Picture	CueingCross	5619400	0	1	3009	2	0	2920
+MG36HRX	400	Picture	PrepTime	5622576	0	1	3009	2	0	2920
+MG36HRX	401	Picture	1_67_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2050_3000_1900_gabor_patch_orientation_006_160_121_144_target_position_3_4_retrieval_position_3	5625752	0	1	1338	2	0	1250
+MG36HRX	401	Picture	Flicker2	5627090	1338	1	1337	2	1250	1250
+MG36HRX	401	Picture	Flicker3	5628427	2675	1	1337	2	2500	1250
+MG36HRX	402	Picture	Delay	5629931	0	2	20561	4	0	20420
+MG36HRX	403	Picture	1_67_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_121_retrieval_position_3	5650660	0	1	30089	2	0	29920
+MG36HRX	403	Response	10	5661708	11048	4
+MG36HRX	404	Picture	ITI	5680916	0	1	19057	2	0	18920
+MG36HRX	405	Picture	CueingCross	5700140	0	1	3009	2	0	2920
+MG36HRX	406	Picture	PrepTime	5703316	0	1	3009	2	0	2920
+MG36HRX	407	Picture	1_68_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1950_3000_1900_gabor_patch_orientation_099_055_035_125_target_position_2_4_retrieval_position_2	5706492	0	1	1338	2	0	1250
+MG36HRX	407	Picture	Flicker2	5707830	1338	1	1337	2	1250	1250
+MG36HRX	407	Picture	Flicker3	5709167	2675	1	1337	2	2500	1250
+MG36HRX	408	Picture	Delay	5710671	0	2	19558	4	0	19420
+MG36HRX	409	Picture	1_68_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_009_retrieval_position_2	5730397	0	1	30089	2	0	29920
+MG36HRX	409	Response	20	5741087	10690	4
+MG36HRX	410	Picture	ITI	5760653	0	2	19057	3	0	18920
+MG36HRX	411	Picture	CueingCross	5779877	0	1	3008	3	0	2920
+MG36HRX	412	Picture	PrepTime	5783053	0	1	3009	2	0	2920
+MG36HRX	413	Picture	1_69_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1900_3000_2550_gabor_patch_orientation_094_056_162_121_target_position_2_3_retrieval_position_4	5786229	0	1	1338	2	0	1250
+MG36HRX	413	Picture	Flicker2	5787567	1338	1	1337	2	1250	1250
+MG36HRX	413	Picture	Flicker3	5788904	2675	1	1337	2	2500	1250
+MG36HRX	414	Picture	Delay	5790408	0	2	19057	3	0	18920
+MG36HRX	415	Picture	1_69_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_121_retrieval_position_4	5809632	0	1	30090	2	0	29920
+MG36HRX	415	Response	20	5820167	10535	3
+MG36HRX	416	Picture	ITI	5839889	0	1	25576	2	0	25420
+MG36HRX	417	Picture	CueingCross	5865632	0	1	3009	2	0	2920
+MG36HRX	418	Picture	PrepTime	5868808	0	1	3009	2	0	2920
+MG36HRX	419	Picture	1_70_Encoding_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2250_3000_2400_gabor_patch_orientation_082_106_154_041_target_position_1_3_retrieval_position_1	5871984	0	1	1337	3	0	1250
+MG36HRX	419	Picture	Flicker2	5873321	1337	2	1338	3	1250	1250
+MG36HRX	419	Picture	Flicker3	5874659	2675	1	1337	2	2500	1250
+MG36HRX	420	Picture	Delay	5876163	0	2	22567	3	0	22420
+MG36HRX	421	Picture	1_70_Retrieval_Working_Memory_MEG_P4_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_082_retrieval_position_1	5898898	0	1	30089	2	0	29920
+MG36HRX	421	Response	10	5908926	10028	3
+MG36HRX	422	Picture	ITI	5929154	0	1	24072	2	0	23920
+MG36HRX	423	Picture	BaselinePost	5953393	0	1	50149	2	0	50000

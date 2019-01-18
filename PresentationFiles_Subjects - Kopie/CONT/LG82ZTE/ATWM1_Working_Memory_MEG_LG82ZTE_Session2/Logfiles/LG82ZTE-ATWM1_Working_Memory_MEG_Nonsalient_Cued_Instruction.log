@@ -1,0 +1,62 @@
+Scenario - ATWM1_Working_Memory_MEG_nonsalient_cued_instruction
+Logfile written - 02/09/2016 12:52:17
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+LG82ZTE	1	Picture	Instruction_NS_C	27	0	3	100131	4	0	100000
+LG82ZTE	2	Picture	Instruction2	100325	0	1	100129	2	0	100000
+LG82ZTE	3	Picture	Instruction3	200621	0	1	13039	2	0	resp
+LG82ZTE	3	Response	10	213481	12860	3
+LG82ZTE	3A	Response	20	233250	19759	4
+LG82ZTE	4	Picture	Instruction4	233552	0	1	5516	2	0	resp
+LG82ZTE	4	Response	20	238970	5418	3
+LG82ZTE	5	Picture	Instruction5	259127	0	1	1839	2	0	resp
+LG82ZTE	5	Response	10	260939	1812	4
+LG82ZTE	6	Picture	Instruction4	281025	0	1	2173	3	0	resp
+LG82ZTE	6	Response	20	283078	2053	4
+LG82ZTE	7	Picture	Instruction3	303258	0	1	4847	2	0	resp
+LG82ZTE	7	Response	10	307928	4670	3
+LG82ZTE	7A	Response	20	326917	18986	3
+LG82ZTE	8	Picture	Instruction4	327997	0	2	3845	3	0	resp
+LG82ZTE	8	Response	20	331707	3710	3
+LG82ZTE	9	Picture	Instruction_NS_C_TestTrials	351734	0	1	100129	2	0	100000
+LG82ZTE	10	Picture	BaselinePre	452030	0	2	20060	3	0	20000
+LG82ZTE	11	Picture	CueingCross	472257	0	1	3009	2	0	2920
+LG82ZTE	12	Picture	PrepTime	475433	0	1	3009	2	0	2920
+LG82ZTE	13	Picture	2_1_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1850_3000_1900_gabor_patch_orientation_150_003_067_175_target_position_2_3_retrieval_position_3	478609	0	1	1336	3	0	1250
+LG82ZTE	13	Picture	Flicker2	479945	1336	2	1338	3	1250	1250
+LG82ZTE	13	Picture	Flicker3	481283	2674	1	1338	2	2500	1250
+LG82ZTE	14	Picture	Delay	482788	0	1	18555	2	0	18420
+LG82ZTE	15	Picture	2_1_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_113_retrieval_position_3	501510	0	1	30089	2	0	29920
+LG82ZTE	15	Response	20	509511	8001	4
+LG82ZTE	16	Picture	ITI	551658	0	1	19056	2	0	18920
+LG82ZTE	17	Picture	CueingCross	570881	0	2	3009	3	0	2920
+LG82ZTE	18	Picture	PrepTime	574057	0	2	3009	3	0	2920
+LG82ZTE	19	Picture	2_2_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1900_3000_2050_gabor_patch_orientation_096_150_013_167_target_position_1_3_retrieval_position_3	577233	0	2	1338	3	0	1250
+LG82ZTE	19	Picture	Flicker2	578571	1338	1	1337	2	1250	1250
+LG82ZTE	19	Picture	Flicker3	579908	2675	1	1337	2	2500	1250
+LG82ZTE	20	Picture	Delay	581412	0	2	19057	3	0	18920
+LG82ZTE	21	Picture	2_2_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_061_retrieval_position_3	600636	0	1	30089	2	0	29920
+LG82ZTE	21	Response	20	609978	9342	4
+LG82ZTE	22	Picture	ITI	650784	0	1	20561	2	0	20420
+LG82ZTE	23	Picture	CueingCross	671512	0	1	3009	2	0	2920
+LG82ZTE	24	Picture	PrepTime	674688	0	1	3009	2	0	2920
+LG82ZTE	25	Picture	2_3_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1800_3000_2000_gabor_patch_orientation_017_105_132_076_target_position_1_2_retrieval_position_1	677864	0	1	1337	2	0	1250
+LG82ZTE	25	Picture	Flicker2	679201	1337	1	1337	3	1250	1250
+LG82ZTE	25	Picture	Flicker3	680538	2674	2	1338	3	2500	1250
+LG82ZTE	26	Picture	Delay	682043	0	1	18053	2	0	17920
+LG82ZTE	27	Picture	2_3_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_017_retrieval_position_1	700263	0	2	30089	3	0	29920
+LG82ZTE	27	Response	10	708455	8192	5
+LG82ZTE	28	Picture	ITI	750411	0	2	20060	3	0	19920
+LG82ZTE	29	Picture	CueingCross	770638	0	1	3009	2	0	2920
+LG82ZTE	30	Picture	PrepTime	773814	0	1	3008	3	0	2920
+LG82ZTE	31	Picture	2_4_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1750_3000_1950_gabor_patch_orientation_159_128_051_084_target_position_1_4_retrieval_position_1	776990	0	1	1337	2	0	1250
+LG82ZTE	31	Picture	Flicker2	778327	1337	1	1338	2	1250	1250
+LG82ZTE	31	Picture	Flicker3	779665	2675	1	1337	2	2500	1250
+LG82ZTE	32	Picture	Delay	781169	0	1	17552	2	0	17420
+LG82ZTE	33	Picture	2_4_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_159_retrieval_position_1	798888	0	1	30089	2	0	29920
+LG82ZTE	33	Response	10	804722	5834	4
+LG82ZTE	34	Picture	ITI	849036	0	1	19558	2	0	19420
+LG82ZTE	35	Picture	BaselinePost	868761	0	1	20059	2	0	20000
+LG82ZTE	36	Picture	Instruction_NS_C	888987	0	1	59388	2	0	3000000
+LG82ZTE	36	Quit		940110	51123	

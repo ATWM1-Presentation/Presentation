@@ -1,0 +1,59 @@
+Scenario - ATWM1_Working_Memory_MEG_salient_uncued_instruction
+Logfile written - 02/16/2016 12:55:39
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+AV98LHJ	1	Picture	Instruction_S_UC	29	0	1	100130	3	0	100000
+AV98LHJ	2	Picture	Instruction2	100327	0	1	100130	2	0	100000
+AV98LHJ	3	Picture	Instruction3	200624	0	1	10197	2	0	resp
+AV98LHJ	3	Response	10	210711	10087	3
+AV98LHJ	4	Picture	Instruction4	230881	0	1	4179	2	0	resp
+AV98LHJ	4	Response	20	234950	4069	4
+AV98LHJ	5	Picture	Instruction5	255119	0	1	5015	2	0	resp
+AV98LHJ	5	Response	10	260060	4941	3
+AV98LHJ	6	Picture	Instruction4	280194	0	1	5014	3	0	resp
+AV98LHJ	6	Response	20	285099	4905	4
+AV98LHJ	7	Picture	Instruction3	305268	0	1	8024	2	0	resp
+AV98LHJ	7	Response	10	313219	7951	3
+AV98LHJ	8	Picture	Instruction4	333351	0	1	6352	3	0	resp
+AV98LHJ	8	Response	20	339608	6257	4
+AV98LHJ	9	Picture	Instruction_S_UC_TestTrials	359763	0	1	100130	2	0	100000
+AV98LHJ	10	Picture	BaselinePre	460061	0	1	20059	2	0	20000
+AV98LHJ	11	Picture	CueingCross	480287	0	1	3009	2	0	2920
+AV98LHJ	12	Picture	PrepTime	483463	0	2	3009	3	0	2920
+AV98LHJ	13	Picture	1_1_Encoding_Working_Memory_MEG_P5_LR_Salient_DoChange_CuedRetrieval_300_300_399_1900_3000_1900_gabor_patch_orientation_044_100_082_013_target_position_2_4_retrieval_position_4	486639	0	2	1338	3	0	1250
+AV98LHJ	13	Picture	Flicker2	487977	1338	1	1337	2	1250	1250
+AV98LHJ	13	Picture	Flicker3	489314	2675	1	1337	2	2500	1250
+AV98LHJ	14	Picture	Delay	490818	0	2	19057	3	0	18920
+AV98LHJ	15	Picture	1_1_Retrieval_Working_Memory_MEG_P5_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_151_retrieval_position_4	510042	0	1	30089	3	0	29920
+AV98LHJ	15	Response	10	520835	10793	4
+AV98LHJ	16	Picture	ITI	560191	0	1	19056	3	0	18920
+AV98LHJ	17	Picture	CueingCross	579415	0	1	3009	2	0	2920
+AV98LHJ	18	Picture	PrepTime	582591	0	1	3009	2	0	2920
+AV98LHJ	19	Picture	1_2_Encoding_Working_Memory_MEG_P5_LR_Salient_NoChange_CuedRetrieval_300_300_399_1750_3000_1950_gabor_patch_orientation_171_062_002_147_target_position_1_2_retrieval_position_2	585767	0	1	1337	2	0	1250
+AV98LHJ	19	Picture	Flicker2	587104	1337	1	1337	3	1250	1250
+AV98LHJ	19	Picture	Flicker3	588441	2674	2	1338	3	2500	1250
+AV98LHJ	20	Picture	Delay	589946	0	1	17552	2	0	17420
+AV98LHJ	21	Picture	1_2_Retrieval_Working_Memory_MEG_P5_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_062_retrieval_position_2	607665	0	1	30089	3	0	29920
+AV98LHJ	21	Response	20	620093	12428	5
+AV98LHJ	22	Picture	ITI	657814	0	1	19558	2	0	19420
+AV98LHJ	23	Picture	CueingCross	677539	0	1	3009	2	0	2920
+AV98LHJ	24	Picture	PrepTime	680715	0	1	3009	2	0	2920
+AV98LHJ	25	Picture	1_3_Encoding_Working_Memory_MEG_P5_LR_Salient_DoChange_CuedRetrieval_300_300_399_1800_3000_2000_gabor_patch_orientation_150_132_019_044_target_position_1_3_retrieval_position_3	683891	0	2	1338	3	0	1250
+AV98LHJ	25	Picture	Flicker2	685229	1338	1	1337	2	1250	1250
+AV98LHJ	25	Picture	Flicker3	686566	2675	1	1337	2	2500	1250
+AV98LHJ	26	Picture	Delay	688070	0	2	18054	3	0	17920
+AV98LHJ	27	Picture	1_3_Retrieval_Working_Memory_MEG_P5_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_068_retrieval_position_3	706291	0	1	30089	2	0	29920
+AV98LHJ	27	Response	20	717522	11231	3
+AV98LHJ	28	Picture	ITI	756440	0	1	20059	2	0	19920
+AV98LHJ	29	Picture	CueingCross	776667	0	1	3008	3	0	2920
+AV98LHJ	30	Picture	PrepTime	779843	0	1	3008	3	0	2920
+AV98LHJ	31	Picture	1_4_Encoding_Working_Memory_MEG_P5_LR_Salient_NoChange_CuedRetrieval_300_300_399_1850_3000_2050_gabor_patch_orientation_169_060_031_137_target_position_3_4_retrieval_position_3	783019	0	1	1337	2	0	1250
+AV98LHJ	31	Picture	Flicker2	784356	1337	1	1337	2	1250	1250
+AV98LHJ	31	Picture	Flicker3	785693	2674	1	1338	2	2500	1250
+AV98LHJ	32	Picture	Delay	787198	0	1	18555	2	0	18420
+AV98LHJ	33	Picture	1_4_Retrieval_Working_Memory_MEG_P5_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_031_retrieval_position_3	805920	0	1	30089	2	0	29920
+AV98LHJ	33	Response	10	817180	11260	3
+AV98LHJ	34	Picture	ITI	856069	0	1	20561	2	0	20420
+AV98LHJ	35	Picture	BaselinePost	876797	0	1	20059	3	0	20000
+AV98LHJ	36	Picture	Instruction_S_UC	897024	0	1	50148	2	0	50000

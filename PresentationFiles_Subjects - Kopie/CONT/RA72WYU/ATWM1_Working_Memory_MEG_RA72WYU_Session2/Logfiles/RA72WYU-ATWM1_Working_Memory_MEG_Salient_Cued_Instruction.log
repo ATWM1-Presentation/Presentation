@@ -1,0 +1,61 @@
+Scenario - ATWM1_Working_Memory_MEG_salient_cued_instruction
+Logfile written - 02/08/2016 19:20:57
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+RA72WYU	1	Picture	Instruction_S_C	29	0	1	100130	2	0	100000
+RA72WYU	2	Picture	Instruction2	100326	0	1	100130	2	0	100000
+RA72WYU	3	Picture	Instruction3	200623	0	2	15881	3	0	resp
+RA72WYU	3	Response	10	216390	15767	4
+RA72WYU	4	Picture	Instruction4	236563	0	1	6352	3	0	resp
+RA72WYU	4	Response	20	242820	6257	3
+RA72WYU	5	Picture	Instruction5	262975	0	1	3009	2	0	resp
+RA72WYU	5	Response	10	265859	2884	4
+RA72WYU	6	Picture	Instruction4	285875	0	2	2843	3	0	resp
+RA72WYU	6	Response	20	288559	2684	3
+RA72WYU	7	Picture	Instruction3	308610	0	1	6854	2	0	resp
+RA72WYU	7	Response	10	315428	6818	4
+RA72WYU	8	Picture	Instruction4	335523	0	1	6520	2	0	resp
+RA72WYU	8	Response	20	341918	6395	3
+RA72WYU	9	Picture	Instruction_S_C_TestTrials	361935	0	1	100130	3	0	100000
+RA72WYU	10	Picture	BaselinePre	462232	0	1	20060	2	0	20000
+RA72WYU	11	Picture	CueingCross	482459	0	1	3009	2	0	2920
+RA72WYU	12	Picture	PrepTime	485635	0	1	3009	2	0	2920
+RA72WYU	13	Picture	1_1_Encoding_Working_Memory_MEG_Salient_Cued_DoChange_CuedRetrieval_300_300_399_1900_3000_2150_gabor_patch_orientation_021_107_169_140_target_position_1_2_retrieval_position_2	488811	0	1	1337	2	0	1250
+RA72WYU	13	Picture	Flicker2	490148	1337	1	1337	3	1250	1250
+RA72WYU	13	Picture	Flicker3	491485	2674	2	1338	3	2500	1250
+RA72WYU	14	Picture	Delay	492990	0	1	19056	2	0	18920
+RA72WYU	15	Picture	1_1_Retrieval_Working_Memory_MEG_Salient_Cued_DoChange_CuedRetrieval_retrieval_patch_orientation_057_retrieval_position_2	512214	0	1	30089	2	0	29920
+RA72WYU	15	Response	10	539424	27210	3
+RA72WYU	16	Picture	ITI	562362	0	1	21564	2	0	21420
+RA72WYU	17	Picture	CueingCross	584093	0	2	3009	3	0	2920
+RA72WYU	18	Picture	PrepTime	587269	0	2	3009	3	0	2920
+RA72WYU	19	Picture	1_2_Encoding_Working_Memory_MEG_Salient_Cued_NoChange_CuedRetrieval_300_300_399_1750_3000_2000_gabor_patch_orientation_132_093_108_164_target_position_2_3_retrieval_position_3	590445	0	2	1338	3	0	1250
+RA72WYU	19	Picture	Flicker2	591783	1338	1	1170	2	1250	1250
+RA72WYU	19	Picture	Flicker3	592953	2508	1	1337	2	2500	1250
+RA72WYU	20	Picture	Delay	594457	0	2	17552	3	0	17420
+RA72WYU	21	Picture	1_2_Retrieval_Working_Memory_MEG_Salient_Cued_NoChange_CuedRetrieval_retrieval_patch_orientation_108_retrieval_position_3	612176	0	2	30090	3	0	29920
+RA72WYU	21	Response	10	627962	15786	3
+RA72WYU	21	Response	10	642131	29955	4
+RA72WYU	22	Picture	ITI	662325	0	1	20059	3	0	19920
+RA72WYU	23	Picture	CueingCross	682552	0	1	3009	2	0	2920
+RA72WYU	24	Picture	PrepTime	685728	0	1	3009	2	0	2920
+RA72WYU	25	Picture	1_3_Encoding_Working_Memory_MEG_Salient_Cued_NoChange_CuedRetrieval_300_300_399_1850_3000_2100_gabor_patch_orientation_058_077_146_121_target_position_1_4_retrieval_position_4	688904	0	1	1337	2	0	1250
+RA72WYU	25	Picture	Flicker2	690241	1337	1	1337	2	1250	1250
+RA72WYU	25	Picture	Flicker3	691578	2674	1	1338	2	2500	1250
+RA72WYU	26	Picture	Delay	693083	0	1	18555	2	0	18420
+RA72WYU	27	Picture	1_3_Retrieval_Working_Memory_MEG_Salient_Cued_NoChange_CuedRetrieval_retrieval_patch_orientation_121_retrieval_position_4	711805	0	1	30089	2	0	29920
+RA72WYU	27	Response	10	738849	27044	4
+RA72WYU	28	Picture	ITI	761954	0	1	21062	2	0	20920
+RA72WYU	29	Picture	CueingCross	783183	0	1	3009	2	0	2920
+RA72WYU	30	Picture	PrepTime	786359	0	2	3009	3	0	2920
+RA72WYU	31	Picture	1_4_Encoding_Working_Memory_MEG_Salient_Cued_DoChange_CuedRetrieval_300_300_399_1800_3000_2050_gabor_patch_orientation_009_163_056_040_target_position_3_4_retrieval_position_4	789535	0	2	1338	3	0	1250
+RA72WYU	31	Picture	Flicker2	790873	1338	1	1170	2	1250	1250
+RA72WYU	31	Picture	Flicker3	792043	2508	1	1337	2	2500	1250
+RA72WYU	32	Picture	Delay	793547	0	2	18054	3	0	17920
+RA72WYU	33	Picture	1_4_Retrieval_Working_Memory_MEG_Salient_Cued_DoChange_CuedRetrieval_retrieval_patch_orientation_085_retrieval_position_4	811768	0	1	30089	2	0	29920
+RA72WYU	33	Response	20	835787	24019	4
+RA72WYU	34	Picture	ITI	861917	0	1	20560	3	0	20420
+RA72WYU	35	Picture	BaselinePost	882645	0	1	20059	2	0	20000
+RA72WYU	36	Picture	Instruction_S_C	902871	0	1	566157	2	0	3000000
+RA72WYU	36	Quit		1461143	558272	

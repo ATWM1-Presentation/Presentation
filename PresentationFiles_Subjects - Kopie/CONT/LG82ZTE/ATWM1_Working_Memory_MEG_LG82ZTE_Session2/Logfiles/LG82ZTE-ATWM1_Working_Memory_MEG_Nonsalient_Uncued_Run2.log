@@ -1,0 +1,638 @@
+Scenario - ATWM1_Working_Memory_MEG_salient_cued_run2
+Logfile written - 02/09/2016 12:33:48
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+LG82ZTE	1	Picture	ExpStart	29	0	1	10029	3	0	10000
+LG82ZTE	2	Picture	BaselinePre	10226	0	1	100129	2	0	100000
+LG82ZTE	3	Picture	CueingCross	110522	0	1	3009	2	0	2920
+LG82ZTE	4	Picture	PrepTime	113698	0	1	3009	2	0	2920
+LG82ZTE	5	Picture	2_1_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2150_3000_2600_gabor_patch_orientation_031_080_117_046_target_position_2_4_retrieval_position_4	116874	0	1	1337	2	0	1250
+LG82ZTE	5	Picture	Flicker2	118211	1337	1	1338	2	1250	1250
+LG82ZTE	5	Picture	Flicker3	119549	2675	1	1337	2	2500	1250
+LG82ZTE	6	Picture	Delay	121053	0	1	21564	2	0	21420
+LG82ZTE	7	Picture	2_1_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_046_retrieval_position_4	142784	0	1	30089	2	0	29920
+LG82ZTE	7	Response	10	154254	11470	4
+LG82ZTE	8	Picture	ITI	173040	0	1	26077	2	0	25920
+LG82ZTE	9	Picture	CueingCross	199284	0	1	3009	2	0	2920
+LG82ZTE	10	Picture	PrepTime	202460	0	1	3009	2	0	2920
+LG82ZTE	11	Picture	2_2_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2200_3000_2150_gabor_patch_orientation_172_083_131_020_target_position_1_4_retrieval_position_4	205636	0	1	1337	3	0	1250
+LG82ZTE	11	Picture	Flicker2	206973	1337	2	1338	3	1250	1250
+LG82ZTE	11	Picture	Flicker3	208311	2675	1	1337	2	2500	1250
+LG82ZTE	12	Picture	Delay	209815	0	1	22065	2	0	21920
+LG82ZTE	13	Picture	2_2_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_066_retrieval_position_4	232047	0	2	30089	3	0	29920
+LG82ZTE	13	Response	20	238382	6335	3
+LG82ZTE	14	Picture	ITI	262303	0	2	21564	3	0	21420
+LG82ZTE	15	Picture	CueingCross	284034	0	2	3009	3	0	2920
+LG82ZTE	16	Picture	PrepTime	287210	0	2	3009	3	0	2920
+LG82ZTE	17	Picture	2_3_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1850_3000_2350_gabor_patch_orientation_113_129_001_024_target_position_1_4_retrieval_position_1	290386	0	2	1338	3	0	1250
+LG82ZTE	17	Picture	Flicker2	291724	1338	1	1337	2	1250	1250
+LG82ZTE	17	Picture	Flicker3	293061	2675	1	1337	2	2500	1250
+LG82ZTE	18	Picture	Delay	294565	0	2	18555	3	0	18420
+LG82ZTE	19	Picture	2_3_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_068_retrieval_position_1	313287	0	2	30089	3	0	29920
+LG82ZTE	19	Response	20	321099	7812	4
+LG82ZTE	20	Picture	ITI	343543	0	2	23570	3	0	23420
+LG82ZTE	21	Picture	CueingCross	367280	0	1	3009	2	0	2920
+LG82ZTE	22	Picture	PrepTime	370456	0	1	3009	2	0	2920
+LG82ZTE	23	Picture	2_4_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1800_3000_2150_gabor_patch_orientation_048_164_120_136_target_position_1_4_retrieval_position_4	373632	0	1	1337	3	0	1250
+LG82ZTE	23	Picture	Flicker2	374969	1337	2	1338	3	1250	1250
+LG82ZTE	23	Picture	Flicker3	376307	2675	1	1337	2	2500	1250
+LG82ZTE	24	Picture	Delay	377811	0	1	18054	2	0	17920
+LG82ZTE	25	Picture	2_4_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_136_retrieval_position_4	396032	0	1	30089	2	0	29920
+LG82ZTE	25	Response	10	404477	8445	3
+LG82ZTE	26	Picture	ITI	426288	0	1	21563	3	0	21420
+LG82ZTE	27	Picture	CueingCross	448019	0	1	3008	3	0	2920
+LG82ZTE	28	Picture	PrepTime	451195	0	1	3008	3	0	2920
+LG82ZTE	29	Picture	2_5_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_2250_3000_2350_gabor_patch_orientation_164_083_147_007_target_position_1_2_retrieval_position_4	454371	0	1	1337	2	0	1250
+LG82ZTE	29	Picture	Flicker2	455708	1337	1	1337	2	1250	1250
+LG82ZTE	29	Picture	Flicker3	457045	2674	1	1337	3	2500	1250
+LG82ZTE	30	Picture	Delay	458550	0	1	22566	2	0	22420
+LG82ZTE	31	Picture	2_5_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_007_retrieval_position_4	481283	0	2	30089	3	0	29920
+LG82ZTE	31	Response	10	501294	20011	3
+LG82ZTE	32	Picture	ITI	511539	0	2	23570	3	0	23420
+LG82ZTE	33	Picture	CueingCross	535276	0	2	3009	3	0	2920
+LG82ZTE	34	Picture	PrepTime	538452	0	2	3009	3	0	2920
+LG82ZTE	35	Picture	2_6_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2150_3000_2400_gabor_patch_orientation_170_036_097_056_target_position_1_4_retrieval_position_1	541628	0	2	1338	3	0	1250
+LG82ZTE	35	Picture	Flicker2	542966	1338	1	1337	2	1250	1250
+LG82ZTE	35	Picture	Flicker3	544303	2675	1	1337	2	2500	1250
+LG82ZTE	36	Picture	Delay	545807	0	2	21564	3	0	21420
+LG82ZTE	37	Picture	2_6_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_170_retrieval_position_1	567538	0	1	30089	2	0	29920
+LG82ZTE	37	Response	10	575731	8193	4
+LG82ZTE	38	Picture	ITI	597794	0	2	24071	3	0	23920
+LG82ZTE	39	Picture	CueingCross	622032	0	2	3009	3	0	2920
+LG82ZTE	40	Picture	PrepTime	625208	0	2	3009	4	0	2920
+LG82ZTE	41	Picture	2_7_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2100_3000_2550_gabor_patch_orientation_015_133_045_092_target_position_3_4_retrieval_position_3	628385	0	1	1337	2	0	1250
+LG82ZTE	41	Picture	Flicker2	629722	1337	1	1336	3	1250	1250
+LG82ZTE	41	Picture	Flicker3	631058	2673	2	1338	3	2500	1250
+LG82ZTE	42	Picture	Delay	632564	0	1	21062	2	0	20920
+LG82ZTE	43	Picture	2_7_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_180_retrieval_position_3	653793	0	1	30089	2	0	29920
+LG82ZTE	43	Response	20	661369	7576	3
+LG82ZTE	44	Picture	ITI	684049	0	1	25575	3	0	25420
+LG82ZTE	45	Picture	CueingCross	709792	0	1	3008	3	0	2920
+LG82ZTE	46	Picture	PrepTime	712968	0	1	3009	2	0	2920
+LG82ZTE	47	Picture	2_8_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1950_3000_1900_gabor_patch_orientation_057_124_176_140_target_position_2_4_retrieval_position_4	716144	0	1	1337	2	0	1250
+LG82ZTE	47	Picture	Flicker2	717481	1337	1	1337	2	1250	1250
+LG82ZTE	47	Picture	Flicker3	718818	2674	1	1338	2	2500	1250
+LG82ZTE	48	Picture	Delay	720323	0	1	19557	3	0	19420
+LG82ZTE	49	Picture	2_8_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_140_retrieval_position_4	740047	0	2	30089	4	0	29920
+LG82ZTE	49	Response	10	747646	7599	3
+LG82ZTE	50	Picture	ITI	770304	0	1	19056	2	0	18920
+LG82ZTE	51	Picture	CueingCross	789527	0	1	3009	2	0	2920
+LG82ZTE	52	Picture	PrepTime	792703	0	1	3009	2	0	2920
+LG82ZTE	53	Picture	2_9_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2050_3000_2200_gabor_patch_orientation_080_147_121_170_target_position_2_4_retrieval_position_2	795879	0	1	1337	3	0	1250
+LG82ZTE	53	Picture	Flicker2	797216	1337	2	1338	3	1250	1250
+LG82ZTE	53	Picture	Flicker3	798554	2675	1	1337	2	2500	1250
+LG82ZTE	54	Picture	Delay	800058	0	1	20561	2	0	20420
+LG82ZTE	55	Picture	2_9_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_147_retrieval_position_2	820786	0	1	30089	2	0	29920
+LG82ZTE	55	Response	20	833633	12847	4
+LG82ZTE	56	Picture	ITI	851042	0	1	22065	2	0	21920
+LG82ZTE	57	Picture	CueingCross	873274	0	2	3009	3	0	2920
+LG82ZTE	58	Picture	PrepTime	876450	0	2	3009	3	0	2920
+LG82ZTE	59	Picture	2_10_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2200_3000_2600_gabor_patch_orientation_002_038_150_175_target_position_2_3_retrieval_position_2	879626	0	2	1338	3	0	1250
+LG82ZTE	59	Picture	Flicker2	880964	1338	1	1337	3	1250	1250
+LG82ZTE	59	Picture	Flicker3	882301	2675	2	1337	3	2500	1250
+LG82ZTE	60	Picture	Delay	883805	0	2	22066	3	0	21920
+LG82ZTE	61	Picture	2_10_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_038_retrieval_position_2	906038	0	1	30089	2	0	29920
+LG82ZTE	61	Response	10	914271	8233	4
+LG82ZTE	62	Picture	ITI	936293	0	2	26078	3	0	25920
+LG82ZTE	63	Picture	CueingCross	962538	0	1	3009	2	0	2920
+LG82ZTE	64	Picture	PrepTime	965714	0	1	3009	2	0	2920
+LG82ZTE	65	Picture	2_11_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1850_3000_2100_gabor_patch_orientation_042_082_025_097_target_position_2_4_retrieval_position_2	968890	0	1	1337	2	0	1250
+LG82ZTE	65	Picture	Flicker2	970227	1337	1	1338	2	1250	1250
+LG82ZTE	65	Picture	Flicker3	971565	2675	1	1337	2	2500	1250
+LG82ZTE	66	Picture	Delay	973069	0	1	18555	2	0	18420
+LG82ZTE	67	Picture	2_11_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_132_retrieval_position_2	991791	0	1	30089	2	0	29920
+LG82ZTE	67	Response	20	998468	6677	4
+LG82ZTE	68	Picture	ITI	1022047	0	1	21062	2	0	20920
+LG82ZTE	69	Picture	CueingCross	1043276	0	2	3009	4	0	2920
+LG82ZTE	70	Picture	PrepTime	1046452	0	2	3009	3	0	2920
+LG82ZTE	71	Picture	2_12_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1750_3000_2400_gabor_patch_orientation_015_166_140_120_target_position_1_3_retrieval_position_3	1049628	0	2	1338	3	0	1250
+LG82ZTE	71	Picture	Flicker2	1050966	1338	1	1337	2	1250	1250
+LG82ZTE	71	Picture	Flicker3	1052303	2675	1	1337	2	2500	1250
+LG82ZTE	72	Picture	Delay	1053807	0	2	17552	3	0	17420
+LG82ZTE	73	Picture	2_12_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_095_retrieval_position_3	1071527	0	2	30088	3	0	29920
+LG82ZTE	73	Response	20	1078446	6919	3
+LG82ZTE	74	Picture	ITI	1101782	0	2	24072	3	0	23920
+LG82ZTE	75	Picture	CueingCross	1126021	0	1	3009	2	0	2920
+LG82ZTE	76	Picture	PrepTime	1129197	0	1	3009	2	0	2920
+LG82ZTE	77	Picture	2_13_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_2200_3000_2250_gabor_patch_orientation_114_049_069_134_target_position_2_3_retrieval_position_1	1132373	0	1	1337	2	0	1250
+LG82ZTE	77	Picture	Flicker2	1133710	1337	1	1337	3	1250	1250
+LG82ZTE	77	Picture	Flicker3	1135047	2674	2	1338	3	2500	1250
+LG82ZTE	78	Picture	Delay	1136552	0	1	22065	2	0	21920
+LG82ZTE	79	Picture	2_13_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_159_retrieval_position_1	1158784	0	1	30089	2	0	29920
+LG82ZTE	79	Response	10	1169603	10819	4
+LG82ZTE	80	Picture	ITI	1189040	0	2	22567	3	0	22420
+LG82ZTE	81	Picture	CueingCross	1211774	0	2	3009	3	0	2920
+LG82ZTE	82	Picture	PrepTime	1214950	0	1	3009	2	0	2920
+LG82ZTE	83	Picture	2_14_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1800_3000_2300_gabor_patch_orientation_056_168_112_029_target_position_1_3_retrieval_position_1	1218126	0	1	1337	3	0	1250
+LG82ZTE	83	Picture	Flicker2	1219463	1337	2	1338	3	1250	1250
+LG82ZTE	83	Picture	Flicker3	1220801	2675	1	1337	2	2500	1250
+LG82ZTE	84	Picture	Delay	1222305	0	1	18053	3	0	17920
+LG82ZTE	85	Picture	2_14_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_056_retrieval_position_1	1240526	0	1	30088	3	0	29920
+LG82ZTE	85	Response	10	1246941	6415	3
+LG82ZTE	86	Picture	ITI	1270782	0	1	23068	2	0	22920
+LG82ZTE	87	Picture	CueingCross	1294017	0	1	3009	2	0	2920
+LG82ZTE	88	Picture	PrepTime	1297193	0	1	3009	2	0	2920
+LG82ZTE	89	Picture	2_15_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2000_3000_2000_gabor_patch_orientation_026_080_049_002_target_position_1_2_retrieval_position_1	1300369	0	1	1337	2	0	1250
+LG82ZTE	89	Picture	Flicker2	1301706	1337	1	1338	2	1250	1250
+LG82ZTE	89	Picture	Flicker3	1303044	2675	1	1337	2	2500	1250
+LG82ZTE	90	Picture	Delay	1304548	0	1	20059	2	0	19920
+LG82ZTE	91	Picture	2_15_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_026_retrieval_position_1	1324774	0	2	30089	3	0	29920
+LG82ZTE	91	Response	10	1341508	16734	3
+LG82ZTE	92	Picture	ITI	1355030	0	2	20060	3	0	19920
+LG82ZTE	93	Picture	CueingCross	1375257	0	1	3009	2	0	2920
+LG82ZTE	94	Picture	PrepTime	1378433	0	1	3009	3	0	2920
+LG82ZTE	95	Picture	2_16_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2000_3000_2500_gabor_patch_orientation_090_066_033_178_target_position_1_3_retrieval_position_1	1381609	0	1	1337	2	0	1250
+LG82ZTE	95	Picture	Flicker2	1382946	1337	1	1337	3	1250	1250
+LG82ZTE	95	Picture	Flicker3	1384283	2674	2	1338	3	2500	1250
+LG82ZTE	96	Picture	Delay	1385788	0	1	20059	2	0	19920
+LG82ZTE	97	Picture	2_16_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_139_retrieval_position_1	1406014	0	2	30089	3	0	29920
+LG82ZTE	97	Response	20	1415265	9251	4
+LG82ZTE	98	Picture	ITI	1436270	0	2	25074	3	0	24920
+LG82ZTE	99	Picture	CueingCross	1461511	0	2	3009	4	0	2920
+LG82ZTE	100	Picture	PrepTime	1464688	0	1	3008	3	0	2920
+LG82ZTE	101	Picture	2_17_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_2050_3000_2500_gabor_patch_orientation_152_088_135_020_target_position_2_4_retrieval_position_1	1467864	0	1	1337	2	0	1250
+LG82ZTE	101	Picture	Flicker2	1469201	1337	1	1337	2	1250	1250
+LG82ZTE	101	Picture	Flicker3	1470538	2674	1	1337	3	2500	1250
+LG82ZTE	102	Picture	Delay	1472043	0	1	20560	2	0	20420
+LG82ZTE	103	Picture	2_17_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_105_retrieval_position_1	1492770	0	2	30089	3	0	29920
+LG82ZTE	103	Response	10	1501723	8953	3
+LG82ZTE	104	Picture	ITI	1523026	0	2	25075	3	0	24920
+LG82ZTE	105	Picture	CueingCross	1548268	0	1	3009	2	0	2920
+LG82ZTE	106	Picture	PrepTime	1551444	0	1	3009	2	0	2920
+LG82ZTE	107	Picture	2_18_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2100_3000_2550_gabor_patch_orientation_120_036_098_012_target_position_2_3_retrieval_position_2	1554620	0	1	1337	2	0	1250
+LG82ZTE	107	Picture	Flicker2	1555957	1337	1	1337	2	1250	1250
+LG82ZTE	107	Picture	Flicker3	1557294	2674	1	1338	2	2500	1250
+LG82ZTE	108	Picture	Delay	1558799	0	1	21062	2	0	20920
+LG82ZTE	109	Picture	2_18_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_036_retrieval_position_2	1580028	0	1	30089	2	0	29920
+LG82ZTE	109	Response	20	1593510	13482	3
+LG82ZTE	110	Picture	ITI	1610284	0	1	25575	3	0	25420
+LG82ZTE	111	Picture	CueingCross	1636027	0	1	3009	2	0	2920
+LG82ZTE	112	Picture	PrepTime	1639203	0	1	3009	2	0	2920
+LG82ZTE	113	Picture	2_19_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2250_3000_2100_gabor_patch_orientation_144_009_120_162_target_position_3_4_retrieval_position_3	1642378	0	2	1338	3	0	1250
+LG82ZTE	113	Picture	Flicker2	1643716	1338	1	1338	2	1250	1250
+LG82ZTE	113	Picture	Flicker3	1645054	2676	1	1337	2	2500	1250
+LG82ZTE	114	Picture	Delay	1646558	0	1	22567	2	0	22420
+LG82ZTE	115	Picture	2_19_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_120_retrieval_position_3	1669292	0	1	30089	2	0	29920
+LG82ZTE	115	Response	10	1677897	8605	4
+LG82ZTE	116	Picture	ITI	1699548	0	1	21062	2	0	20920
+LG82ZTE	117	Picture	CueingCross	1720777	0	1	3009	2	0	2920
+LG82ZTE	118	Picture	PrepTime	1723953	0	2	3009	3	0	2920
+LG82ZTE	119	Picture	2_20_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1750_3000_2200_gabor_patch_orientation_005_114_089_064_target_position_3_4_retrieval_position_3	1727129	0	1	1338	2	0	1250
+LG82ZTE	119	Picture	Flicker2	1728467	1338	1	1337	2	1250	1250
+LG82ZTE	119	Picture	Flicker3	1729804	2675	1	1337	2	2500	1250
+LG82ZTE	120	Picture	Delay	1731308	0	1	17552	2	0	17420
+LG82ZTE	121	Picture	2_20_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_089_retrieval_position_3	1749027	0	1	30089	2	0	29920
+LG82ZTE	121	Response	10	1762055	13028	3
+LG82ZTE	122	Picture	ITI	1779283	0	2	22065	3	0	21920
+LG82ZTE	123	Picture	CueingCross	1801516	0	1	3008	3	0	2920
+LG82ZTE	124	Picture	PrepTime	1804692	0	1	3008	3	0	2920
+LG82ZTE	125	Picture	2_21_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2200_3000_2300_gabor_patch_orientation_077_045_166_125_target_position_2_4_retrieval_position_2	1807868	0	1	1337	2	0	1250
+LG82ZTE	125	Picture	Flicker2	1809205	1337	1	1337	2	1250	1250
+LG82ZTE	125	Picture	Flicker3	1810542	2674	1	1338	2	2500	1250
+LG82ZTE	126	Picture	Delay	1812046	0	3	22066	4	0	21920
+LG82ZTE	127	Picture	2_21_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_095_retrieval_position_2	1834279	0	1	30089	2	0	29920
+LG82ZTE	127	Response	20	1841062	6783	4
+LG82ZTE	128	Picture	ITI	1864535	0	1	23068	2	0	22920
+LG82ZTE	129	Picture	CueingCross	1887770	0	2	3009	3	0	2920
+LG82ZTE	130	Picture	PrepTime	1890946	0	2	3009	3	0	2920
+LG82ZTE	131	Picture	2_22_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1900_3000_2450_gabor_patch_orientation_069_011_092_143_target_position_1_4_retrieval_position_1	1894122	0	2	1338	3	0	1250
+LG82ZTE	131	Picture	Flicker2	1895460	1338	1	1337	2	1250	1250
+LG82ZTE	131	Picture	Flicker3	1896797	2675	1	1337	2	2500	1250
+LG82ZTE	132	Picture	Delay	1898301	0	2	19057	3	0	18920
+LG82ZTE	133	Picture	2_22_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_119_retrieval_position_1	1917525	0	1	30089	2	0	29920
+LG82ZTE	133	Response	20	1923970	6445	3
+LG82ZTE	134	Picture	ITI	1947781	0	1	24572	3	0	24420
+LG82ZTE	135	Picture	CueingCross	1972521	0	1	3008	3	0	2920
+LG82ZTE	136	Picture	PrepTime	1975697	0	1	3008	3	0	2920
+LG82ZTE	137	Picture	2_23_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1950_3000_2050_gabor_patch_orientation_059_078_034_101_target_position_1_3_retrieval_position_4	1978873	0	1	1337	2	0	1250
+LG82ZTE	137	Picture	Flicker2	1980210	1337	1	1337	2	1250	1250
+LG82ZTE	137	Picture	Flicker3	1981547	2674	1	1337	3	2500	1250
+LG82ZTE	138	Picture	Delay	1983052	0	1	19557	3	0	19420
+LG82ZTE	139	Picture	2_23_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_101_retrieval_position_4	2002777	0	1	30088	3	0	29920
+LG82ZTE	139	Response	10	2012387	9610	4
+LG82ZTE	140	Picture	ITI	2033033	0	1	20560	2	0	20420
+LG82ZTE	141	Picture	CueingCross	2053760	0	2	3009	3	0	2920
+LG82ZTE	142	Picture	PrepTime	2056936	0	2	3009	4	0	2920
+LG82ZTE	143	Picture	2_24_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1800_3000_2350_gabor_patch_orientation_117_171_099_039_target_position_3_4_retrieval_position_3	2060113	0	1	1337	2	0	1250
+LG82ZTE	143	Picture	Flicker2	2061450	1337	1	1337	2	1250	1250
+LG82ZTE	143	Picture	Flicker3	2062787	2674	1	1337	3	2500	1250
+LG82ZTE	144	Picture	Delay	2064292	0	1	18053	2	0	17920
+LG82ZTE	145	Picture	2_24_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_099_retrieval_position_3	2082512	0	1	30089	2	0	29920
+LG82ZTE	145	Response	10	2091855	9343	3
+LG82ZTE	146	Picture	ITI	2112768	0	1	23570	2	0	23420
+LG82ZTE	147	Picture	CueingCross	2136505	0	1	3009	2	0	2920
+LG82ZTE	148	Picture	PrepTime	2139681	0	1	3009	2	0	2920
+LG82ZTE	149	Picture	2_25_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2050_3000_2250_gabor_patch_orientation_003_171_066_089_target_position_3_4_retrieval_position_4	2142857	0	1	1337	2	0	1250
+LG82ZTE	149	Picture	Flicker2	2144194	1337	1	1337	3	1250	1250
+LG82ZTE	149	Picture	Flicker3	2145531	2674	2	1338	3	2500	1250
+LG82ZTE	150	Picture	Delay	2147036	0	1	20561	2	0	20420
+LG82ZTE	151	Picture	2_25_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_138_retrieval_position_4	2167764	0	1	30089	2	0	29920
+LG82ZTE	151	Response	20	2175152	7388	3
+LG82ZTE	152	Picture	ITI	2198020	0	1	22566	3	0	22420
+LG82ZTE	153	Picture	CueingCross	2220754	0	1	3008	3	0	2920
+LG82ZTE	154	Picture	PrepTime	2223930	0	1	3009	2	0	2920
+LG82ZTE	155	Picture	2_26_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2050_3000_2450_gabor_patch_orientation_064_148_102_038_target_position_1_2_retrieval_position_1	2227106	0	1	1337	2	0	1250
+LG82ZTE	155	Picture	Flicker2	2228443	1337	1	1337	2	1250	1250
+LG82ZTE	155	Picture	Flicker3	2229780	2674	1	1338	2	2500	1250
+LG82ZTE	156	Picture	Delay	2231285	0	1	20560	3	0	20420
+LG82ZTE	157	Picture	2_26_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_064_retrieval_position_1	2252013	0	1	30088	3	0	29920
+LG82ZTE	157	Response	10	2260419	8406	4
+LG82ZTE	158	Picture	ITI	2282269	0	1	24572	2	0	24420
+LG82ZTE	159	Picture	CueingCross	2307008	0	2	3009	3	0	2920
+LG82ZTE	160	Picture	PrepTime	2310184	0	2	3009	3	0	2920
+LG82ZTE	161	Picture	2_27_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1800_3000_2050_gabor_patch_orientation_156_017_039_097_target_position_1_4_retrieval_position_3	2313360	0	2	1338	3	0	1250
+LG82ZTE	161	Picture	Flicker2	2314698	1338	1	1337	2	1250	1250
+LG82ZTE	161	Picture	Flicker3	2316035	2675	1	1337	2	2500	1250
+LG82ZTE	162	Picture	Delay	2317539	0	2	18054	3	0	17920
+LG82ZTE	163	Picture	2_27_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_039_retrieval_position_3	2335760	0	1	30089	2	0	29920
+LG82ZTE	163	Response	10	2348767	13007	3
+LG82ZTE	164	Picture	ITI	2366016	0	1	20561	2	0	20420
+LG82ZTE	165	Picture	CueingCross	2386744	0	1	3009	2	0	2920
+LG82ZTE	166	Picture	PrepTime	2389920	0	1	3009	2	0	2920
+LG82ZTE	167	Picture	2_28_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1950_3000_2200_gabor_patch_orientation_133_082_113_053_target_position_2_3_retrieval_position_3	2393096	0	1	1337	2	0	1250
+LG82ZTE	167	Picture	Flicker2	2394433	1337	1	1337	3	1250	1250
+LG82ZTE	167	Picture	Flicker3	2395770	2674	2	1338	3	2500	1250
+LG82ZTE	168	Picture	Delay	2397275	0	1	19558	2	0	19420
+LG82ZTE	169	Picture	2_28_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_162_retrieval_position_3	2417000	0	1	30089	2	0	29920
+LG82ZTE	169	Response	20	2424904	7904	4
+LG82ZTE	170	Picture	ITI	2447256	0	1	22065	2	0	21920
+LG82ZTE	171	Picture	CueingCross	2469488	0	1	3009	2	0	2920
+LG82ZTE	172	Picture	PrepTime	2472664	0	1	3009	2	0	2920
+LG82ZTE	173	Picture	2_29_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2100_3000_2400_gabor_patch_orientation_078_097_019_041_target_position_2_3_retrieval_position_2	2475840	0	2	1337	4	0	1250
+LG82ZTE	173	Picture	Flicker2	2477177	1337	2	1338	3	1250	1250
+LG82ZTE	173	Picture	Flicker3	2478515	2675	1	1337	2	2500	1250
+LG82ZTE	174	Picture	Delay	2480019	0	1	21062	3	0	20920
+LG82ZTE	175	Picture	2_29_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_097_retrieval_position_2	2501249	0	1	30088	3	0	29920
+LG82ZTE	175	Response	10	2510192	8943	3
+LG82ZTE	176	Picture	ITI	2531505	0	1	24071	2	0	23920
+LG82ZTE	177	Picture	CueingCross	2555743	0	1	3009	2	0	2920
+LG82ZTE	178	Picture	PrepTime	2558919	0	1	3009	2	0	2920
+LG82ZTE	179	Picture	2_30_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2250_3000_2150_gabor_patch_orientation_005_153_136_121_target_position_2_3_retrieval_position_3	2562095	0	1	1337	2	0	1250
+LG82ZTE	179	Picture	Flicker2	2563432	1337	1	1337	3	1250	1250
+LG82ZTE	179	Picture	Flicker3	2564769	2674	2	1338	3	2500	1250
+LG82ZTE	180	Picture	Delay	2566274	0	1	22567	2	0	22420
+LG82ZTE	181	Picture	2_30_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_090_retrieval_position_3	2589008	0	1	30089	2	0	29920
+LG82ZTE	181	Response	20	2596429	7421	4
+LG82ZTE	182	Picture	ITI	2619264	0	1	21563	3	0	21420
+LG82ZTE	183	Picture	CueingCross	2640995	0	1	3008	3	0	2920
+LG82ZTE	184	Picture	PrepTime	2644171	0	1	3008	3	0	2920
+LG82ZTE	185	Picture	2_31_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_2250_3000_1900_gabor_patch_orientation_131_055_024_087_target_position_2_3_retrieval_position_1	2647347	0	1	1337	2	0	1250
+LG82ZTE	185	Picture	Flicker2	2648684	1337	1	1337	2	1250	1250
+LG82ZTE	185	Picture	Flicker3	2650021	2674	1	1338	2	2500	1250
+LG82ZTE	186	Picture	Delay	2651526	0	1	22566	2	0	22420
+LG82ZTE	187	Picture	2_31_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_131_retrieval_position_1	2674260	0	1	30088	2	0	29920
+LG82ZTE	187	Response	20	2682626	8366	4
+LG82ZTE	188	Picture	ITI	2704515	0	2	19057	3	0	18920
+LG82ZTE	189	Picture	CueingCross	2723739	0	1	3009	2	0	2920
+LG82ZTE	190	Picture	PrepTime	2726915	0	1	3009	2	0	2920
+LG82ZTE	191	Picture	2_32_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1750_3000_2450_gabor_patch_orientation_168_096_061_139_target_position_2_3_retrieval_position_3	2730091	0	1	1337	2	0	1250
+LG82ZTE	191	Picture	Flicker2	2731428	1337	1	1338	2	1250	1250
+LG82ZTE	191	Picture	Flicker3	2732766	2675	1	1337	2	2500	1250
+LG82ZTE	192	Picture	Delay	2734270	0	1	17552	2	0	17420
+LG82ZTE	193	Picture	2_32_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_061_retrieval_position_3	2751989	0	1	30089	2	0	29920
+LG82ZTE	193	Response	10	2759124	7135	4
+LG82ZTE	194	Picture	ITI	2782245	0	1	24573	2	0	24420
+LG82ZTE	195	Picture	CueingCross	2806985	0	1	3009	2	0	2920
+LG82ZTE	196	Picture	PrepTime	2810161	0	1	3009	2	0	2920
+LG82ZTE	197	Picture	2_33_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2150_3000_1950_gabor_patch_orientation_092_131_163_009_target_position_1_2_retrieval_position_1	2813337	0	1	1337	2	0	1250
+LG82ZTE	197	Picture	Flicker2	2814674	1337	1	1337	3	1250	1250
+LG82ZTE	197	Picture	Flicker3	2816011	2674	2	1338	3	2500	1250
+LG82ZTE	198	Picture	Delay	2817516	0	1	21564	2	0	21420
+LG82ZTE	199	Picture	2_33_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_046_retrieval_position_1	2839247	0	1	30089	2	0	29920
+LG82ZTE	199	Response	20	2848981	9734	4
+LG82ZTE	200	Picture	ITI	2869503	0	1	19557	3	0	19420
+LG82ZTE	201	Picture	CueingCross	2889228	0	1	3009	2	0	2920
+LG82ZTE	202	Picture	PrepTime	2892404	0	1	3009	2	0	2920
+LG82ZTE	203	Picture	2_34_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2050_3000_2500_gabor_patch_orientation_102_079_033_168_target_position_2_4_retrieval_position_4	2895580	0	1	1337	2	0	1250
+LG82ZTE	203	Picture	Flicker2	2896917	1337	1	1337	2	1250	1250
+LG82ZTE	203	Picture	Flicker3	2898254	2674	1	1338	2	2500	1250
+LG82ZTE	204	Picture	Delay	2899759	0	1	20560	3	0	20420
+LG82ZTE	205	Picture	2_34_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_123_retrieval_position_4	2920487	0	1	30088	3	0	29920
+LG82ZTE	205	Response	20	2942928	22441	4
+LG82ZTE	206	Picture	ITI	2950743	0	1	25074	2	0	24920
+LG82ZTE	207	Picture	CueingCross	2975984	0	1	3009	2	0	2920
+LG82ZTE	208	Picture	PrepTime	2979160	0	1	3009	2	0	2920
+LG82ZTE	209	Picture	2_35_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2150_3000_1900_gabor_patch_orientation_053_163_079_110_target_position_3_4_retrieval_position_3	2982336	0	1	1337	2	0	1250
+LG82ZTE	209	Picture	Flicker2	2983673	1337	1	1337	3	1250	1250
+LG82ZTE	209	Picture	Flicker3	2985010	2674	2	1338	3	2500	1250
+LG82ZTE	210	Picture	Delay	2986515	0	1	21564	2	0	21420
+LG82ZTE	211	Picture	2_35_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_127_retrieval_position_3	3008246	0	1	30089	2	0	29920
+LG82ZTE	211	Response	20	3016386	8140	4
+LG82ZTE	212	Picture	ITI	3038502	0	1	19056	2	0	18920
+LG82ZTE	213	Picture	CueingCross	3057725	0	1	3009	2	0	2920
+LG82ZTE	214	Picture	PrepTime	3060901	0	2	3009	3	0	2920
+LG82ZTE	215	Picture	2_36_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1950_3000_2000_gabor_patch_orientation_084_117_061_099_target_position_1_4_retrieval_position_3	3064077	0	2	1338	3	0	1250
+LG82ZTE	215	Picture	Flicker2	3065415	1338	1	1337	2	1250	1250
+LG82ZTE	215	Picture	Flicker3	3066752	2675	1	1337	2	2500	1250
+LG82ZTE	216	Picture	Delay	3068256	0	2	19558	3	0	19420
+LG82ZTE	217	Picture	2_36_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_011_retrieval_position_3	3087981	0	1	30089	2	0	29920
+LG82ZTE	217	Response	10	3096974	8993	3
+LG82ZTE	218	Picture	ITI	3118237	0	2	20059	4	0	19920
+LG82ZTE	219	Picture	CueingCross	3138464	0	1	3009	2	0	2920
+LG82ZTE	220	Picture	PrepTime	3141640	0	1	3009	2	0	2920
+LG82ZTE	221	Picture	2_37_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2000_3000_2150_gabor_patch_orientation_063_025_093_142_target_position_1_3_retrieval_position_1	3144816	0	1	1337	2	0	1250
+LG82ZTE	221	Picture	Flicker2	3146153	1337	1	1337	2	1250	1250
+LG82ZTE	221	Picture	Flicker3	3147490	2674	1	1338	2	2500	1250
+LG82ZTE	222	Picture	Delay	3148995	0	1	20059	2	0	19920
+LG82ZTE	223	Picture	2_37_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_063_retrieval_position_1	3169221	0	1	30089	2	0	29920
+LG82ZTE	223	Response	20	3179081	9860	4
+LG82ZTE	224	Picture	ITI	3199477	0	1	21564	2	0	21420
+LG82ZTE	225	Picture	CueingCross	3221208	0	1	3009	2	0	2920
+LG82ZTE	226	Picture	PrepTime	3224384	0	1	3009	2	0	2920
+LG82ZTE	227	Picture	2_38_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1750_3000_1950_gabor_patch_orientation_055_132_015_089_target_position_1_3_retrieval_position_1	3227560	0	1	1337	3	0	1250
+LG82ZTE	227	Picture	Flicker2	3228897	1337	2	1338	3	1250	1250
+LG82ZTE	227	Picture	Flicker3	3230235	2675	1	1337	2	2500	1250
+LG82ZTE	228	Picture	Delay	3231739	0	1	17552	2	0	17420
+LG82ZTE	229	Picture	2_38_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_055_retrieval_position_1	3249458	0	1	30089	2	0	29920
+LG82ZTE	229	Response	10	3260839	11381	3
+LG82ZTE	230	Picture	ITI	3279714	0	1	19558	2	0	19420
+LG82ZTE	231	Picture	CueingCross	3299439	0	1	3009	2	0	2920
+LG82ZTE	232	Picture	PrepTime	3302615	0	1	3009	2	0	2920
+LG82ZTE	233	Picture	2_39_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2100_3000_2500_gabor_patch_orientation_098_034_063_148_target_position_2_4_retrieval_position_2	3305791	0	1	1337	2	0	1250
+LG82ZTE	233	Picture	Flicker2	3307128	1337	1	1338	2	1250	1250
+LG82ZTE	233	Picture	Flicker3	3308466	2675	1	1337	2	2500	1250
+LG82ZTE	234	Picture	Delay	3309970	0	1	21062	2	0	20920
+LG82ZTE	235	Picture	2_39_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_034_retrieval_position_2	3331200	0	1	30088	2	0	29920
+LG82ZTE	235	Response	10	3347216	16016	3
+LG82ZTE	236	Picture	ITI	3361456	0	1	25074	2	0	24920
+LG82ZTE	237	Picture	CueingCross	3386697	0	1	3009	2	0	2920
+LG82ZTE	238	Picture	PrepTime	3389873	0	1	3009	2	0	2920
+LG82ZTE	239	Picture	2_40_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1850_3000_2100_gabor_patch_orientation_177_018_093_124_target_position_2_3_retrieval_position_2	3393049	0	1	1337	2	0	1250
+LG82ZTE	239	Picture	Flicker2	3394386	1337	1	1337	3	1250	1250
+LG82ZTE	239	Picture	Flicker3	3395723	2674	2	1338	3	2500	1250
+LG82ZTE	240	Picture	Delay	3397228	0	1	18555	2	0	18420
+LG82ZTE	241	Picture	2_40_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_018_retrieval_position_2	3415950	0	1	30089	2	0	29920
+LG82ZTE	241	Response	10	3423974	8024	3
+LG82ZTE	242	Picture	ITI	3446206	0	1	21062	2	0	20920
+LG82ZTE	243	Picture	CueingCross	3467435	0	1	3009	2	0	2920
+LG82ZTE	244	Picture	PrepTime	3470611	0	1	3009	2	0	2920
+LG82ZTE	245	Picture	2_41_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2100_3000_2200_gabor_patch_orientation_041_157_095_175_target_position_1_4_retrieval_position_4	3473787	0	1	1338	2	0	1250
+LG82ZTE	245	Picture	Flicker2	3475125	1338	1	1337	2	1250	1250
+LG82ZTE	245	Picture	Flicker3	3476462	2675	1	1337	2	2500	1250
+LG82ZTE	246	Picture	Delay	3477966	0	1	21062	3	0	20920
+LG82ZTE	247	Picture	2_41_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_130_retrieval_position_4	3499196	0	1	30088	3	0	29920
+LG82ZTE	247	Response	20	3506621	7425	4
+LG82ZTE	248	Picture	ITI	3529452	0	1	22065	2	0	21920
+LG82ZTE	249	Picture	CueingCross	3551684	0	1	3009	2	0	2920
+LG82ZTE	250	Picture	PrepTime	3554860	0	1	3009	2	0	2920
+LG82ZTE	251	Picture	2_42_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2000_3000_2550_gabor_patch_orientation_089_160_119_052_target_position_1_3_retrieval_position_3	3558036	0	1	1337	2	0	1250
+LG82ZTE	251	Picture	Flicker2	3559373	1337	1	1338	2	1250	1250
+LG82ZTE	251	Picture	Flicker3	3560711	2675	1	1337	2	2500	1250
+LG82ZTE	252	Picture	Delay	3562215	0	1	20059	2	0	19920
+LG82ZTE	253	Picture	2_42_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_073_retrieval_position_3	3582441	0	2	30089	3	0	29920
+LG82ZTE	253	Response	20	3589938	7497	4
+LG82ZTE	254	Picture	ITI	3612697	0	2	25576	3	0	25420
+LG82ZTE	255	Picture	CueingCross	3638440	0	1	3009	2	0	2920
+LG82ZTE	256	Picture	PrepTime	3641616	0	1	3009	2	0	2920
+LG82ZTE	257	Picture	2_43_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_2250_3000_2100_gabor_patch_orientation_074_097_039_150_target_position_2_4_retrieval_position_1	3644792	0	1	1338	2	0	1250
+LG82ZTE	257	Picture	Flicker2	3646130	1338	1	1337	2	1250	1250
+LG82ZTE	257	Picture	Flicker3	3647467	2675	1	1337	2	2500	1250
+LG82ZTE	258	Picture	Delay	3648971	0	1	22566	3	0	22420
+LG82ZTE	259	Picture	2_43_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_119_retrieval_position_1	3671705	0	1	30089	2	0	29920
+LG82ZTE	259	Response	10	3684116	12411	3
+LG82ZTE	260	Picture	ITI	3701961	0	1	21062	2	0	20920
+LG82ZTE	261	Picture	CueingCross	3723190	0	2	3009	3	0	2920
+LG82ZTE	262	Picture	PrepTime	3726366	0	2	3009	3	0	2920
+LG82ZTE	263	Picture	2_44_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1950_3000_2000_gabor_patch_orientation_048_129_163_023_target_position_1_3_retrieval_position_3	3729542	0	2	1338	3	0	1250
+LG82ZTE	263	Picture	Flicker2	3730880	1338	1	1337	2	1250	1250
+LG82ZTE	263	Picture	Flicker3	3732217	2675	1	1337	3	2500	1250
+LG82ZTE	264	Picture	Delay	3733721	0	2	19558	3	0	19420
+LG82ZTE	265	Picture	2_44_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_113_retrieval_position_3	3753446	0	2	30089	3	0	29920
+LG82ZTE	265	Response	10	3767503	14057	3
+LG82ZTE	266	Picture	ITI	3783702	0	2	20060	3	0	19920
+LG82ZTE	267	Picture	CueingCross	3803929	0	1	3009	2	0	2920
+LG82ZTE	268	Picture	PrepTime	3807105	0	1	3009	2	0	2920
+LG82ZTE	269	Picture	2_45_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1750_3000_1950_gabor_patch_orientation_098_062_015_126_target_position_1_4_retrieval_position_4	3810281	0	1	1337	2	0	1250
+LG82ZTE	269	Picture	Flicker2	3811618	1337	1	1338	2	1250	1250
+LG82ZTE	269	Picture	Flicker3	3812956	2675	1	1337	2	2500	1250
+LG82ZTE	270	Picture	Delay	3814460	0	1	17552	2	0	17420
+LG82ZTE	271	Picture	2_45_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_126_retrieval_position_4	3832179	0	1	30089	2	0	29920
+LG82ZTE	271	Response	10	3839931	7752	3
+LG82ZTE	272	Picture	ITI	3862435	0	1	19558	2	0	19420
+LG82ZTE	273	Picture	CueingCross	3882160	0	1	3009	2	0	2920
+LG82ZTE	274	Picture	PrepTime	3885336	0	1	3009	2	0	2920
+LG82ZTE	275	Picture	2_46_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_2250_gabor_patch_orientation_095_159_175_039_target_position_2_3_retrieval_position_3	3888512	0	1	1337	2	0	1250
+LG82ZTE	275	Picture	Flicker2	3889849	1337	1	1337	3	1250	1250
+LG82ZTE	275	Picture	Flicker3	3891186	2674	2	1338	3	2500	1250
+LG82ZTE	276	Picture	Delay	3892691	0	1	18053	2	0	17920
+LG82ZTE	277	Picture	2_46_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_127_retrieval_position_3	3910911	0	2	30089	3	0	29920
+LG82ZTE	277	Response	10	3918128	7217	4
+LG82ZTE	278	Picture	ITI	3941167	0	2	22567	3	0	22420
+LG82ZTE	279	Picture	CueingCross	3963901	0	1	3009	2	0	2920
+LG82ZTE	280	Picture	PrepTime	3967077	0	2	3009	3	0	2920
+LG82ZTE	281	Picture	2_47_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2000_3000_2200_gabor_patch_orientation_127_003_055_163_target_position_1_2_retrieval_position_1	3970253	0	2	1338	3	0	1250
+LG82ZTE	281	Picture	Flicker2	3971591	1338	1	1337	2	1250	1250
+LG82ZTE	281	Picture	Flicker3	3972928	2675	1	1337	2	2500	1250
+LG82ZTE	282	Picture	Delay	3974432	0	2	20059	4	0	19920
+LG82ZTE	283	Picture	2_47_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_078_retrieval_position_1	3994659	0	1	30089	2	0	29920
+LG82ZTE	283	Response	20	4002836	8177	3
+LG82ZTE	284	Picture	ITI	4024915	0	1	22065	2	0	21920
+LG82ZTE	285	Picture	CueingCross	4047147	0	1	3009	2	0	2920
+LG82ZTE	286	Picture	PrepTime	4050323	0	1	3009	2	0	2920
+LG82ZTE	287	Picture	2_48_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1800_3000_2450_gabor_patch_orientation_109_088_043_070_target_position_1_3_retrieval_position_4	4053499	0	1	1337	3	0	1250
+LG82ZTE	287	Picture	Flicker2	4054836	1337	2	1338	3	1250	1250
+LG82ZTE	287	Picture	Flicker3	4056174	2675	1	1337	2	2500	1250
+LG82ZTE	288	Picture	Delay	4057678	0	1	18053	3	0	17920
+LG82ZTE	289	Picture	2_48_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_070_retrieval_position_4	4075899	0	1	30088	3	0	29920
+LG82ZTE	289	Response	20	4089653	13754	4
+LG82ZTE	290	Picture	ITI	4106155	0	1	24572	2	0	24420
+LG82ZTE	291	Picture	CueingCross	4130894	0	2	3009	3	0	2920
+LG82ZTE	292	Picture	PrepTime	4134070	0	2	3009	3	0	2920
+LG82ZTE	293	Picture	2_49_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1900_3000_2300_gabor_patch_orientation_119_146_176_008_target_position_1_4_retrieval_position_1	4137246	0	2	1338	3	0	1250
+LG82ZTE	293	Picture	Flicker2	4138584	1338	1	1337	2	1250	1250
+LG82ZTE	293	Picture	Flicker3	4139921	2675	1	1337	2	2500	1250
+LG82ZTE	294	Picture	Delay	4141425	0	2	19057	3	0	18920
+LG82ZTE	295	Picture	2_49_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_119_retrieval_position_1	4160649	0	1	30089	2	0	29920
+LG82ZTE	295	Response	10	4168881	8232	3
+LG82ZTE	296	Picture	ITI	4190905	0	1	23068	2	0	22920
+LG82ZTE	297	Picture	CueingCross	4214140	0	1	3009	2	0	2920
+LG82ZTE	298	Picture	PrepTime	4217316	0	1	3009	2	0	2920
+LG82ZTE	299	Picture	2_50_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1900_3000_2400_gabor_patch_orientation_060_040_124_084_target_position_1_3_retrieval_position_1	4220492	0	2	1338	3	0	1250
+LG82ZTE	299	Picture	Flicker2	4221830	1338	1	1337	2	1250	1250
+LG82ZTE	299	Picture	Flicker3	4223167	2675	1	1337	2	2500	1250
+LG82ZTE	300	Picture	Delay	4224671	0	2	19057	3	0	18920
+LG82ZTE	301	Picture	2_50_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_106_retrieval_position_1	4243895	0	1	30089	2	0	29920
+LG82ZTE	301	Response	20	4250568	6673	4
+LG82ZTE	302	Picture	ITI	4274151	0	1	24071	2	0	23920
+LG82ZTE	303	Picture	CueingCross	4298389	0	1	3009	2	0	2920
+LG82ZTE	304	Picture	PrepTime	4301565	0	1	3009	2	0	2920
+LG82ZTE	305	Picture	2_51_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1750_3000_1900_gabor_patch_orientation_040_101_149_025_target_position_2_4_retrieval_position_4	4304741	0	1	1337	3	0	1250
+LG82ZTE	305	Picture	Flicker2	4306078	1337	2	1338	3	1250	1250
+LG82ZTE	305	Picture	Flicker3	4307416	2675	1	1337	2	2500	1250
+LG82ZTE	306	Picture	Delay	4308920	0	1	17552	2	0	17420
+LG82ZTE	307	Picture	2_51_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_074_retrieval_position_4	4326639	0	1	30089	2	0	29920
+LG82ZTE	307	Response	10	4337275	10636	4
+LG82ZTE	308	Picture	ITI	4356895	0	1	19056	3	0	18920
+LG82ZTE	309	Picture	CueingCross	4376118	0	2	3009	4	0	2920
+LG82ZTE	310	Picture	PrepTime	4379295	0	1	3008	3	0	2920
+LG82ZTE	311	Picture	2_52_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1850_3000_2300_gabor_patch_orientation_004_092_138_169_target_position_2_4_retrieval_position_4	4382471	0	1	1337	2	0	1250
+LG82ZTE	311	Picture	Flicker2	4383808	1337	1	1337	2	1250	1250
+LG82ZTE	311	Picture	Flicker3	4385145	2674	1	1337	3	2500	1250
+LG82ZTE	312	Picture	Delay	4386650	0	1	18554	3	0	18420
+LG82ZTE	313	Picture	2_52_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_121_retrieval_position_4	4405372	0	1	30088	3	0	29920
+LG82ZTE	313	Response	20	4418353	12981	3
+LG82ZTE	314	Picture	ITI	4435628	0	1	23068	2	0	22920
+LG82ZTE	315	Picture	CueingCross	4458863	0	1	3009	2	0	2920
+LG82ZTE	316	Picture	PrepTime	4462039	0	1	3009	2	0	2920
+LG82ZTE	317	Picture	2_53_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1750_3000_2150_gabor_patch_orientation_080_021_160_050_target_position_2_3_retrieval_position_4	4465215	0	1	1337	2	0	1250
+LG82ZTE	317	Picture	Flicker2	4466552	1337	1	1338	2	1250	1250
+LG82ZTE	317	Picture	Flicker3	4467890	2675	1	1337	2	2500	1250
+LG82ZTE	318	Picture	Delay	4469394	0	1	17552	2	0	17420
+LG82ZTE	319	Picture	2_53_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_001_retrieval_position_4	4487112	0	2	30090	3	0	29920
+LG82ZTE	319	Response	20	4501540	14428	4
+LG82ZTE	320	Picture	ITI	4517369	0	1	21564	2	0	21420
+LG82ZTE	321	Picture	CueingCross	4539100	0	1	3009	2	0	2920
+LG82ZTE	322	Picture	PrepTime	4542276	0	1	3009	2	0	2920
+LG82ZTE	323	Picture	2_54_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2000_3000_2050_gabor_patch_orientation_136_162_010_092_target_position_2_3_retrieval_position_3	4545452	0	1	1337	2	0	1250
+LG82ZTE	323	Picture	Flicker2	4546789	1337	1	1337	3	1250	1250
+LG82ZTE	323	Picture	Flicker3	4548126	2674	2	1338	3	2500	1250
+LG82ZTE	324	Picture	Delay	4549631	0	1	20059	2	0	19920
+LG82ZTE	325	Picture	2_54_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_056_retrieval_position_3	4569857	0	2	30089	3	0	29920
+LG82ZTE	325	Response	20	4583068	13211	3
+LG82ZTE	326	Picture	ITI	4600113	0	2	20561	3	0	20420
+LG82ZTE	327	Picture	CueingCross	4620841	0	1	3009	2	0	2920
+LG82ZTE	328	Picture	PrepTime	4624017	0	1	3009	2	0	2920
+LG82ZTE	329	Picture	2_55_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1900_3000_1900_gabor_patch_orientation_176_111_023_089_target_position_1_4_retrieval_position_4	4627193	0	2	1338	3	0	1250
+LG82ZTE	329	Picture	Flicker2	4628531	1338	1	1337	2	1250	1250
+LG82ZTE	329	Picture	Flicker3	4629868	2675	1	1337	2	2500	1250
+LG82ZTE	330	Picture	Delay	4631372	0	2	19057	3	0	18920
+LG82ZTE	331	Picture	2_55_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_135_retrieval_position_4	4650596	0	1	30089	2	0	29920
+LG82ZTE	331	Response	20	4657726	7130	3
+LG82ZTE	332	Picture	ITI	4680852	0	1	19056	2	0	18920
+LG82ZTE	333	Picture	CueingCross	4700075	0	1	3009	2	0	2920
+LG82ZTE	334	Picture	PrepTime	4703251	0	2	3009	3	0	2920
+LG82ZTE	335	Picture	2_56_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1900_3000_2350_gabor_patch_orientation_027_075_136_060_target_position_3_4_retrieval_position_3	4706427	0	2	1338	3	0	1250
+LG82ZTE	335	Picture	Flicker2	4707765	1338	1	1337	2	1250	1250
+LG82ZTE	335	Picture	Flicker3	4709102	2675	1	1337	2	2500	1250
+LG82ZTE	336	Picture	Delay	4710606	0	2	19057	3	0	18920
+LG82ZTE	337	Picture	2_56_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_136_retrieval_position_3	4729830	0	1	30089	2	0	29920
+LG82ZTE	337	Response	10	4736743	6913	4
+LG82ZTE	338	Picture	ITI	4760086	0	1	23569	2	0	23420
+LG82ZTE	339	Picture	CueingCross	4783822	0	2	3009	4	0	2920
+LG82ZTE	340	Picture	PrepTime	4786999	0	1	3008	3	0	2920
+LG82ZTE	341	Picture	2_57_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2200_3000_2250_gabor_patch_orientation_046_002_065_025_target_position_1_2_retrieval_position_1	4790175	0	1	1337	2	0	1250
+LG82ZTE	341	Picture	Flicker2	4791512	1337	1	1337	2	1250	1250
+LG82ZTE	341	Picture	Flicker3	4792849	2674	1	1337	3	2500	1250
+LG82ZTE	342	Picture	Delay	4794354	0	1	22065	2	0	21920
+LG82ZTE	343	Picture	2_57_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_046_retrieval_position_1	4816586	0	1	30089	2	0	29920
+LG82ZTE	343	Response	10	4825600	9014	4
+LG82ZTE	344	Picture	ITI	4846842	0	1	22567	2	0	22420
+LG82ZTE	345	Picture	CueingCross	4869576	0	1	3009	2	0	2920
+LG82ZTE	346	Picture	PrepTime	4872752	0	1	3009	2	0	2920
+LG82ZTE	347	Picture	2_58_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_2100_3000_2050_gabor_patch_orientation_123_036_152_168_target_position_1_2_retrieval_position_3	4875928	0	1	1337	2	0	1250
+LG82ZTE	347	Picture	Flicker2	4877265	1337	1	1337	3	1250	1250
+LG82ZTE	347	Picture	Flicker3	4878602	2674	2	1338	3	2500	1250
+LG82ZTE	348	Picture	Delay	4880107	0	1	21062	2	0	20920
+LG82ZTE	349	Picture	2_58_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_152_retrieval_position_3	4901336	0	1	30089	2	0	29920
+LG82ZTE	349	Response	20	4915818	14482	3
+LG82ZTE	350	Picture	ITI	4931592	0	2	20561	3	0	20420
+LG82ZTE	351	Picture	CueingCross	4952320	0	1	3009	2	0	2920
+LG82ZTE	352	Picture	PrepTime	4955496	0	1	3009	2	0	2920
+LG82ZTE	353	Picture	2_59_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_2150_3000_2550_gabor_patch_orientation_143_114_174_084_target_position_3_4_retrieval_position_3	4958672	0	1	1337	3	0	1250
+LG82ZTE	353	Picture	Flicker2	4960009	1337	2	1338	3	1250	1250
+LG82ZTE	353	Picture	Flicker3	4961347	2675	1	1337	2	2500	1250
+LG82ZTE	354	Picture	Delay	4962851	0	1	21564	2	0	21420
+LG82ZTE	355	Picture	2_59_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_036_retrieval_position_3	4984582	0	1	30089	2	0	29920
+LG82ZTE	355	Response	20	4992635	8053	4
+LG82ZTE	356	Picture	ITI	5014838	0	1	25576	2	0	25420
+LG82ZTE	357	Picture	CueingCross	5040581	0	1	3009	2	0	2920
+LG82ZTE	358	Picture	PrepTime	5043757	0	1	3009	2	0	2920
+LG82ZTE	359	Picture	2_60_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2050_3000_2050_gabor_patch_orientation_002_045_121_151_target_position_2_3_retrieval_position_3	5046933	0	1	1337	2	0	1250
+LG82ZTE	359	Picture	Flicker2	5048270	1337	1	1337	3	1250	1250
+LG82ZTE	359	Picture	Flicker3	5049607	2674	2	1338	3	2500	1250
+LG82ZTE	360	Picture	Delay	5051112	0	1	20561	2	0	20420
+LG82ZTE	361	Picture	2_60_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_121_retrieval_position_3	5071840	0	1	30089	2	0	29920
+LG82ZTE	361	Response	10	5081292	9452	4
+LG82ZTE	362	Picture	ITI	5102096	0	1	20560	3	0	20420
+LG82ZTE	363	Picture	CueingCross	5122824	0	1	3008	3	0	2920
+LG82ZTE	364	Picture	PrepTime	5126000	0	1	3009	2	0	2920
+LG82ZTE	365	Picture	2_61_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_2200_3000_2100_gabor_patch_orientation_053_084_140_029_target_position_2_3_retrieval_position_1	5129176	0	1	1337	2	0	1250
+LG82ZTE	365	Picture	Flicker2	5130513	1337	1	1337	2	1250	1250
+LG82ZTE	365	Picture	Flicker3	5131850	2674	1	1338	2	2500	1250
+LG82ZTE	366	Picture	Delay	5133355	0	1	22065	2	0	21920
+LG82ZTE	367	Picture	2_61_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_007_retrieval_position_1	5155587	0	1	30089	2	0	29920
+LG82ZTE	367	Response	20	5166450	10863	3
+LG82ZTE	368	Picture	ITI	5185843	0	1	21062	2	0	20920
+LG82ZTE	369	Picture	CueingCross	5207072	0	2	3009	3	0	2920
+LG82ZTE	370	Picture	PrepTime	5210248	0	2	3009	3	0	2920
+LG82ZTE	371	Picture	2_62_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2150_3000_2000_gabor_patch_orientation_129_047_002_159_target_position_2_4_retrieval_position_2	5213424	0	2	1338	3	0	1250
+LG82ZTE	371	Picture	Flicker2	5214762	1338	1	1337	2	1250	1250
+LG82ZTE	371	Picture	Flicker3	5216099	2675	1	1337	2	2500	1250
+LG82ZTE	372	Picture	Delay	5217603	0	2	21564	3	0	21420
+LG82ZTE	373	Picture	2_62_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_047_retrieval_position_2	5239334	0	2	30089	3	0	29920
+LG82ZTE	373	Response	10	5246487	7153	4
+LG82ZTE	374	Picture	ITI	5269590	0	2	20059	4	0	19920
+LG82ZTE	375	Picture	CueingCross	5289817	0	1	3009	2	0	2920
+LG82ZTE	376	Picture	PrepTime	5292993	0	1	3009	2	0	2920
+LG82ZTE	377	Picture	2_63_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1850_3000_2300_gabor_patch_orientation_039_091_068_126_target_position_2_4_retrieval_position_4	5296168	0	2	1338	3	0	1250
+LG82ZTE	377	Picture	Flicker2	5297506	1338	1	1337	2	1250	1250
+LG82ZTE	377	Picture	Flicker3	5298843	2675	1	1338	2	2500	1250
+LG82ZTE	378	Picture	Delay	5300348	0	1	18555	2	0	18420
+LG82ZTE	379	Picture	2_63_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_176_retrieval_position_4	5319070	0	1	30089	2	0	29920
+LG82ZTE	379	Response	20	5327045	7975	3
+LG82ZTE	380	Picture	ITI	5349326	0	1	23068	2	0	22920
+LG82ZTE	381	Picture	CueingCross	5372561	0	1	3009	2	0	2920
+LG82ZTE	382	Picture	PrepTime	5375737	0	1	3009	2	0	2920
+LG82ZTE	383	Picture	2_64_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_UncuedRetriev_300_300_399_1900_3000_2000_gabor_patch_orientation_109_054_004_087_target_position_1_2_retrieval_position_3	5378913	0	1	1337	3	0	1250
+LG82ZTE	383	Picture	Flicker2	5380250	1337	2	1338	3	1250	1250
+LG82ZTE	383	Picture	Flicker3	5381588	2675	1	1337	2	2500	1250
+LG82ZTE	384	Picture	Delay	5383092	0	1	19056	3	0	18920
+LG82ZTE	385	Picture	2_64_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_UncuedRetriev_retrieval_patch_orientation_144_retrieval_position_3	5402316	0	1	30088	3	0	29920
+LG82ZTE	385	Response	20	5417662	15346	4
+LG82ZTE	386	Picture	ITI	5432572	0	1	20059	2	0	19920
+LG82ZTE	387	Picture	CueingCross	5452798	0	1	3009	2	0	2920
+LG82ZTE	388	Picture	PrepTime	5455974	0	1	3009	2	0	2920
+LG82ZTE	389	Picture	2_65_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1800_3000_2600_gabor_patch_orientation_067_041_009_147_target_position_2_4_retrieval_position_2	5459150	0	1	1337	2	0	1250
+LG82ZTE	389	Picture	Flicker2	5460487	1337	1	1338	2	1250	1250
+LG82ZTE	389	Picture	Flicker3	5461825	2675	1	1337	2	2500	1250
+LG82ZTE	390	Picture	Delay	5463329	0	1	18053	3	0	17920
+LG82ZTE	391	Picture	2_65_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_041_retrieval_position_2	5481550	0	1	30088	3	0	29920
+LG82ZTE	391	Response	10	5488880	7330	3
+LG82ZTE	392	Picture	ITI	5511806	0	1	26077	2	0	25920
+LG82ZTE	393	Picture	CueingCross	5538050	0	1	3009	2	0	2920
+LG82ZTE	394	Picture	PrepTime	5541226	0	1	3009	2	0	2920
+LG82ZTE	395	Picture	2_66_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1950_3000_2600_gabor_patch_orientation_093_007_055_023_target_position_2_4_retrieval_position_2	5544402	0	1	1337	2	0	1250
+LG82ZTE	395	Picture	Flicker2	5545739	1337	1	1337	3	1250	1250
+LG82ZTE	395	Picture	Flicker3	5547076	2674	2	1338	3	2500	1250
+LG82ZTE	396	Picture	Delay	5548581	0	1	19558	2	0	19420
+LG82ZTE	397	Picture	2_66_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_144_retrieval_position_2	5568306	0	1	30089	2	0	29920
+LG82ZTE	397	Response	20	5576467	8161	4
+LG82ZTE	398	Picture	ITI	5598562	0	1	26077	2	0	25920
+LG82ZTE	399	Picture	CueingCross	5624806	0	1	3009	2	0	2920
+LG82ZTE	400	Picture	PrepTime	5627982	0	1	3009	2	0	2920
+LG82ZTE	401	Picture	2_67_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_2250_3000_1950_gabor_patch_orientation_016_102_065_043_target_position_1_2_retrieval_position_1	5631158	0	1	1337	2	0	1250
+LG82ZTE	401	Picture	Flicker2	5632495	1337	1	1338	2	1250	1250
+LG82ZTE	401	Picture	Flicker3	5633833	2675	1	1337	2	2500	1250
+LG82ZTE	402	Picture	Delay	5635337	0	1	22567	2	0	22420
+LG82ZTE	403	Picture	2_67_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_016_retrieval_position_1	5658071	0	1	30089	2	0	29920
+LG82ZTE	403	Response	10	5668444	10373	4
+LG82ZTE	404	Picture	ITI	5688327	0	1	19558	2	0	19420
+LG82ZTE	405	Picture	CueingCross	5708052	0	1	3009	2	0	2920
+LG82ZTE	406	Picture	PrepTime	5711228	0	1	3009	2	0	2920
+LG82ZTE	407	Picture	2_68_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1850_3000_2350_gabor_patch_orientation_144_038_178_094_target_position_3_4_retrieval_position_3	5714404	0	1	1337	2	0	1250
+LG82ZTE	407	Picture	Flicker2	5715741	1337	1	1337	3	1250	1250
+LG82ZTE	407	Picture	Flicker3	5717078	2674	2	1338	3	2500	1250
+LG82ZTE	408	Picture	Delay	5718583	0	1	18555	2	0	18420
+LG82ZTE	409	Picture	2_68_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_128_retrieval_position_3	5737305	0	1	30089	2	0	29920
+LG82ZTE	409	Response	10	5754982	17677	3
+LG82ZTE	410	Picture	ITI	5767561	0	1	23569	3	0	23420
+LG82ZTE	411	Picture	CueingCross	5791298	0	1	3008	3	0	2920
+LG82ZTE	412	Picture	PrepTime	5794474	0	1	3009	2	0	2920
+LG82ZTE	413	Picture	2_69_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_UncuedRetriev_300_300_399_1900_3000_1950_gabor_patch_orientation_027_096_044_006_target_position_2_3_retrieval_position_1	5797650	0	1	1337	2	0	1250
+LG82ZTE	413	Picture	Flicker2	5798987	1337	1	1337	2	1250	1250
+LG82ZTE	413	Picture	Flicker3	5800324	2674	1	1338	2	2500	1250
+LG82ZTE	414	Picture	Delay	5801828	0	2	19057	3	0	18920
+LG82ZTE	415	Picture	2_69_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_UncuedRetriev_retrieval_patch_orientation_027_retrieval_position_1	5821052	0	1	30089	2	0	29920
+LG82ZTE	415	Response	10	5834799	13747	4
+LG82ZTE	416	Picture	ITI	5851308	0	1	19558	2	0	19420
+LG82ZTE	417	Picture	CueingCross	5871033	0	1	3009	2	0	2920
+LG82ZTE	418	Picture	PrepTime	5874209	0	1	3009	2	0	2920
+LG82ZTE	419	Picture	2_70_Encoding_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1850_3000_2250_gabor_patch_orientation_175_052_068_023_target_position_2_4_retrieval_position_4	5877385	0	1	1337	3	0	1250
+LG82ZTE	419	Picture	Flicker2	5878722	1337	2	1338	3	1250	1250
+LG82ZTE	419	Picture	Flicker3	5880060	2675	1	1337	2	2500	1250
+LG82ZTE	420	Picture	Delay	5881564	0	1	18555	2	0	18420
+LG82ZTE	421	Picture	2_70_Retrieval_Working_Memory_MEG_P2_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_023_retrieval_position_4	5900286	0	1	30089	2	0	29920
+LG82ZTE	421	Response	10	5908697	8411	4
+LG82ZTE	422	Picture	ITI	5930542	0	1	22567	2	0	22420
+LG82ZTE	423	Picture	BaselinePost	5953276	0	1	50148	2	0	50000

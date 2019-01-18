@@ -1,13 +1,5 @@
 function aStrFilePath = CreatePresentationFiles_NEW(strExpDevice, strSubjectID, strPermutationType, strLeftRight, strGroup, strRootFolder, strScriptFolderWM, bCreatePresentationFiles)
 
-%{
-    strExpDevice = 'MEG'; % 'MEG', 'MRI', 'PSY'
-    strSubjectID = 'Test99';
-    strPermutationType = 'P2';       
-    strLeftRight = 'LR'; % set 'LR' or 'RL'
-    strGroup = 'CONT'; % 'SCHI', 'ADHD', 'BIPO', 'RELS'       
-    strRootFolder = '/data/projects/ATWM1/Presentation/';          
-  %}  
     viNumBitmapFlicker = [1];
     viEncodingTimes = [133];   
     % complete time span for encoding in ms
@@ -45,12 +37,14 @@ function aStrFilePath = CreatePresentationFiles_NEW(strExpDevice, strSubjectID, 
    
         aStrFilePath{iSession} = filePath;
         
-        %%% If presentation for current experimental device (i.e. MEG or
-        %%% MRI) should not be created, continue to next loop iteration
-        %%% without creating any folders or files
+        % If presentation for current experimental device (i.e. MEG or MRI)
+        % should not be created, continue to next loop iteration without
+        % creating any folders or files.
         if ~bCreatePresentationFiles
             continue
         end
+        
+        
         %%{
         for bCreateExtraTrials = vbExtraTrials 
 
@@ -70,7 +64,7 @@ function aStrFilePath = CreatePresentationFiles_NEW(strExpDevice, strSubjectID, 
 
                         strExpCondShort = sprintf('%s_%s_%s', strExpName, strExpDevice, strCond{i});
                         strExpCond = sprintf('%s_%s_%s_%s_%s', strExpName, strExpDevice, strPermutationType, strLeftRight, strCond{i});
-                        strCondCode = strCond{i}
+                        strCondCode = strCond{i};
                         setupParadigm(strExpDevice, iSession, strLeftRight, filePath, strScriptFolderWM, bCreateExtraTrials, dbPercNonAlertedTargets(i), strCondCode, iCond{i}, ...
                         strExpCond, strExpCondShort, viNumBitmapFlicker, viEncodingTimes, viTotalEncodingTime, bIsUncued); % EXP5 cue before endcoding
                     end
