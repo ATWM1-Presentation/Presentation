@@ -92,11 +92,11 @@ trial {
 trial { 
    picture {
       text {
-          caption = "Links: Keine Veränderung";
+          caption = "Links: ##LEFT_BUTTON_MEANING##";
       } txt3;
       x = 0; y = 150;      
       text {
-          caption = "Rechts: Veränderung";
+          caption = "Rechts: ##RIGHT_BUTTON_MEANING##";
       } txt4;
       x = 0; y = 0; 
    } picIntro2;
@@ -113,7 +113,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für '##LEFT_BUTTON_MEANING##'.";
       } txt5;
       x = 0; y = 0;      
    } picIntro3;
@@ -132,7 +132,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für '##RIGHT_BUTTON_MEANING##'.";
       } txt6;
       x = 0; y = 0;      
    } picIntro4;
@@ -151,7 +151,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für '##LEFT_BUTTON_MEANING##'.";
       } txt7;
       x = 0; y = 0;      
    } picIntro5;
@@ -170,7 +170,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für '##RIGHT_BUTTON_MEANING##'.";
       } txt8;
       x = 0; y = 0;      
    } picIntro6;
@@ -189,7 +189,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für '##LEFT_BUTTON_MEANING##'.";
       } txt9;
       x = 0; y = 0;      
    } picIntro7;
@@ -208,7 +208,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für '##RIGHT_BUTTON_MEANING##'.";
       } txt10;
       x = 0; y = 0;      
    } picIntro8;
@@ -258,11 +258,7 @@ trial {
                
 TEMPLATE "ATWM1_Working_Memory_MEG.tem" {
 trigger_encoding trigger_retrieval cue_time preparation_time encoding_time single_stimulus_presentation_time delay_time retrieval_time intertrial_interval alerting_cross   stim_enc1 stim_enc2 stim_enc3 stim_enc4 	stim_enc_alt1 stim_enc_alt2 stim_enc_alt3 stim_enc_alt4    trial_code   stim_retr1 stim_retr2 stim_retr3 stim_retr4   stim_cue1 stim_cue2 stim_cue3 stim_cue4 fixationcross_cued     retr_code    the_target_button   posX1 posY1 posX2 posY2 posX3 posY3 posX4 posY4;
-   43    61   292   292   399   125  1742  2992  1992      fixation_cross    gabor_131 gabor_007 gabor_097 gabor_074    gabor_131_alt gabor_007 gabor_097 gabor_074_alt      "2_1_Encoding_Working_Memory_MEG_P1_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1750_3000_2000_gabor_patch_orientation_131_007_097_074_target_position_2_3_retrieval_position_2"       gabor_circ gabor_052_framed gabor_circ gabor_circ    blank blank blank blank    fixation_cross_target_position_2_3     "2_1_Retrieval_Working_Memory_MEG_P1_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_052_retrieval_position_2"   2    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
-   43    62   292   292   399   125  1842  2992  1942      fixation_cross    gabor_175 gabor_052 gabor_037 gabor_118    gabor_175_alt gabor_052 gabor_037_alt gabor_118      "2_2_Encoding_Working_Memory_MEG_P1_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1850_3000_1950_gabor_patch_orientation_175_052_037_118_target_position_2_4_retrieval_position_4"       gabor_circ gabor_circ gabor_circ gabor_118_framed    blank blank blank blank    fixation_cross_target_position_2_4     "2_2_Retrieval_Working_Memory_MEG_P1_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_118_retrieval_position_4"   1    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
-   43    61   292   292   399   125  1892  2992  2042      fixation_cross    gabor_139 gabor_050 gabor_027 gabor_083    gabor_139 gabor_050_alt gabor_027 gabor_083_alt      "2_3_Encoding_Working_Memory_MEG_P1_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1900_3000_2050_gabor_patch_orientation_139_050_027_083_target_position_1_3_retrieval_position_3"       gabor_circ gabor_circ gabor_162_framed gabor_circ    blank blank blank blank    fixation_cross_target_position_1_3     "2_3_Retrieval_Working_Memory_MEG_P1_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_162_retrieval_position_3"   2    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
-   43    62   292   292   399   125  1792  2992  1892      fixation_cross    gabor_093 gabor_113 gabor_004 gabor_161    gabor_093_alt gabor_113_alt gabor_004 gabor_161      "2_4_Encoding_Working_Memory_MEG_P1_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1800_3000_1900_gabor_patch_orientation_093_113_004_161_target_position_3_4_retrieval_position_3"       gabor_circ gabor_circ gabor_004_framed gabor_circ    blank blank blank blank    fixation_cross_target_position_3_4     "2_4_Retrieval_Working_Memory_MEG_P1_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_004_retrieval_position_3"   1    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
-
+##INSERT_ARRAY##
 };
 
 # baselinePost (after test trials)
