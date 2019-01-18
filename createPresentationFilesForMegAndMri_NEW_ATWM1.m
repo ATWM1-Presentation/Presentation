@@ -55,6 +55,7 @@ strButton1 = sprintf('%sAll files%s', parametersDialog.strEmpty, parametersDialo
 strButton2 = sprintf('%sMRI only%s', parametersDialog.strEmpty, parametersDialog.strEmpty);
 strButton3 = sprintf('%sAbort%s', parametersDialog.strEmpty, parametersDialog.strEmpty);
 default = strButton3;
+
 choice = questdlg(strPrompt, strTitle, strButton1, strButton2, strButton3, default);
 if isempty(choice)
     fprintf('No option selected!\nAborting function.\n');
@@ -81,24 +82,12 @@ for ced = 1:numel(parametersStudy.aStrExpDevice)
     else
         bCreatePresentationFiles = true;
     end
-    
-    %%% REMOVE
-    %bCreatePresentationFiles = false
-    %strExpDevice = strExpDevice
-    %%% REMOVE
-    
     aStrFilePath = CreatePresentationFiles_NEW(strExpDevice, strSubjectID, strPermutationType, strLeftRight, strGroup, strRootFolder, strScriptFolderWM, bCreatePresentationFiles);
-
-    %%{
     for cp = 1:numel(aStrFilePath)
         indSubFolder = numel(aStrSubjectPresentationFileSubFolder) + 1;
         aStrSubjectPresentationFileSubFolder{indSubFolder} = aStrFilePath{cp};
-        
-        %%% REMOVE
-        %test = aStrSubjectPresentationFileSubFolder{indSubFolder}
-        %%% REMOVE
+
     end
-    %}
 end
 
 %% Create presentation files for localizer
@@ -116,7 +105,7 @@ pushSubjectPresentationScenarioFilesToGithubATWM1;
 end
 
 
-function bAbort = copyStudyParameterFilesToLocalStudyParametersFolderATWM1(strStudy, strGlobalStudyParametersFolder, strLocalStudyParametersFolder);
+function bAbort = copyStudyParameterFilesToLocalStudyParametersFolderATWM1(strStudy, strGlobalStudyParametersFolder, strLocalStudyParametersFolder)
 % Copy parameter files from global study parameters folder to local study parameters folder
 aStrStudyParametersFiles = {
     sprintf('aSubject%s_IMAGING.m', strStudy)
@@ -145,7 +134,7 @@ bAbort = false;
 end
 
 
-function [strGroup, strSubjectID, strPermutationType, strLeftRight, bAbort] = selectParametersForPresentationScenarioFileCreationATWM1(parametersGroups, aSubject, parametersParadigm);
+function [strGroup, strSubjectID, strPermutationType, strLeftRight, bAbort] = selectParametersForPresentationScenarioFileCreationATWM1(parametersGroups, aSubject, parametersParadigm)
 
 global strStudy
 
@@ -269,7 +258,7 @@ end
 end
 
 
-function [strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder, bAbort] = prepareSubjectFolderForPresentationScenarioFilesATMW1(strRootFolder, strGroup, strSubjectID);
+function [strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder, bAbort] = prepareSubjectFolderForPresentationScenarioFilesATMW1(strRootFolder, strGroup, strSubjectID)
 bAbort = false;
 %%% Check, whether Presentation scenario files have already been created
 strPresentationFilesFolder = strcat(strRootFolder, 'PresentationFiles_Subjects', '/');
@@ -286,15 +275,12 @@ if exist(strSubjectPresentationFilesFolder, 'dir')
             try
                 rmdir(strSubjectPresentationFilesFolder, 's');
             catch
-                strMessage = sprintf('Could not delete folder %s\n', strSubjectPresentationFilesFolder);
-                error(strMessage);
+                error('Could not delete folder %s\n', strSubjectPresentationFilesFolder);
             end
-            strMessage = sprintf('Overwriting Presentation scencario files for subject %s.\n', strSubjectID);
-            disp(strMessage);
+            fprintf('Overwriting Presentation scencario files for subject %s.\n', strSubjectID);
             
         case strChoice2
-            strMessage = sprintf('Presentation scencario files for subject %s not overwritten!\nAborting function!\n', strSubjectID);
-            disp(strMessage);
+            fprintf('Presentation scencario files for subject %s not overwritten!\nAborting function!\n', strSubjectID);
             bAbort = true;
             return
     end
@@ -305,7 +291,7 @@ mkdir(strSubjectPresentationFilesFolder);
 end
 
 
-function movePresentationScenarioFilesToSubjectFolderATWM1(aStrSubjectPresentationFileSubFolder, strSubjectPresentationFilesFolder);
+function movePresentationScenarioFilesToSubjectFolderATWM1(aStrSubjectPresentationFileSubFolder, strSubjectPresentationFilesFolder)
 % Move all subfolder to subject presentation file folder
 for cp = 1:numel(aStrSubjectPresentationFileSubFolder)
     strFilePath = aStrSubjectPresentationFileSubFolder{cp};
@@ -313,8 +299,9 @@ for cp = 1:numel(aStrSubjectPresentationFileSubFolder)
     iDirSep = strfind(strFilePath, '/');
     iStart = iDirSep(end-1) + 1;
     iEnd = iDirSep(end) - 1;
-    strSubFolder = strFilePath(iStart:iEnd);
-    
+    for c = 1:20
+        strSubFolder = strFilePath(iStart:iEnd)
+    end
     strNewFolder = strcat(strSubjectPresentationFilesFolder, strSubFolder, '/');
     movefile(strFilePath, strNewFolder)
 end
@@ -322,7 +309,7 @@ end
 end
 
 
-function zipSubjectPresentationScenarioFileFolderATWM1(strSubjectID, strStudy, strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder);
+function zipSubjectPresentationScenarioFileFolderATWM1(strSubjectID, strStudy, strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder)
 % Zip subject presentation file folder
 strZipFile = sprintf('%s_%s_Presentation_Scenario_Files.zip', strSubjectID, strStudy);
 pathZipFile = fullfile(strGroupPresentationFilesFolder, strZipFile);
