@@ -8,18 +8,24 @@ function aStrFilePath = CreatePresentationFiles_NEW(strExpDevice, strSubjectID, 
 	strExpName = 'Working_Memory';               
 
     switch strExpDevice
-        case 'MRI'            
-            vbExtraTrials = [0 1]; % generate no extra excercise trials in introduction scene file
-            viSessionNumbers = [1];
-            [strSubjectFolder] = CreateFolders(strRootFolder, strSubjectID, strPermutationType, strLeftRight, strGroup, strExpName, strExpDevice);
-        case 'MEG'        
-            vbExtraTrials = [0 1]; % generate extra excercise trials in introduction scene file
-            viSessionNumbers = [1 2];
-            [strSubjectFolderSession1, strSubjectFolderSession2] = CreateFoldersMEG(strRootFolder, strSubjectID, strPermutationType, strLeftRight, strGroup, strExpName, strExpDevice, viSessionNumbers);
+        case 'MRI'
+            if bCreatePresentationFiles
+                vbExtraTrials = [0 1]; % generate no extra excercise trials in introduction scene file
+                viSessionNumbers = [1];
+                [strSubjectFolder] = CreateFolders(strRootFolder, strSubjectID, strPermutationType, strLeftRight, strGroup, strExpName, strExpDevice);
+            end
+        case 'MEG'
+            if bCreatePresentationFiles
+                vbExtraTrials = [0 1]; % generate extra excercise trials in introduction scene file
+                viSessionNumbers = [1 2];
+                [strSubjectFolderSession1, strSubjectFolderSession2] = CreateFoldersMEG(strRootFolder, strSubjectID, strPermutationType, strLeftRight, strGroup, strExpName, strExpDevice, viSessionNumbers);
+            end
         case 'PSY';
-            vbExtraTrials = [0 1]; % generate extra excercise trials in introduction scene file
-            viSessionNumbers = [1];
-            [strSubjectFolder] = CreateFolders(strRootFolder, strSubjectID, strPermutationType, strLeftRight, strGroup, strExpName, strExpDevice);
+            if bCreatePresentationFiles
+                vbExtraTrials = [0 1]; % generate extra excercise trials in introduction scene file
+                viSessionNumbers = [1];
+                [strSubjectFolder] = CreateFolders(strRootFolder, strSubjectID, strPermutationType, strLeftRight, strGroup, strExpName, strExpDevice);
+            end
     end
     
        

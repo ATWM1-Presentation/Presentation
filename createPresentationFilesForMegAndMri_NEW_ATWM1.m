@@ -82,6 +82,11 @@ for ced = 1:numel(parametersStudy.aStrExpDevice)
     else
         bCreatePresentationFiles = true;
     end
+    %%% REMOVE
+    for c = 1:20
+        bCreatePresentationFiles = false
+    end
+    %%% REMOVE
     aStrFilePath = CreatePresentationFiles_NEW(strExpDevice, strSubjectID, strPermutationType, strLeftRight, strGroup, strRootFolder, strScriptFolderWM, bCreatePresentationFiles);
     for cp = 1:numel(aStrFilePath)
         indSubFolder = numel(aStrSubjectPresentationFileSubFolder) + 1;
@@ -97,10 +102,15 @@ aStrSubjectPresentationFileSubFolder{iSubFolder} = strSubjectFolder;
 
 %% Move and zip presentation files
 movePresentationScenarioFilesToSubjectFolderATWM1(aStrSubjectPresentationFileSubFolder, strSubjectPresentationFilesFolder);
-zipSubjectPresentationScenarioFileFolderATWM1(strSubjectID, strStudy, strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder);
+%zipSubjectPresentationScenarioFileFolderATWM1(strSubjectID, strStudy, strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder);
+[strPathZipFile] = zipSubjectPresentationScenarioFileFolderATWM1(strSubjectID, strStudy, strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder);
 
 %% Push new files to study github account
+if exist(strPathZipFile, 'dir')
 pushSubjectPresentationScenarioFilesToGithubATWM1;
+else
+    fprintf('\nFolder %s not found!\n\n', strPathZipFile);
+end
 
 end
 
@@ -299,21 +309,23 @@ for cp = 1:numel(aStrSubjectPresentationFileSubFolder)
     iDirSep = strfind(strFilePath, '/');
     iStart = iDirSep(end-1) + 1;
     iEnd = iDirSep(end) - 1;
-    for c = 1:20
-        strSubFolder = strFilePath(iStart:iEnd)
+    strSubFolder = strFilePath(iStart:iEnd);
+    if exist(strSubFolder, 'dir')
+        strNewFolder = strcat(strSubjectPresentationFilesFolder, strSubFolder, '/');
+        movefile(strFilePath, strNewFolder)
     end
-    strNewFolder = strcat(strSubjectPresentationFilesFolder, strSubFolder, '/');
-    movefile(strFilePath, strNewFolder)
 end
 
 end
 
 
-function zipSubjectPresentationScenarioFileFolderATWM1(strSubjectID, strStudy, strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder)
+function [strPathZipFile] = zipSubjectPresentationScenarioFileFolderATWM1(strSubjectID, strStudy, strGroupPresentationFilesFolder, strSubjectPresentationFilesFolder)
 % Zip subject presentation file folder
 strZipFile = sprintf('%s_%s_Presentation_Scenario_Files.zip', strSubjectID, strStudy);
-pathZipFile = fullfile(strGroupPresentationFilesFolder, strZipFile);
-zip(pathZipFile, strSubjectPresentationFilesFolder);
+strPathZipFile = fullfile(strGroupPresentationFilesFolder, strZipFile);
+if exist(strGroupPresentationFilesFolder, 'dir')
+    zip(strPathZipFile, strSubjectPresentationFilesFolder);
+end
 
 end
 
