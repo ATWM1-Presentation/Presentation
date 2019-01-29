@@ -1,5 +1,5 @@
 <ver>20</ver>
-<efn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##EXP_FILE_NAME##.exp</efn>
+<efn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##EXP_FILE_NAME##.exp</efn>
 <author></author>
 <con>
 <pause>P</pause>
@@ -43,15 +43,15 @@
 <dsd>C:\guest_STIMCODE\STIM_ATWM1\Stimuli</dsd>
 <dxv>8</dxv>
 <efs>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Salient_Cued_Instruction.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Salient_Cued_Run1.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Nonsalient_Cued_Instruction.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Nonsalient_Cued_Run1.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Salient_Uncued_Instruction.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Salient_Uncued_Run1.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Nonsalient_Uncued_Instruction.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Nonsalient_Uncued_Run1.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG.tem</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Salient_Cued_Instruction.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Salient_Cued_Run1.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Nonsalient_Cued_Instruction.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Nonsalient_Cued_Run1.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Salient_Uncued_Instruction.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Salient_Uncued_Run1.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Nonsalient_Uncued_Instruction.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG_Nonsalient_Uncued_Run1.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\ATWM1_Working_Memory_MEG.tem</filename>
 </efs>
 <exclusive_mouse>1</exclusive_mouse>
 <exp_version></exp_version>
@@ -175,7 +175,7 @@
 <ui>0</ui>
 </chan>
 </ip_chans>
-<lfd>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\Logfiles</lfd>
+<lfd>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\Logfiles</lfd>
 <lnb>0</lnb>
 <lno>3</lno>
 <log>
@@ -625,7 +625,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_1_INSTRUCTION##.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_1_INSTRUCTION##.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -642,7 +642,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_1_RUN_1##.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_1_RUN_1##.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -659,7 +659,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_2_INSTRUCTION##.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_2_INSTRUCTION##.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -676,7 +676,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_2_RUN_1##.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_2_RUN_1##.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -693,7 +693,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_3_INSTRUCTION##.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_3_INSTRUCTION##.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -710,7 +710,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_3_RUN_1##.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_3_RUN_1##.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -727,7 +727,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_4_INSTRUCTION##.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_4_INSTRUCTION##.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -744,7 +744,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_4_RUN_1##.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG_MySubjectID_Session1\##SCE_FILE_COND_4_RUN_1##.sce</sfn>
 </sce>
 <sct>
 <capture_device>

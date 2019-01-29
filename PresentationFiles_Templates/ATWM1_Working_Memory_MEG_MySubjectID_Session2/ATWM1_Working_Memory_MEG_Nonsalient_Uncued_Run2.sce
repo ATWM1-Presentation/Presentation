@@ -15,7 +15,7 @@ default_monitor_sounds = false;
 active_buttons = 2;
 response_matching = simple_matching;
 button_codes = 10, 20;
-default_font_size = 28;     
+default_font_size = 36;     
 default_font  = "Arial"; 
 default_background_color = 0 ,0 ,0 ;
 write_codes=true; # for MEG only
@@ -23,13 +23,13 @@ write_codes=true; # for MEG only
 begin;	
 
 #Picture definitions   
-box { height = 300; width = 300; color = 0, 0, 0;} frame1;
-box { height = 290; width = 290; color = 255, 255, 255;} frame2;    
+box { height = 382; width = 382; color = 0, 0, 0;} frame1;
+box { height = 369; width = 369; color = 255, 255, 255;} frame2;    
 box { height = 30; width = 4; color = 0, 0, 0;} fix1;    
 box { height = 4; width = 30; color = 0, 0, 0;} fix2;
 box { height = 30; width = 4; color = 255, 0, 0;} fix3;    
 box { height = 4; width = 30; color = 255, 0, 0;} fix4;  
-box { height = 290; width = 290; color = 128, 128, 128;} background;
+box { height = 369; width = 369; color = 42, 42, 42;} background;
 
 TEMPLATE "StimuliDeclaration.tem" {};
 
