@@ -1,5 +1,5 @@
 <ver>20</ver>
-<efn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_P1_LR_Session2.exp</efn>
+<efn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_P1_LR_Session2.exp</efn>
 <author></author>
 <con>
 <pause>P</pause>
@@ -40,19 +40,19 @@
 <lfn></lfn>
 </docs>
 <dp_list></dp_list>
-<dsd>C:\guest_STIMCODE\STIM_Schaum\Stimuli</dsd>
+<dsd>C:\guest_STIMCODE\STIM_ATWM1\Stimuli</dsd>
 <dxv>8</dxv>
 <efs>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_RestingState_EyesOpen.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Cued_Instruction.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Cued_Run2.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Cued_Instruction.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Cued_Run2.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Uncued_Instruction.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Uncued_Run2.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Uncued_Instruction.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Uncued_Run2.sce</filename>
-<filename>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG.tem</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_RestingState_EyesOpen.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Cued_Instruction.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Cued_Run2.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Cued_Instruction.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Cued_Run2.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Uncued_Instruction.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Uncued_Run2.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Uncued_Instruction.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Uncued_Run2.sce</filename>
+<filename>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG.tem</filename>
 </efs>
 <exclusive_mouse>1</exclusive_mouse>
 <exp_version></exp_version>
@@ -89,6 +89,9 @@
 </parms>
 <pass></pass>
 <ssa>
+<asn>
+<sid>-2</sid>
+</asn>
 <asn>
 <sid>-2</sid>
 </asn>
@@ -177,7 +180,7 @@
 <ui>0</ui>
 </chan>
 </ip_chans>
-<lfd>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\Logfiles</lfd>
+<lfd>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\Logfiles</lfd>
 <lnb>0</lnb>
 <lno>3</lno>
 <log>
@@ -364,53 +367,6 @@
 <name>HID-compliant mouse</name>
 </device>
 <device>
-<device_type>3</device_type>
-<dx_device_type>0</dx_device_type>
-<name>HID Keyboard Device 1</name>
-</device>
-<device>
-<abs_axis>
-<dead_zone>0</dead_zone>
-<max>1000</max>
-<min>-1000</min>
-<name>X-axis</name>
-<saturation>1</saturation>
-</abs_axis>
-<abs_axis>
-<dead_zone>0</dead_zone>
-<max>1000</max>
-<min>-1000</min>
-<name>Y-axis</name>
-<saturation>1</saturation>
-</abs_axis>
-<axis>
-<max>1000</max>
-<min>-1000</min>
-<name>X-axis</name>
-<restricted>1</restricted>
-<scale>1</scale>
-</axis>
-<axis>
-<max>1000</max>
-<min>-1000</min>
-<name>Y-axis</name>
-<restricted>1</restricted>
-<scale>1</scale>
-</axis>
-<axis>
-<max>1000</max>
-<min>-1000</min>
-<name>Wheel</name>
-<restricted>1</restricted>
-<scale>1</scale>
-</axis>
-<device_type>2</device_type>
-<dx_device_type>0</dx_device_type>
-<max_raw_pos>65535</max_raw_pos>
-<min_raw_pos>0</min_raw_pos>
-<name>HID-compliant mouse 1</name>
-</device>
-<device>
 <device_type>4</device_type>
 <dx_device_type>17</dx_device_type>
 <name>Fujitsu Keyboard</name>
@@ -419,25 +375,6 @@
 <device_type>4</device_type>
 <dx_device_type>17</dx_device_type>
 <name>Fujitsu Keyboard 1</name>
-</device>
-<device>
-<axis>
-<dead_zone>0</dead_zone>
-<max>1000</max>
-<min>-1000</min>
-<name>X Axis</name>
-<saturation>1</saturation>
-</axis>
-<axis>
-<dead_zone>0</dead_zone>
-<max>1000</max>
-<min>-1000</min>
-<name>Y Axis</name>
-<saturation>1</saturation>
-</axis>
-<device_type>1</device_type>
-<dx_device_type>20</dx_device_type>
-<name>932</name>
 </device>
 <device>
 <axis>
@@ -627,7 +564,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_RestingState_EyesOpen.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_RestingState_EyesOpen.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -644,7 +581,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Cued_Instruction.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Cued_Instruction.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -661,7 +598,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Cued_Run2.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Cued_Run2.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -678,7 +615,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Cued_Instruction.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Cued_Instruction.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -695,7 +632,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Cued_Run2.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Cued_Run2.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -712,7 +649,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Uncued_Instruction.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Uncued_Instruction.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -729,7 +666,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Uncued_Run2.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Salient_Uncued_Run2.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -746,7 +683,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Uncued_Instruction.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Uncued_Instruction.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -763,7 +700,7 @@
 <offset>5</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\experiments\RobertBittner\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Uncued_Run2.sce</sfn>
+<sfn>C:\guest_STIMCODE\STIM_ATWM1\ATWM1_Working_Memory_MEG___SUBJECT_TEST_CONT_Session2\ATWM1_Working_Memory_MEG_Nonsalient_Uncued_Run2.sce</sfn>
 </sce>
 <sct>
 <capture_device>

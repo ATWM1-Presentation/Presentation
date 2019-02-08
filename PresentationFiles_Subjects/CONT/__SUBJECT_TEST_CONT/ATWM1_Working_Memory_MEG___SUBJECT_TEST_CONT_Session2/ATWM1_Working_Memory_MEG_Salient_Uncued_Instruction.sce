@@ -12,7 +12,7 @@ pulse_width=6;
 active_buttons = 2;
 response_matching = simple_matching;
 button_codes = 10, 20;
-default_font_size = 28;     
+default_font_size = 36;     
 default_font  = "Arial"; 
 default_background_color = 0 ,0 ,0 ;
 write_codes=true; # for MEG only
@@ -20,13 +20,13 @@ write_codes=true; # for MEG only
 begin;	
 
 #Picture definitions   
-box { height = 300; width = 300; color = 0, 0, 0;} frame1;
-box { height = 290; width = 290; color = 255, 255, 255;} frame2;    
+box { height = 382; width = 382; color = 0, 0, 0;} frame1;
+box { height = 369; width = 369; color = 255, 255, 255;} frame2;    
 box { height = 30; width = 4; color = 0, 0, 0;} fix1;    
 box { height = 4; width = 30; color = 0, 0, 0;} fix2;
 box { height = 30; width = 4; color = 255, 0, 0;} fix3;    
 box { height = 4; width = 30; color = 255, 0, 0;} fix4;  
-box { height = 290; width = 290; color = 128, 128, 128;} background;
+box { height = 369; width = 369; color = 42, 42, 42;} background;
  
 TEMPLATE "StimuliDeclaration.tem" {};
 
@@ -257,10 +257,10 @@ trial {
                
 TEMPLATE "ATWM1_Working_Memory_MEG.tem" {
 trigger_encoding trigger_retrieval cue_time preparation_time encoding_time single_stimulus_presentation_time delay_time retrieval_time intertrial_interval alerting_cross   stim_enc1 stim_enc2 stim_enc3 stim_enc4 	stim_enc_alt1 stim_enc_alt2 stim_enc_alt3 stim_enc_alt4    trial_code   stim_retr1 stim_retr2 stim_retr3 stim_retr4   stim_cue1 stim_cue2 stim_cue3 stim_cue4 fixationcross_cued     retr_code    the_target_button   posX1 posY1 posX2 posY2 posX3 posY3 posX4 posY4;
-   42    61   292   292   399   125  1842  2992  1992      fixation_cross    gabor_098 gabor_118 gabor_061 gabor_031    gabor_098_alt gabor_118 gabor_061 gabor_031_alt      "2_1_Encoding_Working_Memory_MEG_P1_LR_Salient_DoChange_CuedRetrieval_300_300_399_1850_3000_2000_gabor_patch_orientation_098_118_061_031_target_position_1_4_retrieval_position_4"          gabor_circ gabor_circ gabor_circ gabor_079_framed    blank blank blank blank    fixation_cross_white     "2_1_Retrieval_Working_Memory_MEG_P1_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_079_retrieval_position_4"   2    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
-   42    62   292   292   399   125  1792  2992  2042      fixation_cross    gabor_032 gabor_091 gabor_013 gabor_142    gabor_032_alt gabor_091_alt gabor_013 gabor_142      "2_2_Encoding_Working_Memory_MEG_P1_LR_Salient_NoChange_CuedRetrieval_300_300_399_1800_3000_2050_gabor_patch_orientation_032_091_013_142_target_position_1_2_retrieval_position_1"          gabor_032_framed gabor_circ gabor_circ gabor_circ    blank blank blank blank    fixation_cross_white     "2_2_Retrieval_Working_Memory_MEG_P1_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_032_retrieval_position_1"   1    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
-   42    61   292   292   399   125  1742  2992  1942      fixation_cross    gabor_134 gabor_178 gabor_063 gabor_151    gabor_134_alt gabor_178 gabor_063 gabor_151_alt      "2_3_Encoding_Working_Memory_MEG_P1_LR_Salient_DoChange_CuedRetrieval_300_300_399_1750_3000_1950_gabor_patch_orientation_134_178_063_151_target_position_1_4_retrieval_position_1"          gabor_088_framed gabor_circ gabor_circ gabor_circ    blank blank blank blank    fixation_cross_white     "2_3_Retrieval_Working_Memory_MEG_P1_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_088_retrieval_position_1"   2    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
-   42    62   292   292   399   125  1892  2992  1892      fixation_cross    gabor_163 gabor_110 gabor_035 gabor_094    gabor_163 gabor_110 gabor_035_alt gabor_094_alt      "2_4_Encoding_Working_Memory_MEG_P1_LR_Salient_NoChange_CuedRetrieval_300_300_399_1900_3000_1900_gabor_patch_orientation_163_110_035_094_target_position_3_4_retrieval_position_4"          gabor_circ gabor_circ gabor_circ gabor_094_framed    blank blank blank blank    fixation_cross_white     "2_4_Retrieval_Working_Memory_MEG_P1_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_094_retrieval_position_4"   1    45.96 45.96 -45.96 45.96 -45.96 -45.96 45.96 -45.96;
+   42    61   292   292   399   125  1892  2992  1942      fixation_cross    gabor_052 gabor_035 gabor_121 gabor_169    gabor_052_alt gabor_035 gabor_121_alt gabor_169      "2_1_Encoding_Working_Memory_MEG_P1_LR_Salient_DoChange_CuedRetrieval_300_300_399_1900_3000_1950_gabor_patch_orientation_052_035_121_169_target_position_1_3_retrieval_position_1"          gabor_098_framed gabor_circ gabor_circ gabor_circ    blank blank blank blank    fixation_cross_white     "2_1_Retrieval_Working_Memory_MEG_P1_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_098_retrieval_position_1"   2    58.69 58.69 -58.69 58.69 -58.69 -58.69 58.69 -58.69;
+   42    61   292   292   399   125  1742  2992  1992      fixation_cross    gabor_152 gabor_174 gabor_069 gabor_113    gabor_152 gabor_174_alt gabor_069 gabor_113_alt      "2_2_Encoding_Working_Memory_MEG_P1_LR_Salient_DoChange_CuedRetrieval_300_300_399_1750_3000_2000_gabor_patch_orientation_152_174_069_113_target_position_2_4_retrieval_position_2"          gabor_circ gabor_038_framed gabor_circ gabor_circ    blank blank blank blank    fixation_cross_white     "2_2_Retrieval_Working_Memory_MEG_P1_LR_Salient_DoChange_CuedRetrieval_retrieval_patch_orientation_038_retrieval_position_2"   2    58.69 58.69 -58.69 58.69 -58.69 -58.69 58.69 -58.69;
+   42    62   292   292   399   125  1842  2992  2042      fixation_cross    gabor_017 gabor_142 gabor_175 gabor_089    gabor_017 gabor_142_alt gabor_175_alt gabor_089      "2_3_Encoding_Working_Memory_MEG_P1_LR_Salient_NoChange_CuedRetrieval_300_300_399_1850_3000_2050_gabor_patch_orientation_017_142_175_089_target_position_2_3_retrieval_position_3"          gabor_circ gabor_circ gabor_175_framed gabor_circ    blank blank blank blank    fixation_cross_white     "2_3_Retrieval_Working_Memory_MEG_P1_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_175_retrieval_position_3"   1    58.69 58.69 -58.69 58.69 -58.69 -58.69 58.69 -58.69;
+   42    62   292   292   399   125  1792  2992  1892      fixation_cross    gabor_049 gabor_174 gabor_109 gabor_032    gabor_049_alt gabor_174_alt gabor_109 gabor_032      "2_4_Encoding_Working_Memory_MEG_P1_LR_Salient_NoChange_CuedRetrieval_300_300_399_1800_3000_1900_gabor_patch_orientation_049_174_109_032_target_position_1_2_retrieval_position_1"          gabor_049_framed gabor_circ gabor_circ gabor_circ    blank blank blank blank    fixation_cross_white     "2_4_Retrieval_Working_Memory_MEG_P1_LR_Salient_NoChange_CuedRetrieval_retrieval_patch_orientation_049_retrieval_position_1"   1    58.69 58.69 -58.69 58.69 -58.69 -58.69 58.69 -58.69;
 
 };
 
