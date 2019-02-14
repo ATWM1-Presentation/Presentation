@@ -92,11 +92,11 @@ trial {
 trial { 
    picture {
       text {
-          caption = "Links: Veränderung";
+          caption = "Links: Keine Veränderung";
       } txt3;
       x = 0; y = 150;      
       text {
-          caption = "Rechts: Keine Veränderung";
+          caption = "Rechts: Veränderung";
       } txt4;
       x = 0; y = 0; 
    } picIntro2;
@@ -113,7 +113,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
       } txt5;
       x = 0; y = 0;      
    } picIntro3;
@@ -132,7 +132,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
       } txt6;
       x = 0; y = 0;      
    } picIntro4;
@@ -151,7 +151,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
       } txt7;
       x = 0; y = 0;      
    } picIntro5;
@@ -170,7 +170,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
       } txt8;
       x = 0; y = 0;      
    } picIntro6;
@@ -189,7 +189,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
       } txt9;
       x = 0; y = 0;      
    } picIntro7;
@@ -208,7 +208,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
       } txt10;
       x = 0; y = 0;      
    } picIntro8;
@@ -258,10 +258,10 @@ trial {
                
 TEMPLATE "ATWM1_Working_Memory_MEG.tem" {
 trigger_encoding trigger_retrieval cue_time preparation_time encoding_time single_stimulus_presentation_time delay_time retrieval_time intertrial_interval alerting_cross   stim_enc1 stim_enc2 stim_enc3 stim_enc4 	stim_enc_alt1 stim_enc_alt2 stim_enc_alt3 stim_enc_alt4    trial_code   stim_retr1 stim_retr2 stim_retr3 stim_retr4   stim_cue1 stim_cue2 stim_cue3 stim_cue4 fixationcross_cued     retr_code    the_target_button   posX1 posY1 posX2 posY2 posX3 posY3 posX4 posY4;
-   43    61   292   292   399   125  1742  2992  1892      fixation_cross    gabor_045 gabor_113 gabor_030 gabor_094    gabor_045_alt gabor_113_alt gabor_030 gabor_094      "2_1_Encoding_Working_Memory_MEG_P5_RL_Nonsalient_DoChange_CuedRetrieval_300_300_399_1750_3000_1900_gabor_patch_orientation_045_113_030_094_target_position_3_4_retrieval_position_3"       gabor_circ gabor_circ gabor_077_framed gabor_circ    blank blank blank blank    fixation_cross_target_position_3_4     "2_1_Retrieval_Working_Memory_MEG_P5_RL_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_077_retrieval_position_3"   1    58.69 58.69 -58.69 58.69 -58.69 -58.69 58.69 -58.69;
-   43    62   292   292   399   125  1842  2992  2042      fixation_cross    gabor_179 gabor_064 gabor_146 gabor_008    gabor_179 gabor_064 gabor_146_alt gabor_008_alt      "2_2_Encoding_Working_Memory_MEG_P5_RL_Nonsalient_NoChange_CuedRetrieval_300_300_399_1850_3000_2050_gabor_patch_orientation_179_064_146_008_target_position_1_2_retrieval_position_1"       gabor_179_framed gabor_circ gabor_circ gabor_circ    blank blank blank blank    fixation_cross_target_position_1_2     "2_2_Retrieval_Working_Memory_MEG_P5_RL_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_179_retrieval_position_1"   2    58.69 58.69 -58.69 58.69 -58.69 -58.69 58.69 -58.69;
-   43    62   292   292   399   125  1892  2992  1992      fixation_cross    gabor_108 gabor_048 gabor_091 gabor_001    gabor_108_alt gabor_048_alt gabor_091 gabor_001      "2_3_Encoding_Working_Memory_MEG_P5_RL_Nonsalient_NoChange_CuedRetrieval_300_300_399_1900_3000_2000_gabor_patch_orientation_108_048_091_001_target_position_3_4_retrieval_position_3"       gabor_circ gabor_circ gabor_091_framed gabor_circ    blank blank blank blank    fixation_cross_target_position_3_4     "2_3_Retrieval_Working_Memory_MEG_P5_RL_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_091_retrieval_position_3"   2    58.69 58.69 -58.69 58.69 -58.69 -58.69 58.69 -58.69;
-   43    61   292   292   399   125  1792  2992  1942      fixation_cross    gabor_161 gabor_139 gabor_016 gabor_054    gabor_161 gabor_139 gabor_016_alt gabor_054_alt      "2_4_Encoding_Working_Memory_MEG_P5_RL_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_1950_gabor_patch_orientation_161_139_016_054_target_position_1_2_retrieval_position_2"       gabor_circ gabor_091_framed gabor_circ gabor_circ    blank blank blank blank    fixation_cross_target_position_1_2     "2_4_Retrieval_Working_Memory_MEG_P5_RL_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_091_retrieval_position_2"   1    58.69 58.69 -58.69 58.69 -58.69 -58.69 58.69 -58.69;
+   43    61   292   292   399   125  1742  2992  1892      fixation_cross    gabor_045 gabor_113 gabor_030 gabor_094    gabor_045_alt gabor_113_alt gabor_030 gabor_094      "2_1_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1750_3000_1900_gabor_patch_orientation_045_113_030_094_target_position_3_4_retrieval_position_3"       gabor_circ gabor_circ gabor_077_framed gabor_circ    blank blank blank blank    fixation_cross_target_position_3_4     "2_1_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_077_retrieval_position_3"   2    58.69 58.69 -58.69 58.69 -58.69 -58.69 58.69 -58.69;
+   43    62   292   292   399   125  1842  2992  2042      fixation_cross    gabor_179 gabor_064 gabor_146 gabor_008    gabor_179 gabor_064 gabor_146_alt gabor_008_alt      "2_2_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1850_3000_2050_gabor_patch_orientation_179_064_146_008_target_position_1_2_retrieval_position_1"       gabor_179_framed gabor_circ gabor_circ gabor_circ    blank blank blank blank    fixation_cross_target_position_1_2     "2_2_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_179_retrieval_position_1"   1    58.69 58.69 -58.69 58.69 -58.69 -58.69 58.69 -58.69;
+   43    62   292   292   399   125  1892  2992  1992      fixation_cross    gabor_108 gabor_048 gabor_091 gabor_001    gabor_108_alt gabor_048_alt gabor_091 gabor_001      "2_3_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_300_300_399_1900_3000_2000_gabor_patch_orientation_108_048_091_001_target_position_3_4_retrieval_position_3"       gabor_circ gabor_circ gabor_091_framed gabor_circ    blank blank blank blank    fixation_cross_target_position_3_4     "2_3_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_NoChange_CuedRetrieval_retrieval_patch_orientation_091_retrieval_position_3"   1    58.69 58.69 -58.69 58.69 -58.69 -58.69 58.69 -58.69;
+   43    61   292   292   399   125  1792  2992  1942      fixation_cross    gabor_161 gabor_139 gabor_016 gabor_054    gabor_161 gabor_139 gabor_016_alt gabor_054_alt      "2_4_Encoding_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_300_300_399_1800_3000_1950_gabor_patch_orientation_161_139_016_054_target_position_1_2_retrieval_position_2"       gabor_circ gabor_091_framed gabor_circ gabor_circ    blank blank blank blank    fixation_cross_target_position_1_2     "2_4_Retrieval_Working_Memory_MEG_P5_LR_Nonsalient_DoChange_CuedRetrieval_retrieval_patch_orientation_091_retrieval_position_2"   2    58.69 58.69 -58.69 58.69 -58.69 -58.69 58.69 -58.69;
 
 };
 
