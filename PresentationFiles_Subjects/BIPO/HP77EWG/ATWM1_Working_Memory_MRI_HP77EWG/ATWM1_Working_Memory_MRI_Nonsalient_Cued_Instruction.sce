@@ -1,9 +1,9 @@
 # ATWM1 MRI Experiment
                          
-scenario = "ATWM1_Working_Memory_MRI_salient_uncued_instruction";
+scenario = "ATWM1_Working_Memory_MRI_nonsalient_cued_instruction";
 scenario_type = fMRI; # Fuer Scanner
 #scenario_type = fMRI_emulation; # Zum Testen
-scenario_type = trials;
+#scenario_type = trials;
 scan_period = 2000; # TR
 pulses_per_scan = 1;
 pulse_code = 1;
@@ -27,12 +27,12 @@ box { height = 4; width = 30; color = 0, 0, 0;} fix2;
 box { height = 30; width = 4; color = 255, 0, 0;} fix3;    
 box { height = 4; width = 30; color = 255, 0, 0;} fix4;  
 box { height = 290; width = 290; color = 128, 128, 128;} background;
- 
+
 TEMPLATE "StimuliDeclaration.tem" {};
 
 trial {
     trial_duration = stimuli_length;
-    sound sound_incorrect;
+    sound sound_incorrect; 
     time = 0;
 } wrong;
 trial {
@@ -50,28 +50,28 @@ trial {
 trial { 
    picture {
       text {
-         caption = "In dieser Aufgabe wird meistens \nein blinkendes Streifenmuster abgefragt.";
+         caption = "In dieser Aufgabe wird meistens \nein nicht blinkendes Streifenmuster abgefragt.";
       } txt1;
       x = 0; y = 150;
       text {
-          caption = "Es werden jedoch keine Positionen besonders markiert.";
+          caption = "Die Positionen dieser Streifenmuster \nwerden anhand des Fixationskreuzes markiert.";
       } txt2;
       x = 0; y = 0;
    } picIntro1;
    time = 0;  	
    duration = 10000;
-   code = "Instruction_S_UC"; 	 	 
+   code = "Instruction_NS_C"; 	 
 };
 
 # Instruction Slide 2
 trial { 
    picture {
       text {
-          caption = "Links: Keine Veränderung";
+          caption = "Links: Veränderung";
       } txt3;
       x = 0; y = 150;      
       text {
-          caption = "Rechts: Veränderung";
+          caption = "Rechts: Keine Veränderung";
       } txt4;
       x = 0; y = 0; 
    } picIntro2;
@@ -88,7 +88,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
       } txt5;
       x = 0; y = 0;      
    } picIntro3;
@@ -107,7 +107,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
       } txt6;
       x = 0; y = 0;      
    } picIntro4;
@@ -126,7 +126,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
       } txt7;
       x = 0; y = 0;      
    } picIntro5;
@@ -145,7 +145,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
       } txt8;
       x = 0; y = 0;      
    } picIntro6;
@@ -164,7 +164,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
       } txt9;
       x = 0; y = 0;      
    } picIntro7;
@@ -183,7 +183,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
       } txt10;
       x = 0; y = 0;      
    } picIntro8;
@@ -198,15 +198,16 @@ trial {
 trial { 
    picture {
       text {
-         caption = "Jetzt geht es los. In dieser Aufgabe wird meistens \nein blinkendes Streifenmuster abgefragt.";
+         caption = "Jetzt geht es los. In dieser Aufgabe wird meistens \nein nicht blinkendes Streifenmuster abgefragt.";
       } txt11;
       x = 0; y = 150;
       text {
-          caption = "Es werden jedoch keine Positionen besonders markiert.";
+          caption = "Die Positionen dieser Streifenmuster \nwerden anhand des Fixationskreuzes markiert.";
       } txt12;
       x = 0; y = 0;
       } picIntro9;
    time = 0;  	
    duration = 15000;
-   code = "Instruction_S_UC"; 	
+   code = "Instruction_NS_C"; 	
    };
+   
