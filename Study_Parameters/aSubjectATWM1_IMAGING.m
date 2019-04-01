@@ -176,6 +176,7 @@ aSubject.ATWM1_IMAGING.Groups.BIPO	= {
 	'NE56QUX'
 	'PL39MHR'
 	'QF57VLG'
+	'RU62HEJ'
 	'UD21TKC'
 	'XU85KRE'
 	};
