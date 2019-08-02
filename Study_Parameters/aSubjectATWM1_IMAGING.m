@@ -203,6 +203,7 @@ aSubject.ATWM1_IMAGING.Groups.BIPO	= {
 	'RU62HEJ'
 	'UD21TKC'
 	'XU85KRE'
+	'ZD83MJV'
 	};
 aSubject.ATWM1_IMAGING.Groups.BIPO = sort(aSubject.ATWM1_IMAGING.Groups.BIPO);
 
