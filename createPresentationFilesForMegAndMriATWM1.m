@@ -66,10 +66,11 @@ zipSubjectPresentationScenarioFileFolderATWM1(strSubjectID, strStudy, strGroupPr
 %% Push new files to study github account
 pushSubjectPresentationScenarioFilesToGithubATWM1;
 
+
 end
 
 
-function bAbort = copyStudyParameterFilesToLocalStudyParametersFolderATWM1(strStudy, strGlobalStudyParametersFolder, strLocalStudyParametersFolder);
+function bAbort = copyStudyParameterFilesToLocalStudyParametersFolderATWM1(strStudy, strGlobalStudyParametersFolder, strLocalStudyParametersFolder)
 % Copy parameter files from global study parameters folder to local study parameters folder
 aStrStudyParametersFiles = {
     sprintf('aSubject%s_IMAGING.m', strStudy)
@@ -95,10 +96,11 @@ for cf = 1:numel(aStrStudyParametersFiles)
     end
 end
 bAbort = false;
+
 end
 
 
-function [strGroup, strSubjectID, strPermutationType, strLeftRight, bAbort] = selectParametersForPresentationScenarioFileCreationATWM1(parametersGroups, aSubject, parametersParadigm);
+function [strGroup, strSubjectID, strPermutationType, strLeftRight, bAbort] = selectParametersForPresentationScenarioFileCreationATWM1(parametersGroups, aSubject, parametersParadigm)
 
 global strStudy
 

@@ -68,8 +68,18 @@ parametersStudy.aStrStudies                         = {
                                                         parametersStudy.strBehavioralStudy
                                                         parametersStudy.strImagingStudy
                                                         };
-parametersStudy.indBehavioralStudy                  = contains(parametersStudy.aStrStudies, parametersStudy.strBehavioralStudy);
-parametersStudy.indImagingStudy                     = contains(parametersStudy.aStrStudies, parametersStudy.strImaging);
+                                                    
+test1 = parametersStudy.aStrStudies
+test2 = parametersStudy.strBehavioralStudy
+test3 = find(ismember(parametersStudy.aStrStudies, parametersStudy.strBehavioralStudy))
+
+
+test1 = parametersStudy.aStrStudies
+test2 = parametersStudy.strImaging
+test3 = find(ismember(parametersStudy.aStrStudies, parametersStudy.strImaging))
+                                                    
+parametersStudy.indBehavioralStudy                  = find(ismember(parametersStudy.aStrStudies, parametersStudy.strBehavioralStudy))     % Cannot use contains to ensure compatibility with beoserv 
+parametersStudy.indImagingStudy                     = find(ismember(parametersStudy.aStrStudies, parametersStudy.strImaging))             % Cannot use contains to ensure compatibility with beoserv
 parametersStudy.indDefaultStudy                     = parametersStudy.indImagingStudy;
 parametersStudy.strCurrentStudy                     = parametersStudy.aStrStudies{parametersStudy.indDefaultStudy};
 
