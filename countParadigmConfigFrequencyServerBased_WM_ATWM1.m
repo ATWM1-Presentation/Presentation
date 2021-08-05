@@ -60,7 +60,7 @@ end
 
 
 %aSubject = processSubjectArrayServerBasedATWM1_IMAGING;
-aSubject = processSubjectArrayServerBasedATWM1_IMAGING(parametersStudy, parametersGroups)
+aSubject = processSubjectArrayServerBasedATWM1_IMAGING(parametersStudy, parametersGroups);
 
 %%% Special cases of (invalid) subjects 
 aStrInvalidSubjects = {
@@ -73,6 +73,7 @@ for cg = 1:parametersGroups.nGroups
     strGroup = parametersGroups.aStrShortGroups{cg};
     
     aStrSubjectsGroup = aSubject.ATWM1_IMAGING.Groups.(genvarname(strGroup));
+    %test = aSubject.ATWM1_IMAGING.nSubjects
     nSubjects = aSubject.ATWM1_IMAGING.nSubjects.(genvarname(strGroup));
     if nSubjects > 0
         aStrParadigmConfig = [];
@@ -81,7 +82,10 @@ for cg = 1:parametersGroups.nGroups
         aStrNrOfUsesConfig = [];
         for cs = 1:nSubjects
             strSubject = aStrSubjectsGroup{cs};
-            strFolderSubject = sprintf('%s%s\\%s\\ATWM1_Working_Memory_MEG_%s_Session1\\', folderDefinition.presentationScenarioFilesServer, strGroup, strSubject, strSubject);
+            %%% Add check for server or local
+            % strFolderSubject = sprintf('%s%s\\%s\\ATWM1_Working_Memory_MEG_%s_Session1\\', folderDefinition.presentationScenarioFilesServer, strGroup, strSubject, strSubject);
+            
+            strFolderSubject = sprintf('%s%s/%s/ATWM1_Working_Memory_MEG_%s_Session1/', folderDefinition.presentationScenarioFilesServer, strGroup, strSubject, strSubject);
             if exist(strFolderSubject, 'dir')
                 strSearchPath = fullfile(strFolderSubject, '*.exp');
                 strFile = dir(strSearchPath);
@@ -111,7 +115,11 @@ for cg = 1:parametersGroups.nGroups
         %%% Count number of used configurations 
         for cconf = 1:parametersParadigm_WM_IMAGING.nParadigmConfigs
             strConfig = aStrStandardParadigmConfig{cconf};
-            nrOfUsesConfig(cconf) = sum(contains(aStrParadigmConfig, strConfig));
+            
+            %%% Add server check
+            % nrOfUsesConfig(cconf) = sum(contains(aStrParadigmConfig, strConfig));
+            
+            nrOfUsesConfig(cconf) = find(aStrParadigmConfig, strConfig)
             aStrNrOfUsesConfig{cconf} = sprintf('%s:\t%i', strConfig, nrOfUsesConfig(cconf));
         end
         
@@ -192,7 +200,15 @@ aSubject = feval(hFunction);
 
 %%% Check whether subject labels match the predefined labels
 aStrShortGroups = parametersGroups.aStrShortGroups;
-aStrGroupFieldnames = fieldnames(aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).Groups);
+
+%%% add check for matlab version
+% aStrGroupFieldnames = fieldnames(aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).Groups);
+
+
+aStrGroupFieldnames = fieldnames(aSubject.(genvarname(strcat(iStudy, '_', parametersStudy.strImaging))).Groups);
+
+
+
 if ~isempty(setxor(aStrGroupFieldnames, aStrShortGroups))   
     error('Groups labels in %s.m do not match the labels specified in %s.m!', mfilename, strParmetersGroupFile)
 end
@@ -200,17 +216,34 @@ end
 %%% Write all subject IDs of all groups in a single array
 aStrAllSubjectNames = {};
 for cfn = 1:numel(aStrGroupFieldnames)
-    aStrSubjectNameGroup{cfn} = aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).(matlab.lang.makeValidName(parametersGroups.strGroups)).(matlab.lang.makeValidName(aStrGroupFieldnames{cfn}));
+    %%% add check for matlab version
+    % aStrSubjectNameGroup{cfn} = aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).(matlab.lang.makeValidName(parametersGroups.strGroups)).(matlab.lang.makeValidName(aStrGroupFieldnames{cfn}));
+    
+    aStrSubjectNameGroup{cfn} = aSubject.(genvarname(strcat(iStudy, '_', parametersStudy.strImaging))).(genvarname(parametersGroups.strGroups)).(genvarname(aStrGroupFieldnames{cfn}));
+    
     aStrAllSubjectNames = [aStrAllSubjectNames, aStrSubjectNameGroup{cfn}'];
 end
-aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).(matlab.lang.makeValidName(parametersGroups.strGroups)).ALL = sort(aStrAllSubjectNames);
+%%% add check for matlab version
+% aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).(matlab.lang.makeValidName(parametersGroups.strGroups)).ALL = sort(aStrAllSubjectNames);
+aSubject.(genvarname(strcat(iStudy, '_', parametersStudy.strImaging))).(genvarname(parametersGroups.strGroups)).ALL = sort(aStrAllSubjectNames);
 
 %%% Check, whether all subject IDs are unique
-aStrUniqueSubjects = unique(aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).(matlab.lang.makeValidName(parametersGroups.strGroups)).ALL);
-if numel(aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).(matlab.lang.makeValidName(parametersGroups.strGroups)).ALL) ~= numel(aStrUniqueSubjects)
+
+%%% add check for matlab version
+% aStrUniqueSubjects = unique(aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).(matlab.lang.makeValidName(parametersGroups.strGroups)).ALL);
+
+aStrUniqueSubjects = unique(aSubject.(genvarname(strcat(iStudy, '_', parametersStudy.strImaging))).(genvarname(parametersGroups.strGroups)).ALL);
+
+
+%%% add check for matlab version
+% if numel(aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).(matlab.lang.makeValidName(parametersGroups.strGroups)).ALL) ~= numel(aStrUniqueSubjects)
+
+if numel(aSubject.(genvarname(strcat(iStudy, '_', parametersStudy.strImaging))).(genvarname(parametersGroups.strGroups)).ALL) ~= numel(aStrUniqueSubjects)
     for cs = 1:numel(aStrUniqueSubjects)
         strSubject = aStrUniqueSubjects{cs};
-        if sum(strcmp(strSubject, aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).(matlab.lang.makeValidName(parametersGroups.strGroups)).ALL)) ~= 1
+        %%% add check for matlab version
+        % if sum(strcmp(strSubject, aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).(matlab.lang.makeValidName(parametersGroups.strGroups)).ALL)) ~= 1
+        if sum(strcmp(strSubject, aSubject.(genvarname(strcat(iStudy, '_', parametersStudy.strImaging))).(genvarname(parametersGroups.strGroups)).ALL)) ~= 1
             fprintf('Duplicate entry for subject ID %s detected.\n\n', strSubject);
         end
     end
@@ -219,9 +252,13 @@ end
 
 %%% Determine number of subjects in each group and for all groups combined
 for cfn = 1:numel(aStrGroupFieldnames)
-    aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).nSubjects.(matlab.lang.makeValidName(aStrGroupFieldnames{cfn})) = numel(aStrSubjectNameGroup{cfn});
+    %%% add check for matlab version
+    % aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).nSubjects.(matlab.lang.makeValidName(aStrGroupFieldnames{cfn})) = numel(aStrSubjectNameGroup{cfn});
+    aSubject.(genvarname(strcat(iStudy, '_', parametersStudy.strImaging))).nSubjects.(genvarname(aStrGroupFieldnames{cfn})) = numel(aStrSubjectNameGroup{cfn});
 end
-aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).nSubjects.ALL = numel(aStrAllSubjectNames);
+%%% add check for matlab version
+% aSubject.(matlab.lang.makeValidName(strcat(iStudy, '_', parametersStudy.strImaging))).nSubjects.ALL = numel(aStrAllSubjectNames);
+aSubject.(genvarname(strcat(iStudy, '_', parametersStudy.strImaging))).nSubjects.ALL = numel(aStrAllSubjectNames);
 
 %{
 %%% Write all subject IDs of all groups in a single array and add group ID
