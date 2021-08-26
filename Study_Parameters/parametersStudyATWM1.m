@@ -90,6 +90,9 @@ parametersStudy.indDefaultSubProject                = 1;
 parametersStudy.strSubProject                       = parametersStudy.aStrSubProjects{parametersStudy.indDefaultSubProject};
 
 
+%%% Define additional parameters
+parametersStudy.strRepeatMeasurement                = '-R';
+
 end
 
 
