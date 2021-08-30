@@ -218,6 +218,7 @@ aSubject.ATWM1_IMAGING.Groups.SCHI	= {
 aSubject.ATWM1_IMAGING.Groups.SCHI = sort(aSubject.ATWM1_IMAGING.Groups.SCHI);
 
 aSubject.ATWM1_IMAGING.Groups.BIPO	= {
+	'CM69KUP'
 	'ED96FHG'
 	'FN16KHA'
 	'HP77EWG'
