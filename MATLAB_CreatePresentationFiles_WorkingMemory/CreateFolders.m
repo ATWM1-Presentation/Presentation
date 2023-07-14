@@ -1,4 +1,4 @@
-function [strSubjectFolder] = CreateFolders(strRootFolder, strSubjectID, strPermutationType, strLeftRight, strGroup, strExperimentName, strExpDevice)
+function [strSubjectFolder] = CreateFolders(parametersOperatingSystem, strRootFolder, strSubjectID, strPermutationType, strLeftRight, strGroup, strExperimentName, strExpDevice)
 
     %% Create presentation folder for new subject based on template folder
     strTemplateSourceFolder = sprintf('%sPresentationFiles_Templates/', strRootFolder);
@@ -18,15 +18,21 @@ function [strSubjectFolder] = CreateFolders(strRootFolder, strSubjectID, strPerm
     mkdir(strSubjectFolder);
 
     %% Copy files
+    if parametersOperatingSystem.bOsIsLin
+        % Differenct behaviour for MacOSX and linux.
+        % For linux, add . after source directory so that only the content of this directory is copied
+        strCopyCommand = sprintf('cp -r %s. %s', strTemplate, strSubjectFolder);
+        system(strCopyCommand);
 
-    % Differenct behaviour for MacOSX and linux. 
-    % For linux, add . after source directory so that only the content of this directory is copied
-    strCopyCommand = sprintf('cp -r %s. %s', strTemplate, strSubjectFolder);
-    system(strCopyCommand);
-    
-    if strcmp(strExpDevice,'MRI')
-        strDeleteFolderCommand = sprintf('rm -r %s', strLogfileFolder);
-        system(strDeleteFolderCommand);
+        if strcmp(strExpDevice,'MRI')
+            strDeleteFolderCommand = sprintf('rm -r %s', strLogfileFolder);
+            system(strDeleteFolderCommand);
+        end
+    elseif parametersOperatingSystem.bOsIsWin
+        copyfile(strTemplate, strSubjectFolder, 'f');
+        if strcmp(strExpDevice,'MRI')
+            rmdir(strLogfileFolder, 's');
+        end
     end
 
     %% Replace strings in experiment files
@@ -49,8 +55,16 @@ function [strSubjectFolder] = CreateFolders(strRootFolder, strSubjectID, strPerm
     fileName = strrep(fileName, 'P1', strPermutationType); 
     strActualPath = sprintf('%s/%s%s', filePath, fileName, fileExt);
 
-    strRenameCommand = sprintf('mv %s %s', strPathSubjectData, strActualPath);
-    system(strRenameCommand);
+    if parametersOperatingSystem.bOsIsLin
+        strRenameCommand = sprintf('mv %s %s', strPathSubjectData, strActualPath);
+        system(strRenameCommand);
+    elseif parametersOperatingSystem.bOsIsWin
+        movefile(strPathSubjectData,strActualPath,'f');
+    end
+
+
+    %strRenameCommand = sprintf('mv %s %s', strPathSubjectData, strActualPath);
+    %system(strRenameCommand);
 
     ConfigExpFile(strActualPath, strExperimentName, strExpDevice, strPermutationType, 1);
     

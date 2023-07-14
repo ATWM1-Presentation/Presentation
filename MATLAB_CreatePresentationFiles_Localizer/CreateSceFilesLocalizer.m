@@ -1,4 +1,4 @@
-function strSubjectFolder = CreateSceFilesLocalizer(strSubjectID, strGroup, strRootFolder);
+function strSubjectFolder = CreateSceFilesLocalizer(parametersOperatingSystem, strSubjectID, strGroup, strRootFolder)
     
     %strSubjectID = 'Test99';
     %strGroup = 'CONT'; % 'SCHI', 'ADHD', 'BIPO', 'RELS'
@@ -22,12 +22,16 @@ function strSubjectFolder = CreateSceFilesLocalizer(strSubjectID, strGroup, strR
     mkdir(strSubjectFolder);
 
     %% Copy files
+    if parametersOperatingSystem.bOsIsLin
+        % Differenct behaviour for MacOSX and linux.
+        % For linux, add . after source directory so that only the content of this directory is copied
+        strCopyCommand = sprintf('cp -r %s. %s', strTemplate, strSubjectFolder);
+        system(strCopyCommand);
+    elseif parametersOperatingSystem.bOsIsWin
+        copyfile(strTemplate, strSubjectFolder, 'f');
+    end
 
-    % Differenct behaviour for MacOSX and linux. 
-    % For linux, add . after source directory so that only the content of this directory is copied
-    strCopyCommand = sprintf('cp -r %s. %s', strTemplate, strSubjectFolder);
-    system(strCopyCommand);
-        
+
     %% Replace strings in experiment files
 
     strPathSubjectData = sprintf('%sATWM1_Localizer_MRI.exp', strSubjectFolder );        

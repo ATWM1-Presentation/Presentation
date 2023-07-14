@@ -44,7 +44,7 @@ function [ strProjectRootDir, strFieldTripDir ] = SetPaths()
     %rmpath('./../SharedFunctions');
 
     strMessage = sprintf('Project path was set to <%s>.', strProjectRootDir);
-    disp(strMessage);
+    fprintf(strMessage);
    
     %ft_defaults;
     

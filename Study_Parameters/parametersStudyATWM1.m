@@ -20,6 +20,7 @@ parametersStudy.strMegCoregistration                = strcat(parametersStudy.str
 
 
 parametersStudy.strLogfiles                         = 'LOGFILES';
+parametersStudy.strLogfile                          = 'logfile';
 parametersStudy.strAnalysis                         = 'ANALYSIS';
 
 parametersStudy.strFullWorkingMemoryTask            = 'Working_Memory';
@@ -79,12 +80,14 @@ parametersStudy.strSubProjectWorkingMemoryParadigm  = sprintf('%s_%s_%s', iStudy
 parametersStudy.strSubProjectLocalizerParadigm      = sprintf('%s_%s_%s', iStudy, parametersStudy.strMRI, parametersStudy.strLocalizerTask);
 parametersStudy.strSubProjectWorkingMemorySchi      = sprintf('%s_%s_%s_CONT_vs_SCHI', iStudy, parametersStudy.strMRI, parametersStudy.strWorkingMemoryTask);   % MRI_WM_CONT_vs_SCHI
 parametersStudy.strSubProjectLocalizerSchi          = sprintf('%s_%s_%s_CONT_vs_SCHI', iStudy, parametersStudy.strMRI, parametersStudy.strLocalizerTask);       % MRI_LOC_CONT_vs_SCHI
+parametersStudy.strSubProjectMriBipo                = sprintf('%s_%s_BIPO_GEN', iStudy, parametersStudy.strMRI);                                                % MRI_BIPO_GEN
 
 parametersStudy.aStrSubProjects                     = {
                                                         parametersStudy.strSubProjectWorkingMemoryParadigm
                                                         parametersStudy.strSubProjectLocalizerParadigm
                                                         parametersStudy.strSubProjectWorkingMemorySchi
                                                         parametersStudy.strSubProjectLocalizerSchi
+                                                        parametersStudy.strSubProjectMriBipo
                                                         };
 parametersStudy.indDefaultSubProject                = 1;
 parametersStudy.strSubProject                       = parametersStudy.aStrSubProjects{parametersStudy.indDefaultSubProject};

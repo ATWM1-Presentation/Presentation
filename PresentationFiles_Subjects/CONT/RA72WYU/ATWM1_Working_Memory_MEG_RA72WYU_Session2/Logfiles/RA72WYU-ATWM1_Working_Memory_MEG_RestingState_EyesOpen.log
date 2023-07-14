@@ -1,7 +1,0 @@
-Scenario - ATWM1_Working_Memory_MEG_RestingState_EyesOpen
-Logfile written - 02/08/2016 19:17:04
-
-Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
-
-RA72WYU	1	Picture	ExpStart	29	0	1	10030	2	0	10000
-RA72WYU	2	Picture	RestingStateEyesOpen	10226	0	1	2400113	2	0	2400000

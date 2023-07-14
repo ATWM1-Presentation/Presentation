@@ -13,6 +13,7 @@ parametersDialog.textElements.strPrincipalInvestigator   = 'Principal Investigat
 parametersDialog.textElements.strSubjectInformation      = 'Subject Information';
 parametersDialog.textElements.strSubjectNumber           = 'Subject Number';
 
+parametersDialog.textElements.strSubjectCode            = 'Subject Code';
 parametersDialog.textElements.strOriginalSubjectCode    = 'Original Subject Code';
 parametersDialog.textElements.strRepeatSubjectCode      = 'Repeat Subject Code';
 
@@ -33,6 +34,7 @@ parametersDialog.strSubjectID               = sprintf('%s:                 ', pa
 parametersDialog.strConditionPermutation    = sprintf('%s:      ', parametersDialog.textElements.strConditionPermutation);
 parametersDialog.strResponseKeyConfig       = sprintf('%s: ', parametersDialog.textElements.strResponseKeyConfig);
 
+parametersDialog.strSubjectCode             = sprintf('%s: ', parametersDialog.textElements.strSubjectCode);
 parametersDialog.strOriginalSubjectCode     = sprintf('%s: ', parametersDialog.textElements.strOriginalSubjectCode);
 parametersDialog.strRepeatSubjectCode       = sprintf('%s:  ', parametersDialog.textElements.strRepeatSubjectCode);
 

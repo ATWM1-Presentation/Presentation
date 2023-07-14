@@ -68,11 +68,11 @@ trial {
 trial { 
    picture {
       text {
-          caption = "Links: Keine Veränderung";
+          caption = "Links: Veränderung";
       } txt3;
       x = 0; y = 150;      
       text {
-          caption = "Rechts: Veränderung";
+          caption = "Rechts: Keine Veränderung";
       } txt4;
       x = 0; y = 0; 
    } picIntro2;
@@ -89,7 +89,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
       } txt5;
       x = 0; y = 0;      
    } picIntro3;
@@ -108,7 +108,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
       } txt6;
       x = 0; y = 0;      
    } picIntro4;
@@ -127,7 +127,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
       } txt7;
       x = 0; y = 0;      
    } picIntro5;
@@ -146,7 +146,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
       } txt8;
       x = 0; y = 0;      
    } picIntro6;
@@ -165,7 +165,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
       } txt9;
       x = 0; y = 0;      
    } picIntro7;
@@ -184,7 +184,7 @@ trial {
    no_response_feedback = miss;
    picture {
       text {
-          caption = "Bitte drücken Sie die Taste für 'Veränderung'.";
+          caption = "Bitte drücken Sie die Taste für 'Keine Veränderung'.";
       } txt10;
       x = 0; y = 0;      
    } picIntro8;

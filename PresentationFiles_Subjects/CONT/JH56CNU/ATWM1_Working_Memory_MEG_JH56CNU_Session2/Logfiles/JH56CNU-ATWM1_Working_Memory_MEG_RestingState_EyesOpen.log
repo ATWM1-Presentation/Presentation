@@ -1,7 +1,0 @@
-Scenario - ATWM1_Working_Memory_MEG_RestingState_EyesOpen
-Logfile written - 04/06/2016 14:24:49
-
-Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
-
-JH56CNU	1	Picture	ExpStart	29	0	1	10030	2	0	10000
-JH56CNU	2	Picture	RestingStateEyesOpen	10226	0	1	2400096	2	0	2400000

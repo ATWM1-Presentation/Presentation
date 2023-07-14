@@ -13,7 +13,7 @@ function ConfigExpFile(strFilePath, strExpName, strExpDevice, strPermutationType
             iRun = 1;
         case 'MEG'   
             iRun = iSession;
-        case 'PSY';
+        case 'PSY'
             iRun = 1;
     end       
     
@@ -24,17 +24,17 @@ function ConfigExpFile(strFilePath, strExpName, strExpDevice, strPermutationType
             viNewPermutation = [ 1 2 3 4 ];
         case 'P2'   
             viNewPermutation = [ 1 4 3 2 ];
-        case 'P3';
+        case 'P3'
             viNewPermutation = [ 4 3 2 1 ];
-        case 'P4';
+        case 'P4'
             viNewPermutation = [ 3 2 1 4 ];
-        case 'P5';  % former Version I
+        case 'P5'  % former Version I
             viNewPermutation = [ 2 3 4 1 ];
-        case 'P6';
+        case 'P6'
             viNewPermutation = [ 4 1 2 3 ];
-        case 'P7';
+        case 'P7'
             viNewPermutation = [ 4 2 1 3 ];
-        case 'P8';
+        case 'P8'
             viNewPermutation = [ 3 1 2 4 ];
     end     
     
